@@ -16,6 +16,10 @@ mark {
     color: #980000;
 }
 
+.full-mode {
+    display: none;
+}
+
 .alt-python {
     display: none;
 }
