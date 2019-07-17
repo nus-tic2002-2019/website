@@ -26,7 +26,7 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "0:1"}
+              {name: "what", heading: "What", priority: "1"}
             ]
           }
         ]
@@ -37,9 +37,9 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "0:2"},
-              {name: "abstraction", heading: "Objects as Abstractions", priority: "0:2"},
-              {name: "encapsulation", heading: "Encapsulation Of Objects", priority: "0:2"}
+              {name: "what", heading: "What", priority: "2"},
+              {name: "abstraction", heading: "Objects as Abstractions", priority: "2"},
+              {name: "encapsulation", heading: "Encapsulation Of Objects", priority: "3"}
             ]
           }
         ]
@@ -50,9 +50,9 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "0:1"},
-              {name: "classLevelMembers", heading: "Class Level Members", priority: "0:2"},
-              {name: "enumerations", heading: "Enumerations", priority: "0:2"}
+              {name: "what", heading: "What", priority: "1"},
+              {name: "classLevelMembers", heading: "Class Level Members", priority: "2"},
+              {name: "enumerations", heading: "Enumerations", priority: "2"}
             ]
           }
         ]
@@ -80,13 +80,13 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "0:1"},
-              {name: "overriding", heading: "Overriding", priority: "0:2"},
-              {name: "overloading", heading: "Overloading", priority: "0:2"},
-              {name: "interfaces", heading: "Interfaces", priority: "0:3"},
-              {name: "abstractClasses", heading: "Abstract Classes", priority: "0:3"},
-              {name: "substitutability", heading: "Substitutability", priority: "0:3"},
-              {name: "dynamicAndStaticBinding", heading: "Dynamic and Static Binding", priority: "0:3"}
+              {name: "what", heading: "What", priority: "1"},
+              {name: "overriding", heading: "Overriding", priority: "2"},
+              {name: "overloading", heading: "Overloading", priority: "2"},
+              {name: "interfaces", heading: "Interfaces", priority: "3"},
+              {name: "abstractClasses", heading: "Abstract Classes", priority: "3"},
+              {name: "substitutability", heading: "Substitutability", priority: "3"},
+              {name: "dynamicAndStaticBinding", heading: "Dynamic and Static Binding", priority: "4"}
             ]
           }
         ]
@@ -97,8 +97,8 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "0:3"},
-              {name: "how", heading: "How", priority: "0:3"}
+              {name: "what", heading: "What", priority: "3"},
+              {name: "how", heading: "How", priority: "4"}
             ]
           }
         ]
@@ -128,9 +128,9 @@
             name: "",
             level_three_topics: [
               {name: "introduction", heading: "Introduction", priority: "2"},
-              {name: "nonFunctionalRequirements", heading: "Non-Functional Requirements", priority: "2"},
-              {name: "prioritizing", heading: "Prioritizing Requirements", priority: "3"},
-              {name: "quality", heading: "Quality of Requirements", priority: "3"}
+              {name: "nonFunctionalRequirements", heading: "Non-Functional Requirements", priority: "4"},
+              {name: "prioritizing", heading: "Prioritizing Requirements", priority: "4"},
+              {name: "quality", heading: "Quality of Requirements", priority: "4"}
             ]
           }
         ]
@@ -206,9 +206,9 @@
             name: "",
             level_three_topics: [
               {name: "introduction", heading: "Introduction", priority: "1"},
-              {name: "identifying", heading: "Identifying", priority: "2"},
-              {name: "details", heading: "Details", priority: "2"},
-              {name: "usage", heading: "Usage", priority: "3"}
+              {name: "identifying", heading: "Identifying", priority: "-1"},
+              {name: "details", heading: "Details", priority: "-1"},
+              {name: "usage", heading: "Usage", priority: "-1"}
             ]
           }
         ]
@@ -271,6 +271,7 @@
       },
       {
         name: "coupling",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -284,6 +285,7 @@
       },
       {
         name: "cohesion",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -319,13 +321,13 @@
           {
             name: "",
             level_three_topics: [
-              {name: "ooStructures", heading: "OO Structures", priority: "1"},
-              {name: "classDiagramsBasic", heading: "Class Diagrams (Basics)", priority: "1"},
+              {name: "ooStructures", heading: "OO Structures", priority: "2"},
+              {name: "classDiagramsBasic", heading: "Class Diagrams (Basics)", priority: "2"},
               {name: "addingMoreInfo", heading: "Adding More Info to UML Models", priority: "3"},
-              {name: "classDiagramsIntermediate", heading: "Class Diagrams - Intermediate", priority: "2"},
+              {name: "classDiagramsIntermediate", heading: "Class Diagrams - Intermediate", priority: "3"},
               {name: "classDiagramsAdvanced", heading: "Class Diagrams - Advanced", priority: "-1"},
-              {name: "objectDiagrams", heading: "Object Diagrams", priority: "1"},
-              {name: "objectOrientedDomainModels", heading: "Object Oriented Domain Models", priority: "3"},
+              {name: "objectDiagrams", heading: "Object Diagrams", priority: "2"},
+              {name: "objectOrientedDomainModels", heading: "Object Oriented Domain Models", priority: "4"},
               {name: "deploymentDiagrams", heading: "Deployment Diagrams", priority: "4"},
               {name: "componentDiagrams", heading: "Component Diagrams", priority: "4"},
               {name: "packageDiagrams", heading: "Package Diagrams", priority: "4"},
@@ -340,11 +342,12 @@
           {
             name: "",
             level_three_topics: [
-              {name: "activityDiagrams", heading: "Activity Diagrams", priority: "3"},
+              {name: "activityDiagrams", heading: "Activity Diagrams", priority: "4"},
+              {name: "activityDiagramsIntermediate", heading: "Activity Diagrams", priority: "4"},
               {name: "sequenceDiagramsBasic", heading: "Sequence Diagrams - Basic", priority: "2"},
               {name: "sequenceDiagramsIntermediate", heading: "Sequence Diagrams - Intermediate", priority: "3"},
               {name: "sequenceDiagramsAdvanced", heading: "Sequence Diagrams - Advanced", priority: "-1"},
-              {name: "useCaseDiagrams", heading: "Use Case Diagrams", priority: "3"},
+              {name: "useCaseDiagrams", heading: "Use Case Diagrams", priority: "-1"},
               {name: "timingDiagrams", heading: "Timing Diagrams", priority: "4"},
               {name: "interactionOverviewDiagrams", heading: "Interaction Overview Diagrams", priority: "4"},
               {name: "communicationDiagrams", heading: "Communication Diagrams", priority: "4"},
@@ -355,6 +358,7 @@
       },
       {
         name: "modelingASolution",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -595,7 +599,7 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "1"}
+              {name: "what", heading: "What", priority: "2"}
             ]
           }
         ]
@@ -644,23 +648,24 @@
               {name: "avoidDeepNesting", heading: "Avoid Deep Nesting", priority: "2"},
               {name: "avoidComplicatedExpressions", heading: "Avoid Complicated Expressions", priority: "2"},
               {name: "avoidMagicNumbers", heading: "Avoid Magic Numbers", priority: "2"},
-              {name: "makeCodeObvious", heading: "Make the Code Obvious", priority: "2"}
+              {name: "makeCodeObvious", heading: "Make the Code Obvious", priority: "3"}
             ]
           },
           {
             name: "intermediate",
             level_three_topics: [
               {name: "structureCodeLogically", heading: "Structure Code Logically", priority: "3"},
-              {name: "dontTripReader", heading: "Do Not 'Trip Up' Reader", priority: "3"},
-              {name: "practiceKISSing", heading: "Practice KISSing", priority: "3"},
-              {name: "avoidPrematureOptimizations", heading: "Avoid Premature Optimizations", priority: "3"},
-              {name: "slapHard", heading: "SLAP Hard", priority: "3"}
+              {name: "dontTripReader", heading: "Do Not 'Trip Up' Reader", priority: "4"},
+              {name: "practiceKISSing", heading: "Practice KISSing", priority: "4"},
+              {name: "avoidPrematureOptimizations", heading: "Avoid Premature Optimizations", priority: "4"},
+              {name: "slapHard", heading: "SLAP Hard", priority: "4"}
             ]
           },
           {
             name: "advanced",
+            priority: "4",
             level_three_topics: [
-              {name: "makeHappyPathProminent", heading: "Make the Happy Path Prominent", priority: "3"}
+              {name: "makeHappyPathProminent", heading: "Make the Happy Path Prominent", priority: "4"}
             ]
           }
         ]
@@ -696,16 +701,18 @@
           },
           {
             name: "intermediate",
+            priority: "4",
             level_three_topics: [
-              {name: "useNameExplain", heading: "Use Name to Explain", priority: "3"},
-              {name: "notTooLongNorShort", heading: "Not Too Long, Not Too Short", priority: "3"},
-              {name: "avoidMisleadingNames", heading: "Avoid Misleading Names", priority: "3"}
+              {name: "useNameExplain", heading: "Use Name to Explain", priority: "4"},
+              {name: "notTooLongNorShort", heading: "Not Too Long, Not Too Short", priority: "4"},
+              {name: "avoidMisleadingNames", heading: "Avoid Misleading Names", priority: "4"}
             ]
           }
         ]
       },
       {
         name: "avoidShortcuts",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -749,8 +756,9 @@
           },
           {
             name: "intermediate",
+            priority: "4",
             level_three_topics: [
-              {name: "explainWhatWhyNotHow", heading: "Explain WHAT and WHY, not HOW", priority: "3"}
+              {name: "explainWhatWhyNotHow", heading: "Explain WHAT and WHY, not HOW", priority: "4"}
             ]
           }
         ]
@@ -830,15 +838,17 @@
           },
           {
             name: "markdown",
+            priority: "-1",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "4"},
-              {name: "how", heading: "How", priority: "4"}
+              {name: "what", heading: "What", priority: "-1"},
+              {name: "how", heading: "How", priority: "-1"}
             ]
           },
           {
             name: "asciiDoc",
+            priority: "-1",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "2"}
+              {name: "what", heading: "What", priority: "-1"}
             ]
           }
         ]
@@ -855,7 +865,7 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "0:2"}
+              {name: "what", heading: "What", priority: "2"}
             ]
           }
         ]
@@ -866,9 +876,9 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "0:1"},
-              {name: "how", heading: "How", priority: "0:1"},
-              {name: "when", heading: "When", priority: "0:2"}
+              {name: "what", heading: "What", priority: "1"},
+              {name: "how", heading: "How", priority: "2"},
+              {name: "when", heading: "When", priority: "3"}
             ]
           }
         ]
@@ -893,13 +903,14 @@
             name: "",
             level_three_topics: [
               {name: "what", heading: "What", priority: "2"},
-              {name: "how", heading: "How", priority: "3"}
+              {name: "how", heading: "How", priority: "4"}
             ]
           }
         ]
       },
       {
         name: "defensiveProgramming",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -915,6 +926,7 @@
       },
       {
         name: "designByContract",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -1044,6 +1056,7 @@
       },
       {
         name: "cloudComputing",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -1117,7 +1130,7 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "2"},
+              {name: "what", heading: "What", priority: "1"},
               {name: "testability", heading: "Testability", priority: "3"}
             ]
           }
@@ -1130,14 +1143,14 @@
             name: "unitTesting",
             level_three_topics: [
               {name: "what", heading: "What", priority: "1"},
-              {name: "stubs", heading: "Stubs", priority: "3"}
+              {name: "stubs", heading: "Stubs", priority: "4"}
             ]
           },
           {
             name: "integrationTesting",
             level_three_topics: [
               {name: "what", heading: "What", priority: "2"},
-              {name: "how", heading: "How", priority: "3"}
+              {name: "how", heading: "How", priority: "4"}
             ]
           },
           {
@@ -1154,8 +1167,9 @@
           },
           {
             name: "dogfooding",
+            priority: "-1",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "3"}
+              {name: "what", heading: "What", priority: "-1"}
             ]
           },
           {
@@ -1193,17 +1207,18 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "2"},
-              {name: "testingTextUis", heading: "Automated Testing of CLI Apps", priority: "2"},
+              {name: "what", heading: "What", priority: "3"},
+              {name: "testingTextUis", heading: "Automated Testing of CLI Apps", priority: "3"},
               {name: "usingTestDrivers", heading: "Test Automation Using Test Drivers", priority: "3"},
               {name: "tools", heading: "Test Automation Tools", priority: "3"},
-              {name: "testingGuis", heading: "Automated Testing of GUIs", priority: "3"}
+              {name: "testingGuis", heading: "Automated Testing of GUIs", priority: "-1"}
             ]
           }
         ]
       },
       {
         name: "testCoverage",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -1216,6 +1231,7 @@
       },
       {
         name: "dependencyInjection",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -1228,6 +1244,7 @@
       },
       {
         name: "tdd",
+        priority: "-1",
         level_two_topics: [
           {
             name: "",
@@ -1337,9 +1354,9 @@
               {name: "savingHistory", heading: "Saving History", priority: "1"},
               {name: "usingHistory", heading: "Using History", priority: "2"},
               {name: "remoteRepositories", heading: "Remote Repositories", priority: "2"},
-              {name: "branching", heading: "Branching", priority: "2"},
-              {name: "drcsVsCrcs", heading: "DRCS vs CRCS", priority: "3"},
-              {name: "forkingWorkflow", heading: "Forking Flow", priority: "2"},
+              {name: "branching", heading: "Branching", priority: "4"},
+              {name: "drcsVsCrcs", heading: "DRCS vs CRCS", priority: "4"},
+              {name: "forkingWorkflow", heading: "Forking Flow", priority: "4"},
               {name: "featureBranchFlow", heading: "Feature Branch Flow", priority: "4"},
               {name: "centralizedFlow", heading: "Centralized Flow", priority: "4"}
             ]
@@ -1361,7 +1378,7 @@
               {name: "workBreakdownStructure", heading: "Work Breakdown Structure", priority: "3"},
               {name: "milestones", heading: "Milestones", priority: "2"},
               {name: "buffers", heading: "Buffers", priority: "3"},
-              {name: "issueTrackers", heading: "Issue Trackers", priority: "2"},
+              {name: "issueTrackers", heading: "Issue Trackers", priority: "3"},
               {name: "ganttCharts", heading: "GANTT Charts", priority: "4"},
               {name: "pertCharts", heading: "PERT Charts", priority: "4"}
             ]
@@ -1474,13 +1491,14 @@
           {
             name: "dependencies",
             level_three_topics: [
-              {name: "what", heading: "Dependencies", priority: "3"}
+              {name: "what", heading: "What", priority: "3"}
             ]
           },
           {
             name: "associationsAsAttributes",
+            priority: "4",
             level_three_topics: [
-              {name: "what", heading: "Associations as Attributes", priority: "3"}
+              {name: "what", heading: "What", priority: "4"}
             ]
           },
           {
@@ -1492,37 +1510,38 @@
           {
             name: "classLevelMembers",
             level_three_topics: [
-              {name: "what", heading: "Class-Level Members", priority: "3"}
+              {name: "what", heading: "What", priority: "3"}
             ]
           },
           {
             name: "associationClasses",
+            priority: "4",
             level_three_topics: [
-              {name: "what", heading: "Association Classes", priority: "4"}
+              {name: "what", heading: "What", priority: "4"}
             ]
           },
           {
             name: "composition",
             level_three_topics: [
-              {name: "what", heading: "Composition", priority: "2"}
+              {name: "what", heading: "What", priority: "2"}
             ]
           },
           {
             name: "aggregation",
             level_three_topics: [
-              {name: "what", heading: "Aggregation", priority: "3"}
+              {name: "what", heading: "What", priority: "3"}
             ]
           },
           {
             name: "classInheritance",
             level_three_topics: [
-              {name: "what", heading: "Inheritance", priority: "2"}
+              {name: "what", heading: "What", priority: "2"}
             ]
           },
           {
             name: "interfaces",
             level_three_topics: [
-              {name: "what", heading: "Interfaces", priority: "2"}
+              {name: "what", heading: "What", priority: "2"}
             ]
           },
           {
@@ -1533,6 +1552,7 @@
           },
           {
             name: "combine",
+            priority: "4",
             level_three_topics: [
               {name: "basic", heading: "Basic", priority: "2"}
             ]
@@ -1567,14 +1587,15 @@
             name: "",
             level_three_topics: [
               {name: "introduction", heading: "Introduction", priority: "1"},
-              {name: "objects", heading: "Objects", priority: "1"},
-              {name: "associations", heading: "What", priority: "1"}
+              {name: "objects", heading: "Objects", priority: "2"},
+              {name: "associations", heading: "What", priority: "3"}
             ]
           }
         ]
       },
       {
         name: "activityDiagrams",
+        priority: "-1",
         level_two_topics: [
           {
             name: "introduction",
@@ -1622,6 +1643,7 @@
   intellij : {
     name: "intellij",
     heading: "Intellij IDEA",
+    priority: "4",
     level_one_topics: [
       {
         name: "",
@@ -1629,11 +1651,11 @@
           {
             name: "",
             level_three_topics: [
-              {name: "projectSetup", heading: "Project Setup", priority: "1"},
-              {name: "codeNavigation", heading: "Code Navigation", priority: "2"},
-              {name: "productivityShortcuts", heading: "Productivity Shortcuts", priority: "3"},
+              {name: "projectSetup", heading: "Project Setup", priority: "2"},
+              {name: "codeNavigation", heading: "Code Navigation", priority: "3"},
+              {name: "productivityShortcuts", heading: "Productivity Shortcuts", priority: "4"},
               {name: "debuggingBasic", heading: "Debugging: Basic", priority: "3"},
-              {name: "refactoring", heading: "Refactoring", priority: "2"}
+              {name: "refactoring", heading: "Refactoring", priority: "3"}
             ]
           }
         ]
@@ -1656,14 +1678,14 @@
               {name: "tag", heading: "Tag", priority: "3"},
               {name: "checkout", heading: "Checkout", priority: "2"},
               {name: "stash", heading: "Stash", priority: "4"},
-              {name: "clone", heading: "Clone", priority: "1"},
-              {name: "pull", heading: "Pull", priority: "1"},
-              {name: "push", heading: "Push", priority: "1"},
-              {name: "branch", heading: "Branch", priority: "2"},
-              {name: "mergeConflicts", heading: "Merge Conflicts", priority: "2"},
-              {name: "createPRs", heading: "Create PRs", priority: "1"},
-              {name: "managePRs", heading: "Manage PRs", priority: "2"},
-              {name: "forkingWorkflow", heading: "Forking Workflow", priority: "3"}
+              {name: "clone", heading: "Clone", priority: "3"},
+              {name: "pull", heading: "Pull", priority: "3"},
+              {name: "push", heading: "Push", priority: "3"},
+              {name: "branch", heading: "Branch", priority: "4"},
+              {name: "mergeConflicts", heading: "Merge Conflicts", priority: "4"},
+              {name: "createPRs", heading: "Create PRs", priority: "4"},
+              {name: "managePRs", heading: "Manage PRs", priority: "4"},
+              {name: "forkingWorkflow", heading: "Forking Workflow", priority: "4"}
             ]
           }
         ]
@@ -1673,6 +1695,7 @@
   javaTools : {
     name: "javaTools",
     heading: "Java",
+    priority: "-1",
     level_one_topics: [
       {
         name: "",
@@ -1680,11 +1703,9 @@
           {
             name: "",
             level_three_topics: [
-              {name: "collections", heading: "Collections", priority: "0:2"},
-              {name: "enums", heading: "Enums", priority: "0:1"},
-              {name: "varargs", heading: "Varargs ", priority: "0:3"},
-              {name: "javaFXBasic", heading: "JavaFX: Basic", priority: "2"},
-              {name: "streamsBasic", heading: "Streams: Basic", priority: "0:3"}
+              {name: "varargs", heading: "Varargs ", priority: "4"},
+              {name: "javaFXBasic", heading: "JavaFX: Basic", priority: "4"},
+              {name: "streamsBasic", heading: "Streams: Basic", priority: "4"}
             ]
           }
         ]
@@ -1701,8 +1722,8 @@
           {
             name: "",
             level_three_topics: [
-              {name: "basic", heading: "JUnit: Basic", priority: "2"},
-              {name: "intermediate", heading: "JUnit: Intermediate", priority: "3"}
+              {name: "basic", heading: "JUnit: Basic", priority: "3"},
+              {name: "intermediate", heading: "JUnit: Intermediate", priority: "4"}
             ]
           }
         ]
@@ -1720,13 +1741,13 @@
             name: "",
             level_three_topics: [
               {name: "singleResponsibilityPrinciple", heading: "Single Responsibility Principle", priority: "3"},
-              {name: "openClosedPrinciple", heading: "Open-Closed Principle", priority: "3"},
-              {name: "liskovSubstitutionPrinciple", heading: "Liskov Substitution Principle", priority: "0:3"},
-              {name: "interfaceSegregationPrinciple", heading: "Interface Segregation Principle", priority: "4"},
-              {name: "dependencyInversionPrinciple", heading: "Dependency Inversion Principle", priority: "4"},
-              {name: "solidPrinciples", heading: "SOLID Principles", priority: "4"},
+              {name: "openClosedPrinciple", heading: "Open-Closed Principle", priority: "4"},
+              {name: "liskovSubstitutionPrinciple", heading: "Liskov Substitution Principle", priority: "3"},
+              {name: "interfaceSegregationPrinciple", heading: "Interface Segregation Principle", priority: "-1"},
+              {name: "dependencyInversionPrinciple", heading: "Dependency Inversion Principle", priority: "-1"},
+              {name: "solidPrinciples", heading: "SOLID Principles", priority: "-1"},
               {name: "separationOfConcernsPrinciple", heading: "Separation of Concerns Principle", priority: "2"},
-              {name: "lawOfDemeter", heading: "Law of Demeter", priority: "3"},
+              {name: "lawOfDemeter", heading: "Law of Demeter", priority: "4"},
               {name: "yagniPrinciple", heading: "YAGNI Principle", priority: "4"},
               {name: "dryPrinciple", heading: "DRY Principle", priority: "4"},
               {name: "brooksLaw", heading: "Brooks' Law", priority: "4"},
@@ -1747,7 +1768,7 @@
           {
             name: "",
             level_three_topics: [
-              {name: "about", heading: "About this Book Chapter", priority: "0:3"}
+              {name: "about", heading: "About this Book Chapter", priority: "3"}
             ]
           }
         ]
@@ -1758,9 +1779,9 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What is Java?", priority: "0:3"},
-              {name: "how", heading: "How Java Works", priority: "0:4"},
-              {name: "editions", heading: "Java Editions", priority: "0:4"}
+              {name: "what", heading: "What is Java?", priority: "3"},
+              {name: "how", heading: "How Java Works", priority: "4"},
+              {name: "editions", heading: "Java Editions", priority: "4"}
             ]
           }
         ]
@@ -1771,10 +1792,10 @@
           {
             name: "",
             level_three_topics: [
-              {name: "installation", heading: "Installation", priority: "0:1"},
-              {name: "helloWorld", heading: "HelloWorld", priority: "0:1"},
-              {name: "compiling", heading: "Compiling Programs", priority: "0:1"},
-              {name: "running", heading: "Running Programs", priority: "0:1"}
+              {name: "installation", heading: "Installation", priority: "1"},
+              {name: "helloWorld", heading: "HelloWorld", priority: "1"},
+              {name: "compiling", heading: "Compiling Programs", priority: "1"},
+              {name: "running", heading: "Running Programs", priority: "1"}
             ]
           }
         ]
@@ -1785,10 +1806,10 @@
           {
             name: "",
             level_three_topics: [
-              {name: "primitiveTypes", heading: "Primitive Data Types", priority: "0:1"},
-              {name: "variables", heading: "Variables", priority: "0:1"},
-              {name: "operators", heading: "Operators", priority: "0:1"},
-              {name: "arrays", heading: "Arrays", priority: "0:1"}
+              {name: "primitiveTypes", heading: "Primitive Data Types", priority: "1"},
+              {name: "variables", heading: "Variables", priority: "1"},
+              {name: "operators", heading: "Operators", priority: "1"},
+              {name: "arrays", heading: "Arrays", priority: "1"}
             ]
           }
         ]
@@ -1799,9 +1820,9 @@
           {
             name: "",
             level_three_topics: [
-              {name: "branching", heading: "Branching", priority: "0:1"},
-              {name: "methods", heading: "Methods", priority: "0:1"},
-              {name: "loops", heading: "Loops", priority: "0:1"}
+              {name: "branching", heading: "Branching", priority: "1"},
+              {name: "methods", heading: "Methods", priority: "1"},
+              {name: "loops", heading: "Loops", priority: "1"}
             ]
           }
         ]
@@ -1812,10 +1833,10 @@
           {
             name: "",
             level_three_topics: [
-              {name: "usingObjects", heading: "Using Java Objects", priority: "0:1"},
-              {name: "instanceMembers", heading: "Instance Members", priority: "0:1"},
-              {name: "passingObjects", heading: "Passing Objects", priority: "0:1"},
-              {name: "garbageCollection", heading: "Garbage Collection", priority: "0:3"}
+              {name: "usingObjects", heading: "Using Java Objects", priority: "1"},
+              {name: "instanceMembers", heading: "Instance Members", priority: "1"},
+              {name: "passingObjects", heading: "Passing Objects", priority: "1"},
+              {name: "garbageCollection", heading: "Garbage Collection", priority: "3"}
             ]
           }
         ]
@@ -1826,9 +1847,9 @@
           {
             name: "",
             level_three_topics: [
-              {name: "definingClasses", heading: "Defining Classes", priority: "0:1"},
-              {name: "gettersAndSetters", heading: "Getters and Setters", priority: "0:1"},
-              {name: "classLevelMembers", heading: "Class-Level Members", priority: "0:2"}
+              {name: "definingClasses", heading: "Defining Classes", priority: "1"},
+              {name: "gettersAndSetters", heading: "Getters and Setters", priority: "1"},
+              {name: "classLevelMembers", heading: "Class-Level Members", priority: "2"}
             ]
           }
         ]
@@ -1839,11 +1860,11 @@
           {
             name: "",
             level_three_topics: [
-              {name: "api", heading: "Java API", priority: "0:2"},
-              {name: "stringClass", heading: "The String Class", priority: "0:1"},
-              {name: "wrapperClasses", heading: "Wrapper Classes for Primitive Types", priority: "0:3"},
-              {name: "arraysClass", heading: "The Arrays Class", priority: "0:2"},
-              {name: "scannerClass", heading: "The Scanner Class", priority: "0:3"}
+              {name: "api", heading: "Java API", priority: "2"},
+              {name: "stringClass", heading: "The String Class", priority: "1"},
+              {name: "wrapperClasses", heading: "Wrapper Classes for Primitive Types", priority: "3"},
+              {name: "arraysClass", heading: "The Arrays Class", priority: "3"},
+              {name: "scannerClass", heading: "The Scanner Class", priority: "3"}
             ]
           }
         ]
@@ -1854,11 +1875,11 @@
           {
             name: "",
             level_three_topics: [
-              {name: "basic", heading: "Inheritance (Basic)", priority: "0:2"},
-              {name: "objectClass", heading: "The Object Class", priority: "0:2"},
-              {name: "interfaces", heading: "Interfaces", priority: "0:3"},
-              {name: "polymorphism", heading: "Polymorhism", priority: "0:3"},
-              {name: "abstractClassesAndMethods", heading: "Abstract Classes and Methods", priority: "0:3"}
+              {name: "basic", heading: "Inheritance (Basic)", priority: "2"},
+              {name: "objectClass", heading: "The Object Class", priority: "3"},
+              {name: "polymorphism", heading: "Polymorhism", priority: "3"},
+              {name: "abstractClassesAndMethods", heading: "Abstract Classes and Methods", priority: "3"},
+              {name: "interfaces", heading: "Interfaces", priority: "3"}
             ]
           }
         ]
@@ -1869,8 +1890,8 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What are Exceptions?", priority: "0:2"},
-              {name: "how", heading: "How to use Exceptions", priority: "0:3"}
+              {name: "what", heading: "What are Exceptions?", priority: "2"},
+              {name: "how", heading: "How to use Exceptions", priority: "3"}
             ]
           }
         ]
@@ -1881,8 +1902,8 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "What are Generics?", priority: "0:2"},
-              {name: "how", heading: "How to use Generics", priority: "0:3"}
+              {name: "what", heading: "What are Generics?", priority: "2"},
+              {name: "how", heading: "How to use Generics", priority: "3"}
             ]
           }
         ]
@@ -1893,9 +1914,26 @@
           {
             name: "",
             level_three_topics: [
-              {name: "what", heading: "The Collections Framework", priority: "0:3"},
-              {name: "arrayListClass", heading: "The ArrayList Class", priority: "0:2"},
-              {name: "hashMapClass", heading: "The HashMap Class", priority: "0:3"}
+              {name: "what", heading: "The Collections Framework", priority: "3"},
+              {name: "arrayListClass", heading: "The ArrayList Class", priority: "2"},
+              {name: "hashMapClass", heading: "The HashMap Class", priority: "3"}
+            ]
+          }
+        ]
+      },
+      {
+        name: "misc",
+        level_two_topics: [
+          {
+            name: "",
+            level_three_topics: [
+              {name: "enums", heading: "Enums", priority: "3"},
+              {name: "packages", heading: "Packages", priority: "3"},
+              {name: "accessModifiers", heading: "Access Modifiers", priority: "3"},
+              {name: "constants", heading: "Constants", priority: "3"},
+              {name: "casting", heading: "Casting", priority: "3"},
+              {name: "fileAccess", heading: "File Access", priority: "3"},
+              {name: "jar", heading: "Using JAR Files", priority: "3"}
             ]
           }
         ]
@@ -1908,13 +1946,13 @@
   {heading: "Software Engineering", chapters: [chapters.softwareEngineering]},
   {heading: "Programming Paradigms", chapters: [chapters.oop]},
   {heading: "Requirements", chapters: [chapters.requirements, chapters.gatheringRequirements, chapters.specifyingRequirements]},
-  {heading: "Design", chapters: [chapters.design, chapters.designFundamentals, chapters.modeling, chapters.architecture, chapters.designPatterns, chapters.designApproaches]},
-  {heading: "Implementation", chapters: [chapters.ides, chapters.codeQuality, chapters.refactoring, chapters.documentation, chapters.errorHandling, chapters.integration, chapters.reuse]},
-  {heading: "Quality Assurance", chapters: [chapters.qualityAssurance, chapters.testing, chapters.testCaseDesign]},
-  {heading: "Project Management", chapters: [chapters.revisionControl, chapters.projectPlanning, chapters.teamwork, chapters.processModels]},
-  {heading: "Tools", chapters: [chapters.uml, chapters.intellij, chapters.gitAndGithub, chapters.javaTools, chapters.junit]},
-  {heading: "Principles", chapters: [chapters.principles]}
-  ] 
+  {heading: "Design", chapters: [chapters.design, chapters.designFundamentals, chapters.modeling]},
+  {heading: "Implementation", chapters: [chapters.ides, chapters.codeQuality, chapters.refactoring, chapters.errorHandling, chapters.reuse]},
+  {heading: "Quality Assurance", chapters: [chapters.qualityAssurance, chapters.testing]},
+  {heading: "Project Management", chapters: [chapters.revisionControl, chapters.projectPlanning]},
+  {heading: "Principles", chapters: [chapters.principles]},
+  {heading: "Tools", chapters: [chapters.uml, chapters.intellij, chapters.gitAndGithub, chapters.javaTools, chapters.junit]}
+  ]
 %}
 
 {% set definitions = [
@@ -1929,7 +1967,7 @@
   {letter : "L", defs: ["def-law-of-demeter", "def-liskov-substitution-principle"]},
   {letter : "O", defs: ["def-open-closed-principle"  ]},
   {letter : "P", defs: ["def-pair-programming", "def-prototyping", "def-polymorphism"]},
-  {letter : "R", defs: ["def-rcs", "def-repo"  ]},
+  {letter : "R", defs: ["def-rcs", "def-repo", "def-revision"]},
   {letter : "S", defs: ["def-separation-concerns-principle", "def-single-responsibility-principle", "def-se", "def-stage", "def-stakeholder", "def-static-analysis", "def-static-binding", "def-stub", "def-sut"]},
   {letter : "T", defs: ["def-testing", "def-type-signature"]},
   {letter : "U", defs: ["def-uml", "def-use-case", "def-user-story", "def-user-story-format"]},

@@ -1,6 +1,6 @@
 {
-  "baseUrl": "/website-base",
-  "titlePrefix": "CS2103/T and CS2113/T Website Base",
+  "baseUrl": "/website",
+  "titlePrefix": "TIC2002 Website",
   "ignore": [
     "_site/*",
     ".idea/*",
@@ -13,7 +13,47 @@
     ".git/*"
   ],
   "pages": [
-    {"glob": "index.md"}
+    {"src": "index.md",
+      "searchable": "no"},
+    {"glob": "admin/*.md"},
+    {"glob": "admin/gradeBreakdown.md"},
+    {"glob": "schedule/index.md",
+      "searchable": "no"},
+    {"glob": "schedule/summary.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/admin.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/index.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/project.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/topics.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/tutorial*.md",
+      "searchable": "no"},
+    {"glob": "coding-standards/**/*.mbd"},
+    {"glob": "book/about/acknowledgements.md"},
+    {"glob": "se-book-adapted/index.md"},
+    {"glob": "se-book-adapted/chapters/*.md"},
+    {"glob": "se-book-adapted/chapters-printable/*.md",
+      "searchable": "no"
+    },
+    {"glob": "se-book-adapted/common/*.md"},
+    {"glob": "se-book-adapted/projectDuke/*.md"},
+    {"glob": "book/combined/exercises.md"},
+    {"src": "se-book-adapted/print.md",
+      "searchable": "no"
+    },
+    {"glob": "book/**/index.md",
+      "searchable": "no"
+    }
   ],
-  "headingIndexingLevel": 1
+  "enableSearch": true,
+  "headingIndexingLevel": 5,
+  "plugins": ["filterTags"],
+  "pluginsContext": {
+   "filterTags" : {
+     "tags": []
+   }
+ }
 }

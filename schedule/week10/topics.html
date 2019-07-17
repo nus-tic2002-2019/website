@@ -1,0 +1,2391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TIC2002 Website - Week 10 - Weekly Topics</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><span style="float:left"><span><a href="/website/schedule/week9/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week11/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-10-oct-21">Week 10 <small><small><span class="dimmed">[Oct 21]</span></small></small><a class="fa fa-anchor" href="#week-10-oct-21"></a></h1>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week10/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Weekly Tasks</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week10/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Weekly Topics</a></li>
+        </ul>
+        <p></p>
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
+          <ul>
+            <li>[<a href="#W10-1">W10.1</a>] <strong>Can use intermediate-level sequence diagrams</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li><span class="dimmed">[<a href="#W10-1a">W10.1a</a>] <span>Design → Modelling → Modelling Behaviors
+                    </span></span> <span>Sequence Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W10-2">W10.2</a>] <strong>Can explain some design principles</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-2a">W10.2a</a>] <span>Supplmentary → Principles →
+                      </span></span> <span>Separation of Concerns Principle</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-2b">W10.2b</a>] <span>Supplmentary → Principles →
+                      </span></span> <span>Single Responsibility Principle</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-2c">W10.2c</a>] <span>Supplmentary → Principles →
+                      </span></span> <span>Liskov Substitution Principle</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-2d">W10.2d</a>] <span>Supplmentary → Principles →
+                      </span></span> <span>Open-Closed Principle</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-2e">W10.2e</a>] <span>Supplmentary → Principles →
+                      </span></span> <span>Law of Demeter</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W10-3">W10.3</a>] <strong>Can use more error handling teachniques</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <p>   <strong>Can use logging</strong></p>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-3a">W10.3a</a>] <span>Implementation → Error Handling → Logging →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-3b">W10.3b</a>] <span>Implementation → Error Handling → Logging →
+                      </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+              <p>   <strong>Can use assertions</strong></p>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-3c">W10.3c</a>] <span>Implementation → Error Handling → Assertions →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-3d">W10.3d</a>] <span>Implementation → Error Handling → Assertions →
+                      </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-3e">W10.3e</a>] <span>Implementation → Error Handling → Assertions →
+                      </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W10-4">W10.4</a>] <strong>Can use Java8 streams</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li><span class="dimmed">[<a href="#W10-4a">W10.4a</a>] <span>Tools → Java →
+                    </span></span> <span>Streams: Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W10-5">W10.5</a>] <strong>Can use JavaFX to build a simple GUI</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li><span class="dimmed">[<a href="#W10-5a">W10.5a</a>] <span>Tools → Java →
+                    </span></span> <span>JavaFX: Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+              </ul>
+            </small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W10-6">W10.6</a>] <strong>Can explain basic scheduling and tracking tools</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-6a">W10.6a</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Milestones</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-6b">W10.6b</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Buffers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-6c">W10.6c</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Issue Trackers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-6d">W10.6d</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Work Breakdown Structure</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-6e">W10.6e</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>GANTT Charts</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W10-6f">W10.6f</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>PERT Charts</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W10-7">W10.7</a>] <strong>Mid-project check point</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small></small></div>
+          <ul>
+            <li>[<a href="#W10-8">W10.8</a>] <strong>Can use assertions</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small></small></div>
+          <p></p>
+        </panel>
+        <hr style="border: 1px dotted #cccccc;">
+        <p><span id="W10-1"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-1-can-use-intermediate-level-sequence-diagrams"><span class="dimmed">[W10.1]</span> <strong>Can use intermediate-level sequence diagrams</strong> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-1-can-use-intermediate-level-sequence-diagrams"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W10-1a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
+                          </span></strong></span></small> <strong><span>Sequence Diagrams - Intermediate</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can draw intermediate-level sequence diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/sequenceDiagrams/objectDeletion/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Sequence Diagrams → Object Deletion" alt="<md>:glyphicon-education:</md> UML/SD/Deletion" fragment="main"></panel>
+                      <panel type="seamless" src="/website/book/uml/sequenceDiagrams/selfInvocation/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Sequence Diagrams → Self-Invocation" alt="<md>:glyphicon-education:</md> UML/SD/Self-Invocation" fragment="main"></panel>
+                      <panel type="seamless" src="/website/book/uml/sequenceDiagrams/alternativePaths/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Sequence Diagrams → Alternative Paths" alt="<md>:glyphicon-education:</md> UML/SD/Alternative" fragment="main"></panel>
+                      <panel type="seamless" src="/website/book/uml/sequenceDiagrams/optionalPaths/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Sequence Diagrams → Optional Paths" alt="<md>:glyphicon-education:</md> UML/SD/Optional" fragment="main"></panel>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What’s going on here?">
+                              <question>
+                                <p>What’s going on here?</p>
+                                <img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/images/exerciseDiagram.png" height="170">
+                                <p></p>
+                                <ul class="task-list">
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. <code>Logic</code> object is executing a parallel thread.</li>
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. <code>Logic</code> object is executing a loop.</li>
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. <code>Logic</code> object is creating another <code>Logic</code> instance.</li>
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. One of <code>Logic</code> object’s methods is calling another of its methods.</li>
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. <code>Minefield</code> object is calling a method of <code>Logic</code>.</li>
+                                </ul>
+                                <div slot="answer">
+                                  <p>(d)</p>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> Explain Sequence Diagram (ParserFactory)">
+                              <question>
+                                <p>Explain the interactions depicted in this sequence diagram.</p>
+                                <img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/images/parserFactory.png" height="300">
+                                <p></p>
+                                <div slot="hint">
+                                  <p>First, the <code>createParser()</code> method of an existing <code>ParserFactory</code> object is called. Then, ...</p>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> Draw Sequence Diagram for printing a quote">
+                              <question>
+                                <p>Draw a sequence diagram to represent this code snippet.</p>
+                                <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isFirstPage) {
+    <span class="hljs-keyword">new</span> Quote().print();
+}
+</code></pre>
+                                <p>The <code>Quote</code> class:</p>
+                                <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Quote</span></span>{
+
+    String q;
+
+    Quote(){
+        q = generate();
+    }
+
+    <span class="hljs-function">String <span class="hljs-title">generate</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-comment">// ...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span></span>{
+        System.out.println(q);
+    }
+
+}
+</code></pre>
+                                <div slot="hint">
+                                  <ul>
+                                    <li>Show <code>new Quote().print();</code> as two method calls.</li>
+                                    <li>As the created Quote object is not assigned to a variable, it can be considered as 'deleted' soon after its <code>print()</code> method is called.</li>
+                                  </ul>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W10-2"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-2-can-explain-some-design-principles"><span class="dimmed">[W10.2]</span> <strong>Can explain some design principles</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w10-2-can-explain-some-design-principles"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W10-2a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2a</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
+                          </span></strong></span></small> <strong><span>Separation of Concerns Principle</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain separation of concerns principle</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <tip-box type="primary">
+                      <div>
+                        <p><strong>Separation of Concerns Principle (SoC)</strong>: To achieve better modularity, separate the code into distinct sections, such that each section addresses a separate <em>concern</em>. -- Proposed by <a href="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra">Edsger W. Dijkstra</a></p>
+                      </div>
+                    </tip-box>
+                    <p>A <em>concern</em> in this context is a set of information that affects the code of a computer program.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples for <em>concerns</em>:</p>
+                      <ul>
+                        <li>A specific feature, such as the code related to <code>add employee</code> feature</li>
+                        <li>A specific aspect, such as the code related to <code>persistence</code> or <code>security</code></li>
+                        <li>A specific entity, such as the code related to the <code>Employee</code> entity</li>
+                      </ul>
+                    </tip-box>
+                    <p><strong>Applying <tooltip content="Separation of Concerns">SoC</tooltip> reduces functional overlaps among code sections and also limits the ripple effect when changes are introduced to a specific part of the system.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the code related to <em>persistence</em> is separated from the code related to <em>security</em>, a change to how the data are persisted will not need changes to how the security is implemented.</p>
+                    </tip-box>
+                    <p><strong>This principle can be applied at the class level, as well as on higher levels.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
+                    </tip-box>
+                    <modal title="TextBook <md>:glyphicon-log-in:</md>" id="modal:soc-nTier">
+                        <div>
+                        <div></div>
+                        <p></p>
+                        <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style
+                              </span></strong></span></p>
+                        <div id="title-and-body">
+                          <div>
+                            <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
+                          </div>
+                          <div id="main">
+                            <div>
+                              <p><strong>In the <em>n-tier</em> style, higher layers make use of services provided by lower layers.</strong> Lower layers are independent of higher layers. Other names: <em>multi-layered</em>, <em>layered</em>.</p>
+                              <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTier.png" height="150">
+                              <tip-box>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Operating systems and network communication software often use n-tier style.
+                                  <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTierExamples.png" height="150"></p>
+                              </tip-box>
+                              <p></p>
+                            </div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </modal>
+                    <p><strong>This principle should lead to higher <trigger trigger="click" for="soc-cohesion">cohesion</trigger> and lower <trigger trigger="click" for="soc-coupling">coupling</trigger>.</strong></p>
+                    <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-coupling">
+                        <div>
+                        <div></div>
+                        <p></p>
+                        <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Coupling →
+                              </span></strong></span></p>
+                        <div id="title-and-body">
+                          <div>
+                            <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
+                          </div>
+                          <div id="main">
+                            <div>
+                              <p><strong><em>Coupling</em> is a measure of the degree of <em>dependence</em></strong> between components, classes, methods, etc. Low coupling indicates that a component is less dependent on other components. <strong>High coupling (aka <em>tight</em> coupling or <em>strong</em> coupling) is discouraged</strong> due to the following disadvantages:</p>
+                              <ul>
+                                <li><strong>Maintenance is harder</strong> because a change in one module could cause changes in other modules coupled to it (i.e. a ripple effect).</li>
+                                <li><strong>Integration is harder</strong> because multiple components coupled with each other have to be integrated at the same time.</li>
+                                <li><strong>Testing and reuse of the module is harder</strong> due to its dependence on other modules.</li>
+                              </ul>
+                              <tip-box>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
+                                <img src="/website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
+                                <p></p>
+                              </tip-box>
+                            </div>
+                            <div>
+                              <div>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                  <div>
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling levels of alternative designs">
+                                      <question has-input="true">
+                                        <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
+                                        <tip-box>
+                                          <img src="/website/book/designFundamentals/coupling/what/images/alternativeDesigns.png" height="180">
+                                          <p></p>
+                                        </tip-box>
+                                        <div slot="answer">
+                                          <p>Overall coupling levels in <em>x</em> and <em>y</em> seem to be similar (neither has more dependencies than the other). (Note that the number of dependency links is not a definitive measure of the level of coupling. Some links may be stronger than the others.). However, in <em>x</em>, <code>A</code> is highly-coupled to the rest of the system while <code>B</code>, <code>C</code>, <code>D</code>, and <code>E</code> are standalone (do not depend on anything else). In <em>y</em>, no component is as highly-coupled as <code>A</code> of <em>x</em>. However, only <code>D</code> and <code>E</code> are standalone.</p>
+                                        </div>
+                                      </question>
+                                    </panel>
+                                  </div>
+                                  <div>
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: regressions and coupling.">
+                                      <question has-input="true">
+                                        <p>Explain the link (if any) between regressions and coupling.</p>
+                                        <div slot="answer">
+                                          <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed"> e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
+                                        </div>
+                                      </question>
+                                    </panel>
+                                  </div>
+                                  <div>
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling and testability">
+                                      <question has-input="true">
+                                        <p>Discuss the relationship between coupling and <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
+                                        <div slot="answer">
+                                          <p>Coupling decreases testability because if the <tooltip content="Software Under Test">SUT</tooltip> is coupled to many other components it becomes difficult to test the SUI in isolation of its dependencies.</p>
+                                        </div>
+                                      </question>
+                                    </panel>
+                                  </div>
+                                  <div>
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about coupling">
+                                      <question>
+                                        <p>Choose the correct statements.</p>
+                                        <ul class="task-list">
+                                          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. As coupling increases, testability decreases.</li>
+                                          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. As coupling increases, the risk of regression increases.</li>
+                                          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. As coupling increases, the value of automated regression testing increases.</li>
+                                          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. As coupling increases, integration becomes easier as everything is connected together.</li>
+                                          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. As coupling increases, maintainability decreases.</li>
+                                        </ul>
+                                        <div slot="answer">
+                                          <p>(a)(b)(c)<s>(d)</s>(e)</p>
+                                          <p>Explanation: High coupling means either more components require to be integrated at once in a big-bang fashion (increasing the risk of things going wrong) or more drivers and stubs are required when integrating incrementally.</p>
+                                        </div>
+                                      </question>
+                                    </panel>
+                                  </div>
+                                </panel>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </modal>
+                    <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-cohesion">
+                        <div>
+                        <div></div>
+                        <p></p>
+                        <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Cohesion →
+                              </span></strong></span></p>
+                        <div id="title-and-body">
+                          <div>
+                            <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
+                          </div>
+                          <div id="main">
+                            <div>
+                              <p><strong><em>Cohesion</em> is a measure of how strongly-related and focused the various responsibilities of a component are.</strong> A highly-cohesive component keeps related functionalities together while keeping out all other unrelated things.</p>
+                              <p><strong>Higher cohesion is better.</strong> Disadvantages of low cohesion (aka <em>weak</em> cohesion):</p>
+                              <ul>
+                                <li>Lowers the understandability of modules as it is difficult to express module functionalities at a higher level.</li>
+                                <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed"> (reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed"> (reason: because the code realated to that change is not localized to a single module)</span>.</li>
+                                <li>Lowers reusability of modules because they do not represent logical units of functionality.</li>
+                              </ul>
+                            </div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </modal>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: correct statement about SoC">
+                            <question>
+                              <p>“Only the GUI class should interact with the user. The GUI class should only concern itself with user interactions”. This statement follows from,</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. A software design should promote separation of concerns in a design.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. A software design should increase cohesion of its components.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. A software design should follow single responsibility principle.</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)(b)(c)</p>
+                                <p>Explanation: By making ‘user interaction’ GUI class’ sole responsibility, we increase its cohesion. This is also in line with separation of concerns (i.e., we separated the concern of user interaction) and single responsibility principle (GUI class has only one responsibility).</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-2b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2b</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
+                          </span></strong></span></small> <strong><span>Single Responsibility Principle</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain single responsibility principle</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <tip-box type="primary">
+                      <div>
+                        <p><strong>Single Responsibility Principle (SRP)</strong>: A class should have one, and only one, reason to change. <sub>-- Robert C. Martin</sub></p>
+                      </div>
+                    </tip-box>
+                    <p>If a class has only one responsibility, it needs to change only when there is a change to that responsibility.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.</p>
+                    </tip-box>
+                    <blockquote>
+                      <p><span aria-hidden="true" class="fas fa-quote-left"></span> Gather together the things that change for the same reasons. Separate those things that change for different reasons. <sub>―<em>Agile Software Development, Principles, Patterns, and Practices</em> by Robert C. Martin</sub></p>
+                    </blockquote>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-paperclip:</md>  Resources" expanded>
+                        <ul>
+                          <li><a href="http://www.oodesign.com/single-responsibility-principle.html">An explanation of the SRP</a> from <a href="http://www.oodesign.com">www.oodesign.com</a></li>
+                          <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a>
+                            by Patkos Csaba</li>
+                          <li><a href="https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view">A book chapter on SRP</a> - A book chapter on SRP, written by the father of the principle itself Robert C Martin.</li>
+                        </ul>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-2c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2c</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
+                          </span></strong></span></small> <strong><span>Liskov Substitution Principle</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain Liskov Substitution Principle</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <tip-box type="definition">
+                      <div>
+                        <p><strong>Liskov Substitution Principle (LSP)</strong>: Derived classes must be substitutable for their base classes. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbara Liskov</a></sub></p>
+                      </div>
+                    </tip-box>
+                    <p>LSP sounds same as <trigger large trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
+                    <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:lsp-substitutability">
+                        <div>
+                        <div>
+                          <p>
+                            <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
+                          </p>
+                        </div>
+                        <p></p>
+                        <p><span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
+                              </span></strong></span></p>
+                        <div id="title-and-body">
+                          <div>
+                            <h4 id="substitutability"><span>Substitutability</span><a class="fa fa-anchor" href="#substitutability"></a></h4>
+                          </div>
+                          <div id="main">
+                            <div>
+                              <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is expected.</p>
+                              <tip-box>
+                                <img src="/website/book/oop/inheritance/substitutability/images/staff.png" height="80">
+                                <p></p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
+                                <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
+                                <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
+</code></pre>
+                                <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
+                                <pre><code class="hljs java">Staff staff;
+...
+AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
+</code></pre>
+                              </tip-box>
+                            </div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </modal>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code> method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
+                      <img src="/website/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
+                      <p></p>
+                      <p>Now consider the following:</p>
+                      <ul>
+                        <li><code>Admin#adjustMySalary</code> method works for both negative and positive percent values.</li>
+                        <li><code>Academic#adjustMySalary</code> method works for percent values <code>1..100</code> only.</li>
+                      </ul>
+                      <p>In the above scenario,</p>
+                      <ul>
+                        <li><code>Admin</code> class follows LSP because it fulfills <code>Payroll</code>’s expectation of <code>Staff</code> objects (i.e. it works for all positive values). Substituting <code>Admin</code> objects for Staff objects will not break the <code>Payroll</code> class functionality.</li>
+                        <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects can potentially break the <code>Payroll</code> class functionality.</li>
+                      </ul>
+                      <panel type="seamless" header="%%Another example%%">
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept a <code>height</code> that is different from the <code>width</code>.</p>
+                        <img src="/website/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
+                        <p></p>
+                        <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Rectangle</span> </span>{
+    ...
+    <span class="hljs-comment">/** sets the size to given height and width*/</span>
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">resize</span><span class="hljs-params">(<span class="hljs-keyword">int</span> height, <span class="hljs-keyword">int</span> width)</span></span>{
+        ...
+    }
+}
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Square</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Rectangle</span> </span>{
+    
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">resize</span><span class="hljs-params">(<span class="hljs-keyword">int</span> height, <span class="hljs-keyword">int</span> width)</span></span>{
+        <span class="hljs-keyword">if</span> (height != width) {
+            <span class="hljs-comment">//error</span>
+       }
+    }
+}
+</code></pre>
+                        <p>Now consider the following method that is written to work with the <code>Rectangle</code> class.</p>
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">makeSameSize</span><span class="hljs-params">(Rectangle original, Rectangle toResize)</span></span>{
+    toResize.resize(original.getHeight(), original.getWidth());
+}
+</code></pre>
+                        <p>This code will fail if it is called as <code>maekSameSize(new Rectangle(12,8), new Square(4, 4))</code> That is, <code>Square</code> class is not substitutable for the <code>Rectangle</code> class.</p>
+                      </panel>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is this LSP?">
+                            <question>
+                              <p>If a subclass imposes more restrictive conditions than its parent class, it violates Liskov Substitution Principle.</p>
+                              <ul radio-group="55ada" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="55ada" type="radio"> True</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="55ada" type="radio"> False</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>True.</p>
+                                <p>Explanation: If the subclass is more restrictive than the parent class, code that worked with the parent class may not work with the child class. Hence, the substitutability does not exist and LSP has been violated.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-2d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2d</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
+                          </span></strong></span></small> <strong><span>Open-Closed Principle</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain open-closed principle (OCP)</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>The Open-Close Principle aims to make a code entity easy to adapt and reuse without needing to modify the code entity itself.</strong></p>
+                    <tip-box type="definition">
+                      <div>
+                        <p><strong>Open-Closed Principle (OCP)</strong>: A module should be <em>open</em> for extension but <em>closed</em> for modification. That is, modules should be written so that they can be extended, without requiring them to be modified. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></sub></p>
+                      </div>
+                    </tip-box>
+                    <p>In object-oriented programming, OCP can be achieved in various ways. This often requires separating the <em>specification (i.e. interface)</em> of a module from its <em>implementation</em>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the design given below, the behavior of the <code>CommandQueue</code> class can be altered by adding more concrete <code>Command</code> subclasses. For example, by including a <code>Delete</code> class alongside <code>List</code>, <code>Sort</code>, and <code>Reset</code>, the <code>CommandQueue</code> can now perform delete commands without modifying its code at all. That is, its behavior was extended without having to modify its code. Hence, it was open to extensions, but closed to modification.</p>
+                      <img src="/website/book/principles/openClosedPrinciple/images/commandQueue.png" height="170">
+                      <p></p>
+                    </tip-box>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code> in one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
+                      <pre><code class="hljs java">ArrayList students = <span class="hljs-keyword">new</span> ArrayList&lt; Student &gt;();
+ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();  	
+</code></pre>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Meaning of OCP">
+                            <question>
+                              <p>Which of these is closest to the meaning of the open-closed principle?</p>
+                              <ul radio-group="6906e" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6906e" type="radio"> a. We should be able to change a software module’s behavior without modifying its code.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6906e" type="radio"> b. A software module should remain open to modification as long as possible.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6906e" type="radio"> c. A software module should be open to modification and closed to extension.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6906e" type="radio"> d. Open source software rocks. Closed source software sucks.</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)</p>
+                                <p>Explanation: Please refer the handout for the definition of OCP.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-2e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2e</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
+                          </span></strong></span></small> <strong><span>Law of Demeter</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Law of Demeter</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <tip-box type="definition">
+                      <div>
+                        <p><strong>Law of Demeter (LoD)</strong>:</p>
+                        <ul>
+                          <li>An object should have limited knowledge of another object.</li>
+                          <li>An object should only interact with objects that are closely related to it.</li>
+                        </ul>
+                        <p>Also known as</p>
+                        <ul>
+                          <li>Don’t talk to strangers.</li>
+                          <li>Principle of least knowledge</li>
+                        </ul>
+                      </div>
+                    </tip-box>
+                    <p>More concretely, a method <code>m</code> of an object <code>O</code> should invoke only the methods of the following kinds of objects:</p>
+                    <ul>
+                      <li>The object <code>O</code> itself</li>
+                      <li>Objects passed as parameters of <code>m</code></li>
+                      <li>Objects created/instantiated in <code>m</code> (directly or indirectly)</li>
+                      <li>Objects from the <tooltip content="objects that are held by instance variables of">direct association of</tooltip> <code>O</code></li>
+                    </ul>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following code fragment violates LoD due to the reason: while <code>b</code> is a ‘friend’ of <code>foo</code> (because it receives it as a parameter), <code>g</code> is a ‘friend of a friend’ (which should be considered a ‘stranger’), and <code>g.doSomething()</code> is analogous to ‘talking to a stranger’.</p>
+                      <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
+    Goo g = b.getGoo();
+    g.doSomething();
+}
+</code></pre>
+                    </tip-box>
+                    <p><strong>LoD aims to prevent objects navigating internal structures of other objects.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An analogy for LoD can be drawn from Facebook. If Facebook followed LoD, you would not be allowed to see posts of friends of friends, unless they are your friends as well. If Jake is your friend and Adam is Jake’s friend, you should not be allowed to see Adam’s posts unless Adam is a friend of yours as well.</p>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Examples for LoD">
+                            <question has-input="true">
+                              <p>Explain the Law of Demeter using code examples. You are to make up your own code examples. Take Minesweeper as the basis for your code examples.</p>
+                              <div slot="answer">
+                                <p>Let us take the <code>Logic</code> class as an example. Assume that it has the following operation.</p>
+                                <p><code>setMinefield(Minefiled mf):void</code></p>
+                                <p>Consider the following that can happen inside this operation.</p>
+                                <ul>
+                                  <li><code>mf.init();</code>: this does not violate LoD since LoD allows calling operations of parameters received.</li>
+                                  <li><code>mf.getCell(1,3).clear();</code>: //this violates LoD because <code>Logic</code> is handling <code>Cell</code> objects deep inside <code>Minefield</code>. Instead, it should be <code>mf.clearCellAt(1,3);</code></li>
+                                  <li><code>timer.start();</code>: //this does not violate LoD because <code>timer</code> appears to be an internal component (i.e. a variable) of <code>Logic</code> itself.</li>
+                                  <li><code>Cell c = new Cell();</code> <code>c.init();</code>: // this does not violate LoD because <code>c</code> was created inside the operation.</li>
+                                </ul>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LoD violation?">
+                            <question>
+                              <p>This violates Law of Demeter.</p>
+                              <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
+    Goo g =  <span class="hljs-keyword">new</span> Goo();
+    g.doSomething();
+}
+</code></pre>
+                              <ul radio-group="3cf8e" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="3cf8e" type="radio"> True</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="3cf8e" type="radio"> False</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>False</p>
+                                <p>Explanation: The line <code>g.doSomething()</code> does not violate LoD because it is OK to invoke methods of objects created within a method.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Odd one out">
+                            <question>
+                              <p>Pick the odd one out.</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. Law of Demeter.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. Don’t add people to a late project.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. Don’t talk to strangers.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. Principle of least knowledge.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. Coupling.</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(b)</p>
+                                <p>Explanation: Law of Demeter, which aims to reduce coupling, is also known as ‘Don’t talk to strangers’ and ‘Principle of least knowledge’.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+        <p><span id="W10-3"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-3-can-use-more-error-handling-teachniques"><span class="dimmed">[W10.3]</span> <strong>Can use more error handling teachniques</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w10-3-can-use-more-error-handling-teachniques"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <br>
+            <h3 id="can-use-logging"><span class="dimmed"><strong>Can use logging</strong></span><a class="fa fa-anchor" href="#can-use-logging"></a></h3>
+            <p><span id="W10-3a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3a</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Logging →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain logging</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong><em>Logging</em> is the deliberate recording of certain information during a program execution for future reference.</strong> Logs are typically written to a log file but it is also possible to log information in other ways <span class="dimmed"> e.g. into a database or a remote server</span>.</p>
+                    <p><strong><em>Logging</em> can be useful for troubleshooting problems</strong>. A good logging system records some system information regularly. When bad things happen to a system <span class="dimmed"> e.g. an unanticipated failure</span>, their associated log files may provide indications of what went wrong and action can then be taken to prevent it from happening again.</p>
+                    <div v-closeable alt="blackbox photo">
+                      <tip-box>
+                        <p>💡 <strong>A log file is like the <tooltip content="flight data recorder">black box</tooltip> of an airplane</strong>; they don't prevent problems but they can be helpful in understanding what went wrong after the fact.</p>
+                        <div class="non-printable">
+                          <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flight_data_recorder_displayed_at_HAL_Museum_7893.JPG" width="250"><br>
+                            <sub>source:<a href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flight_data_recorder_displayed_at_HAL_Museum_7893.JPG">https://commons.wikimedia.org</a></sub></p>
+                        </div>
+                      </tip-box>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Logging vs blackbox">
+                            <question>
+                              <p>Why is logging like having the 'black box' in an airplane?</p>
+                              <ul radio-group="6f5b0" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6f5b0" type="radio"> a. Because they can be used to find more info about how the system behaved before/during an ‘incident’.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6f5b0" type="radio"> b. Because they are hidden from the view of normal users.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6f5b0" type="radio"> c. Because they both can be in hardcopy form or digital form.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="6f5b0" type="radio"> d. Because they are hard to open by normal users.</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-3b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3b</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Logging →
+                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use logging</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Most programming environments come with logging systems that allow sophisticated forms of logging.</strong> They have features such as the ability to enable and disable logging easily or to change the logging <tooltip content="how much information to record">intensity</tooltip>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This sample Java code uses Java’s default logging mechanism.</p>
+                      <p>First, import the relevant Java package:</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.logging.*;
+</code></pre>
+                      <p>Next, create a <code>Logger</code>:</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Logger logger = Logger.getLogger(<span class="hljs-string">"Foo"</span>);
+</code></pre>
+                      <p>Now, you can use the <code>Logger</code> object to log information. Note the use of <popover content="`INFO`, `WARNING` etc.">logging level</popover> for each message. When running the code, the logging level can be set to <code>WARNING</code> so that log messages specified as <code>INFO</code> level (which is a lower level than <code>WARNING</code>) will not be written to the log file at all.</p>
+                      <pre><code class="hljs java"><span class="hljs-comment">// log a message at INFO level</span>
+logger.log(Level.INFO, <span class="hljs-string">"going to start processing"</span>);
+<span class="hljs-comment">//...</span>
+processInput();
+<span class="hljs-keyword">if</span>(error){
+    <span class="hljs-comment">//log a message at WARNING level</span>
+    logger.log(Level.WARNING, <span class="hljs-string">"processing error"</span>, ex);
+}
+<span class="hljs-comment">//...</span>
+logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
+</code></pre>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
+                        <p><strong>Tutorials</strong>:</p>
+                        <ul>
+                          <li><a href="http://www.vogella.com/tutorials/Logging/article.html"><strong>Java Logging API - Tutorial</strong></a> -- A tutorial by <em>Lars Vogella</em></li>
+                          <li><a href="http://tutorials.jenkov.com/java-logging/index.html"><strong>Java Logging Tutorial</strong></a> -- An alternative tutorial by <em>Jakob Jenkov</em></li>
+                        </ul>
+                        <div v-closeable alt="video:logging">
+                          <ul>
+                            <li>A video tutorial by <em>SimplyCoded</em>:<br></li>
+                          </ul>
+                          <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/W0_Man88Z3Q" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                        </div>
+                        <p><strong>Best Practices</strong>:</p>
+                        <ul>
+                          <li><a href="https://www.javacodegeeks.com/2011/01/10-tips-proper-application-logging.html"><strong>10 Tips for Proper Application Logging</strong></a> -- by <em>Tomasz Nurkiewicz</em></li>
+                          <li><a href="http://commons.apache.org/proper/commons-logging/guide.html#Message_PrioritiesLevels"><strong>What each logging level means</strong></a> -- conventions recommended by <em>Apache Project</em></li>
+                        </ul>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <br>
+            <h3 id="can-use-assertions"><span class="dimmed"><strong>Can use assertions</strong></span><a class="fa fa-anchor" href="#can-use-assertions"></a></h3>
+            <p><span id="W10-3c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3c</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Assertions →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain assertions</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong><em>Assertions</em> are used to define assumptions about the program state so that the runtime can verify them.</strong> An assertion failure indicates a possible bug in the code <span class="dimmed">because the code has resulted in a program state that violates an assumption about how the code <em>should</em> behave</span>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An assertion can be used to express something like <em>when the execution comes to this point, the variable <code>v</code> cannot be null</em>.</p>
+                    </tip-box>
+                    <p><strong>If the runtime detects an <em>assertion failure</em>, it typically take some drastic action</strong> such as terminating the execution with an error message. This is because an assertion failure indicates a possible bug and the sooner the execution stops, the safer it is.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the Java code below, suppose we set an assertion that <code>timeout</code> returned by <code>Config.getTimeout()</code> is greater than <code>0</code>. Now, if the <code>Config.getTimeout()</code> returned <code>-1</code> in a specific execution of this line, the runtime can detect it as a <em>assertion failure</em> -- i.e. an assumption about the expected behavior of the code turned out to be wrong which could potentially be the result of a bug -- and take some drastic action such as terminating the execution.</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">int</span> timeout = Config.getTimeout(); 
+</code></pre>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-3d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3d</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Assertions →
+                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div>
+                    <p>
+                      <panel src="/website/book/errorHandling/assertions/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Error Handling → Assertions → What%%" popup-url="/website/book/errorHandling/assertions/what"></panel>
+                    </p>
+                  </div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use assertions</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Use the <code>assert</code> keyword to define assertions.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This assertion will fail with the message <code>x should be 0</code> if <code>x</code> is not 0 at this point.</p>
+                      <pre><code class="hljs java">x = getX();
+<span class="hljs-keyword">assert</span> x == <span class="hljs-number">0</span> : <span class="hljs-string">"x should be 0"</span>;
+...
+</code></pre>
+                    </tip-box>
+                    <p><strong>Assertions can be disabled without modifying the code.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -enableassertions HelloWorld</code> (or <code>java -ea HelloWorld</code>) will run <code>HelloWorld</code> with assertions enabled while <code>java -disableassertions HelloWorld</code> will run it without verifying assertions.</p>
+                    </tip-box>
+                    <tip-box type="important">
+                      <p><strong>Java disables assertions by default.</strong> This could create a situation where you think all assertions are being verified as <code>true</code> while in fact they are not being verified at all. Therefore, remember to enable assertions when you run the program if you want them to be in effect.</p>
+                    </tip-box>
+                    <p>💡 Enable assertions in Intellij (<a href="https://stackoverflow.com/questions/18168257/where-to-add-compiler-options-like-ea-in-intellij-idea">how?</a>) and get an assertion to fail temporarily (e.g. insert an <code>assert false</code> into the code temporarily) to confirm assertions are being verified.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <strong>Java <code>assert</code> vs JUnit assertions: They are similar in purpose but JUnit assertions are more powerful and customized for testing.</strong> In addition, JUnit assertions are not disabled by default. We recommend you use JUnit assertions in test code and Java <code>assert</code> in functional code.</p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
+                        <p><strong>Tutorials</strong>:</p>
+                        <ul>
+                          <li><a href="https://www.javatpoint.com/assertion-in-java"><strong>Java Assertions</strong></a> -- a simple tutorial from <em><a href="http://javatpoint.com">javatpoint.com</a></em></li>
+                          <li><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html"><strong>Programming with Assertions</strong> (first half)</a> -- a more detailed tutorial from <em>Oracle</em></li>
+                        </ul>
+                        <p><strong>Best practices</strong>:</p>
+                        <ul>
+                          <li><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html#usage"><strong>Programming with Assertions</strong> (second half)</a> -- <em>from Oracle</em> (also listed above as a tutorial) contains some best practices towards the end of the article.</li>
+                        </ul>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-3e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3e</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Assertions →
+                          </span></strong></span></small> <strong><span>When</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div>
+                    <p>
+                      <panel src="/website/book/errorHandling/assertions/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Error Handling → Assertions → What%%" popup-url="/website/book/errorHandling/assertions/what"></panel>
+                      <panel src="/website/book/errorHandling/exceptions/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Error Handling → Exceptions → What%%" popup-url="/website/book/errorHandling/exceptions/what"></panel>
+                    </p>
+                  </div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use assertions optimally</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>It is recommended that assertions be used liberally in the code.</strong> Their impact on performance is considered low and worth the additional safety they provide.</p>
+                    <p><strong>Do not use assertions to do <em>work</em></strong> because assertions can be disabled. If not, your program will stop working when assertions are not enabled.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below will not invoke the <code>writeFile()</code> method when assertions are disabled. <span class="dimmed"> If that method is performing some work that is necessary for your program, your program will not work correctly when assertions are disabled.</span></p>
+                      <pre><code class="hljs java">...
+<span class="hljs-function"><span class="hljs-keyword">assert</span> <span class="hljs-title">writeFile</span><span class="hljs-params">()</span> : "File writing is supposed to return <span class="hljs-keyword">true</span>"</span>;
+</code></pre>
+                    </tip-box>
+                    <p><strong>Assertions are suitable for verifying assumptions about <em>Internal Invariants</em>, <em>Control-Flow Invariants</em>,
+                        <em>Preconditions</em>, <em>Postconditions</em>, and <em>Class Invariants</em>.</strong> Refer to [<a href="http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html#usage">Programming with Assertions (second half)</a>] to learn more.</p>
+                    <p><strong>Exceptions and assertions are two complementary ways of handling errors in software but they serve different purposes.</strong> Therefore, both assertions and exceptions should be used in code.</p>
+                    <ul>
+                      <li>The raising of an exception indicates an unusual condition created by the user <span class="dimmed"> (e.g. user inputs an unacceptable input)</span> or the environment <span class="dimmed"> (e.g., a file needed for the program is missing)</span>.</li>
+                      <li>An assertion failure indicates the programmer made a mistake in the code <span class="dimmed"> (e.g., a null value is returned from a method that is not supposed to return null under any circumstances)</span>.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Assertions failure in Calculator">
+                            <question>
+                              <p>A Calculator program crashes with an ‘assertion failure’ message when you try to find the square root of a negative number.</p>
+                              <ul radio-group="f7dad" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="f7dad" type="radio"> a. This is a correct use of assertions.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="f7dad" type="radio"> b. The application should have terminated with an exception instead.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="f7dad" type="radio"> c. The program has a bug.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="f7dad" type="radio"> d. All statements above are incorrect.</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(c)</p>
+                                <p>Explanation: An assertion failure indicates a bug in the code. (b) is not acceptable because of the word &quot;terminated&quot;. The application should not fail at all for this input. But it could have used an exception to handle the situation internally.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about exceptions and assertions">
+                            <question>
+                              <p>Which statements are correct?</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. Use assertions to indicate the programmer messed up; Use exceptions to indicate the user or the environment messed up.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. Use exceptions to indicate the programmer messed up; Use assertions to indicate the user or the environment messed up.</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W10-4"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-4-can-use-java8-streams"><span class="dimmed">[W10.4]</span> <strong>Can use Java8 streams</strong> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-4-can-use-java8-streams"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W10-4a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.4a</span></span> <span class="dimmed"><strong><span>Tools → Java →
+                          </span></strong></span></small> <strong><span>Streams: Basic</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java8 streams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Java 8 introduced a number of new features (e.g. Lambdas, Streams)</strong> that are not trivial to learn but also extremely useful to know.</p>
+                    <p><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/">Here</a> is an overview of new Java 8 features .<span class="dimmed"> (written by Benjamin Winterberg)</span></p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
+                        <p><strong>Tutorials</strong>:</p>
+                        <tabs>
+                            <tab header="<md>:far-file-alt:</md>">
+                            <ul>
+                              <li><a href="https://www.tutorialspoint.com/java8/"><strong>Java 8 Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a>. 💡 Also provides a way to try out code online</li>
+                              <li><strong>Tutorials from Oracle</strong>: [<a href="http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html">Lambdas</a>][<a href="http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html">Streams</a>]</li>
+                            </ul>
+                            <p></p>
+                          </tab>
+                            <tab header="<md>:glyphicon-facetime-video:</md>">
+                            <p>A video tutorial by well-known Java coach Venkat Subramaniam</p>
+                            <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Ee5t_EGjv0A" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                            <panel type="seamless" header="A a more detailed version covering similar grounds">
+                              <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/1OpAgZvYXLQ" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                            </panel>
+                          </tab>
+                        </tabs>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W10-5"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-5-can-use-javafx-to-build-a-simple-gui"><span class="dimmed">[W10.5]</span> <strong>Can use JavaFX to build a simple GUI</strong> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-5-can-use-javafx-to-build-a-simple-gui"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W10-5a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.5a</span></span> <span class="dimmed"><strong><span>Tools → Java →
+                          </span></strong></span></small> <strong><span>JavaFX: Basic</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use JavaFX to build a simple GUI</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><span class="dimmed">Adapted (with permissions) from <a href="http://code.makery.ch/library/javafx-8-tutorial/">Marco Jakob's JavaFX 8 tutorial</a>.</span></p>
+                    <panel header="**Part 1: Scene Builder**" minimized>
+                      <div>
+                        <h1 id="javafx-9-tutorial-part-1-scene-builder">JavaFx 9 Tutorial - Part 1: Scene Builder<a class="fa fa-anchor" href="#javafx-9-tutorial-part-1-scene-builder"></a></h1>
+                        <h2 id="introduction">Introduction<a class="fa fa-anchor" href="#introduction"></a></h2>
+                        <p>This tutorial will teach you how to create a new JavaFX application in IntelliJ, and to use the SceneBuilder to create a layouts for your application.</p>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/address-app-final-screenshot.png" alt="Final Screenshot" height="350">
+                        <p></p>
+                        <h2 id="prerequisites">Prerequisites<a class="fa fa-anchor" href="#prerequisites"></a></h2>
+                        <ul>
+                          <li>Latest <a href="http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java JDK 9</a> (includes <em>JavaFX 9</em>)</li>
+                          <li>IntelliJ (2018.2 or later)</li>
+                          <li><a href="http://gluonhq.com/products/scene-builder/">SceneBuilder 8</a> (provided by Gluon as <a href="http://www.oracle.com/technetwork/java/javase/downloads/sb2download-2177776.html">Oracle no longer ships the tool in binary form</a>)</li>
+                        </ul>
+                        <tip-box type="tip">
+                          <p>Do remember the installation path to SceneBuilder 8 as we will need it to configure IntelliJ in a later step.</p>
+                        </tip-box>
+                        <h2 id="intellij-configurations">IntelliJ Configurations<a class="fa fa-anchor" href="#intellij-configurations"></a></h2>
+                        <p>If this is the first time using IntelliJ, you need to tell IntelliJ where to find JDK 9 and SceneBuilder.</p>
+                        <h3 id="configuring-jdk-9">Configuring JDK 9<a class="fa fa-anchor" href="#configuring-jdk-9"></a></h3>
+                        <ol>
+                          <li>On the Welcome screen, press <code>Configure</code> → <code>Project Default</code> → <code>Project Structure</code>.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/config-jdk-welcome-screen.png" alt="Welcome Screen" height="380">
+                        <p></p>
+                        <ul>
+                          <li>If you already have a project open, go to the Welcome screen by going to <code>File</code> → <code>Close Project</code>.</li>
+                        </ul>
+                        <ol start="2">
+                          <li>Under <code>Project SDK:</code>, press <code>New...</code> → <code>JDK</code>.</li>
+                          <li>Select the directory that you install JDK on, and press <code>OK</code>.</li>
+                          <li>Under <code>Project language level:</code>, select <code>9 - Modules, private methods in interfaces etc.</code>.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/config-jdk-project-structure.png" alt="JDK 9 under Project Structure" height="350">
+                        <p></p>
+                        <ol start="4">
+                          <li>Press <code>OK</code> again.</li>
+                        </ol>
+                        <h3 id="configuring-scene-builder">Configuring Scene Builder<a class="fa fa-anchor" href="#configuring-scene-builder"></a></h3>
+                        <ol>
+                          <li>On the Welcome screen, press <code>Configure</code> → <code>Settings</code>.</li>
+                          <li>On the left hand side, select <code>Languages &amp; Frameworks</code> → <code>JavaFX</code></li>
+                          <li>Under <code>Path to SceneBuilder:</code>, select the path to where SceneBuilder is installed (e.g. <code>C:\Users\Admin\AppData\Local\SceneBuilder\SceneBuilder.exe</code> on Windows)</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/config-scene-builder-settings.png" alt="Scene Builder settings" height="350">
+                        <p></p>
+                        <tip-box type="info" header="Helpful Links">
+                          <p>The JavaDocs will come in handy when writing your own JavaFX applications:</p>
+                          <ul>
+                            <li><a href="https://docs.oracle.com/javase/9/docs/api">Java 9 API</a></li>
+                            <li><a href="https://docs.oracle.com/javase/9/docs/api/overview-summary.html">JavaFX 9 API</a></li>
+                            <li><a href="http://controlsfx.bitbucket.org/">ControlsFX API</a></li>
+                          </ul>
+                          <p>Additionally, <a href="http://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm">Oracle also has a tutorial on JavaFX</a> if you are interested.</p>
+                        </tip-box>
+                        <h2 id="create-a-new-javafx-project">Create a new JavaFX Project<a class="fa fa-anchor" href="#create-a-new-javafx-project"></a></h2>
+                        <ol>
+                          <li>On the Welcome screen, press <code>Create New Project</code>.</li>
+                        </ol>
+                        <ul>
+                          <li>If you already have a project, you can create a new project by going <code>File</code> → <code>New</code> → <code>Project...</code>.</li>
+                        </ul>
+                        <ol start="2">
+                          <li>On the left side, select <code>JavaFX</code>. Make sure that the Project SDK is set to <code>9</code> and <code>JavaFX Application</code> is selected.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/new-project.png" alt="New Project" height="350">
+                        <p></p>
+                        <ol start="3">
+                          <li>Press <code>Next</code>.</li>
+                          <li>Give a name for the application (e.g. <code>AddressApp</code>), and specify a suitable location.</li>
+                          <li>Press <code>Finish</code>. If prompted to create a new directory, just press <code>OK</code>.</li>
+                        </ol>
+                        <p>Remove the <code>sample</code> package and its content. We will manually create our own package and resources in our tutorial.</p>
+                        <p>We will also have to set up the IDE further, so that warnings and errors show up correctly when working with Java 9:</p>
+                        <ol>
+                          <li>Go to the menu <code>File</code> → <code>Project Structure</code>.</li>
+                          <li>Under <code>Project language level:</code>, ensure that <code>9 - Modules, private methods in interfaces etc.</code> is selected.</li>
+                        </ol>
+                        <h2 id="create-the-packages">Create the Packages<a class="fa fa-anchor" href="#create-the-packages"></a></h2>
+                        <p>In We will create a package for each of the component. Ensure that your Project pane is open (<kbd>Alt</kbd>+<kbd>1</kbd>). Right click on the <code>src</code> folder, and select <code>New</code> → <code>Package</code>:</p>
+                        <ul>
+                          <li><code>seedu.address</code> - contains the <em>controller</em> classes (i.e. the part that deals with the business logic)</li>
+                          <li><code>seedu.address.model</code> - contains the <em>model</em> classes (i.e. the part that deals with data)</li>
+                          <li><code>seedu.address.view</code> - contains the <em>views</em> (i.e. the part that deals with presenting the data to the user)</li>
+                        </ul>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/new-packages.png" alt="New Packages" height="200">
+                        <p></p>
+                        <tip-box type="info">
+                          <p>In subsequent tutorials, our <code>view</code> package will also contain some controllers that are directly related to a single view. We will call them <code>view-controllers</code>.</p>
+                        </tip-box>
+                        <h2 id="create-the-fxml-layout-file">Create the FXML Layout File<a class="fa fa-anchor" href="#create-the-fxml-layout-file"></a></h2>
+                        <p>There are two ways to create the UI:</p>
+                        <ul>
+                          <li>Use FXML, which is an XML format.</li>
+                          <li>Programmatically create the interface in Java.</li>
+                        </ul>
+                        <p>We will use FXML for most parts, so that we can separate the view and controller from each other. Furthermore, we are able to use the Scene Builder tool to edit our FXML file. That means we will not have to directly work with XML.</p>
+                        <p>Right click on the <code>view</code> package, and press <code>New</code> → <code>FXML file</code>. For the file name, type <code>PersonOverview.fxml</code>.</p>
+                        <h2 id="design-with-scene-builder">Design with Scene Builder<a class="fa fa-anchor" href="#design-with-scene-builder"></a></h2>
+                        <p>Right-click on <code>PersonOverview.fxml</code> and choose <code>Open with Scene Builder</code>. Now you should see the Scene Builder with just an AnchorPane (visible under Hierarchy on the left).</p>
+                        <tip-box type="info">
+                          <p>If IntelliJ prompts for a location of the SceneBuilder executable, make sure to point to where you install SceneBuilder.</p>
+                        </tip-box>
+                        <ol>
+                          <li>Select the <code>Anchor Pane</code> in your Hierarchy, and adjust the size under Layout (right side). (Pref Width: 600, Pref Height: 300)</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-main-anchor.png" height="350">
+                        <p></p>
+                        <ol start="2">
+                          <li>Add a <code>Split Pane (horizontal)</code> (under <code>Containers</code>) by dragging it from the Library into the main area. Right-click the <code>Split Pane</code> in the Hierarchy view and select <code>Fit to Parent</code>.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-fit-to-parent.png" height="250">
+                        <p></p>
+                        <ol start="3">
+                          <li>Drag a <code>TableView</code> (under <code>Controls</code> in Library view) into the left side of the <code>SplitPane</code>. Select the <code>TableView</code> (not a Column) and set the following layout constraints in the Inspector to the <code>TableView</code>. Inside an <code>AnchorPane</code> you can always set anchors to the four borders (see <a href="http://docs.oracle.com/javase/8/javafx/layout-tutorial/builtin_layouts.htm">this page</a> for more information on Layouts).</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-table-anchors.png" height="250">
+                        <p></p>
+                        <ol start="4">
+                          <li>
+                            <p>Go to the menu <code>Preview</code> → <code>Show Preview in Window</code> to see whether the layout configuration is done correctly. Try resizing the window. The <code>TableView</code> should resize together with the window as it is anchored to the borders.</p>
+                          </li>
+                          <li>
+                            <p>Change the column text (under Properties) to &quot;First Name&quot; and &quot;Last Name&quot;.</p>
+                          </li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-table-columns.png" height="250">
+                        <p></p>
+                        <ol start="6">
+                          <li>Select the <code>TableView</code> and choose <code>constrainted-resize</code> for the 'Column Resize Policy'. This ensures that the columns will always fill up the entire available space.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-table-columns-resize.png" height="200">
+                        <p></p>
+                        <ol start="7">
+                          <li>Add a <code>Label</code> on the right side with the text &quot;Person Details:&quot;. Adjust the layout using anchors (Top: 5, Left: 5. Right: Blank, Bottom: Blank).</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-title-label.png" width="800">
+                        <p></p>
+                        <tip-box type="tip">
+                          <p>You can use the Search Bar at the top of Library/Inspector to find the respective controls/properties.</p>
+                        </tip-box>
+                        <ol start="8">
+                          <li>Add a <code>GridPane</code> on the right side. Select it, and adjust its layout using anchors (Top: 30, Left: 5, Right: 5, Bottom: Blank).</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-1.png" width="600">
+                        <p></p>
+                        <ol start="9">
+                          <li>Add the following labels to the cells, such that the grid is of this form:</li>
+                        </ol>
+                        <div class="table-responsive">
+                          <table class="markbind-table table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                <th>First Name</th>
+                                <th>Label</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Last Name</td>
+                                <td>Label</td>
+                              </tr>
+                              <tr>
+                                <td>Street</td>
+                                <td>Label</td>
+                              </tr>
+                              <tr>
+                                <td>City</td>
+                                <td>Label</td>
+                              </tr>
+                              <tr>
+                                <td>Postal Code</td>
+                                <td>Label</td>
+                              </tr>
+                              <tr>
+                                <td>Birthday</td>
+                                <td>Label</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <tip-box type="tip">
+                          <p>To add a row to the GridPane, select an existing row number, right click the row number and choose &quot;Add Row Below&quot;.</p>
+                        </tip-box>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-2.png" height="250">
+                        <p></p>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-3.png" height="280">
+                        <p></p>
+                        <ol start="10">
+                          <li>Add a <code>ButtonBar</code> at the bottom. Add three buttons to the bar (&quot;New...&quot;, &quot;Edit...&quot;,&quot;Delete&quot;). Adjust the anchors so that it stays at the bottom right (Top: Blank, Left: Blank, Right: 10, Bottom: 5).</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-button-bar.png" height="50">
+                        <p></p>
+                        <ol start="11">
+                          <li>Now you should see something like the following. Use the <code>Preview</code> menu to test its resizing behaviour.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-final.png" height="300">
+                        <p></p>
+                        <ol start="12">
+                          <li>Save the <code>.fxml</code> file.</li>
+                        </ol>
+                        <h2 id="create-the-main-application">Create the Main Application<a class="fa fa-anchor" href="#create-the-main-application"></a></h2>
+                        <p>The <code>PersonOverview.fxml</code> that we just created only contains the content of our entire application. We need another FXML for our root layout, which will contain a menu bar and wraps <code>PersonOverview.fxml</code>.</p>
+                        <ol>
+                          <li>Inside IntelliJ, right click on the <code>view</code> package, and press <code>New</code> → <code>FXML file</code>. For the file name, type <code>RootLayout.fxml</code>.</li>
+                          <li>Right-click on <code>RootLayout.fxml</code> and choose <code>Open with Scene Builder</code>.</li>
+                          <li>Delete the <code>AnchorPane</code>. We will use another pane for our root layout.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-delete-anchor-pane.png" height="230">
+                        <p></p>
+                        <ol start="4">
+                          <li>Add <code>BorderPane</code> by dragging it from the Library view into the main area.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-add-border-pane.png" height="380">
+                        <p></p>
+                        <ol start="5">
+                          <li>Resize the <code>BorderPane</code> (Pref Width: 600, Pref Height: 400)</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-resize.png" height="280">
+                        <p></p>
+                        <ol start="6">
+                          <li>Add a <code>MenuBar</code> into the <code>insert TOP</code> slot. We will not implement menu functionality for now.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-menu-bar.png" height="100">
+                        <p></p>
+                        <h2 id="the-javafx-main-class">The JavaFX Main Class<a class="fa fa-anchor" href="#the-javafx-main-class"></a></h2>
+                        <p>Now, we need to create the <em>main Java class</em> that starts up our application with the <code>RootLayout.fxml</code> and adds the <code>PersonOverview.fxml</code> in the center.</p>
+                        <p>Right-click on your <code>seedu.address</code> package, and choose <code>New</code> → <code>JavaFXApplication</code>. For the class name, type <code>MainApp</code>.</p>
+                        <p>The generated <code>MainApp.java</code> class extends from <code>Application</code> and contains two methods. This is the basic structure that we need to start a JavaFX Application. The most important part for us is the <code>start(Stage primaryStage)</code> method. It is automatically called when the application is <code>launch()</code> from within the <code>main()</code> method.</p>
+                        <p>As you see, the <code>start(...)</code> method receives a <code>Stage</code> as parameter. The following graphic illustrates the structure of every JavaFX application:</p>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/javafx-hierarchy.png" height="350">
+                        <p></p>
+                        <p>Image Source: <a href="http://www.oracle.com">http://www.oracle.com</a></p>
+                        <p><em>It's like a theater play:</em> The <code>Stage</code> is the main container which is usually a <code>Window</code> with a border and the typical minimize, maximize and close buttons. Inside the <code>Stage</code> you add a <code>Scene</code> which can, of course, be switched out by another <code>Scene</code>. Inside the <code>Scene</code> the actual JavaFX nodes like <code>AnchorPane</code>, <code>TextBox</code>, etc. are added.</p>
+                        <p>See <a href="http://docs.oracle.com/javase/8/javafx/scene-graph-tutorial/scenegraph.htm">this page</a> for more info on working with the JavaFX Scene Graph.</p>
+                        <hr>
+                        <p>Open <code>MainApp.java</code> and replace the code with the following:</p>
+                        <p><strong>MainApp.java</strong></p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.address;
+
+<span class="hljs-keyword">import</span> java.io.IOException;
+
+<span class="hljs-keyword">import</span> javafx.application.Application;
+<span class="hljs-keyword">import</span> javafx.fxml.FXMLLoader;
+<span class="hljs-keyword">import</span> javafx.scene.Scene;
+<span class="hljs-keyword">import</span> javafx.scene.layout.AnchorPane;
+<span class="hljs-keyword">import</span> javafx.scene.layout.BorderPane;
+<span class="hljs-keyword">import</span> javafx.stage.Stage;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MainApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Application</span> </span>{
+    <span class="hljs-keyword">private</span> Stage primaryStage;
+    <span class="hljs-keyword">private</span> BorderPane rootLayout;
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">start</span><span class="hljs-params">(Stage primaryStage)</span> </span>{
+        <span class="hljs-keyword">this</span>.primaryStage = primaryStage;
+        <span class="hljs-keyword">this</span>.primaryStage.setTitle(<span class="hljs-string">"AddressApp"</span>);
+
+        initRootLayout();
+
+        showPersonOverview();
+    }
+
+    <span class="hljs-comment">/**
+     * Initializes the root layout.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">initRootLayout</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">try</span> {
+            <span class="hljs-comment">// Load root layout from fxml file.</span>
+            FXMLLoader loader = <span class="hljs-keyword">new</span> FXMLLoader();
+            loader.setLocation(MainApp.class.getResource(<span class="hljs-string">"view/RootLayout.fxml"</span>));
+            rootLayout = loader.load();
+
+            <span class="hljs-comment">// Show the scene containing the root layout.</span>
+            Scene scene = <span class="hljs-keyword">new</span> Scene(rootLayout);
+            primaryStage.setScene(scene);
+            primaryStage.show();
+        } <span class="hljs-keyword">catch</span> (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    <span class="hljs-comment">/**
+     * Shows the person overview inside the root layout.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showPersonOverview</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">try</span> {
+            <span class="hljs-comment">// Load person overview.</span>
+            FXMLLoader loader = <span class="hljs-keyword">new</span> FXMLLoader();
+            loader.setLocation(MainApp.class.getResource(<span class="hljs-string">"view/PersonOverview.fxml"</span>));
+            AnchorPane personOverview = loader.load();
+
+            <span class="hljs-comment">// Set person overview into the center of root layout.</span>
+            rootLayout.setCenter(personOverview);
+        } <span class="hljs-keyword">catch</span> (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    <span class="hljs-comment">/**
+     * Returns the main stage.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Stage <span class="hljs-title">getPrimaryStage</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> primaryStage;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        launch(args);
+    }
+}
+</code></pre>
+                        <p>The various comments should give you some hints about what's going on.</p>
+                        <h2 id="importing-javafx-9">Importing JavaFx 9<a class="fa fa-anchor" href="#importing-javafx-9"></a></h2>
+                        <p>JavaFx 9 is a separate module from Java 9. We must ensure that the modules are imported correctly.</p>
+                        <p>Notice that IntellJ will complain about the imported modules &quot;not being in the module graph&quot;:</p>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/javafx-import-error.png" height="100">
+                        <p></p>
+                        <p>To fix this:</p>
+                        <ol>
+                          <li>Ensure that your Project pane is open (<kbd>Alt</kbd>+<kbd>1</kbd>). Right click on the <code>src</code> folder, and select <code>New</code> → <code>module-info.java</code>:</li>
+                          <li>Add the following <code>requires</code> and <code>exports</code> in order to import and export the modules correctly:</li>
+                        </ol>
+                        <pre><code class="hljs java"><span class="hljs-keyword">module</span> AddressApp {
+    <span class="hljs-keyword">requires</span> javafx.graphics;
+    <span class="hljs-keyword">requires</span> javafx.fxml;
+    <span class="hljs-keyword">requires</span> javafx.controls;
+
+    <span class="hljs-keyword">exports</span> seedu.address;
+}
+</code></pre>
+                        <h2 id="running-the-application">Running the Application<a class="fa fa-anchor" href="#running-the-application"></a></h2>
+                        <p>If you run the application now (right click <code>MainApp.java</code> and select <code>Run MainApp.main()</code>), you should see something like this:</p>
+                        <img src="/website/book/javaTools/javaFXBasic/part01/images/address-app-final-screenshot.png" height="350">
+                        <p></p>
+                        <h2 id="possible-issues">Possible Issues<a class="fa fa-anchor" href="#possible-issues"></a></h2>
+                        <p>If JavaFx fails to load <code>PersonOverview.fxml</code>, you might get the following error message:</p>
+                        <pre><code class="hljs">javafx.fxml.LoadException:
+/.../AddressApp/out/production/AddressApp/seedu/address/view/PersonOverview.fxml:15
+</code></pre>
+                        <p>To solve this issue, open <code>PersonOverview.fxml</code> normally in IntelliJ and ensure that there is no such attribute around:</p>
+                        <p><code>fx:controller=&quot;seedu.address.view.PersonOverview&quot;</code></p>
+                      </div>
+                    </panel>
+                    <panel header="**Part 2: Model and TableView**" minimized>
+                      <div>
+                        <h1 id="javafx-9-tutorial-part-2-model-and-tableview">JavaFx 9 tutorial - Part 2: Model and TableView<a class="fa fa-anchor" href="#javafx-9-tutorial-part-2-model-and-tableview"></a></h1>
+                        <h2 id="introduction-2">Introduction<a class="fa fa-anchor" href="#introduction-2"></a></h2>
+                        <p>In this tutorial, we will create the other parts of the application (mainly the model and the controller). We will also use <code>ObservableList</code> and <code>*Property</code> to bind our list of new model's <code>Person</code>s, and their individual details, to the view, with the controller as the &quot;middleman&quot;.</p>
+                        <img src="/website/book/javaTools/javaFXBasic/part02/images/address-app-final-screenshot.png" height="350">
+                        <p></p>
+                        <h2 id="create-the-model-class">Create the Model class<a class="fa fa-anchor" href="#create-the-model-class"></a></h2>
+                        <p>We need a model class in order to hold information about the people in our address book. Add a new class to the <code>model</code> package (<code>seedu.address.model</code>) called <code>Person</code>. The <code>Person</code> class will encapsulate the details of an individual person such as name, address and birthday. Add the following code to the class. The JavaFX specifics will be explained after the code snippet.</p>
+                        <p><strong>Person.java</strong></p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.address.model;
+
+<span class="hljs-keyword">import</span> java.time.LocalDate;
+
+<span class="hljs-keyword">import</span> javafx.beans.property.IntegerProperty;
+<span class="hljs-keyword">import</span> javafx.beans.property.ObjectProperty;
+<span class="hljs-keyword">import</span> javafx.beans.property.SimpleIntegerProperty;
+<span class="hljs-keyword">import</span> javafx.beans.property.SimpleObjectProperty;
+<span class="hljs-keyword">import</span> javafx.beans.property.SimpleStringProperty;
+<span class="hljs-keyword">import</span> javafx.beans.property.StringProperty;
+
+<span class="hljs-comment">/**
+ * Model class for a Person.
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty firstName;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty lastName;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty street;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> IntegerProperty postalCode;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty city;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> ObjectProperty&lt; LocalDate &gt; birthday;
+
+    <span class="hljs-comment">/**
+     * Default constructor.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Person</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">this</span>(<span class="hljs-keyword">null</span>, <span class="hljs-keyword">null</span>);
+    }
+
+    <span class="hljs-comment">/**
+     * Constructor with some initial data.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Person</span><span class="hljs-params">(String firstName, String lastName)</span> </span>{
+        <span class="hljs-keyword">this</span>.firstName = <span class="hljs-keyword">new</span> SimpleStringProperty(firstName);
+        <span class="hljs-keyword">this</span>.lastName = <span class="hljs-keyword">new</span> SimpleStringProperty(lastName);
+
+        <span class="hljs-comment">// Some initial dummy data, just for convenient testing.</span>
+        <span class="hljs-keyword">this</span>.street = <span class="hljs-keyword">new</span> SimpleStringProperty(<span class="hljs-string">"some street"</span>);
+        <span class="hljs-keyword">this</span>.postalCode = <span class="hljs-keyword">new</span> SimpleIntegerProperty(<span class="hljs-number">1234</span>);
+        <span class="hljs-keyword">this</span>.city = <span class="hljs-keyword">new</span> SimpleStringProperty(<span class="hljs-string">"some city"</span>);
+        <span class="hljs-keyword">this</span>.birthday = <span class="hljs-keyword">new</span> SimpleObjectProperty&lt; LocalDate &gt;(LocalDate.of(<span class="hljs-number">1999</span>, <span class="hljs-number">2</span>, <span class="hljs-number">21</span>));
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFirstName</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> firstName.get();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFirstName</span><span class="hljs-params">(String firstName)</span> </span>{
+        <span class="hljs-keyword">this</span>.firstName.set(firstName);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">firstNameProperty</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> firstName;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getLastName</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> lastName.get();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setLastName</span><span class="hljs-params">(String lastName)</span> </span>{
+        <span class="hljs-keyword">this</span>.lastName.set(lastName);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">lastNameProperty</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> lastName;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStreet</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> street.get();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setStreet</span><span class="hljs-params">(String street)</span> </span>{
+        <span class="hljs-keyword">this</span>.street.set(street);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">streetProperty</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> street;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getPostalCode</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> postalCode.get();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setPostalCode</span><span class="hljs-params">(<span class="hljs-keyword">int</span> postalCode)</span> </span>{
+        <span class="hljs-keyword">this</span>.postalCode.set(postalCode);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> IntegerProperty <span class="hljs-title">postalCodeProperty</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> postalCode;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getCity</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> city.get();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setCity</span><span class="hljs-params">(String city)</span> </span>{
+        <span class="hljs-keyword">this</span>.city.set(city);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">cityProperty</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> city;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> LocalDate <span class="hljs-title">getBirthday</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> birthday.get();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setBirthday</span><span class="hljs-params">(LocalDate birthday)</span> </span>{
+        <span class="hljs-keyword">this</span>.birthday.set(birthday);
+    }
+
+    <span class="hljs-keyword">public</span> ObjectProperty&lt; LocalDate &gt; birthdayProperty() {
+        <span class="hljs-keyword">return</span> birthday;
+    }
+}
+</code></pre>
+                        <h3 id="explanations">Explanations<a class="fa fa-anchor" href="#explanations"></a></h3>
+                        <ul>
+                          <li>With JavaFX, it is common to use <code>*Property</code> for all fields of a model class. A <code>Property</code> allows us, for example, to automatically be notified when the <code>lastName</code> or any other variable is changed. This helps us keep the view in sync with the data.</li>
+                          <li>To learn more about <code>*Property</code>, refer to <a href="http://docs.oracle.com/javase/8/javafx/properties-binding-tutorial/binding.htm">Using JavaFX Properties and Binding</a></li>
+                          <li><code>LocalDate</code>, the type that we are using for <code>birthday</code>, is part of the <a href="http://docs.oracle.com/javase/tutorial/datetime/iso/">new Date and Time API since JDK 8</a></li>
+                        </ul>
+                        <h2 id="a-list-of-persons">A List of Persons<a class="fa fa-anchor" href="#a-list-of-persons"></a></h2>
+                        <p>The main data that our application manages is simply a bunch of persons. Let's create a list of <code>Person</code> objects inside the <code>MainApp</code> class. All other controller classes will later get access to that central list inside the <code>MainApp</code>.</p>
+                        <h3 id="observablelist">ObservableList<a class="fa fa-anchor" href="#observablelist"></a></h3>
+                        <p>We are working with JavaFX view classes that need to be informed about any changes made to the list of persons. This is important, since otherwise the view would not be in sync with the data. For this purpose, JavaFX introduces some new <a href="http://docs.oracle.com/javase/8/javafx/collections-tutorial/collections.htm">Collection classes</a>.</p>
+                        <p>Among all these collections, we need the <code>ObservableList</code>. To create a new <code>ObservableList</code>, add the following code at the beginning of the <code>MainApp</code> class. We'll also add a constructor that creates some sample data and a public getter method:</p>
+                        <p><strong>MainApp.java</strong></p>
+                        <pre><code class="hljs java"><span class="hljs-comment">// ... AFTER THE OTHER VARIABLES ...</span>
+
+<span class="hljs-comment">/**
+* The data as an observable list of {<span class="hljs-doctag">@link</span> Person}.
+*/</span>
+<span class="hljs-keyword">private</span> ObservableList&lt; Person &gt; personData = FXCollections.observableArrayList();
+
+    <span class="hljs-comment">/**
+     * Constructor
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MainApp</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// Add some sample data</span>
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Hans"</span>, <span class="hljs-string">"Muster"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Ruth"</span>, <span class="hljs-string">"Mueller"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Heinz"</span>, <span class="hljs-string">"Kurz"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Cornelia"</span>, <span class="hljs-string">"Meier"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Werner"</span>, <span class="hljs-string">"Meyer"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Lydia"</span>, <span class="hljs-string">"Kunz"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Anna"</span>, <span class="hljs-string">"Best"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Stefan"</span>, <span class="hljs-string">"Meier"</span>));
+        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Martin"</span>, <span class="hljs-string">"Mueller"</span>));
+    }
+
+    <span class="hljs-comment">/**
+     * Returns the data as an observable list of {<span class="hljs-doctag">@link</span> Person}.
+     */</span>
+    <span class="hljs-keyword">public</span> ObservableList&lt; Person &gt; getPersonData() {
+        <span class="hljs-keyword">return</span> personData;
+    }
+
+    <span class="hljs-comment">// ... THE REST OF THE CLASS ...</span>
+</code></pre>
+                        <h2 id="the-personoverviewcontroller">The PersonOverviewController<a class="fa fa-anchor" href="#the-personoverviewcontroller"></a></h2>
+                        <p>We have our model and view. Let's get our data into our table. We'll need a controller for our <code>PersonOverview.fxml</code> to act as a &quot;middleman&quot; for the model and view.</p>
+                        <p>Create a normal Java class inside the <code>view</code> package called <code>PersonOverviewController</code>.</p>
+                        <tip-box type="tip">
+                          <p>Note: We must put the class inside the same package as <code>PersonOverview.fxml</code>, otherwise the SceneBuilder won't be able to find it.</p>
+                        </tip-box>
+                        <p>We will add some instance variables that give us access to the table and the labels inside the view. The fields and some methods have a special <code>@FXML</code> annotation. This is necessary in order for the <code>.fxml</code> file to have access to private fields and private methods. After we have everything set up in the <code>.fxml</code> file, the application will automatically fill the variables when the <code>.fxml</code> file is loaded.</p>
+                        <p>So let's add the following code:</p>
+                        <tip-box type="tip">
+                          <p>Note: Remember to always use the <code>javafx</code> imports, NOT <code>awt</code> or <code>swing</code>.</p>
+                        </tip-box>
+                        <p><strong>PersonOverviewController.java</strong></p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.address.view;
+
+<span class="hljs-keyword">import</span> javafx.fxml.FXML;
+<span class="hljs-keyword">import</span> javafx.scene.control.Label;
+<span class="hljs-keyword">import</span> javafx.scene.control.TableColumn;
+<span class="hljs-keyword">import</span> javafx.scene.control.TableView;
+<span class="hljs-keyword">import</span> seedu.address.MainApp;
+<span class="hljs-keyword">import</span> seedu.address.model.Person;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonOverviewController</span> </span>{
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> TableView&lt; Person&gt; personTable;
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> TableColumn&lt; Person, String&gt; firstNameColumn;
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> TableColumn&lt; Person, String&gt; lastNameColumn;
+
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> Label firstNameLabel;
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> Label lastNameLabel;
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> Label streetLabel;
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> Label postalCodeLabel;
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> Label cityLabel;
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-keyword">private</span> Label birthdayLabel;
+
+    <span class="hljs-comment">// Reference to the main application.</span>
+    <span class="hljs-keyword">private</span> MainApp mainApp;
+
+    <span class="hljs-comment">/**
+     * The constructor. It is called before the initialize() method.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">PersonOverviewController</span><span class="hljs-params">()</span> </span>{
+    }
+
+    <span class="hljs-comment">/**
+     * Initializes the controller class. This method is automatically called
+     * after the fxml file has been loaded.
+     */</span>
+    <span class="hljs-meta">@FXML</span>
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">initialize</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// Initialize the person table with the two columns.</span>
+        firstNameColumn.setCellValueFactory(cellData -&gt; cellData.getValue().firstNameProperty());
+        lastNameColumn.setCellValueFactory(cellData -&gt; cellData.getValue().lastNameProperty());
+    }
+
+    <span class="hljs-comment">/**
+     * Is called by the main application to give a reference back to itself.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setMainApp</span><span class="hljs-params">(MainApp mainApp)</span> </span>{
+        <span class="hljs-keyword">this</span>.mainApp = mainApp;
+
+        <span class="hljs-comment">// Add observable list data to the table</span>
+        personTable.setItems(mainApp.getPersonData());
+    }
+}
+</code></pre>
+                        <h3 id="explanations-2">Explanations<a class="fa fa-anchor" href="#explanations-2"></a></h3>
+                        <ul>
+                          <li>All fields and methods where the <code>.fxml</code> file needs access must be annotated with <code>@FXML</code>.
+                            <ul>
+                              <li>Actually, only if they are private, but it's better to have them private and mark them with the annotation!</li>
+                            </ul>
+                          </li>
+                          <li>The <code>initialize()</code> method is automatically called after the <code>.fxml</code> file has been loaded. At this time, all the FXML fields should have been initialized already.</li>
+                          <li>The <code>setCellValueFactory(...)</code> that we set on the table colums are used to determine which field inside the <code>Person</code> objects should be used for the particular column. The arrow <code>-&gt;</code> indicates that we're using a Java 8 feature called Lambdas. (Another option would be to use a <a href="https://docs.oracle.com/javase/9/docs/api/javafx/scene/control/cell/PropertyValueFactory.html"><code>PropertyValueFactory</code></a>, but this is not type-safe).</li>
+                        </ul>
+                        <tip-box type="tip">
+                          <p>Note:</p>
+                          <p>We're only using <code>StringProperty</code> values for our table columns in this example. When you want to use <code>IntegerProperty</code> or <code>DoubleProperty</code>, the <code>setCellValueFactory(...)</code> must have an additional <code>asObject()</code>:</p>
+                          <pre><code class="hljs java">myIntegerColumn.setCellValueFactory(cellData -&gt;
+    cellData.getValue().myIntegerProperty().asObject());
+</code></pre>
+                          <p>This is necessary because of a bad design decision of JavaFX (see <a href="https://community.oracle.com/thread/2575601">this discussion</a> for more details).</p>
+                        </tip-box>
+                        <h3 id="connecting-mainapp-with-the-personoverviewcontroller">Connecting MainApp with the PersonOverviewController<a class="fa fa-anchor" href="#connecting-mainapp-with-the-personoverviewcontroller"></a></h3>
+                        <p>The <code>setMainApp(...)</code> method must be called by the <code>MainApp</code> class. This gives us a way to access the <code>MainApp</code> object and get the list of <code>Persons</code> and other things. Add the following three lines to <code>showPersonOverview()</code> the method:</p>
+                        <p><strong>MainApp.java - additional lines to add to showPersonOverview() method</strong></p>
+                        <pre><code class="hljs java"><span class="hljs-comment">// (.... root layout statement goes here ....)</span>
+
+<span class="hljs-comment">// Give the controller access to the main app.</span>
+    PersonOverviewController controller = loader.getController();
+    controller.setMainApp(<span class="hljs-keyword">this</span>);
+
+<span class="hljs-comment">// (.... catch statement goes here ....)</span>
+</code></pre>
+                        <p>Your <code>showPersonOverview()</code> method in <code>MainApp</code> should now look like this:</p>
+                        <p><strong>MainApp.java - new showPersonOverview() method</strong></p>
+                        <pre><code class="hljs java"><span class="hljs-comment">/**
+* Shows the person overview inside the root layout.
+*/</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showPersonOverview</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">try</span> {
+        <span class="hljs-comment">// Load person overview.</span>
+        FXMLLoader loader = <span class="hljs-keyword">new</span> FXMLLoader();
+        loader.setLocation(MainApp.class.getResource(<span class="hljs-string">"view/PersonOverview.fxml"</span>));
+        AnchorPane personOverview = loader.load();
+
+        <span class="hljs-comment">// Set person overview into the center of root layout.</span>
+        rootLayout.setCenter(personOverview);
+
+        <span class="hljs-comment">// Give the controller access to the main app.</span>
+        PersonOverviewController controller = loader.getController();
+        controller.setMainApp(<span class="hljs-keyword">this</span>);
+    } <span class="hljs-keyword">catch</span> (IOException e) {
+        e.printStackTrace();
+    }
+}
+</code></pre>
+                        <h2 id="hook-the-view-to-the-controller">Hook the View to the controller<a class="fa fa-anchor" href="#hook-the-view-to-the-controller"></a></h2>
+                        <p>We're almost there! But one thing is missing: We haven't told our <code>PersonOverview.fxml</code> file which controller to use, and which element should match to which field inside the controller.</p>
+                        <ol>
+                          <li>Open <code>PersonOverview.fxml</code> with the SceneBuilder.</li>
+                          <li>Open the Controller group on the left side (just below Hierarchy), and select the <code>seedu.address.view.PersonOverviewController</code> as the controller class.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part02/images/hook-view-controller.png" height="350">
+                        <p></p>
+                        <ol start="3">
+                          <li>Select the <code>TableView</code> in the Hierarchy group.</li>
+                          <li>In the Inspector view, under the Code group, set 'fx:id' to <code>personTable</code>.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part02/images/hook-view-person-table.png" height="250">
+                        <p></p>
+                        <ol start="5">
+                          <li>Do the same for the table columns. Select <code>firstNameColumn</code> and <code>lastNameColumn</code> for the 'fx:id' respectively.</li>
+                          <li>For each label in the second column of the grid pane, choose the corresponding 'fx:id'.</li>
+                        </ol>
+                        <img src="/website/book/javaTools/javaFXBasic/part02/images/hook-view-labels.png" width="650">
+                        <p></p>
+                        <ol start="7">
+                          <li>Save the <code>.fxml</code> file.</li>
+                        </ol>
+                        <h2 id="opening-up-the-personoverviewcontroller-to-javafx">Opening up the <code>PersonOverviewController</code> to JavaFx<a class="fa fa-anchor" href="#opening-up-the-personoverviewcontroller-to-javafx"></a></h2>
+                        <p>If you try and run the application now, you will encounter the following error:</p>
+                        <pre><code class="hljs">javafx.fxml.LoadException: ...
+
+...
+
+Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueElement (in module javafx.fxml) cannot access class seedu.address.view.PersonOverviewController (in module AddressApp) because module AddressApp does not export seedu.address.view to module javafx.fxml
+</code></pre>
+                        <p>This is because JavaFx is unable to access our <code>PersonOverviewController</code> class.</p>
+                        <p>To fix this, add this line of code to <code>src/module-info.java</code>:</p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">module</span> AddressApp {
+    ... 
+
+    opens seedu.address.view;
+}
+</code></pre>
+                        <p>The file should now look something like this:</p>
+                        <p><strong>module-info.java</strong></p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">module</span> AddressApp {
+    <span class="hljs-keyword">requires</span> javafx.graphics;
+    <span class="hljs-keyword">requires</span> javafx.fxml;
+    <span class="hljs-keyword">requires</span> javafx.controls;
+
+    <span class="hljs-keyword">exports</span> seedu.address;
+    opens seedu.address.view;
+}
+</code></pre>
+                        <h2 id="start-the-application">Start the Application<a class="fa fa-anchor" href="#start-the-application"></a></h2>
+                        <p>When you start your application now, you should see something like this:</p>
+                        <img src="/website/book/javaTools/javaFXBasic/part02/images/address-app-final-screenshot.png" height="350">
+                        <p></p>
+                        <p>Congratulations! The application now shows the list of <code>Person</code>s in the view!</p>
+                        <p>You may notice that selecting a person in the <code>TableView</code> does nothing to the labels at the right side. That is because the user interaction portion has not been programmed yet, which we will cover in the next part of the tutorial.</p>
+                      </div>
+                    </panel>
+                    <p></p>
+                    After going through the two parts above, you should be familiar with building basic JavaFX GUIs using IntelliJ. You can continue with the original tutorial (which is written for Eclipse), with the following links:
+                    <ul>
+                      <li><a href="http://code.makery.ch/library/javafx-8-tutorial/part3/"><strong>Part 3: Interacting with the User</strong></a></li>
+                      <li><a href="http://code.makery.ch/library/javafx-8-tutorial/part4/"><strong>Part 4: CSS Styling</strong></a></li>
+                      <li><a href="http://code.makery.ch/library/javafx-8-tutorial/part5/"><strong>Part 5: Storing Data as XML</strong></a></li>
+                    </ul>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+        <p><span id="W10-6"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-6-can-explain-basic-scheduling-and-tracking-tools"><span class="dimmed">[W10.6]</span> <strong>Can explain basic scheduling and tracking tools</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w10-6-can-explain-basic-scheduling-and-tracking-tools"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W10-6a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.6a</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Milestones</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain milestones</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>milestone</em> is the end of a stage which indicates a significant progress.</strong> We should take into account dependencies and priorities when deciding on the features to be delivered at a certain milestone.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Each intermediate product release is a milestone.</p>
+                    </tip-box>
+                    <p>In some projects, it is not practical to have a very detailed plan for the whole project due to the uncertainty and unavailability of required information. In such cases, we can use a high-level plan for the whole project and a detailed plan for the next few milestones.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Milestones for the Minesweeper project, iteration 1</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>Day</th>
+                              <th>Milestones</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Day 1</td>
+                              <td>Architecture skeleton completed</td>
+                            </tr>
+                            <tr>
+                              <td>Day 3</td>
+                              <td>‘new game’ feature implemented</td>
+                            </tr>
+                            <tr>
+                              <td>Day 4</td>
+                              <td>‘new game’ feature tested</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-6b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.6b</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Buffers</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain buffers</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>buffer</em> is a time set aside to absorb any unforeseen delays.</strong> It is very important to include buffers in a software project schedule because effort/time estimations for software development is notoriously hard. However, <strong>do not inflate task estimates to create hidden buffers</strong>; have explicit buffers instead. <span class="dimmed"> Reason: With explicit buffers it is easier to detect incorrect effort estimates which can serve as a feedback to improve future effort estimates.</span></p>
+                    <img src="/website/book/projectPlanning/buffers/images/schedule.png" height="120">
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-6c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.6c</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Issue Trackers</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain issue trackers</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Keeping track of project tasks <span class="dimmed">(who is doing what, which tasks are ongoing, which tasks are done etc.)</span> is an essential part of project management. In small projects it may be possible to track tasks using simple tools as online spreadsheets or general-purpose/light-weight tasks tracking tools such as Trello. Bigger projects need more sophisticated task tracking tools.</p>
+                    <p><strong>Issue trackers (sometimes called bug trackers) are commonly used to track task assignment and progress.</strong> Most online project management software such as GitHub, SourceForge, and BitBucket come with an integrated issue tracker.</p>
+                    <div v-closeable alt="Jira screenshot">
+                      <tip-box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A screenshot from the Jira Issue tracker software <span class="dimmed">(Jira is part of the BitBucket project management tool suite)</span>:</p>
+                        <img src="/website/book/projectPlanning/issueTrackers/images/xjira.png" height="350">
+                        <p></p>
+                      </tip-box>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-6d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.6d</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Work Breakdown Structure</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain work breakdown structures</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>Work Breakdown Structure (WBS)</em> depicts information about tasks and their details in terms of subtasks.</strong> When managing projects it is useful to divide the total work into smaller, well-defined units. Relatively complex tasks can be further split into subtasks. In complex projects a WBS can also include prerequisite tasks and effort estimates for each task.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The high level tasks for a single iteration of a small project could look like the following:</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>Task ID</th>
+                              <th>Task</th>
+                              <th>Estimated Effort</th>
+                              <th>Prerequisite Task</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>A</td>
+                              <td>Analysis</td>
+                              <td>1 man day</td>
+                              <td>-</td>
+                            </tr>
+                            <tr>
+                              <td>B</td>
+                              <td>Design</td>
+                              <td>2 man day</td>
+                              <td>A</td>
+                            </tr>
+                            <tr>
+                              <td>C</td>
+                              <td>Implementation</td>
+                              <td>4.5 man day</td>
+                              <td>B</td>
+                            </tr>
+                            <tr>
+                              <td>D</td>
+                              <td>Testing</td>
+                              <td>1 man day</td>
+                              <td>C</td>
+                            </tr>
+                            <tr>
+                              <td>E</td>
+                              <td>Planning for next version</td>
+                              <td>1 man day</td>
+                              <td>D</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                    <p><strong>The effort is traditionally measured in <em>man hour/day/month</em></strong> i.e. work that can be done by one person in one hour/day/month. The <em>Task ID</em> is a label for easy reference to a task. Simple labeling is suitable for a small project, while a more informative labeling system can be adopted for bigger projects.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example WBS for a project for developing a game.</p>
+                      <table class="table">
+                        <tr>
+                          <th>Task ID</th>
+                          <th>Task</th>
+                          <th>Estimated Effort</th>
+                          <th>Prerequisite Task</th>
+                        </tr>
+                        <tr>
+                          <td>A</td>
+                          <td>High level design</td>
+                          <td>1 man day</td>
+                          <td>-</td>
+                        </tr>
+                        <tr>
+                          <td>B</td>
+                          <td>
+                            Detail design
+                            <ol>
+                              <li>User Interface</li>
+                              <li>Game Logic</li>
+                              <li>Persistency Support</li>
+                            </ol>
+                          </td>
+                          <td>
+                            2 man day
+                            <ul>
+                              <li>0.5 man day</li>
+                              <li>1 man day</li>
+                              <li>0.5 man day</li>
+                            </ul>
+                          </td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>C</td>
+                          <td>
+                            Implementation
+                            <ol>
+                              <li>User Interface</li>
+                              <li>Game Logic</li>
+                              <li>Persistency Support</li>
+                            </ol>
+                          </td>
+                          <td>
+                            4.5 man day
+                            <ul>
+                              <li>1.5 man day</li>
+                              <li>2 man day</li>
+                              <li>1 man day</li>
+                            </ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>B.1</li>
+                              <li>B.2</li>
+                              <li>B.3</li>
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>D</td>
+                          <td>System Testing</td>
+                          <td>1 man day</td>
+                          <td>C</td>
+                        </tr>
+                        <tr>
+                          <td>E</td>
+                          <td>Planning for next version</td>
+                          <td>1 man day</td>
+                          <td>D</td>
+                        </tr>
+                      </table>
+                    </tip-box>
+                    <p><strong>All tasks should be well-defined.</strong> In particular, it should be clear as to when the task will be considered <em>done</em>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of ill-defined tasks and their better-defined counterparts:</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>
+                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                              </th>
+                              <th><span class="text-success"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Better </span></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>more coding</td>
+                              <td>implement component X</td>
+                            </tr>
+                            <tr>
+                              <td>do research on UI testing</td>
+                              <td>find a suitable tool for testing the UI</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which one is not a well-defined task?">
+                            <question>
+                              <p>Which one these project tasks is not well-defined?</p>
+                              <ul radio-group="9211e" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> a. Implement the 'delete' feature.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> b. Fix bug #12315.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> c. Do some more testing.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> d. Choose a tool to draw UML diagrams.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> e. Clarify submission requirements with the customer.</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(c)</p>
+                                <p>Explanation: ‘More testing’ is not well-defined. How much is ‘more’? ‘Test the delete functionality’ is a better-defined task.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-6e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.6e</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>GANTT Charts</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain GANTT charts</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>Gantt chart</em> is a 2-D bar-chart, drawn as <em>time vs tasks</em></strong> (represented by horizontal bars).</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A sample Gantt chart:</p>
+                      <img src="/website/book/projectPlanning/ganttCharts/images/gantt.png" height="360">
+                      <p></p>
+                    </tip-box>
+                    <p>In a Gantt chart, a solid bar represents the main task, which is generally composed of a number of subtasks, shown as grey bars. The diamond shape indicates an important deadline/deliverable/milestone.</p>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W10-6f"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.6f</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>PERT Charts</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain PERT charts</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>PERT (Program Evaluation Review Technique) chart uses a graphical technique to show the order/sequence of tasks.</strong> It is based on a simple idea of drawing a directed graph in which:</p>
+                    <ul>
+                      <li>Node or vertex captures the effort estimation of a task, and</li>
+                      <li>Arrow depicts the precedence between tasks</li>
+                    </ul>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an example PERT chart for a simple software project</p>
+                      <p><img src="/website/book/projectPlanning/pertCharts/images/pert.jpg" height="320"><br>
+                        <code>md</code> = man days</p>
+                    </tip-box>
+                    <p>A PERT chart can help determine the following important information:</p>
+                    <ul>
+                      <li>The order of tasks. <span class="dimmed"> In the example above, <code>Final Testing</code> cannot begin until all coding of individual subsystems have been completed.</span></li>
+                      <li>Which tasks can be done concurrently. <span class="dimmed"> In the example above, the various subsystem designs can start independently once the <code>High level design</code> is completed.</span></li>
+                      <li>The shortest possible completion time. <span class="dimmed"> In the example above, there is a path (indicated by the shaded boxes) from start to end that determines the shortest possible completion time.</span></li>
+                      <li>The Critical Path. <span class="dimmed"> In the example above, the shortest possible path is also the critical path</span>.</li>
+                    </ul>
+                    <tip-box type="definition">
+                      <p><strong>Critical path</strong> is the path in which any delay can directly affect the project duration. It is important to ensure tasks on the critical path are completed on time.</p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+        <p><span id="W10-7"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-7-mid-project-check-point"><span class="dimmed">[W10.7]</span> <strong>Mid-project check point</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-7-mid-project-check-point"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1"></div>
+        </panel>
+        <p><span id="W10-8"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w10-8-can-use-assertions"><span class="dimmed">[W10.8]</span> <strong>Can use assertions</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w10-8-can-use-assertions"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1"></div>
+        </panel>
+        <p></p>
+      </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-10-oct-21">Week 10 [Oct 21]&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#w10-1-can-use-intermediate-level-sequence-diagrams">[W10.1] Can use intermediate-level sequence diagrams &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-2-can-explain-some-design-principles">[W10.2] Can explain some design principles &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-3-can-use-more-error-handling-teachniques">[W10.3] Can use more error handling teachniques &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#can-use-logging">Can use logging&#x200E;</a>
+                <a class="nav-link py-1" href="#can-use-assertions">Can use assertions&#x200E;</a>
+              </nav>
+              <a class="nav-link py-1" href="#w10-4-can-use-java8-streams">[W10.4] Can use Java8 streams &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-5-can-use-javafx-to-build-a-simple-gui">[W10.5] Can use JavaFX to build a simple GUI &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-6-can-explain-basic-scheduling-and-tracking-tools">[W10.6] Can explain basic scheduling and tracking tools &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-7-mid-project-check-point">[W10.7] Mid-project check point &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-8-can-use-assertions">[W10.8] Can use assertions &#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Wed, 17 Jul 2019 12:04:16 GMT</small></div>
+    </footer>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TIC2002 Website - Admin Info</title>
+  <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../markbind/layouts/default/styles.css">
+
+  <link rel="stylesheet" href="../markbind/css/page-nav.css">
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/admin.css">
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <div class="website-content">
+          <h1 id="tic2002-admin-info"><strong>TIC2002 Admin Info</strong><a class="fa fa-anchor" href="#tic2002-admin-info"></a></h1>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="module-overview">Module overview<a class="fa fa-anchor" href="#module-overview"></a></h1>
+          <div class="indented">
+            <img src="/website/images/growingPlant.png" width="700">
+            <p><em>TIC2002 Introduction to Software Engineering</em> contains roughly a <strong>50-50 balance of theory and practice</strong> of SE. It covers the knowledge/skills necessary to do small software projects, and as such, it is <strong>a first step towards preparing you to work in bigger SE projects</strong>, which will be done in later modules.</p>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="using-this-module-website">Using this module website<a class="fa fa-anchor" href="#using-this-module-website"></a></h1>
+          <div class="indented">
+            <div>
+              <div id="essential">
+                <p>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> The <span><a href="/website/index.html">Schedule page</a></span> is your main source of information for TIC2002. You will need to refer to it weekly.
+                </p>
+                <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> More details for the upcoming weeks will be added as the weeks progress. In general, <mark>information given for more than 1 week into the future should be treated as <em>tentative</em></mark>.</p>
+                <div>
+                  <h3 id="browser-compatibility">Browser Compatibility<a class="fa fa-anchor" href="#browser-compatibility"></a></h3>
+                  <p>Most of this will work on most mainstream Browsers, but <mark>embedded slides are best viewed using Chrome</mark>.</p>
+                </div>
+                <div>
+                  <h3 id="information-layers">Information Layers<a class="fa fa-anchor" href="#information-layers"></a></h3>
+                  <p>This book tries to <em>layer</em> information so that readers can decide to omit less important layers if they wish to.</p>
+                  <p><strong>More important information are in bold</strong> or <mark>highlighted</mark> while <span class="dimmed">less important information are dimmed</span> or in collapsed panels such as the below.</p>
+                  <tip-box>
+                    <panel header="Some less important info in a minimized panel" minimized>
+                      <p>Less important info</p>
+                      <p></p>
+                    </panel>
+                    <p></p>
+                    <panel header="%%Some less important info in a boarder-less panel%%" type="seamless">
+                      <p>Less important info</p>
+                      <p></p>
+                    </panel>
+                    <p></p>
+                    <panel header="%%Some less important info in a panel%%">
+                      <p>Less important info</p>
+                      <p></p>
+                    </panel>
+                    <p></p>
+                  </tip-box>
+                  <p><strong>Tabs indicate alternative formats of the same content</strong> (e.g. video vs text). You can choose the one you like and ignore the other tabs.</p>
+                  <tip-box>
+                    <tabs>
+                        <tab header="<md>:far-file-alt:</md>">
+                         
+                        Some textual description of X
+                        <p></p>
+                      </tab>
+                        <tab header="<md>:glyphicon-facetime-video:</md>">
+                        <p>Video describing X</p>
+                        <p></p>
+                      </tab>
+                    </tabs>
+                  </tip-box>
+                  <p><strong>Dotted underlines indicate <trigger for="pop:tooltip-example">tool tips</trigger></strong> (activated by hovering over it) and <strong>dashed underlines indicate <trigger for="modal:modal-example" trigger="click">modal windows</trigger></strong> (activated by clicking) containing additional information.</p>
+                  <popover id="pop:tooltip-example" title="Tooltip Example" placement="top">
+                    <div slot="content">
+                      Additional information
+                    </div>
+                  </popover>
+                  <modal title="Modal Example" id="modal:modal-example">
+                    Additional information
+                  </modal>
+                </div>
+                <p>This website <mark>uses a star rating system</mark> to indicate the priority level of contents.</p>
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:usingThisWebsite-starRatingSystem">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Module Expectations → Star Rating System</trigger> ]</span></p>
+                  </div>
+                </div>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " id="modal:usingThisWebsite-starRatingSystem">
+                    <div>
+                    <h4 id="star-rating-system">Star rating system<a class="fa fa-anchor" href="#star-rating-system"></a></h4>
+                    <div class="indented">
+                      <p class="lead"> Start with things that are rated one-star and progress to things with more stars. Things rated four stars are optional.
+                      </p>
+                      <p><strong>Star ratings for Learning Outcomes</strong> (and textbook sections):</p>
+                      <ul>
+                        <li>
+                          <p><strong>One-star LOs</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: The LOs you need to achieve just to keep up with the module. We recommend you to <mark>achieve these LOs if you want to pass the module</mark> (i.e. up to a <strong>C</strong> grade).</p>
+                        </li>
+                        <li>
+                          <p><strong>Two-stars LOs</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>: Can get you up to a <strong>B+</strong>.</p>
+                        </li>
+                        <li>
+                          <p><strong>Three-stars LOs</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: Can get you up to an <strong>A+</strong>.</p>
+                        </li>
+                        <li>
+                          <p><strong>Four-stars LOs</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: Optional. Not examinable. For your own knowledge.</p>
+                        </li>
+                        <li>
+                          <p>LOs marked with two <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> icons e.g., <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span> are relevant LOs you are expected have achieved in prerequisite modules. They are given for reference only. The number of stars indicate the progression of topics, similar to the star rating system above i.e., one-star prerequisite LOs are the most basic and the most important. four-star pre-requisite LOs can be ignored without affecting CAP.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/moduleExpectations._include_.html#starRatingSystem" header="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " class="embedding" minimized fragment="starRatingSystem"></panel>
+                </p>
+              </div>
+              <div id="more">
+                <div name="Conventions Used">
+                  <h3 id="conventions-used">Conventions Used<a class="fa fa-anchor" href="#conventions-used"></a></h3>
+                  <h4 id="shorthand-headings">Shorthand Headings<a class="fa fa-anchor" href="#shorthand-headings"></a></h4>
+                  <p>Meaning of some shortened headings:</p>
+                  <ul>
+                    <li>
+                      <p><big><strong>What</strong></big> : the <strong>meaning</strong> of the concept in concern</p>
+                      <p>
+                        <panel header="%%Example%%" src="/website/book/refactoring/what/unit-inElsewhere-asFlat._include_.html"></panel>
+                      </p>
+                    </li>
+                    <li>
+                      <p><big><strong>Why</strong></big> : the <strong>motivation</strong> behind the concept in concern</p>
+                      <p>
+                        <panel header="%%Example%%" src="/website/book/documentation/guidelines/goTopDown/why/unit-inElsewhere-asFlat._include_.html"></panel>
+                      </p>
+                    </li>
+                    <li>
+                      <p><big><strong>How</strong></big> : the <strong>usage</strong> of the concept in concern</p>
+                      <p>
+                        <panel header="%%Example%%" src="/website/book/refactoring/how/unit-inElsewhere-asFlat._include_.html"></panel>
+                      </p>
+                    </li>
+                    <li>
+                      <p><big><strong>When</strong></big> : the <strong>pros and cons</strong> of the concept in concern, <strong>when to use</strong> the concept</p>
+                      <p>
+                        <panel header="%%Example%%" src="/website/book/refactoring/when/unit-inElsewhere-asFlat._include_.html"></panel>
+                      </p>
+                    </li>
+                  </ul>
+                  <h4 id="boxed-text-styles">Boxed-Text Styles<a class="fa fa-anchor" href="#boxed-text-styles"></a></h4>
+                  <div class="indented">
+                    <tip-box type="info">
+                      additional info
+                    </tip-box>
+                    <tip-box type="warning">
+                      warning
+                    </tip-box>
+                    <tip-box type="success">
+                      positive message
+                    </tip-box>
+                    <tip-box type="important">
+                      important message
+                    </tip-box>
+                    <tip-box type="wrong">
+                      an error to avoid
+                    </tip-box>
+                    <tip-box type="tip">
+                      tip
+                    </tip-box>
+                    <tip-box type="definition">
+                      definition
+                    </tip-box>
+                  </div>
+                  <h4 id="meaning-of-icons">Meaning of Icons<a class="fa fa-anchor" href="#meaning-of-icons"></a></h4>
+                  <div class="indented">
+                    <p><span class="badge badge-pill badge-secondary">tangential</span> : tangential info, can be ignored if not interested<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-new-window"></span></span> : direct link to the LO. <kbd>Ctrl</kbd>+<code>Click</code> to open the LO in new window/tab.<br>
+                      <span><span aria-hidden="true" class="fas fa-trophy"></span></span> : learning outcomes<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : prerequisite learning outcome<br>
+                      <span><span aria-hidden="true" class="fas fa-cube"></span></span> : examples<br>
+                      <span><span aria-hidden="true" class="fas fa-paperclip"></span></span> : resources<br>
+                      <span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> : exercises<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> : printable version<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span> : preview/more info<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> : video<br>
+                      <smal><span class="badge badge-secondary">&gt;_</span></smal> : a command to be run in a terminal<br>
+                      <span><span aria-hidden="true" class="far fa-file-alt"></span></span> : textual description<br>
+                      <span><span aria-hidden="true" class="far fa-images"></span></span> : slides<br>
+                      <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span> : output produced by running code<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> question without answer<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> question with answer<br>
+                    </p>
+                  </div>
+                </div>
+                <div class="indented">
+                  <p><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> : tasks to do<br>
+                    <span><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></span> : lecture<br>
+                    <span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> : tutorial<br>
+                    <span><span aria-hidden="true" class="fas fa-briefcase"></span></span> : evidence you can use to prove you have achieved a learning outcome<br>
+                    ⏰ : deadline<br></p>
+                </div>
+                <h3 id="searching-for-keywords">Searching for keywords<a class="fa fa-anchor" href="#searching-for-keywords"></a></h3>
+                <p>Use the search box in the top navigation bar to search for keywords in the website pages. If you cannot find the content related to a keyword, let us know by posting <a href="https://github.com/nus-tic2002-2019/forum/issues">in the forum</a> so that we can add the missing keyword to our search index.</p>
+                <div>
+                  <h3 id="saving-as-pdf-files">Saving as PDF Files<a class="fa fa-anchor" href="#saving-as-pdf-files"></a></h3>
+                  <ol>
+                    <li>
+                      <p>Use Chrome to load the page you want to save as pdf.</p>
+                    </li>
+                    <li>
+                      <p>Click on the <code>Print</code> option in Chrome’s menu.</p>
+                    </li>
+                    <li>
+                      <p>Set the destination to <code>Save as PDF</code>, then click <code>Save</code> to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below.<br>
+                        <img src="/website/book/about/images/chromeSaveAsPdf.png"></p>
+                    </li>
+                  </ol>
+                </div>
+                <h3 id="printing-textbook-content">Printing Textbook Content<a class="fa fa-anchor" href="#printing-textbook-content"></a></h3>
+                <p>Printer-friendly version <span class="dimmed">(indicated by <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> icon)</span> have been provided for each chapter and the whole book. You can use them for saving as pdf files or printing.</p>
+                <h3 id="making-this-website-better">Making this Website Better<a class="fa fa-anchor" href="#making-this-website-better"></a></h3>
+                <p>This website was generated using the <a href="https://markbind.github.io/">MarkBind</a> software developed at NUS. <strong>We welcome bug reports, suggestions, and contributions</strong>, to be submitted <a href="https://github.com/nus-tic2002-2019/website/issues">at the website issue tracker</a>.</p>
+              </div>
+            </div>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="instructors">Instructors<a class="fa fa-anchor" href="#instructors"></a></h1>
+          <div class="indented">
+            <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <p><a href="/website/admin/images/damith.png" target="_self"><img src="/website/admin/images/damith.png" alt class="img-fluid"></a></p>
+                </div>
+                <div class="col">
+                  <p><strong>Damith Chatura RAJAPAKSE</strong><br>
+                    Associate Professor, NUS School of Computing<br>
+                    PhD, Software Engineering, NUS, 2002-2006<br>
+                    BSc, Computer Science &amp; Engineering, University of Moratuwa, 1996-2001<br>
+                    <span class="dimmed"><span aria-hidden="true" class="fas fa-envelope"></span></span> <code>damith</code>[at]<code>comp</code>[dot]<code>nus</code>[dot]<code>edu</code>[dot]<code>sg</code><br>
+                    <span class="dimmed"><span aria-hidden="true" class="fas fa-map-marker-alt"></span></span> COM2-02-57<br>
+                    <span class="dimmed"><span aria-hidden="true" class="fas fa-phone-square"></span></span> 651 64359<br>
+                    <span class="dimmed"><span aria-hidden="true" class="fas fa-home"></span></span> <a href="https://www.comp.nus.edu.sg/~damithch">https://www.comp.nus.edu.sg/~damithch</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="lectures">Lectures<a class="fa fa-anchor" href="#lectures"></a></h1>
+          <div class="indented">
+            <p><span class="dimmed"><span aria-hidden="true" class="far fa-clock"></span></span> Tuesdays 7.30-9.30pm<br>
+              <span class="dimmed"><span aria-hidden="true" class="fas fa-map-marker-alt"></span></span> SR10 (COM1-0210)<br></p>
+            <p><strong>Lectures will not be webcast</strong> as the venue does not have a webcast facility. <mark>Please bring your laptop to the lecture</mark> as you will need to be using it for the most part of the lecture.</p>
+            <p><strong>Lecture handouts will be uploaded to IVLE <em>before</em> the lecture</strong>, usually by midnight of the Sunday before the lecture.</p>
+            <p><strong>Lecture slides are not suitable to be used as reference materials</strong> as they have been <tooltip content="i.e., heavy use of graphics and animations">optimized for lecture delivery</tooltip> instead. Slides will be uploaded to IVLE <em>after</em> the lecture, usually by Wednesday.</p>
+            <box>
+              <p>💡 If handouts/slides are not in IVLE by the expected times, please feel free to ping the lecturer.
+              </p>
+            </box>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="tutorials">Tutorials<a class="fa fa-anchor" href="#tutorials"></a></h1>
+          <div class="indented">
+            <p><span class="dimmed"><span aria-hidden="true" class="far fa-clock"></span></span> Tuesdays 6.30-7.30pm<br>
+              <span class="dimmed"><span aria-hidden="true" class="fas fa-map-marker-alt"></span></span> SR10 (COM1-0210)<br></p>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="textbook">Textbook<a class="fa fa-anchor" href="#textbook"></a></h1>
+          <div class="indented">
+            <div>
+              <p>This module is supported by a customized online textbook <a href="/website/se-book-adapted/index.html"><strong><em>Software Engineering for Self-Directed Learners</em></strong> (TIC2002 edition)</a>, integrated into this module website. While it is in a dynamic Web page format, there is a way to save the main text as pdf files. Printer-friendly versions have been provided too.</p>
+              <div class="flat">
+                <div>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:textbooks-savingAsPdf">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Using this Website → Saving as PDF files</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                </div>
+              </div>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Using this Website → Saving as PDF files  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:textbooks-savingAsPdf">
+                  <div>
+                  <h3 id="saving-as-pdf-files-2">Saving as PDF Files<a class="fa fa-anchor" href="#saving-as-pdf-files-2"></a></h3>
+                  <ol>
+                    <li>
+                      <p>Use Chrome to load the page you want to save as pdf.</p>
+                    </li>
+                    <li>
+                      <p>Click on the <code>Print</code> option in Chrome’s menu.</p>
+                    </li>
+                    <li>
+                      <p>Set the destination to <code>Save as PDF</code>, then click <code>Save</code> to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below.<br>
+                        <img src="/website/book/about/images/chromeSaveAsPdf.png"></p>
+                    </li>
+                  </ol>
+                </div>
+              </modal>
+              <p>
+                <panel src="/website/book/about/usage._include_.html#saving" header="Admin <md>:glyphicon-log-in:</md> Using this Website → Saving as PDF files  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="saving"></panel>
+              </p>
+            </div>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="programming-language">Programming language<a class="fa fa-anchor" href="#programming-language"></a></h1>
+          <div class="indented">
+            <p>This module uses Java. It assumes you are familiar with C++ basics and provides lessons to help you transition from C++ to Java.</p>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="project">Project<a class="fa fa-anchor" href="#project"></a></h1>
+          <div class="indented">
+            <p>For the project you can choose one of these options:</p>
+            <ul>
+              <li><strong>Option 1:</strong> Enhance the Task Manager app that you worked on during the preparation stage.</li>
+              <li><strong>Option 2:</strong> Take the code from <a href="https://github.com/nus-tic2002-2019/addressbook-level2">Addressbook-level2</a> and enhance it in some way.</li>
+              <li><strong>Option 3:</strong> Propose your own project.</li>
+            </ul>
+            <p>Can be done <strong>individually or in a team of two/three members</strong>.</p>
+            <p>The project is divided into two phases:</p>
+            <ul>
+              <li>Week 1 - 6: Preparation stage <span class="dimmed">i.e., building up your coding skills for the module project</span></li>
+              <li>Week 7 - 12: Project execution.</li>
+            </ul>
+            <h3 id="weeks-1-6-project-preparation">Weeks 1-6: Project preparation<a class="fa fa-anchor" href="#weeks-1-6-project-preparation"></a></h3>
+            <panel header="**Preparation - Week 3**">
+              <p>..</p>
+            </panel>
+            <panel header="**Preparation - Week 4**">
+              <p>..</p>
+            </panel>
+            <panel header="**Preparation - Week 5**">
+              <p>..</p>
+            </panel>
+            <panel header="**Preparation - Week 6**">
+              <p>..</p>
+              <p></p>
+            </panel>
+            <p></p>
+            <h3 id="week-7-9-first-stage">Week 7-9: First stage<a class="fa fa-anchor" href="#week-7-9-first-stage"></a></h3>
+            <div id="project-week7">
+              <h4 id="week-7-project-kick-off">Week 7: Project kick-off<a class="fa fa-anchor" href="#week-7-project-kick-off"></a></h4>
+              <div class="indented">
+                <p><strong>Deadline</strong> for project kickoff: week 7 lecture<br>
+                  <strong>Marks:</strong> 5</p>
+                <ol>
+                  <li><strong>Show that you are ready to start the project</strong>: <span class="dimmed">i.e., a sanity check to ensure you have enough programming skills to start a project</span>
+                    <ul>
+                      <li>If you are new to programming, complete the <em>project preparation</em> exercises i.e., reach <em>TaskManager - Level 5</em>. Demo your TaskManager to prof or email the code to prof.</li>
+                      <li>If you have prior programming experience, show/email to prof some code you have written before (at least 200 lines of code) to prove that you are ready to start the project.</li>
+                    </ul>
+                  </li>
+                  <li><strong>Declare project direction and team</strong>: Inform prof of the project direction and your team members and get approval to go ahead.</li>
+                </ol>
+              </div>
+              <h5 id="after-the-project-kickoff">After the project kickoff<a class="fa fa-anchor" href="#after-the-project-kickoff"></a></h5>
+              <ul>
+                <li><strong>if you chose option 1</strong> <span class="dimmed">(i.e., enhancing TaskManager)</span>, given below are some further improvements you are recommended to do to your code base, while you are adding other features.<br>
+                  <strong>If you chose option 2 or 3</strong>, you should still ensure you have similar enhancements in your code.</li>
+              </ul>
+              <div class="indented-level2">
+                ..
+              </div>
+              <br>
+            </div>
+            <div id="project-week8">
+              <h4 id="week-8">Week 8<a class="fa fa-anchor" href="#week-8"></a></h4>
+              <ul>
+                <li>As in the previous week, enhance your project (TaskManager or otherwise) as explained in the exercises below:</li>
+              </ul>
+              <div class="indented-level2">
+                ..
+              </div>
+              <br>
+            </div>
+            <div id="project-week9">
+              <h4 id="week-9">Week 9<a class="fa fa-anchor" href="#week-9"></a></h4>
+              <ul>
+                <li>Enhance your project (TaskManager or otherwise) as explained in the exercise below:</li>
+              </ul>
+              <div class="indented-level2">
+                ..
+              </div>
+              <br>
+              <ul>
+                <li>Recommended (but not required): <strong>Improve the code quality</strong> of your code by applying the practices taught in the module.</li>
+              </ul>
+            </div>
+            <div id="project-midProjectCheckPoint">
+              <h4 id="week-10-mid-project-checkpoint">Week 10: mid-project checkpoint<a class="fa fa-anchor" href="#week-10-mid-project-checkpoint"></a></h4>
+              <p><strong>Deadline</strong>: week 10 lecture<br>
+                <strong>Marks:</strong> 10, if you show a satisfactory level in the items below</p>
+              <ol>
+                <li>Create a GitHub account. Create a repository under your account and push our code to it.</li>
+                <li>Demo the current state of the project to prof during the week 10 lecture session. There should be some working features at this point.</li>
+                <li>Submit interim project documents (handover a hard copy during lecture 10 or upload to IVLE before lecture 10). The document should contain,
+                  <ul>
+                    <li>URL of your GitHub repo</li>
+                    <li>Some representative user stories for the product</li>
+                    <li>A class diagram to match your code <span class="dimmed">(scans of hand-drawn diagrams are acceptable too)</span></li>
+                    <li>At least one object diagram illustrating the state of your program at some point<br><br></li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+            <div id="project-week10">
+              <p><strong>After the mid-project checkpoint,</strong></p>
+              <ul>
+                <li>Enhance your project (TaskManager or otherwise) as explained in the exercise below:</li>
+              </ul>
+              <div class="indented-level2">
+                ..
+              </div>
+              <br>
+            </div>
+            <div id="project-week11">
+              <h4 id="week-11">Week 11<a class="fa fa-anchor" href="#week-11"></a></h4>
+              <ul>
+                <li>Enhance your project (TaskManager or otherwise) as explained in the exercise below:</li>
+              </ul>
+              <div class="indented-level2">
+                ..
+              </div>
+            </div>
+            <br>
+            <h3 id="week-13-submission-and-demo">Week 13: Submission and demo<a class="fa fa-anchor" href="#week-13-submission-and-demo"></a></h3>
+            <p><strong>Deadline</strong>: Monday of week 13<br>
+              <strong>Marks</strong>: 45 (25 for the product, 20 for the documentation)</p>
+            <p><strong>Deliverables</strong>:</p>
+            <ul>
+              <li><strong>Source code</strong> of the working program
+                <ul>
+                  <li>Submission: zip up the source code and upload to IVLE. The file name should be your name. e.g., <code>JunHao.zip</code> If you manage to create a JAR file, upload it as a separate file, named similarly e.g., <code>JunHao.jar</code></li>
+                </ul>
+              </li>
+              <li><strong>Project documentation</strong>: a single pdf or a Word file containing,
+                <ul>
+                  <li>A <strong>Cover Page</strong> containing your details and the link to your GitHub repository</li>
+                  <li>The <strong>link to your repo</strong> on GitHub</li>
+                  <li>A <strong>User Guide</strong>: explain how to start and use your product (<a href="https://se-edu.github.io/addressbook-level2/UserGuide.html">example</a>).</li>
+                  <li>A <strong>Developer Guide</strong> containing
+                    <ul>
+                      <li>A class diagram to match your code</li>
+                      <li>At least one object diagram illustrating the state of your program at some point</li>
+                      <li>At least one sequence diagram illustrating an object interaction in your product</li>
+                      <li>Some representative user stories, at least enough to cover the functionality of your product</li>
+                      <li>Additional instructions for testing the product (if any) <span class="dimmed">i.e., is there any additional steps (such as putting a specific file in a specific location) that one needs to do when testing your product manually?</span></li>
+                      <li>Submission: Upload to IVLE. The file name should be your name e.g., <code>JunHao.pdf</code></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>Project demo</strong>: to be done during week 13 lecture session.
+                <ul>
+                  <li>Demo schedule will be given closer to the date.</li>
+                  <li>When it is your turn, demo the features of your product using the jar file (preferred) or the IDE.</li>
+                  <li>The demo should take no more than 8 minutes.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="tools">Tools<a class="fa fa-anchor" href="#tools"></a></h1>
+          <div class="indented">
+            <ul>
+              <li><strong>Git</strong> [Required] : For revision control</li>
+              <li><strong>GitHub</strong> [Required] : For project hosting</li>
+              <li><strong>Intellij IDEA</strong> [Recommended] : The IDE used for programming</li>
+            </ul>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="assessment">Assessment<a class="fa fa-anchor" href="#assessment"></a></h1>
+          <div class="indented">
+            <ul>
+              <li>60% : Project</li>
+              <li>40% : Final Exam</li>
+            </ul>
+          </div>
+          <hr style="border-width: 1px; border-color: #f3ccff; border-style: dotted">
+          <h1 id="exam">Exam<a class="fa fa-anchor" href="#exam"></a></h1>
+          <div class="indented">
+            <div>
+              <p>There is no midterm.</p>
+              <p>The final exam has two parts:</p>
+              <ul>
+                <li>Part 1: MCQ questions (1 hour, 20 marks)</li>
+                <li>Part 2: Essay questions (1 hour, 20 marks)</li>
+              </ul>
+              <p>Both papers will be given to you at the start but you need to <strong>answer Part 1 first</strong> (i.e. MCQ paper). It will be <strong>collected 1 hour after the exam start time</strong> (even if arrived late for the exam). You are free to start part 2 early if you finish Part 1 early.</p>
+              <h2 id="final-exam-part-1-mcq">Final Exam: Part 1 (MCQ)<a class="fa fa-anchor" href="#final-exam-part-1-mcq"></a></h2>
+              <p>Each MCQ question gives you a statement to evaluate.</p>
+              <tip-box>
+                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example statement</p>
+                <blockquote>
+                  <p>Testing is a Q&amp;A activity</p>
+                </blockquote>
+              </tip-box>
+              <p>Unless stated otherwise, the meaning of answer options are<br>
+                <strong>A</strong>: Agree. If the question has multiple statements, <ins>agree with all of them</ins>.<br>
+                <strong>B</strong>: Disagree. If the question has multiple statements, <ins>disagree with at least one of them</ins><br>
+                <strong>C</strong>, <strong>D</strong>, <strong>E</strong>: Not used</p>
+              <p>Number of questions: 50</p>
+              <div class="full-mode">
+                <p>Note that you have <strong>slightly more than ½ minute for each question</strong>, which means you need to go through the questions fairly quickly.</p>
+              </div>
+              <p>Given the fast pace required by the paper, to be fair to all students, <strong>you will not be allowed to clarify doubts about questions</strong> (in Part 1) by talking to invigilators.</p>
+              <ul>
+                <li>If a question is not clear, you can circle the question number in the question paper and write your doubt in the question paper, near that question.</li>
+                <li>If your doubt is justified <span class="dimmed">(e.g. there is a typo in the question)</span> or if many students found the question to be unclear, the examiner may decide to omit that question from grading.</li>
+              </ul>
+              <p><strong>Questions in Part 1 are confidential.</strong> You are not allowed to reveal Part 1 content to anyone after the exam. All pages of the assessment paper are to be returned at the end of the exam.</p>
+              <div class="full-mode">
+                <p>You will be given OCR forms <span class="dimmed">(i.e., bubble sheets)</span> to indicate your answers for Part 1. As each OCR form can accommodate only 50 answers, you will be given 2 OCR forms. <strong>Indicate your student number in both OCR forms</strong>.</p>
+                <p>To save space, we use the following notation in MCQ question.
+                  <strong>[<ins>x</ins> | y | <ins>z</ins>] means ‘x and z, but not y’</strong></p>
+                <tip-box>
+                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> SE is [boring | <ins>useful</ins> | <ins>fun</ins>] means <em>SE is not boring</em> AND <em>SE is useful</em> AND <em>SE is fun</em>.</p>
+                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the following statement:</p>
+                  <ul>
+                    <li>IDEs can help with [<ins>writing</ins> | debugging | <ins>testing</ins>] code.</li>
+                  </ul>
+                  <p>The correct response for it is <code>Disagree</code> because IDEs can help with all three of the given options, not just writing and testing.</p>
+                </tip-box>
+              </div>
+              <p>Some questions will use <ins>underlines</ins> or <mark>highlighting</mark> to draw your attention to a specific part of the question. That is because those parts are highly relevant to the answer and we don’t want you to miss the relevance of that part.</p>
+              <tip-box>
+                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the statement below:</p>
+                <blockquote>
+                  <p>Technique ABC <ins>can</ins> be used to generate more test cases.</p>
+                </blockquote>
+                <p>The word <ins>can</ins> is underlined because the decision you need to make is whether the ABC <em>can or cannot</em> be used to generate more test cases; the decision is not whether ABC can be used to generate <em>more or better</em> test cases.</p>
+              </tip-box>
+              <div class="full-mode">
+                <p>Markers such as the one given below appears at left margin of the paper to <strong>indicate where the question corresponds to a new column in the OCR form</strong>. E.g. questions 11, 21, 31, etc. (a column has 10 questions). Such markers can help you to detect if you missed a question in the previous 10 questions. You can safely ignore those markers if you are not interested in making use of that additional hint.</p>
+                <p><img src="/website/admin/images/columnMarker.png"><br></p>
+              </div>
+              <p>Some questions have tags e.g., the question below has a tag <strong><code>JAVA</code></strong>. These <strong>tags provide additional context about the question</strong>. In the example below, the tag indicates that the code given in the question is Java code.</p>
+              <p><img src="/website/admin/images/contextTag.png"><br></p>
+              <p><strong>The exam paper is open-book</strong>: you may bring any printed or written materials to the exam in hard copy format.
+                However, given the fast pace required by Part 1, you will not have time left to refer notes during that part of the exam.</p>
+              <p>💡 <strong>Mark the OCR form as you go</strong>, rather than planning to transfer your answers to the OCR form near the end. <span class="dimmed"> Reason: Given there are 50 questions, it will be hard to estimate how much time you need to mass-transfer all answers to OCR forms.</span></p>
+              <p>💡 <strong>Write the answer in the exam paper as well</strong> when marking it in the OCR form. <span class="dimmed"> Reason: It will reduce the chance of missing a question. Furthermore, in case you missed a question, it will help you correct the OCR form quickly.</span></p>
+              <p>💡 We have tried to <strong>avoid deliberately misleading/tricky questions</strong>. If a question seems to take a very long time to figure out, you are probably over-thinking it.</p>
+              <box type="success">
+                <p>You will be given a practice exam paper to familiarize yourself with this slightly unusual exam format.
+                </p>
+              </box>
+              <h2 id="final-exam-part-2-essay">Final Exam: Part 2 (Essay)<a class="fa fa-anchor" href="#final-exam-part-2-essay"></a></h2>
+              <p>Unlike in part 1, <strong>you can ask invigilators for clarifications</strong> if you found a question to be unclear in part 2.</p>
+              <p>Yes, <strong>you may use pencils</strong> when answering part 2.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#tic2002-admin-info">TIC2002 Admin Info&#x200E;</a>
+            <a class="nav-link py-1" href="#module-overview">Module overview&#x200E;</a>
+            <a class="nav-link py-1" href="#using-this-module-website">Using this module website&#x200E;</a>
+            <a class="nav-link py-1" href="#instructors">Instructors&#x200E;</a>
+            <a class="nav-link py-1" href="#lectures">Lectures&#x200E;</a>
+            <a class="nav-link py-1" href="#tutorials">Tutorials&#x200E;</a>
+            <a class="nav-link py-1" href="#textbook">Textbook&#x200E;</a>
+            <a class="nav-link py-1" href="#programming-language">Programming language&#x200E;</a>
+            <a class="nav-link py-1" href="#project">Project&#x200E;</a>
+            <a class="nav-link py-1" href="#tools">Tools&#x200E;</a>
+            <a class="nav-link py-1" href="#assessment">Assessment&#x200E;</a>
+            <a class="nav-link py-1" href="#exam">Exam&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#final-exam-part-1-mcq">Final Exam: Part 1 (MCQ)&#x200E;</a>
+              <a class="nav-link py-1" href="#final-exam-part-2-essay">Final Exam: Part 2 (Essay)&#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Wed, 17 Jul 2019 12:04:16 GMT</small></div>
+    </footer>
+  </div>
+</body>
+<script src="../markbind/js/vue.min.js"></script>
+<script src="../markbind/js/vue-strap.min.js"></script>
+<script src="../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../markbind/js/polyfill.min.js"></script>
+<script src="../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../markbind/js/setup.js"></script>
+<script src="../markbind/layouts/default/scripts.js"></script>
+
+</html>

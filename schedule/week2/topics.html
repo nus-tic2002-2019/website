@@ -1,0 +1,1983 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TIC2002 Website - Week 2 - Weekly Topics</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><span style="float:left"><span><a href="/website/schedule/week1/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week3/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-2-aug-19">Week 2 <small><small><span class="dimmed">[Aug 19]</span></small></small><a class="fa fa-anchor" href="#week-2-aug-19"></a></h1>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week2/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Weekly Tasks</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week2/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Weekly Topics</a></li>
+        </ul>
+        <p></p>
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
+          <ul>
+            <li>[<a href="#W2-1">W2.1</a>] <strong>Can explain OOP</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-1a">W2.1a</a>] <span>Paradigms → OOP → Introduction →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-1b">W2.1b</a>] <span>Paradigms → OOP → Objects →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-1c">W2.1c</a>] <span>Paradigms → OOP → Classes →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-1d">W2.1d</a>] <span>Paradigms → OOP → Objects →
+                      </span></span> <span>Objects as Abstractions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-1e">W2.1e</a>] <span>Paradigms → OOP → Objects →
+                      </span></span> <span>Encapsulation of Objects</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-1f">W2.1f</a>] <span>Paradigms → OOP → Classes →
+                      </span></span> <span>Class-Level Members</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W2-2">W2.2</a>] <strong>Can use Java objects</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-2a">W2.2a</a>] <span>C++ to Java → Objects →
+                      </span></span> <span>Using Java Objects</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-2b">W2.2b</a>] <span>C++ to Java → Objects →
+                      </span></span> <span>Instance Members</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-2c">W2.2c</a>] <span>C++ to Java → Objects →
+                      </span></span> <span>Passing Objects Around</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-2d">W2.2d</a>] <span>C++ to Java → Objects →
+                      </span></span> <span>Garbage Collection</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W2-3">W2.3</a>] <strong>Can write Java classes</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-3a">W2.3a</a>] <span>C++ to Java → Classes →
+                      </span></span> <span>Defining Classes</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-3b">W2.3b</a>] <span>C++ to Java → Classes →
+                      </span></span> <span>Getters and setters</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-3c">W2.3c</a>] <span>C++ to Java → Classes →
+                      </span></span> <span>Class-Level Members</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W2-4">W2.4</a>] <strong>Can use basic features of an IDE</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-4a">W2.4a</a>] <span>Implementation → IDEs →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-4b">W2.4b</a>] <span>Tools → Intellij IDEA →
+                      </span></span> <span>Project Setup</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-4c">W2.4c</a>] <span>Tools → Intellij IDEA →
+                      </span></span> <span>Code Navigation</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+        </panel>
+        <hr style="border: 1px dotted #cccccc;">
+        <p><span id="W2-1"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w2-1-can-explain-oop"><span class="dimmed">[W2.1]</span> <strong>Can explain OOP</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w2-1-can-explain-oop"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W2-1a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.1a</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Introduction →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can describe OOP at a higher level</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Object-Oriented Programming (OOP) is a <em>programming paradigm</em>.</strong> A programming paradigm guides programmers to analyze programming problems, and structure programming solutions, in a specific way.</p>
+                    <blockquote>
+                      <p>Programming languages have traditionally divided the world into two parts—data and operations on data. Data is static and immutable, except as the operations may change it. The procedures and functions that operate on data have no lasting state of their own; they’re useful only in their ability to affect data.</p>
+                      <p>This division is, of course, grounded in the way computers work, so it’s not one that you can easily ignore or push aside. Like the equally pervasive distinctions between matter and energy and between nouns and verbs, it forms the background against which we work. At some point, all programmers—even object-oriented programmers—must lay out the data structures that their programs will use and define the functions that will act on the data.</p>
+                      <p>With a procedural programming language like C, that’s about all there is to it. The language may offer various kinds of support for organizing data and functions, but it won’t divide the world any differently. Functions and data structures are the basic elements of design.</p>
+                      <p>Object-oriented programming doesn’t so much dispute this view of the world as restructure it at a higher level. It groups operations and data into modular units called objects and lets you combine objects into structured networks to form a complete program. In an object-oriented programming language, objects and object interactions are the basic elements of design.</p>
+                      <p><sub>-- <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/OOP_ObjC/">Object-Oriented Programming with Objective-C</a>, Apple</sub></p>
+                    </blockquote>
+                    <p>Some other examples of programming paradigms are:</p>
+                    <div class="table-responsive">
+                      <table class="markbind-table table table-bordered table-striped">
+                        <thead>
+                          <tr>
+                            <th>Paradigm</th>
+                            <th>Programming Languages</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="https://en.wikipedia.org/wiki/Procedural_programming"><em>Procedural Programming</em> paradigm</a></td>
+                            <td>C</td>
+                          </tr>
+                          <tr>
+                            <td><a href="https://en.wikipedia.org/wiki/Functional_programming"><em>Functional Programming</em> paradigm</a></td>
+                            <td>F#, Haskel, Scala</td>
+                          </tr>
+                          <tr>
+                            <td><a href="https://en.wikipedia.org/wiki/Logic_programming"><em>Logic Programming</em> paradigm</a></td>
+                            <td>Prolog</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <p><strong>Some programming languages support multiple paradigms.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Java is primarily an OOP language but it supports limited forms of functional programming and it can be used to (although not recommended) write procedural code. <span class="dimmed"> e.g. <a href="https://github.com/se-edu/addressbook-level1">se-edu/addressbook-level1</a></span></p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> JavaScript and Python support functional, procedural, and OOP programming.</p>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about OOP">
+                            <question>
+                              <p>A) Choose the correct statements</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. OO is a programming paradigm</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. OO guides us in how to structure the solution</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. OO is mainly an abstraction mechanism</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. OO is a programming language</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. OO is modeled after how the objects in real world work</li>
+                              </ul>
+                              <p>B) Choose the correct statements</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. Java and C++ are OO languages</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. C language follows the <em>Functional Programming</em> paradigm</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. Java can be used to write procedural code</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. Prolog follows the Logic Programming paradigm</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>A) (a)(b)(c)(e)</p>
+                                <p>Explanation: While many languages support the OO paradigm, OO is not a language itself.</p>
+                                <p>B) Choose the correct statement</p>
+                                <p>(a)<s>(b)</s>(c)(d)</p>
+                                <p>Explanation: C follows the procedural paradigm. Yes, we can write procedural code using OO languages e.g., AddressBook-level1.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: procedural vs OOP">
+                            <question>
+                              <p>OO is a higher level mechanism than the procedural paradigm.</p>
+                              <ul radio-group="07027" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="07027" type="radio"> True</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="07027" type="radio"> False</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>True.</p>
+                                <p>Explanation: Procedural languages work at simple data structures (e.g., integers, arrays) and functions level. Because an object is an abstraction over data+related functions, OO works at a higher level.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-1b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.1b</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Objects →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can describe how OOP relates to the real world</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <blockquote>
+                      <p>Every object has both state (data) and behavior (operations on data). In that, they’re not much different
+                        from ordinary physical objects. It’s easy to see how a mechanical device, such as a pocket watch or a piano,
+                        embodies both state and behavior. But almost anything that’s designed to do a job does, too. Even simple things
+                        with no moving parts such as an ordinary bottle combine state (how full the bottle is, whether or not it’s open,
+                        how warm its contents are) with behavior (the ability to dispense its contents at various flow rates, to be opened
+                        or closed, to withstand high or low temperatures).</p>
+                      <p>It’s this resemblance to real things that gives objects much of their power and appeal. They can not only model
+                        components of real systems, but equally as well fulfill assigned roles as components in software systems.</p>
+                      <p><sub>-- <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/OOP_ObjC/">Object-Oriented Programming with Objective-C</a>, Apple </sub></p>
+                    </blockquote>
+                    <p><strong>Object Oriented Programming (OOP) views the world as <em>a network of interacting objects</em>.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A real world scenario viewed as a network of interacting objects:</p>
+                      <p>You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects <code>You</code>, <code>Pen</code>, <code>Paper</code>, <code>Calculator</code>, <code>Adam</code>, <code>Beth</code>, <code>Charlie</code>, and <code>Daisy</code> interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as connected in a certain network of certain structure.</p>
+                    </tip-box>
+                    <p><strong>OOP solutions try to create a similar object network inside the computer’s memory</strong> – a sort of a virtual simulation of the corresponding real world scenario – <strong>so that a similar result can be achieved programmatically.</strong></p>
+
+                    <p><strong>OOP does not demand that the virtual world object network follow the real world <em>exactly</em>.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Our previous example can be tweaked a bit as follows:</p>
+                      <ul>
+                        <li>Use an object called <code>Main</code> to represent your role in the scenario.</li>
+                        <li>As there is no physical writing involved, we can replace the <code>Pen</code> and <code>Paper</code> with an object called <code>AgeList</code> that is able to keep a list of ages.</li>
+                      </ul>
+                    </tip-box>
+                    <p><strong>Every object has both state (data) and behavior (operations on data).</strong></p>
+                    <tip-box>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th style="text-align:center">Object</th>
+                              <th style="text-align:center">Real World?</th>
+                              <th style="text-align:center">Virtual World?</th>
+                              <th style="text-align:center">Example of State (i.e. Data)</th>
+                              <th style="text-align:center">Examples of Behavior (i.e. Operations)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="text-align:center">Adam</td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center">Name, Date of Birth</td>
+                              <td style="text-align:center">Calculate age based on birthday</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center">Pen</td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center"><span class="dimmed">-</span></td>
+                              <td style="text-align:center">Ink color, Amount of ink remaining</td>
+                              <td style="text-align:center">Write</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center">AgeList</td>
+                              <td style="text-align:center"><span class="dimmed">-</span></td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center">Recorded ages</td>
+                              <td style="text-align:center">Give the number of entries, Accept an entry to record</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center">Calculator</td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center">Numbers already entered</td>
+                              <td style="text-align:center">Calculate the sum, divide</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center">You/Main</td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center"><span><span aria-hidden="true" class="fas fa-check"></span></span></td>
+                              <td style="text-align:center">Average age, Sum of ages</td>
+                              <td style="text-align:center">Use other objects to calculate</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                    <p><strong>Every object has an interface and an implementation.</strong></p>
+                    <p>Every real world object has:</p>
+                    <ul>
+                      <li>an interface that other objects can interact with</li>
+                      <li>an implementation that supports the interface but may not be accessible to the other object</li>
+                    </ul>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The interface and implementation of some real-world objects in our example:</p>
+                      <ul>
+                        <li>Calculator: the buttons and the display are part of the interface; circuits are part of the implementation.</li>
+                        <li>Adam: In the context of our 'calculate average age' example, the interface of Adam consists of requests that adam will respond to, e.g. &quot;Give age to the nearest year, as at Jan 1st of this year&quot; &quot;State your name&quot;; the implementation includes the mental calculation Adam uses to calculate the age which is not visible to other objects.</li>
+                      </ul>
+                    </tip-box>
+                    <p>Similarly, every object in the virtual world has an interface and an implementation.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The interface and implementation of some virtual-world objects in our example:</p>
+                      <ul>
+                        <li><code>Adam</code>: the interface might have a method <code>getAge(Date asAt)</code>; the implementation of that method is not visible to other objects.</li>
+                      </ul>
+                    </tip-box>
+                    <p><strong>Objects interact by sending messages.</strong></p>
+                    <p>Both real world and virtual world object interactions can be viewed as objects sending message to each other. The message can result in the sender object receiving a response and/or the receiving object’s state being changed. Furthermore, the result can vary based on which object received the message, even if the message is identical <span class="dimmed">(see rows 1 and 2 in the example below)</span>.</p>
+                    <tip-box>
+                      <p>Examples:</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th style="text-align:center">World</th>
+                              <th style="text-align:center">Sender</th>
+                              <th style="text-align:center">Receiver</th>
+                              <th style="text-align:center">Message</th>
+                              <th style="text-align:center">Response</th>
+                              <th style="text-align:center">State Change</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="text-align:center">Real</td>
+                              <td style="text-align:center">You</td>
+                              <td style="text-align:center">Adam</td>
+                              <td style="text-align:center">&quot;What is your name?&quot;</td>
+                              <td style="text-align:center">&quot;Adam&quot;</td>
+                              <td style="text-align:center">-</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center">Real</td>
+                              <td style="text-align:center"><sub>as above</sub></td>
+                              <td style="text-align:center">Beth</td>
+                              <td style="text-align:center"><sub>as above</sub></td>
+                              <td style="text-align:center">&quot;Beth&quot;</td>
+                              <td style="text-align:center">-</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center">Real</td>
+                              <td style="text-align:center">You</td>
+                              <td style="text-align:center">Pen</td>
+                              <td style="text-align:center">Put nib on paper and apply pressure</td>
+                              <td style="text-align:center">Makes a mark on your paper</td>
+                              <td style="text-align:center">Ink level goes down</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center">Virtual</td>
+                              <td style="text-align:center">Main</td>
+                              <td style="text-align:center">Calculator (current total is 50)</td>
+                              <td style="text-align:center">add(int i): int i = 23</td>
+                              <td style="text-align:center">73</td>
+                              <td style="text-align:center">total = total + 23</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Describe objects in the given scenario">
+                            <question has-input="true">
+                              <p>Consider the following real-world scenario.</p>
+                              <tip-box>
+                                <p>Tom read a Software Engineering textbook (he has been assigned to read the book) and highlighted some of the text in it.
+                                   
+                                </p>
+                              </tip-box>
+                              <p>Explain the following statements about OOP using the above scenario as an example.</p>
+                              <ol>
+                                <li>Object Oriented Programming (OOP) views the world as a network of interacting objects.</li>
+                                <li>Every object has both state (data) and behavior (operations on data).</li>
+                                <li>Every object has an interface and an implementation.</li>
+                                <li>Objects interact by sending messages.</li>
+                                <li>OOP does not demand that the virtual world object network follow the real world exactly.</li>
+                              </ol>
+                              <div slot="answer">
+                                <blockquote>
+                                  <p>[1] Object Oriented Programming (OOP) views the world as a network of interacting objects.</p>
+                                </blockquote>
+                                <p>Interacting objects in the scenario: <code>Tom</code>, <code>SE Textbook</code> (<code>Book</code> for short), <code>Text</code>, (possibly) <code>Highlighter</code></p>
+                                <p>💡 objects usually match nouns in the description</p>
+                                <blockquote>
+                                  <p>[2]Every object has both state (data) and behavior (operations on data).</p>
+                                </blockquote>
+                                <div class="table-responsive">
+                                  <table class="markbind-table table table-bordered table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Object</th>
+                                        <th>Examples of state</th>
+                                        <th>Examples of behavior</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td><code>Tom</code></td>
+                                        <td>memory of the text read</td>
+                                        <td>read</td>
+                                      </tr>
+                                      <tr>
+                                        <td><code>Book</code></td>
+                                        <td>title</td>
+                                        <td>show text</td>
+                                      </tr>
+                                      <tr>
+                                        <td><code>Text</code></td>
+                                        <td>font size</td>
+                                        <td>get highlighted</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <blockquote>
+                                  <p>[3] Every object has an interface and an implementation.</p>
+                                </blockquote>
+                                <ul>
+                                  <li>Interface of an object consists of how other objects interact with it i.e., what other objects can do to that object</li>
+                                  <li>Implementation consist of internals of the object that facilitate the interactions but not visible to other objects.</li>
+                                </ul>
+                                <div class="table-responsive">
+                                  <table class="markbind-table table table-bordered table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Object</th>
+                                        <th>Examples of interface</th>
+                                        <th>Examples of implementation</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td><code>Tom</code></td>
+                                        <td>receive reading assignment</td>
+                                        <td>understand/memorize the text read, remember the reading assignment</td>
+                                      </tr>
+                                      <tr>
+                                        <td><code>Book</code></td>
+                                        <td>show text, turn page</td>
+                                        <td>how pages are bound to the spine</td>
+                                      </tr>
+                                      <tr>
+                                        <td><code>Text</code></td>
+                                        <td>read</td>
+                                        <td>how characters/words are connected together or fixed to the book</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <blockquote>
+                                  <p>[4] Objects interact by sending messages.</p>
+                                </blockquote>
+                                <p>Examples:</p>
+                                <ul>
+                                  <li><code>Tom</code> sends message <code>turn page</code> to the <code>Book</code></li>
+                                  <li><code>Tom</code> sends message <code>show text</code> to the <code>Book</code>. When the <code>Book</code> shows the <code>Text</code>, <code>Tom</code> sends the message <code>read</code> to the <code>Text</code> which returns the text content to <code>Tom</code>.</li>
+                                  <li><code>Tom</code> sends message <code>highlight</code> to the <code>Highlighter</code> while specifying which <code>Text</code> to highlight. Then the <code>Highlighter</code> sends the message <code>highlight</code> to the specified <code>Text</code>.</li>
+                                </ul>
+                                <blockquote>
+                                  <p>[5] OOP does not demand that the virtual world object network follow the real world exactly.</p>
+                                </blockquote>
+                                <p>Examples:</p>
+                                <ul>
+                                  <li>A virtual world simulation of the above scenario can omit the <code>Highlighter</code> object. Instead, we can teach <code>Text</code> to highlight themselves when requested.</li>
+                                </ul>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-1c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.1c</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Classes →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the relationship between classes and objects </span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Writing an OOP program is essentially writing instructions that the computer uses to,</strong></p>
+                    <ol>
+                      <li><strong>create the virtual world of object network, and</strong></li>
+                      <li><strong>provide it the inputs to produce the outcome we want.</strong></li>
+                    </ol>
+                    <p><strong>A <mark><em>class</em></mark> contains instructions for creating a specific kind of objects</strong>. It turns out sometimes multiple objects have the same behavior because they are of the <em>same kind</em>. Instructions for creating a one kind (or ‘class’) of objects can be done once and that same instructions can be used to <tooltip content="i.e. create"><em>instantiate</em></tooltip> objects of that kind. We call such instructions a <em>Class</em>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Classes and objects in an example scenario</p>
+                      <p>Consider the example of writing an OOP program to calculate the average age of Adam, Beth, Charlie, and Daisy.</p>
+                      <p>Instructions for creating objects <code>Adam</code>, <code>Beth</code>, <code>Charlie</code>, and <code>Daisy</code> will be very similar because they are all of the same kind : they all represent ‘persons’ with the same interface, the same kind of data (i.e. <code>name</code>, <code>DoB</code>, etc.), and the same kind of behavior (i.e. <code>getAge(Date)</code>, <code>getName()</code>, etc.). Therefore, we can have a class called <code>Person</code> containing instructions on how to create <code>Person</code> objects and use that class to instantiate objects <code>Adam</code>, <code>Beth</code>, <code>Charlie</code>, and <code>Daisy</code>.</p>
+                      <p>Similarly, we need classes <code>AgeList</code>, <code>Calculator</code>, and <code>Main</code> classes to instantiate one each of <code>AgeList</code>, <code>Calculator</code>, and <code>Main</code> objects.</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>Class</th>
+                              <th>Objects</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><code>Person</code></td>
+                              <td>objects representing Adam, Beth, Charlie, Daisy</td>
+                            </tr>
+                            <tr>
+                              <td><code>AgeList</code></td>
+                              <td>an object to represent the age list</td>
+                            </tr>
+                            <tr>
+                              <td><code>Calculator</code></td>
+                              <td>an object to do the calculations</td>
+                            </tr>
+                            <tr>
+                              <td><code>Main</code></td>
+                              <td>an object to represent you who manages the whole operation</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> Identify Classes and Objects">
+                              <question>
+                                <p>Consider the following scenario. If you were to simulate this in an OOP program, what are the classes and the objects you would use?</p>
+                                <tip-box>
+                                   
+                                  A customer (name: John) gave a cheque to the Cashier (name: Peter) to pay for the LoTR and GoT books he bought.
+                                </tip-box>
+                                <div slot="answer">
+                                  <div class="table-responsive">
+                                    <table class="markbind-table table table-bordered table-striped">
+                                      <thead>
+                                        <tr>
+                                          <th>Class</th>
+                                          <th>Objects</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td><code>Customer</code></td>
+                                          <td><code>john</code></td>
+                                        </tr>
+                                        <tr>
+                                          <td><code>Book</code></td>
+                                          <td><code>LoTR</code>, <code>GoT</code></td>
+                                        </tr>
+                                        <tr>
+                                          <td><code>Cheque</code></td>
+                                          <td><code>checqueJohnGave</code></td>
+                                        </tr>
+                                        <tr>
+                                          <td><code>Cashier</code></td>
+                                          <td><code>peter</code></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> Classes for CityConnect app">
+                              <question has-input="true">
+                                <p>Assume you are writing a CLI program called <strong><code>CityConnect</code></strong> for storing and querying distances between cities. The behavior is as follows:</p>
+                                <pre><code class="hljs">Welcome to CityConnect!
+
+Enter command: addroute Clementi BuonaVista 12
+Route from Clementi to BuonaVista with distance 12km added
+
+Enter command: getdistance Clementi BuonaVista
+Distance from Clementi to BuonaVista is 12
+
+Enter command: getdistance Clementi JurongWest
+No route exists from Clementi to JurongWest!
+
+Enter command: addroute Clementi JurongWest 24
+Route from Clementi to JurongWest with distance 24km added
+
+Enter command: getdistance Clementi JurongWest
+Distance from Clementi to JurongWest is 24
+
+Enter command: exit
+
+</code></pre>
+                                <p>What classes would you have in your code if you write your program based on the OOP paradigm?</p>
+                                <div slot="hint">
+                                  <p>One class you can have is <code>Route</code></p>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-1d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.1d</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Objects →
+                          </span></strong></span></small> <strong><span>Objects as Abstractions</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the abstraction aspect of OOP</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>The concept of <strong><em>Objects</em> in OOP is an <trigger trigger="click" for="modal:objectsAsAbstractions-abstraction">abstraction</trigger> mechanism because it allows us to abstract away the lower level details and work with bigger granularity entities</strong> i.e. ignore details of data formats and the method implementation details and work at the level of objects.</p>
+                    <modal large title="Definition: Abstraction" id="modal:objectsAsAbstractions-abstraction">
+                        <div>
+                        <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
+                      </div>
+                    </modal>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> We can deal with a <code>Person</code> object that represents the person Adam and query the object for Adam's age instead of dealing with details such as Adam’s date of birth (DoB), in what format the DoB is stored, the algorithm used to calculate the age from the DoB, etc.</p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-1e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.1e</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Objects →
+                          </span></strong></span></small> <strong><span>Encapsulation of Objects</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the encapsulation aspect of OOP</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <blockquote>
+                      <p>Encapsulation protects an implementation from unintended actions and from inadvertent access.<br> <sub>-- <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/OOP_ObjC/">Object-Oriented Programming with Objective-C</a>, Apple </sub></p>
+                    </blockquote>
+                    <p><strong>An object is an <em>encapsulation</em> of some data and related behavior in two aspects:</strong></p>
+                    <p><strong>1. The <em>packaging</em> aspect:</strong> An object packages data and related behavior together into one self-contained unit.</p>
+                    <p><strong>2. The <em>information hiding</em> aspect:</strong> The data in an object is hidden from the outside world and are only accessible using the object's interface.</p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Choose the correct statement.">
+                            <question>
+                              <p>Choose the correct statements</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. An object is an encapsulation because it packages data and behavior into one bundle.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. An object is an encapsulation because it lets us think in terms of higher level concepts such as Students rather than student-related functions and data separately.</li>
+                              </ul>
+                              <div slot="hint">
+                                <p>Don't confuse encapsulation with abstraction.</p>
+                              </div>
+                              <div slot="answer">
+                                <p>Choose the correct statement</p>
+                                <p>(a)</p>
+                                <p>Explanation: The second statement should be: An object is an <strong>abstraction</strong> <s>encapsulation</s> because it lets ...</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-1f"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.1f</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Classes →
+                          </span></strong></span></small> <strong><span>Class-Level Members</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain class-level members</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>While all objects of a class has the same attributes, each object has its own copy of the attribute value.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> All <code>Person</code> objects have the <code>Name</code> attribute but the value of that attribute varies between <code>Person</code> objects.</p>
+                    </tip-box>
+                    <p>However, some attributes are not suitable to be maintained by individual objects. Instead, they should be maintained centrally, shared by all objects of the class. They are like ‘global variables’ but attached to a specific class. Such <strong>variables whose value is shared by all instances of a class are called <mark><em>class-level attributes</em></mark></strong>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The attribute <code>totalPersons</code> should be maintained centrally and shared by all <code>Person</code> objects rather than copied at each <code>Person</code> object.</p>
+                    </tip-box>
+                    <p>Similarly, when a normal method is being called, a message is being sent to the receiving object and the result may depend on the receiving object.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Sending the <code>getName()</code> message to <code>Adam</code> object results in the response <code>&quot;Adam&quot;</code> while sending the same message to the <code>Beth</code> object gets the response <code>&quot;Beth&quot;</code>.</p>
+                    </tip-box>
+                    <p>However, there can be methods related to a specific class but not suitable for sending message to a specific object of that class. Such <strong>methods that are called using the class instead of a specific instance are called <mark><em>class-level methods</em></mark></strong>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The method <code>getTotalPersons()</code> is not suitable to send to a specific <code>Person</code> object <span class="dimmed">because a specific object of the <code>Person</code> class should not know about the total number of <code>Person</code> objects</span>.</p>
+                    </tip-box>
+                    <p><strong>Class-level attributes and methods are collectively called <mark><em>class-level members</em></mark></strong> (also called <em>static members</em> sometimes because some programming languages use the keyword <code>static</code> to identify class-level members). <strong>They are to be accessed using the class name rather than an instance of the class</strong>.</p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Suitable as a class-level variables">
+                            <question>
+                              <p>Which of these are suitable as class-level variables?</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. system: multi-player Pac Man game, Class: <code>Player</code>, variable: <code>totalScore</code></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. system: eLearning system, class: <code>Course</code>, variable: <code>totalStudents</code></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. system: ToDo manager, class: <code>Task</code>, variable: <code>totalPendingTasks</code></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. system: any, class: <code>ArrayList</code>, variable: <code>total</code> (i.e., total items in a given <code>ArrayList</code> object)</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(c)</p>
+                                <p>Explanation: <code>totalPendingTasks</code> should not be managed by individual <code>Task</code> objects and therefore suitable to be maintained as a class-level variable. The other variables should be managed at instance level as their value varies from instance to instance. e.g., <code>totalStudents</code> for one <code>Course</code> object will differ from <code>totalStudents</code> of another.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+        <p><span id="W2-2"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w2-2-can-use-java-objects"><span class="dimmed">[W2.2]</span> <strong>Can use Java objects</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w2-2-can-use-java-objects"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W2-2a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.2a</span></span> <span class="dimmed"><strong><span>C++ to Java → Objects →
+                          </span></strong></span></small> <strong><span>Using Java Objects</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use in-built Java objects</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Java is an &quot;object-oriented&quot; language, which means that it uses objects to represent data and provide methods related to them. Object types are called <em>classes</em> e.g., you can use <code>String</code> objects in Java and those objects belong to the <code>String</code> class.</p>
+                    <h5 id="importing">importing<a class="fa fa-anchor" href="#importing"></a></h5>
+                    <div class="indented">
+                      <p>Java comes with many inbuilt classes which are organized into <em>packages</em>. Here are some examples:</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>package</th>
+                              <th>Some example classes in the package</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><code>java.lang</code></td>
+                              <td><code>String</code>, <code>Math</code>, <code>System</code></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p><strong>Before using a class in your code, you need to <code>import</code> the class.</strong> <code>import</code> statements appear at the top of the code.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example imports the <code>java.awt.Point</code> (i.e., the <code>Point</code> class in the <code>java.awt</code> package) class -- which can be used to represent <trigger for="pop:usingObjects-coordinates">the coordinates of a location in a Cartesian plane</trigger> -- and use it in the <code>main</code> method.</p>
+                        <popover id="pop:usingObjects-coordinates" title="Coordinates of a location in a Cartesian plane" placement="top">
+                            <div slot="content">
+                            <p>In mathematical notation, points are often written in parentheses with a comma separating the coordinates. For example, <code>(0,0)</code> indicates the origin, and <code>(x,y)</code> indicates the point <code>x</code> units to the right and <code>y</code> units up from the origin.
+                                </p>
+                          </div>
+                        </popover>
+                        <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.awt.Point;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span></span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+        <span class="hljs-keyword">int</span> x = spot.x;
+        System.out.println(x);
+   }
+}
+</code></pre>
+                      </box>
+                      <p>💡 You might wonder why we can use the <code>System</code> class without importing it. <code>System</code> belongs to <strong>the <code>java.lang</code> package, which is imported automatically</strong>.</p>
+                    </div>
+                    <h5 id="new-operator"><code>new</code> operator<a class="fa fa-anchor" href="#new-operator"></a></h5>
+                    <div class="indented">
+                      <p><strong>To create a new object, you have to use the <code>new</code> operator</strong></p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This line shows how to create a new <code>Point</code> object using the <code>new</code> operator:</p>
+                        <pre><code class="hljs java">Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+</code></pre>
+                      </box>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> create `Rectangle` objects">
+                              <question>
+                                <p>Update the code below to create a new <code>Rectangle</code> object as described in the code comments, to produce the given output.</p>
+                                <ul>
+                                  <li>The <code>Rectangle</code> class is found in the <code>java.awt</code> package.</li>
+                                  <li>The parameters you need to supply when creating new <code>Rectangle</code> objects are <code>(int x, int y, int width, int height)</code>.</li>
+                                </ul>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Rectangle r;
+
+        <span class="hljs-comment">// TODO create a Rectangle object that has the properties x=0, y=0, width=5, height=10</span>
+        <span class="hljs-comment">// assign it to r</span>
+
+        System.out.println(r);
+    }
+}
+</code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <pre><code class="hljs">java.awt.Rectangle[x=0,y=0,width=5,height=10]
+</code></pre>
+                                <div slot="hint">
+                                  <ul>
+                                    <li>Import the <code>java.awt.Rectangle</code> class</li>
+                                    <li>This is how you create the required object <code>new Rectangle(0, 0, 5, 10)</code></li>
+                                  </ul>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-2b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.2b</span></span> <span class="dimmed"><strong><span>C++ to Java → Objects →
+                          </span></strong></span></small> <strong><span>Instance Members</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use instance members of objects</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Variables that belong to an object are called <em>attributes</em> (or <em>fields</em>).</strong></p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> To access an attribute of an object, Java uses <em>dot notation</em>.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below uses <code>spot.x</code> which means &quot;go to the object spot refers to, and get the value of the attribute <code>x</code>.&quot;</p>
+                      <pre><code class="hljs java">Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+<span class="hljs-keyword">int</span> sum = spot.x * spot.x + spot.y * spot.y;
+System.out.println(spot.x + <span class="hljs-string">", "</span> + spot.y + <span class="hljs-string">", "</span> + sum);
+</code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <pre><code class="hljs">3, 4, 25
+</code></pre>
+                    </box>
+                    <p><strong>You can <tooltip content="i.e., change/modify"><em>mutate</em></tooltip> an object by assigning a different values to its attributes.</strong></p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example changes the x value of the <code>Point</code> object to <code>5</code>.</p>
+                      <pre><code class="hljs java">Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+spot.x = <span class="hljs-number">5</span>;
+System.out.println(spot.x + <span class="hljs-string">", "</span> + spot.y);
+</code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <pre><code class="hljs">5, 4
+</code></pre>
+                    </box>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>Java uses the dot notation to invoke methods on an object too.</strong></p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example invokes the <code>translate</code> method on a <code>Point</code> object so that it moves to a different location.</p>
+                      <pre><code class="hljs java">Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+System.out.println(spot.x + <span class="hljs-string">", "</span> + spot.y);
+spot.translate(<span class="hljs-number">5</span>,<span class="hljs-number">5</span>);
+System.out.println(spot.x + <span class="hljs-string">", "</span> + spot.y);
+</code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <pre><code class="hljs">3, 4
+8, 9
+</code></pre>
+                    </box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> use `Rectangle` objects">
+                              <question>
+                                <p>Update the code below as described in code comments, to produce the given output.</p>
+                                <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.awt.Rectangle;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Rectangle r = <span class="hljs-keyword">new</span> Rectangle(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">4</span>, <span class="hljs-number">6</span>);
+        System.out.println(r);
+
+        <span class="hljs-keyword">int</span> area;
+        <span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> add a line below to calculate the area using width and height properties of r</span>
+        <span class="hljs-comment">// and assign it to the variable area</span>
+
+        System.out.println(<span class="hljs-string">"Area: "</span> + area);
+
+        <span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> add a line here to set the size of r to 8x10 (width x height)</span>
+        <span class="hljs-comment">//Recommended: use the setSize(int height, int width) method of the Rectangle object</span>
+
+        System.out.println(r);
+    }
+
+}
+</code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <pre><code class="hljs">java.awt.Rectangle[x=0,y=0,width=4,height=6]
+Area: 24
+java.awt.Rectangle[x=0,y=0,width=8,height=10]
+</code></pre>
+                                <div slot="hint">
+                                  <ul>
+                                    <li>Area can be calculated as <code>r.width * r.height</code></li>
+                                    <li>Setting the size can be done as <code>r.setSize(8, 10)</code></li>
+                                  </ul>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-2c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.2c</span></span> <span class="dimmed"><strong><span>C++ to Java → Objects →
+                          </span></strong></span></small> <strong><span>Passing Objects Around</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can pass objects between methods</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>You can pass objects as parameters to a method in the usual way</strong>.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>printPoint</code> method below takes a <code>Point</code> object as an argument and displays its attributes in <code>(x,y)</code> format.</p>
+                      <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printPoint</span><span class="hljs-params">(Point p)</span> </span>{
+    System.out.println(<span class="hljs-string">"("</span> + p.x + <span class="hljs-string">", "</span> + p.y + <span class="hljs-string">")"</span>);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+    Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+    printPoint(spot);
+}
+</code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <pre><code class="hljs">3, 4
+</code></pre>
+                    </box>
+                    <p><strong>You can return an object from a method too.</strong></p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>java.awt</code> package also provides a class called <code>Rectangle</code>. <code>Rectangle</code> objects are similar to points, but they have four attributes: <code>x</code>, <code>y</code>, <code>width</code>, and <code>height</code>. The <code>findCenter</code> method below takes a <code>Rectangle</code> as an argument and returns a <code>Point</code> that corresponds to the center of the rectangle:</p>
+                      <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Point <span class="hljs-title">findCenter</span><span class="hljs-params">(Rectangle box)</span> </span>{
+    <span class="hljs-keyword">int</span> x = box.x + box.width / <span class="hljs-number">2</span>;
+    <span class="hljs-keyword">int</span> y = box.y + box.height / <span class="hljs-number">2</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Point(x, y);
+}
+</code></pre>
+                      <p>The return type of this method is <code>Point</code>. The last line creates a new <code>Point</code> object and returns a reference to it.
+                      </p>
+                    </box>
+                    <h5 id="null-and-nullpointerexception"><code>null</code> and <code>NullPointerException</code><a class="fa fa-anchor" href="#null-and-nullpointerexception"></a></h5>
+                    <div class="indented">
+                      <p><strong><code>null</code> is a special value that means &quot;no object&quot;</strong>. You can assign null to a variable to indicate that the variable is 'empty' at the moment. However, if you try to use a null value, either by accessing an attribute or invoking a method, Java throws a <code>NullPointerException</code>.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, the variable <code>spot</code> is assigned a <code>null</code> value. As a result, trying to access <code>spot.x</code> attribute or invoke <code>spot.translate</code> method results in a <code>NullPointerException</code>.</p>
+                        <pre><code class="hljs java">Point spot = <span class="hljs-keyword">null</span>;
+<span class="hljs-keyword">int</span> x = spot.x;          <span class="hljs-comment">// NullPointerException</span>
+spot.translate(<span class="hljs-number">50</span>, <span class="hljs-number">50</span>);  <span class="hljs-comment">// NullPointerException</span>
+</code></pre>
+                      </box>
+                      <p>On the other hand, it is legal return null from a method or to pass a <code>null</code> reference as an argument to a method.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Returning <code>null</code> from a method.</p>
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Point <span class="hljs-title">createCopy</span><span class="hljs-params">(Point p)</span> </span>{
+    <span class="hljs-keyword">if</span> (p == <span class="hljs-keyword">null</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>; <span class="hljs-comment">// return null if p is null</span>
+    }
+
+    <span class="hljs-comment">// create a new object with same x,y values</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Point(p.x, p.y);
+}
+</code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Passing <code>null</code> as the argument.</p>
+                        <pre><code class="hljs java">Point result = createCopy(<span class="hljs-keyword">null</span>);
+System.out.println(result);
+</code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                        <pre><code class="hljs">null
+</code></pre>
+                      </box>
+                    </div>
+                    <p><strong>It is possible to have multiple variables that refer to the same object.</strong></p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Notice how <code>p1</code> and <code>p2</code> are aliases for the same object. When the object is changed using the variable <code>p1</code>, the changes are visible via <code>p2</code> as well (and vice versa), because they both point to the same <code>Point</code> object.</p>
+                      <pre><code class="hljs java">Point p1 = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>);
+Point p2 = p1;
+System.out.println(<span class="hljs-string">"p1: "</span> + p1.x + <span class="hljs-string">", "</span> + p1.y);
+System.out.println(<span class="hljs-string">"p2: "</span> + p2.x + <span class="hljs-string">", "</span> + p2.y);
+p1.x = <span class="hljs-number">1</span>;
+p2.y = <span class="hljs-number">2</span>;
+System.out.println(<span class="hljs-string">"p1: "</span> + p1.x + <span class="hljs-string">", "</span> + p1.y);
+System.out.println(<span class="hljs-string">"p2: "</span> + p2.x + <span class="hljs-string">", "</span> + p2.y);
+</code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <pre><code class="hljs">p1: 0, 0
+p2: 0, 0
+p1: 1, 2
+p2: 1, 2
+</code></pre>
+                    </box>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>Java does not have explicit pointers</strong> (and other related things such as pointer de-referencing, pointer arithmetic). <strong>When an object is passed into a method as an argument, the method gains access to the original object.</strong> If the method changes the object it received, the changes are retained in the object even after the method is completed.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Note how <code>p3</code> retains changes done to it by the method <code>swapCoordinates</code> even after the method call.</p>
+                      <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">swapCoordinates</span><span class="hljs-params">(Point p)</span></span>{
+    <span class="hljs-keyword">int</span> temp = p.x;
+    p.x = p.y;
+    p.y = temp;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+    Point p3 = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+    System.out.println(<span class="hljs-string">"p3: "</span> + p3.x + <span class="hljs-string">", "</span> + p3.y);
+    swapCoordinates(p3);
+    System.out.println(<span class="hljs-string">"p3: "</span> + p3.x + <span class="hljs-string">", "</span> + p3.y);
+}
+</code></pre>
+                      <pre><code class="hljs">p3: 2, 3
+p3: 3, 2
+</code></pre>
+                    </box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> pass objects to `move` method">
+                              <question>
+                                <p>Add a method <code>move(Point p, Rectangle r)</code> to the code below, to produce the given output. The behavior of the method is as follows:</p>
+                                <ul>
+                                  <li>Returns a new <code>Point</code> object that has attributes <code>x</code> and <code>y</code> that match those of <code>r</code></li>
+                                  <li>Does not modify <code>p</code></li>
+                                  <li>Updates <code>r</code> so that its attributes <code>x</code> and <code>y</code> match those of <code>p</code></li>
+                                  <li>Returns <code>null</code> and does nothing if either <code>p</code> or <code>r</code> is null</li>
+                                </ul>
+                                <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.awt.Point;
+<span class="hljs-keyword">import</span> java.awt.Rectangle;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+
+    <span class="hljs-comment">//TODO add your method here</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Point p1 = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+        Rectangle r1 = <span class="hljs-keyword">new</span> Rectangle(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>);
+        System.out.println(<span class="hljs-string">"arguments: "</span> + p1 + <span class="hljs-string">", "</span> + r1);
+
+        Point p2 = move(p1, r1);
+        System.out.println(<span class="hljs-string">"argument point after method call: "</span> + p1);
+        System.out.println(<span class="hljs-string">"argument rectangle after method call: "</span> + r1);
+        System.out.println(<span class="hljs-string">"returned point: "</span> + p2);
+
+        System.out.println(move(<span class="hljs-keyword">null</span>, <span class="hljs-keyword">null</span>));
+    }
+}
+</code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <pre><code class="hljs">arguments: java.awt.Point[x=0,y=0], java.awt.Rectangle[x=2,y=3,width=5,height=6]
+argument point after method call: java.awt.Point[x=0,y=0]
+argument rectangle after method call: java.awt.Rectangle[x=0,y=0,width=5,height=6]
+returned point: java.awt.Point[x=2,y=3]
+null
+</code></pre>
+                                <div slot="hint">
+                                  <p>Partial solution:</p>
+                                  <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Point <span class="hljs-title">move</span><span class="hljs-params">(Point p, Rectangle r)</span></span>{
+    <span class="hljs-keyword">if</span> (p == <span class="hljs-keyword">null</span> || r == <span class="hljs-keyword">null</span>){
+        <span class="hljs-comment">// ...</span>
+    }
+    Point newPoint = <span class="hljs-keyword">new</span> Point(r.x, r.y);
+    r.x = p.x;
+    <span class="hljs-comment">// ...</span>
+    <span class="hljs-keyword">return</span> newPoint;
+}
+</code></pre>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-2d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.2d</span></span> <span class="dimmed"><strong><span>C++ to Java → Objects →
+                          </span></strong></span></small> <strong><span>Garbage Collection</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain Java garbage collection</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>What happens when no variables refer to an object?</p>
+                    <pre><code class="hljs java">Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+spot = <span class="hljs-keyword">null</span>;
+</code></pre>
+                    <p>The first line creates a new <code>Point</code> object and makes spot refer to it. The second line changes <code>spot</code> so that instead of referring to the object, it refers to nothing. If there are no references to an object, there is no way to access its attributes or invoke a method on it. From the programmer’s view, it ceases to exist. However it’s still present in the computer’s memory, taking up space.</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>In Java, you don’t have to delete objects you create when they are no longer needed.</strong> As your program runs, the system automatically looks for stranded objects and reclaims them; then the space can be reused for new objects. This process is called <em>garbage collection</em>. You don’t have to do anything to make garbage collection happen, and in general don’t have to be aware of it. But in high-performance applications, you may notice a slight delay every now and then when Java reclaims space from discarded objects.</p>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W2-3"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w2-3-can-write-java-classes"><span class="dimmed">[W2.3]</span> <strong>Can write Java classes</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w2-3-can-write-java-classes"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W2-3a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.3a</span></span> <span class="dimmed"><strong><span>C++ to Java → Classes →
+                          </span></strong></span></small> <strong><span>Defining Classes</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can define Java classes</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>As you know,</p>
+                    <ul>
+                      <li>Defining a class creates a new object type with the same name.</li>
+                      <li>Every object belongs to some object type; that is, it is an instance of some class.</li>
+                      <li>A class definition is like a template for objects: it specifies what attributes the objects have and what methods can operate on them.</li>
+                      <li>The <code>new</code> operator instantiates objects, that is, it creates new instances of a class.</li>
+                      <li>The methods that operate on an object type are defined in the class for that object.</li>
+                    </ul>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's a class called <code>Time</code>, intended to represent a moment in time. It has three attributes and no methods.</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Time</span> </span>{
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> hour;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> minute;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> second;
+}
+</code></pre>
+                    </box>
+                    <p>You can give a class any name you like. <strong>The Java convention is to use <tooltip content="e.g., `MyHelloWord` rather than `myHelloWorld` or `myhelloword` or `my_hello_world`">PascalCase</tooltip> format for class names</strong>.</p>
+                    <p>The code should be in a file whose name matches the class <span class="dimmed">e.g., the <code>Time</code> class should be in a file named <code>Time.java</code></span>.</p>
+                    <p>When a class is <code>public</code> <span class="dimmed">(e.g., the <code>Time</code> class in the above example)</span> it can be used in other classes. But the <tooltip content="Attributes are also called **instance variables**, because each instance has its own variables.">instance variables</tooltip> that are <code>private</code> <span class="dimmed">(e.g., the hour, <code>minute</code> and <code>second</code> attributes of the <code>Time</code> class)</span> can only be accessed from inside the <code>Time</code> class.</p>
+                    <h5 id="constructos">Constructos<a class="fa fa-anchor" href="#constructos"></a></h5>
+                    <div class="indented">
+                      <p>The syntax for <tooltip content="special methods that construct the object and initialize the instance variables">constructors</tooltip> is similar to that of other methods, except:</p>
+                      <ul>
+                        <li>The name of the constructor is the same as the name of the class.</li>
+                        <li>The keyword <code>static</code> is omitted.</li>
+                        <li>Do not return anything. A constructor returns the created object by default.</li>
+                      </ul>
+                      <p>When you invoke <code>new</code>, Java creates the object and calls your constructor to initialize the instance variables. When the constructor is done, new returns a reference to the new object.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example constructor for the <code>Time</code> class:</p>
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">()</span> </span>{
+    hour = <span class="hljs-number">0</span>;
+    minute = <span class="hljs-number">0</span>;
+    second = <span class="hljs-number">0</span>;
+}
+</code></pre>
+                        <p>This constructor does not take any arguments. Each line initializes an instance variable to zero (which in this example means midnight).
+                          Now you can create <code>Time</code> objects.</p>
+                        <p><code>Time time = new Time();</code></p>
+                      </box>
+                      <p>Like other methods, constructors can be overloaded, which means you can provide multiple constructors with different parameters.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can add another constructor to the <code>Time</code> class to allow creating <code>Time</code> objects that are initialized to a specific time:</p>
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">(<span class="hljs-keyword">int</span> h, <span class="hljs-keyword">int</span> m, <span class="hljs-keyword">int</span> s)</span> </span>{
+    hour = h;
+    minute = m;
+    second = s;
+}
+</code></pre>
+                        <p>Here's how you can invoke the new constructor:</p>
+                        <pre><code class="hljs java">Time justBeforeMidnight = <span class="hljs-keyword">new</span> Time(<span class="hljs-number">11</span>, <span class="hljs-number">59</span>, <span class="hljs-number">59</span>);
+</code></pre>
+                      </box>
+                    </div>
+                    <h5 id="this-keyword"><code>this</code> keyword<a class="fa fa-anchor" href="#this-keyword"></a></h5>
+                    <div class="indented">
+                      <p><strong>The <code>this</code> keyword is a reference variable in Java that refers to the current object.</strong> You can use <code>this</code> the same way you use the name of any other object. For example, you can read and write the instance variables of <code>this</code>, and you can pass <code>this</code> as an argument to other methods. But you do not declare <code>this</code>, and you can’t make an assignment to it.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the following version of the constructor, the names and types of the parameters are the same as the instance variables (parameters don’t have to use the same names, but that’s a common style). As a result, the parameters <strong><em>shadow</em></strong> (or hide) the instance variables, so the keyword <code>this</code> is necessary to tell them apart.</p>
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">(<span class="hljs-keyword">int</span> hour, <span class="hljs-keyword">int</span> minute, <span class="hljs-keyword">int</span> second)</span> </span>{
+    <span class="hljs-keyword">this</span>.hour = hour;
+    <span class="hljs-keyword">this</span>.minute = minute;
+    <span class="hljs-keyword">this</span>.second = second;
+}
+</code></pre>
+                      </box>
+                      <p><strong><code>this</code> can be used to refer to a constructor of a class within the same class too.</strong></p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example the constructor <code>Time()</code> uses the <code>this</code> keyword to call its own overloaded constructor <code>Time(int, int, int)</code></p>
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">this</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>); <span class="hljs-comment">// call the overloaded constructor</span>
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">(<span class="hljs-keyword">int</span> hour, <span class="hljs-keyword">int</span> minute, <span class="hljs-keyword">int</span> second)</span> </span>{
+    <span class="hljs-comment">// ...</span>
+}
+
+</code></pre>
+                      </box>
+                      <h5 id="instance-methods">Instance methods<a class="fa fa-anchor" href="#instance-methods"></a></h5>
+                      <p><strong>You can add methods to a class which can then be used from the objects of that class.</strong> These <em>instance</em> methods do not have the <code>static</code> keyword in the method signature. Instance methods can access attributes of the class.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's how you can add a method to the <code>Time</code> class to get the number of seconds passed till midnight.</p>
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">secondsSinceMidnight</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> hour*<span class="hljs-number">60</span>*<span class="hljs-number">60</span> + minute*<span class="hljs-number">60</span> + second;
+}
+</code></pre>
+                        <p>Here's how you can use that method.</p>
+                        <pre><code class="hljs java">Time t = <span class="hljs-keyword">new</span> Time(<span class="hljs-number">0</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>);
+System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" seconds since midnight!"</span>);
+</code></pre>
+                      </box>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> define a `Circle` class">
+                              <question>
+                                <p>Define a <code>Circle</code> class so that the code given below produces the given output. The nature of the class is a follows:</p>
+                                <ul>
+                                  <li>Attributes(all <code>private</code>):
+                                    <ul>
+                                      <li><strong><code>int x</code>, <code>int y</code></strong>: represents the location of the circle</li>
+                                      <li><strong><code>double radius</code></strong>: the radius of the circle</li>
+                                    </ul>
+                                  </li>
+                                  <li>Constructors:
+                                    <ul>
+                                      <li><strong><code>Circle()</code></strong>: initializes <code>x</code>, <code>y</code>, <code>radius</code> to 0</li>
+                                      <li><strong><code>Circle(int x, int y, double radius)</code></strong>: initializes the attributes to the given values</li>
+                                    </ul>
+                                  </li>
+                                  <li>Methods:
+                                    <ul>
+                                      <li><strong><code>getArea()</code></strong>: <code>int</code><br>
+                                        Returns the area of the circle as an <code>int</code> value (not <code>double</code>). Calculated as 2xPIx(radius)<sup>2</sup><br>
+                                        💡 You can convert to <code>double</code> to an <code>int</code> using <code>(int)</code> e.g., <code>x = (int)2.25</code> gives <code>x</code> the value <code>2</code>.<br>
+                                        💡 You can use <code>Math.PI</code> to get the value of Pi<br>
+                                        💡 You can use <code>Math.pow()</code> to raise a number to a specific power e.g., <code>Math.pow(3, 2)</code> calculates 3<sup>2</sup></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Circle c = <span class="hljs-keyword">new</span> Circle();
+
+        System.out.println(c.getArea());
+        c = <span class="hljs-keyword">new</span> Circle(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>);
+        System.out.println(c.getArea());
+
+    }
+}
+</code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <pre><code class="hljs">0
+78
+</code></pre>
+                                <div slot="hint">
+                                  <ul>
+                                    <li>Put the <code>Circle</code> class in a file called <code>Circle.java</code></li>
+                                  </ul>
+                                  <p>Partial solution:</p>
+                                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> x;
+    <span class="hljs-comment">// ...</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">this</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y, <span class="hljs-keyword">double</span> radius)</span></span>{
+        <span class="hljs-keyword">this</span>.x = x;
+        <span class="hljs-comment">// ...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getArea</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">double</span> area = Math.PI * Math.pow(radius, <span class="hljs-number">2</span>);
+        <span class="hljs-keyword">return</span> (<span class="hljs-keyword">int</span>)area;
+    }
+
+}
+</code></pre>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-3b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.3b</span></span> <span class="dimmed"><strong><span>C++ to Java → Classes →
+                          </span></strong></span></small> <strong><span>Getters and setters</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can define getters and setters</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>As the instance variables of <code>Time</code> are private, you can access them from within the <code>Time</code> class only. To compensate, <strong>you can provide methods to access attributes</strong>:</p>
+                    <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getHour</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> hour;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getMinute</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> minute;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getSecond</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> second;
+}
+</code></pre>
+                    <p>Methods like these are formally called “accessors”, but more commonly referred to as <em>getters</em>. By convention, the method that gets a variable named something is called <code>getSomething</code>.</p>
+                    <p>Similarly, <strong>you can provide <em>setter</em> methods to modify attributes</strong> of a <code>Time</code> object:</p>
+                    <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setHour</span><span class="hljs-params">(<span class="hljs-keyword">int</span> hour)</span> </span>{
+    <span class="hljs-keyword">this</span>.hour = hour;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setMinute</span><span class="hljs-params">(<span class="hljs-keyword">int</span> minute)</span> </span>{
+    <span class="hljs-keyword">this</span>.minute = minute;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setSecond</span><span class="hljs-params">(<span class="hljs-keyword">int</span> second)</span> </span>{
+    <span class="hljs-keyword">this</span>.second = second;
+}
+</code></pre>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> add getters/setters to the `Circle` class">
+                              <question>
+                                <p>Consider the <code>Circle</code> class below:</p>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> x;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> y;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">double</span> radius;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">this</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y, <span class="hljs-keyword">double</span> radius)</span></span>{
+        <span class="hljs-keyword">this</span>.x = x;
+        <span class="hljs-keyword">this</span>.y = y;
+        <span class="hljs-keyword">this</span>.radius = radius;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getArea</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">double</span> area = Math.PI * Math.pow(radius, <span class="hljs-number">2</span>);
+        <span class="hljs-keyword">return</span> (<span class="hljs-keyword">int</span>)area;
+    }
+
+}
+</code></pre>
+                                <p>Update it as follows so that code given below produces the given output.</p>
+                                <ul>
+                                  <li>Add getter/setter methods for all three attributes</li>
+                                  <li>Update the setters and constructors such that if the radius supplied is negative, the code automatically set the radius to 0 instead.</li>
+                                </ul>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Circle c = <span class="hljs-keyword">new</span> Circle(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>, <span class="hljs-number">5</span>);
+
+        c.setX(<span class="hljs-number">4</span>);
+        c.setY(<span class="hljs-number">5</span>);
+        c.setRadius(<span class="hljs-number">6</span>);
+        System.out.println(<span class="hljs-string">"x      : "</span> + c.getX());
+        System.out.println(<span class="hljs-string">"y      : "</span> + c.getY());
+        System.out.println(<span class="hljs-string">"radius : "</span> + c.getRadius());
+        System.out.println(<span class="hljs-string">"area   : "</span> + c.getArea());
+
+        c.setRadius(-<span class="hljs-number">5</span>);
+        System.out.println(<span class="hljs-string">"radius : "</span> + c.getRadius());
+        c = <span class="hljs-keyword">new</span> Circle(<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, -<span class="hljs-number">4</span>);
+        System.out.println(<span class="hljs-string">"radius : "</span> + c.getRadius());
+
+    }
+}
+</code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <pre><code class="hljs">x      : 4
+y      : 5
+radius : 6.0
+area   : 113
+radius : 0.0
+radius : 0.0
+</code></pre>
+                                <div slot="hint">
+                                  <p>Partial solution:</p>
+                                  <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y, <span class="hljs-keyword">double</span> radius)</span></span>{
+    setX(x);
+    setY(y);
+    setRadius(radius);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setRadius</span><span class="hljs-params">(<span class="hljs-keyword">double</span> radius)</span> </span>{
+    <span class="hljs-keyword">this</span>.radius = Math.max(radius, <span class="hljs-number">0</span>);
+}
+</code></pre>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-3c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.3c</span></span> <span class="dimmed"><strong><span>C++ to Java → Classes →
+                          </span></strong></span></small> <strong><span>Class-Level Members</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use class-level members</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>The content below is an extract from <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small>, with slight adaptations.</p>
+                    <div class="indented">
+                      <p>When a number of objects are created from the same class blueprint, they each have their own distinct copies of instance variables. In the case of a <code>Bicycle</code> class, the instance variables are gear, and speed. Each Bicycle object has its own values for these variables, stored in different memory locations.</p>
+                      <p><strong>Sometimes, you want to have variables that are common to all objects. This is accomplished with the <code>static</code> modifier.</strong> Fields that have the <code>static</code> modifier in their declaration are called <em>static fields</em> or <em>class variables</em>. They are associated with the class, rather than with any object. Every instance of the class shares a class variable, which is in one fixed location in memory. Any object can change the value of a class variable, but class variables can also be manipulated without creating an instance of the class.</p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose you want to create a number of Bicycle objects and assign each a serial number, beginning with 1 for the first object. This ID number is unique to each object and is therefore an instance variable. At the same time, you need a field to keep track of how many <code>Bicycle</code> objects have been created so that you know what ID to assign to the next one. Such a field is not related to any individual object, but to the class as a whole. For this you need a class variable, numberOfBicycles, as follows:</p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bicycle</span> </span>{
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> gear;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> speed;
+
+    <span class="hljs-comment">// an instance variable for the object ID</span>
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> id;
+
+    <span class="hljs-comment">// a class variable for the number of Bicycle objects instantiated</span>
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> numberOfBicycles = <span class="hljs-number">0</span>;
+        ...
+}
+</code></pre>
+                      </box>
+                      <p><strong><em>Class variables</em> are referenced by the class name itself</strong>, as in <code>Bicycle.numberOfBicycles</code> This makes it clear that they are class variables.</p>
+                      <p>The Java programming language supports static methods as well as static variables. Static methods, which have the <code>static</code> modifier in their declarations, should be invoked with the class name, without the need for creating an instance of the class, as in <code>ClassName.methodName(args)</code></p>
+                      <p><strong>The <code>static</code> modifier, in combination with the <code>final</code> modifier, is also used to define constants.</strong> The final modifier indicates that the value of this field cannot change.For example, the following variable declaration defines a constant named PI, whose value is an approximation of pi (the ratio of the circumference of a circle to its diameter):
+                        <code>static final double PI = 3.141592653589793;</code></p>
+                      <box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example with class-level variables and class-level methods:</p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bicycle</span> </span>{
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> gear;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> speed;
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> id;
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> numberOfBicycles = <span class="hljs-number">0</span>;
+
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Bicycle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> startSpeed, <span class="hljs-keyword">int</span> startGear)</span> </span>{
+        gear = startGear;
+        speed = startSpeed;
+
+        numberOfBicycles++;
+        id = numberOfBicycles;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getID</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> id;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getNumberOfBicycles</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> numberOfBicycles;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getGear</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">return</span> gear;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setGear</span><span class="hljs-params">(<span class="hljs-keyword">int</span> newValue)</span> </span>{
+        gear = newValue;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getSpeed</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> speed;
+    }
+
+    <span class="hljs-comment">// ...</span>
+
+}
+</code></pre>
+                      </box>
+                    </div>
+                    <tip-box>
+                      <p>💡 Explanation of <strong><code>System.out.println(...)</code></strong>:</p>
+                      <ul>
+                        <li><code>out</code> is a class-level public attribute of the <code>System</code> class.</li>
+                        <li><code>println</code> is a instance level method of the <code>out</code> object.</li>
+                      </ul>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class">
+                              <question>
+                                <p>Consider the <code>Circle</code> class below:</p>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> x;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> y;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">double</span> radius;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">this</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y, <span class="hljs-keyword">double</span> radius)</span></span>{
+        setX(x);
+        setY(y);
+        setRadius(radius);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getX</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> x;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setX</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span> </span>{
+        <span class="hljs-keyword">this</span>.x = x;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getY</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> y;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setY</span><span class="hljs-params">(<span class="hljs-keyword">int</span> y)</span> </span>{
+        <span class="hljs-keyword">this</span>.y = y;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">double</span> <span class="hljs-title">getRadius</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> radius;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setRadius</span><span class="hljs-params">(<span class="hljs-keyword">double</span> radius)</span> </span>{
+        <span class="hljs-keyword">this</span>.radius = Math.max(radius, <span class="hljs-number">0</span>);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getArea</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">double</span> area = Math.PI * Math.pow(radius, <span class="hljs-number">2</span>);
+        <span class="hljs-keyword">return</span> (<span class="hljs-keyword">int</span>)area;
+    }
+}
+</code></pre>
+                                <p>Update it as follows so that code given below produces the given output.</p>
+                                <ul>
+                                  <li>Add a class-level <code>getMaxRadius</code> method that returns the maximum radius that has been used in all <code>Circle</code> objects created thus far.</li>
+                                </ul>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Circle c = <span class="hljs-keyword">new</span> Circle();
+        System.out.println(<span class="hljs-string">"max radius used so far : "</span> + Circle.getMaxRadius());
+        c = <span class="hljs-keyword">new</span> Circle(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">10</span>);
+        System.out.println(<span class="hljs-string">"max radius used so far : "</span> + Circle.getMaxRadius());
+        c = <span class="hljs-keyword">new</span> Circle(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, -<span class="hljs-number">15</span>);
+        System.out.println(<span class="hljs-string">"max radius used so far : "</span> + Circle.getMaxRadius());
+        c.setRadius(<span class="hljs-number">12</span>);
+        System.out.println(<span class="hljs-string">"max radius used so far : "</span> + Circle.getMaxRadius());
+    }
+}
+</code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <pre><code class="hljs">max radius used so far : 0.0
+max radius used so far : 10.0
+max radius used so far : 10.0
+max radius used so far : 12.0
+</code></pre>
+                                <div slot="hint">
+                                  <p>You can use a <code>static</code> variable <code>maxRadius</code> to track the maximum value used for the <code>radius</code> attribute so far.</p>
+                                  <p>Partial solution:</p>
+                                  <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setRadius</span><span class="hljs-params">(<span class="hljs-keyword">double</span> radius)</span> </span>{
+    <span class="hljs-keyword">this</span>.radius = Math.max(radius, <span class="hljs-number">0</span>);
+    <span class="hljs-keyword">if</span> (maxRadius &lt; <span class="hljs-keyword">this</span>.radius){
+        <span class="hljs-comment">// ...</span>
+    }
+}
+</code></pre>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W2-4"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w2-4-can-use-basic-features-of-an-ide"><span class="dimmed">[W2.4]</span> <strong>Can use basic features of an IDE</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w2-4-can-use-basic-features-of-an-ide"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W2-4a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4a</span></span> <span class="dimmed"><strong><span>Implementation → IDEs →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain IDEs</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Professional software engineers often write code using <em>Integrated Development Environments (IDEs)</em>. IDEs support all development-related work within the same tool.</strong></p>
+                    <p>An IDE generally consists of:</p>
+                    <ul>
+                      <li>A source code editor that includes features such as syntax coloring, auto-completion, easy code navigation, error highlighting, and code-snippet generation.</li>
+                      <li>A compiler and/or an interpreter (together with other build automation support) that facilitates the compilation/linking/running/deployment of a program.</li>
+                      <li>A debugger that allows the developer to execute the program one step at a time to observe the run-time behavior in order to locate bugs.</li>
+                      <li>Other tools that aid various aspects of coding e.g. support for automated testing, drag-and-drop construction of UI components, version management support, simulation of the target runtime platform, and modeling support.</li>
+                    </ul>
+                    <p>Examples of popular IDEs:</p>
+                    <ul>
+                      <li>Java: Eclipse, Intellij IDEA, NetBeans</li>
+                      <li>C#, C++: Visual Studio</li>
+                      <li>Swift: XCode</li>
+                      <li>Python: PyCharm</li>
+                    </ul>
+                    <p>Some Web-based IDEs have appeared in recent times too e.g., Amazon's <a href="https://aws.amazon.com/cloud9/">Cloud9 IDE</a>.</p>
+                    <p>Some experienced developers, in particular those with a UNIX background, prefer lightweight yet powerful text editors with scripting capabilities (e.g. <a href="http://www.gnu.org/software/emacs/">Emacs</a>) over heavier IDEs.</p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which of these are features available in IDEs?">
+                            <question>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. Compiling</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. Syntax error highlighting</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. Debugging</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. Code navigation <span class="dimmed">e.g., to navigate from a method call to the method implementation</span></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. Simulation <span class="dimmed">e.g., run a mobile app in a simulator</span></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> f. Code analysis <span class="dimmed">e.g. to find unreachable code</span></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> g. Reverse engineering design/documentation <span class="dimmed">e.g. generate diagrams from code</span></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> h. Visual programming <span class="dimmed">e.g. Write programs using ‘drag and drop’ actions instead of typing code</span></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> i. Syntax assistance <span class="dimmed">e.g., show hints as you type</span></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> j. Code generation <span class="dimmed">e.g., to generate the code required by simply specifying which component/structure you want to implement</span></li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> k. Extension <span class="dimmed">i.e., ability add more functionality to the IDE using plugins</span></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>All.</p>
+                                <p>Explanation: While all of these features may not be present in some IDEs, most do have these features in some form or other.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-4b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4b</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
+                          </span></strong></span></small> <strong><span>Project Setup</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can setup a project in an IDE</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <h5 id="running-intellij-idea-for-the-first-time">Running Intellij IDEA for the First Time<a class="fa fa-anchor" href="#running-intellij-idea-for-the-first-time"></a></h5>
+                    <tabs>
+                        <tab header="<md>:far-file-alt:</md>">
+                        <ul>
+                          <li><a href="https://www.jetbrains.com/help/idea/creating-running-and-packaging-your-first-java-application.html">[Intellij Official Tutorial] <strong>Creating, Running and Packaging Your First Java Application</strong></a></li>
+                        </ul>
+                        <p></p>
+                      </tab>
+                        <tab header="<md>:glyphicon-facetime-video:</md>">
+                        <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/c0efB_CKOYo" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                        <p>A little bit more detailed explanation <span class="dimmed">(from CodeLaunch)</span> with some additional info at the end.</p>
+                        <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/S764o0mAXhg" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                        <p></p>
+                      </tab>
+                    </tabs>
+                    <h5 id="importing-a-project-to-intellij-idea">Importing a Project to Intellij IDEA<a class="fa fa-anchor" href="#importing-a-project-to-intellij-idea"></a></h5>
+                    <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/WIYTktB1bT4" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-4c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4c</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
+                          </span></strong></span></small> <strong><span>Code Navigation</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can navigate code effectively using IDE features</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Some useful navigation shortcuts:</p>
+                    <ol>
+                      <li>Quickly locate a file by name.</li>
+                      <li>Go to the definition of a method from where it is used.</li>
+                      <li>Go back to the previous location.</li>
+                      <li>View the documentation of a method from where the method is being used, without navigating to the method itself.</li>
+                      <li>Find where a method/field is being used.</li>
+                    </ol>
+                    <panel header="Intellij IDEA Code Navigation (Basics)" alt="basics" expanded>
+                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/f885wy42IcM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    </panel>
+                    <panel header="Intellij IDEA Code Navigation (Advanced)" alt="basics">
+                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/IiHZPvmVICg" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    </panel>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+      </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-2-aug-19">Week 2 [Aug 19]&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#w2-1-can-explain-oop">[W2.1] Can explain OOP &#x200E;</a>
+              <a class="nav-link py-1" href="#w2-2-can-use-java-objects">[W2.2] Can use Java objects &#x200E;</a>
+              <a class="nav-link py-1" href="#w2-3-can-write-java-classes">[W2.3] Can write Java classes &#x200E;</a>
+              <a class="nav-link py-1" href="#w2-4-can-use-basic-features-of-an-ide">[W2.4] Can use basic features of an IDE &#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Wed, 17 Jul 2019 12:04:16 GMT</small></div>
+    </footer>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>
