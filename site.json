@@ -1,6 +1,6 @@
 {
   "baseUrl": "/website",
-  "titlePrefix": "CS2103/T Website",
+  "titlePrefix": "TIC2002 Website",
   "ignore": [
     "_site/*",
     ".idea/*",

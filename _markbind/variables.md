@@ -1,12 +1,12 @@
-<span id="module">CS2103</span>
+<span id="module">TIC2002</span>
 
-<span id="module_pair">CS2103/T</span>
+<span id="module_pair">TIC2002</span>
 
-<span id="module_name">Software Engineering</span>
+<span id="module_name">Introduction to Software Engineering</span>
 
-<span id="semester">AY1920S1</span>
+<span id="semester">2019</span>
 
-<span id="period">2019 Aug-Dec</span>
+<span id="period">2019</span>
 
 <span id="edition_badge"><small><small><small><span class='badge badge-pill badge-success'>{{ module_pair }} edition - {{ period }}</span></small></small></small></span>
 
