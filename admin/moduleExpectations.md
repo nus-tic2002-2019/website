@@ -26,16 +26,12 @@ Given 60% of this module is based on CA, it can appear to be _heavy_. However, *
 
 **Star ratings for topics** (and textbook sections):
 
-* **One-star topics** {{ one_star }} are essential to keep up with the module. We recommend you to ==learn these topics if you want to pass the module== (i.e. up to a **C** grade).
-* **Two-stars topics** {{ two_stars }} can get you up to a **B+**.
-* **Three-stars topics** {{ three_stars }} can get you up to an **A**.
-* **Four-stars topics** {{ four_stars }} can push you beyond the limits of the module, and help you get into a level above those who merely limit themselves to the topics of the module. They ==are not examinable==.
+* **One-star topics** {{ one_star }}: The topics you need to achieve just to keep up with the module. We recommend you to ==achieve these topics if you want to pass the module== (i.e. up to a **C** grade).
+* **Two-stars topics** {{ two_stars }}: Can get you up to a **B+**.
+* **Three-stars topics** {{ three_stars }}: Can get you up to an **A+**.
+* **Four-stars topics** {{ four_stars }}: Optional. Not examinable. For your own knowledge.
 
-* Topics marked with two {{ icon_prereq }} icons e.g., {{ prereq_one_star }},{{ prereq_two_stars }},{{ prereq_three_stars }},{{ prereq_four_stars }} are relevant topics you are expected to have learned in prerequisite modules. They are given for reference, but ==are examinable==. The number of stars indicates the progression of topics, similar to the star rating system above i.e., one-star prerequisite topics are the most basic and the most important. four-star pre-requisite topics can be ignored without affecting CAP.
-
-**Star ratings for other things** e.g., admin info sections:
-
-* The module uses a similar star rating system to indicate the importance of other info in this website. i.e., information rated as one-star are the most essential. ==Info rated four stars are non-essential and can be ignored== without affecting your ability to follow the module.
+* topics marked with two {{ icon_prereq }} icons e.g., {{ prereq_one_star }},{{ prereq_two_stars }},{{ prereq_three_stars }},{{ prereq_four_stars }} are relevant topics you are expected have achieved in prerequisite modules. They are given for reference only. The number of stars indicate the progression of topics, similar to the star rating system above i.e., one-star prerequisite topics are the most basic and the most important. four-star pre-requisite topics can be ignored without affecting CAP.
 
 </div>
 </div>
