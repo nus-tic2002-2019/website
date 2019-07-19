@@ -1623,7 +1623,6 @@
     },
     {
       "headings": {
-        "varargs": "Varargs ",
         "javafx-basic": "JavaFX: Basic",
         "streams-basic": "Streams: Basic",
         "java": "Java"
@@ -2002,7 +2001,6 @@
     {
       "headings": {
         "what": "What",
-        "testability": "Testability",
         "introduction": "Introduction",
         "stubs": "Stubs",
         "unit-testing": "Unit Testing",

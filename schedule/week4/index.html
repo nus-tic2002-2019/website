@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TIC2002 Website - Week 4 - Weekly Tasks</title>
+  <title>TIC2002 Website - Week 4 - Tasks</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -66,10 +66,95 @@
           <p><span style="float:left"><span><a href="/website/schedule/week3/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week5/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
           <h1 id="week-4-sep-2">Week 4 <small><small><span class="dimmed">[Sep 2]</span></small></small><a class="fa fa-anchor" href="#week-4-sep-2"></a></h1>
           <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Weekly Tasks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Weekly Topics</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
           </ul>
           <p></p>
+          <div>
+            <div class="indented">
+              <div class="indented border">
+                <panel type="seamless">
+                  <div></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-3</code>: Mark as Done</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div></div>
+                  <div>
+                    <p><span>
+                        <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
+                      </span></p>
+                    <h3 id="duke-3-mark-as-done">Duke 3. Mark as Done<a class="fa fa-anchor" href="#duke-3-mark-as-done"></a></h3>
+                    <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
+                    <pre><code class="hljs">list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[✓] read book
+     2.[✗] return book
+     3.[✗] buy bread
+    ____________________________________________________________
+
+done 2
+    ____________________________________________________________
+     Nice! I've marked this task as done: 
+       [✓] return book
+    ____________________________________________________________
+</code></pre>
+                    <div>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                      <panel header="**Extension: `A-Classes`**">
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-classes"><span class="badge badge-pill badge-primary">A-Classes</span><a class="fa fa-anchor" href="#a-classes"></a></h3>
+                            <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
+                          </div>
+                          <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
+                          <panel type="seamless" header="Partial solution" minimized>
+                            <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
+    <span class="hljs-keyword">protected</span> String description;
+    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Task</span><span class="hljs-params">(String description)</span> </span>{
+        <span class="hljs-keyword">this</span>.description = description;
+        <span class="hljs-keyword">this</span>.isDone = <span class="hljs-keyword">false</span>;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatusIcon</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">"\u2713"</span> : <span class="hljs-string">"\u2718"</span>); <span class="hljs-comment">//return tick or X symbols</span>
+    }
+
+    <span class="hljs-comment">//...</span>
+}
+</code></pre>
+                            <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
+t.markAsDone()
+</code></pre>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </panel>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="indented">
+              <div class="indented border">
+                <panel type="seamless">
+                  <div></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>A-TextUiTesting</code>: Text UI Testing</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                  <div></div>
+                  <div>
+                    <div>
+                      <div></div>
+                      <h3 id="a-textuitesting"><span class="badge badge-pill badge-primary">A-TextUiTesting</span><a class="fa fa-anchor" href="#a-textuitesting"></a></h3>
+                      <p>     <big>↳</big> <strong>Test using the I/O redirection technique</strong></p>
+                    </div>
+                    <p>Use the input/output redirection technique to semi-automate testing of Duke.</p>
+                  </div>
+                </panel>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
@@ -84,7 +169,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Wed, 17 Jul 2019 12:04:16 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
     </footer>
   </div>
 </body>

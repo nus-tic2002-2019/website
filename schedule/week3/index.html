@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TIC2002 Website - Week 3 - Weekly Tasks</title>
+  <title>TIC2002 Website - Week 3 - Tasks</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -66,10 +66,103 @@
           <p><span style="float:left"><span><a href="/website/schedule/week2/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week4/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
           <h1 id="week-3-aug-26">Week 3 <small><small><span class="dimmed">[Aug 26]</span></small></small><a class="fa fa-anchor" href="#week-3-aug-26"></a></h1>
           <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week3/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Weekly Tasks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Weekly Topics</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week3/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
           </ul>
           <p></p>
+          <div>
+            <div class="indented">
+              <div class="indented border">
+                <panel type="seamless">
+                  <div></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-1</code>: Greet, Echo, Exit</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div></div>
+                  <div>
+                    <p><span>
+                        <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
+                      </span></p>
+                    <h3 id="duke-1-greet-echo-exit">Duke 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#duke-1-greet-echo-exit"></a></h3>
+                    <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
+                      <br>
+                      Example:</p>
+                    <pre><code class="hljs">    ____________________________________________________________
+     Hello! I'm Duke
+     What can I do for you?
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+     list
+    ____________________________________________________________
+
+blah
+    ____________________________________________________________
+     blah
+    ____________________________________________________________
+
+bye
+    ____________________________________________________________
+     Bye. Hope to see you again soon!
+    ____________________________________________________________
+
+</code></pre>
+                    <ul>
+                      <li>The indentation and horizontal lines are optional.</li>
+                    </ul>
+                  </div>
+                </panel>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="indented">
+              <div class="indented border">
+                <panel type="seamless">
+                  <div></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-2</code>: Add, List</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div></div>
+                  <div>
+                    <p><span>
+                        <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
+                      </span></p>
+                    <h3 id="duke-2-add-list">Duke 2. Add, List<a class="fa fa-anchor" href="#duke-2-add-list"></a></h3>
+                    <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
+                    <p>Example:</p>
+                    <pre><code class="hljs">    ____________________________________________________________
+     Hello! I'm Duke
+     What can I do for you?
+    ____________________________________________________________
+
+read book
+    ____________________________________________________________
+     added: read book
+    ____________________________________________________________
+
+return book
+    ____________________________________________________________
+     added: return book
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+     1. read book
+     2. return book
+    ____________________________________________________________
+bye
+    ____________________________________________________________
+     Bye. Hope to see you again soon!
+    ____________________________________________________________
+
+</code></pre>
+                    <ul>
+                      <li>There is no need to save the data to the hard disk.</li>
+                      <li>Assume there will be no more than 100 tasks. If you wish, you may use a fixed size array (e.g., <code>String[100]</code>) to store the items.</li>
+                    </ul>
+                  </div>
+                </panel>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
@@ -84,7 +177,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Wed, 17 Jul 2019 12:04:16 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
     </footer>
   </div>
 </body>

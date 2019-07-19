@@ -2954,3 +2954,10 @@ Template render error: (C:\repos\nus-tic2002-2019\tic2002-website\se-book-adapte
 2019-07-17T12:01:42.063Z - info: Rebuilding 776 pages
 2019-07-17T12:04:14.143Z - info: Website generation started at 8:04:12 PM
 2019-07-17T12:04:15.322Z - info: Building assets...
+2019-07-17T12:04:16.391Z - info: Assets built
+2019-07-17T12:04:16.391Z - info: Generating pages...
+2019-07-17T12:05:18.368Z - info: Pages built
+2019-07-17T12:05:31.609Z - info: Website generation complete! Total build time: 79.528s
+2019-07-17T12:05:31.609Z - info: Build success!
+2019-07-17T12:05:31.618Z - info: Site data built
+2019-07-17T12:06:36.214Z - info: Deployed!

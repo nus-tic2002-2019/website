@@ -49,7 +49,7 @@
               <div class="indented-less">
                 <div>
                   <tip-box type="definition">
-                      <div>
+                    <div>
                       <p><strong>Software Engineering</strong>: Software Engineering is the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software&quot; <sub>-- IEEE Standard Glossary of Software Engineering Terminology</sub></p>
                     </div>
                   </tip-box>
@@ -365,7 +365,7 @@
                 <div>
                   <p>The concept of <strong><em>Objects</em> in OOP is an <trigger trigger="click" for="modal:objectsAsAbstractions-abstraction">abstraction</trigger> mechanism because it allows us to abstract away the lower level details and work with bigger granularity entities</strong> i.e. ignore details of data formats and the method implementation details and work at the level of objects.</p>
                   <modal large title="Definition: Abstraction" id="modal:objectsAsAbstractions-abstraction">
-                      <div>
+                    <div>
                       <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                     </div>
                   </modal>
@@ -1123,6 +1123,46 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                 </div>
               </div>
             </div>
+            <div class="indented-less">
+              <h4 id="non-functional-requirements">Non-Functional Requirements <span class="badge badge-light"><small><small>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                    </small></small></span><a class="fa fa-anchor" href="#non-functional-requirements"></a></h4>
+              <div class="indented-less">
+                <div>
+                  <p>There are two kinds of requirements:</p>
+                  <ol>
+                    <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
+                    <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
+                  </ol>
+                  <tip-box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of non-functional requirement categories:</p>
+                    <ul>
+                      <li>Data requirements e.g. size, <tooltip content="how often do data change">volatility</tooltip>, <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
+                      <li>Environment requirements e.g. technical environment in which system would operate or need to be compatible with.</li>
+                      <li>Accessibility, Capacity, Compliance with regulations, Documentation, Disaster recovery, Efficiency, Extensibility, Fault tolerance, Interoperability, Maintainability, Privacy, Portability, Quality, Reliability, Response time, Robustness, Scalability, Security, Stability, Testability, and more ...</li>
+                    </ul>
+                    <panel type="seamless" header="<md>:fas-cube:</md> Some concrete examples of NFRs" expanded>
+                      <ul>
+                        <li>Business/domain rules: e.g. the size of the minefield cannot be smaller than five.</li>
+                        <li>Constraints: e.g. the system should be backward compatible with data produced by earlier versions of the system; system testers are available only during the last month of the project; the total project cost should not exceed $1.5 million.</li>
+                        <li>Technical requirements: e.g. the system should work on both 32-bit and 64-bit environments.</li>
+                        <li>Performance requirements: e.g. the system should respond within two seconds.</li>
+                        <li>Quality requirements: e.g. the system should be usable by a novice who has never carried out an online purchase.</li>
+                        <li>Process requirements: e.g. the project is expected to adhere to a schedule that delivers a feature set every one month.</li>
+                        <li>Notes about project scope: e.g. the product is not required to handle the printing of reports.</li>
+                        <li>Any other noteworthy points: e.g. the game should not use images deemed offensive to those injured in real mine clearing activities.
+                        </li>
+                      </ul>
+                    </panel>
+                  </tip-box>
+                  <p>We may have to spend an extra effort in digging NFRs out as early as possible because,</p>
+                  <ol>
+                    <li><strong>NFRs are easier to miss</strong> <span class="dimmed"> e.g., stakeholders tend to think of functional requirements first</span></li>
+                    <li>sometimes <strong>NFRs are critical to the success of the software.</strong> <span class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
           </div>
           <p style="page-break-after: always;">&nbsp;</p>
           <div id="title">
@@ -1174,7 +1214,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                 <div>
                   <p><strong>Interviewing stakeholders and <trigger for="pop:interviews-domainExpert">domain experts</trigger> can produce useful information that project requirements.</strong></p>
                   <popover id="pop:interviews-domainExpert" title placement="top">
-                      <div slot="content">
+                    <div slot="content">
                       <div>
                         <p><strong>Domain Expert</strong> : An expert of a discipline to which the product is connected <span class="dimmed"> e.g., for a software used for Accounting, a domain expert is someone who is an expert of Accounting</span>.</p>
                       </div>
@@ -1464,7 +1504,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <p><strong>User stories differ from <popover content="e.g. a description of the requirements written in prose">traditional requirements specifications</popover> mainly in the level of detail.</strong> User stories should only provide enough details to make a reasonably low risk estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. <span class="dimmed">[<trigger for="modal:xp-user-stories" trigger="click">more...</trigger>]</span></p>
                   <p><strong>User stories can capture <trigger trigger="click" for="modal:userStoriesUsage-nfr">non-functional requirements</trigger> too</strong> because even NFRs must benefit some stakeholder.</p>
                   <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:userStoriesUsage-nfr">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Requirements → Requirements →
@@ -1584,7 +1624,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <panel header="**Tool Examples**: How to use some example online tools to manage user stories" alt="tool examples">
                       <div>
                         <tabs>
-                            <tab header="GitHub Project Boards">
+                          <tab header="GitHub Project Boards">
                             <p>You can create issues for each of the user stories and use a GitHub <em>Project Board</em> to sort them into categories.</p>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example Project Board:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInGitHubProjectBoards.png" width="800"></p>
@@ -1596,19 +1636,16 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                             <p></p>
                             <p>A video on GitHub Project Boards:</p>
                             <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/C6MGKHkNtxU" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                            <p></p>
                           </tab>
-                            <tab header="Google Sheets">
+                          <tab header="Google Sheets">
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example Google Sheet for recording user stories:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInGoogleSheets.png" width="800"></p>
                             <p></p>
                             <p></p>
-                            <p></p>
-                          </tab> 
+                          </tab>
                           <tab header="Trello">
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example <a href="https://trello.com">Trello</a> Board for recording user stories:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInTrello.png" width="800"></p>
-                            <p></p>
                             <p></p>
                             <p></p>
                           </tab>
@@ -1753,7 +1790,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                 <div>
                   <p><strong>A <em>supplementary requirements</em> section can be used to capture <em>requirements that do not fit elsewhere</em></strong>. Typically, this is where most <trigger trigger="click" for="modal:supplementary-nfr">Non Functional Requirements</trigger> will be listed.</p>
                   <modal large title="%%Textbook »%%" id="modal:supplementary-nfr">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Requirements → Requirements →
@@ -1940,7 +1977,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   </modal>
                   <p><strong>A <em>model</em> provides a simpler view of a complex entity because a model captures only a selected aspect.</strong> This omission of some aspects implies models are <trigger trigger="click" for="modal:modellingIntro-abstraction">abstractions</trigger>.</p>
                   <modal large title="%%Textbook <md>:glyphicon-log-in:</md>%%" id="modal:modellingIntro-abstraction">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Abstraction →
@@ -2025,28 +2062,23 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <tip-box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example architecture diagrams:</p>
                         <tabs>
-                            <tab header="TEAMMATES">
+                          <tab header="TEAMMATES">
                             <p><img src="https://github.com/TEAMMATES/teammates/raw/master/docs/images/highlevelArchitecture.png" width="700"><br></p>
-                            <p></p>
                           </tab>
-                            <tab header="se-edu/addressbook-level4">
+                          <tab header="se-edu/addressbook-level4">
                             <p><img src="https://se-edu.github.io/addressbook-level4/images/Architecture.png" width="700"><br></p>
-                            <p></p>
                           </tab>
-                            <tab header="Example 1">
+                          <tab header="Example 1">
                             <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Accelerator_Architecture.png" width="700"><br>
                               <sub><a href="https://commons.wikimedia.org/wiki/File:Accelerator_Architecture.png">source: https://commons.wikimedia.org</a></sub></p>
-                            <p></p>
                           </tab>
-                            <tab header="Example 2">
+                          <tab header="Example 2">
                             <p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Firefox_OS_Architecture_diagram.png" width="700"><br>
                               <sub><a href="https://upload.wikimedia.org/wikipedia/commons/b/b8/Firefox_OS_Architecture_diagram.png">source: https://commons.wikimedia.org</a></sub></p>
-                            <p></p>
                           </tab>
-                            <tab header="Example 3">
+                          <tab header="Example 3">
                             <p><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg" width="700"><br>
                               <sub><a href="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg">source: https://commons.wikimedia.org</a></sub></p>
-                            <p></p>
                           </tab>
                         </tabs>
                       </tip-box>
@@ -2443,7 +2475,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -2465,10 +2497,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -2486,7 +2517,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -2496,7 +2526,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -2513,10 +2543,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         subsidy = <span class="hljs-number">-1</span>
     <span class="hljs-keyword">return</span> subsidy
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -2530,7 +2559,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-keyword">else</span>:
         <span class="hljs-keyword">return</span> FULLTIME_SUBSIDY
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -2575,7 +2603,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -2597,10 +2625,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -2618,7 +2645,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -2628,7 +2654,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -2645,10 +2671,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         subsidy = <span class="hljs-number">-1</span>
     <span class="hljs-keyword">return</span> subsidy
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -2662,7 +2687,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-keyword">else</span>:
         <span class="hljs-keyword">return</span> FULLTIME_SUBSIDY
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -2745,7 +2769,7 @@ is_urgent = type_code == URGENT
                       <div>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -2753,10 +2777,9 @@ is_urgent = type_code == URGENT
 ...
 <span class="hljs-keyword">return</span> <span class="hljs-number">9</span>;
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -2767,7 +2790,6 @@ is_urgent = type_code == URGENT
 ...
 <span class="hljs-keyword">return</span> MAX_SIZE-<span class="hljs-number">1</span>;
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -2778,7 +2800,7 @@ is_urgent = type_code == URGENT
                         <p>Note: Python does not have a way to make a variable a constant. However, you can use a normal variable with an <code>ALL_CAPS</code> name to simulate a constant.</p>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -2786,10 +2808,9 @@ is_urgent = type_code == URGENT
 ...
 <span class="hljs-keyword">return</span> <span class="hljs-number">9</span>
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -2800,7 +2821,6 @@ MAX_SIZE = <span class="hljs-number">10</span>
 ...
 <span class="hljs-keyword">return</span> MAX_SIZE<span class="hljs-number">-1</span>
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -3148,7 +3168,7 @@ trim_input()
                       <div>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isSpecialDeal()) {
     total = price * <span class="hljs-number">0.95</span>;
     send();
@@ -3157,10 +3177,9 @@ trim_input()
     send();
 }
 </code></pre>
-                              <p></p>
                             </td>
-                              <td valign="center"> → </td>
-                              <td valign="top">
+                            <td valign="center">&nbsp;→&nbsp;</td>
+                            <td valign="top">
                               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isSpecialDeal()){
     total = price * <span class="hljs-number">0.95</span>;
 } <span class="hljs-keyword">else</span> {
@@ -3169,7 +3188,6 @@ trim_input()
 send();
 
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -3179,7 +3197,7 @@ send();
                       <div>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <pre><code class="hljs python"><span class="hljs-keyword">if</span> is_special_deal:
     total = price * <span class="hljs-number">0.95</span>
     send()
@@ -3187,10 +3205,9 @@ send();
     total = price * <span class="hljs-number">0.98</span>
     send()
 </code></pre>
-                              <p></p>
                             </td>
-                              <td valign="center"> → </td>
-                              <td valign="top">
+                            <td valign="center">&nbsp;→&nbsp;</td>
+                            <td valign="top">
                               <pre><code class="hljs python"><span class="hljs-keyword">if</span> is_special_deal:
     total = price * <span class="hljs-number">0.95</span>
 <span class="hljs-keyword">else</span>:
@@ -3198,7 +3215,6 @@ send();
     
 send()
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -3939,16 +3955,6 @@ send()
                 </div>
               </div>
             </div>
-            <div class="indented-less">
-              <h4 id="testability">Testability <span class="badge badge-light"><small><small>
-                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#testability"></a></h4>
-              <div class="indented-less">
-                <div>
-                  <p><strong><em>Testability</em> is an indication of how easy it is to test an SUT.</strong> As testability depends a lot on the design and implementation. You should try to increase the testability when you design and implement a software. The higher the testability, the easier it is to achieve a better quality software.</p>
-                </div>
-              </div>
-            </div>
           </div>
           <p>
             <div>
@@ -4337,14 +4343,11 @@ send()
               <div class="indented-less">
                 <div>
                   <tabs>
-                      <tab header="<md>:far-file-alt:</md>">
+                    <tab header="<md>:far-file-alt:</md>">
                       <p><strong>An automated test case can be run programmatically and the result of the test case (pass or fail) is determined programmatically.</strong> Compared to manual testing, automated testing reduces the effort required to run tests repeatedly and increases precision of testing (because manual testing is susceptible to human errors).</p>
-                      <p></p>
                     </tab>
-                      <tab header="<md>:glyphicon-facetime-video:</md>">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/RbSlW8jZFe8?end=79&version=3" frameborder="0" allowfullscreen></iframe>
-                      <p></p>
-                    </tab>
+                    <tab header="<md>:glyphicon-facetime-video:</md>">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/RbSlW8jZFe8?end=79&version=3" frameborder="0" allowfullscreen></iframe></tab>
                   </tabs>
                 </div>
               </div>
@@ -4532,7 +4535,7 @@ Invalid command format: add
                     </tab>
                   </tabs>
                   <modal large title="Reference » Mercurial: The Definitive Guide" id="modal:rcsWhat-bryanMercurialGuide">
-                      <div>
+                    <div>
                       <p><a href="http://hgbook.red-bean.com/">Mercurial: The Definitive Guide</a> by Bryan O'Sullivan retrieved on 2012/07/11</p>
                     </div>
                   </modal>
@@ -4583,14 +4586,12 @@ Invalid command format: add
                   <p><strong>In a repo, we can specify which files to track and which files to <mark>ignore</mark>.</strong> Some files such as temporary log files created during the build/test process should not be revision-controlled.</p>
                   <h5 id="staging-and-committing">Staging and Committing<a class="fa fa-anchor" href="#staging-and-committing"></a></h5>
                   <tabs>
-                      <tab header="<md>:far-file-alt:</md>">
+                    <tab header="<md>:far-file-alt:</md>">
                       <p><strong><mark><em>Committing</em></mark> saves a snapshot of the current state of the tracked files in the revision control history. Such a snapshot is also called a <em>commit</em> (i.e. the noun).</strong></p>
                       <p><strong>When ready to commit, we first <mark><em>stage</em></mark> the specific changes we want to commit.</strong> This intermediate step allows us to commit only some changes while saving other changes for a later commit.</p>
-                      <p></p>
                     </tab>
-                      <tab header="<md>:glyphicon-facetime-video:</md>">
+                    <tab header="<md>:glyphicon-facetime-video:</md>">
                       <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/7exFDGHgQcw" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                      <p></p>
                     </tab>
                   </tabs>
                   <h5 id="identifying-points-in-history">Identifying Points in History<a class="fa fa-anchor" href="#identifying-points-in-history"></a></h5>
@@ -4910,102 +4911,6 @@ Invalid command format: add
               </div>
             </div>
             <div class="indented-less">
-              <h4 id="liskov-substitution-principle">Liskov Substitution Principle <span class="badge badge-light"><small><small>
-                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#liskov-substitution-principle"></a></h4>
-              <div class="indented-less">
-                <div>
-                  <tip-box type="definition">
-                    <div>
-                      <p><strong>Liskov Substitution Principle (LSP)</strong>: Derived classes must be substitutable for their base classes. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbara Liskov</a></sub></p>
-                    </div>
-                  </tip-box>
-                  <p>LSP sounds same as <trigger large trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
-                  <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:lsp-substitutability">
-                      <div>
-                      <div>
-                        <p>
-                          <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
-                        </p>
-                      </div>
-                      <p></p>
-                      <p><span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                            </span></strong></span></p>
-                      <div id="title-and-body">
-                        <div>
-                          <h4 id="substitutability"><span>Substitutability</span><a class="fa fa-anchor" href="#substitutability"></a></h4>
-                        </div>
-                        <div id="main">
-                          <div>
-                            <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is expected.</p>
-                            <tip-box>
-                              <img src="/website/book/oop/inheritance/substitutability/images/staff.png" height="80">
-                              <p></p>
-                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
-                              <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
-                              <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
-</code></pre>
-                              <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
-                              <pre><code class="hljs java">Staff staff;
-...
-AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
-</code></pre>
-                            </tip-box>
-                          </div>
-                          <div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </modal>
-                  <tip-box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code> method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
-                    <img src="/website/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
-                    <p></p>
-                    <p>Now consider the following:</p>
-                    <ul>
-                      <li><code>Admin#adjustMySalary</code> method works for both negative and positive percent values.</li>
-                      <li><code>Academic#adjustMySalary</code> method works for percent values <code>1..100</code> only.</li>
-                    </ul>
-                    <p>In the above scenario,</p>
-                    <ul>
-                      <li><code>Admin</code> class follows LSP because it fulfills <code>Payroll</code>’s expectation of <code>Staff</code> objects (i.e. it works for all positive values). Substituting <code>Admin</code> objects for Staff objects will not break the <code>Payroll</code> class functionality.</li>
-                      <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects can potentially break the <code>Payroll</code> class functionality.</li>
-                    </ul>
-                    <panel type="seamless" header="%%Another example%%">
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept a <code>height</code> that is different from the <code>width</code>.</p>
-                      <img src="/website/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
-                      <p></p>
-                      <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Rectangle</span> </span>{
-    ...
-    <span class="hljs-comment">/** sets the size to given height and width*/</span>
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">resize</span><span class="hljs-params">(<span class="hljs-keyword">int</span> height, <span class="hljs-keyword">int</span> width)</span></span>{
-        ...
-    }
-}
-
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Square</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Rectangle</span> </span>{
-    
-    <span class="hljs-meta">@Override</span>
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">resize</span><span class="hljs-params">(<span class="hljs-keyword">int</span> height, <span class="hljs-keyword">int</span> width)</span></span>{
-        <span class="hljs-keyword">if</span> (height != width) {
-            <span class="hljs-comment">//error</span>
-       }
-    }
-}
-</code></pre>
-                      <p>Now consider the following method that is written to work with the <code>Rectangle</code> class.</p>
-                      <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">makeSameSize</span><span class="hljs-params">(Rectangle original, Rectangle toResize)</span></span>{
-    toResize.resize(original.getHeight(), original.getWidth());
-}
-</code></pre>
-                      <p>This code will fail if it is called as <code>maekSameSize(new Rectangle(12,8), new Square(4, 4))</code> That is, <code>Square</code> class is not substitutable for the <code>Rectangle</code> class.</p>
-                    </panel>
-                  </tip-box>
-                </div>
-              </div>
-            </div>
-            <div class="indented-less">
               <h4 id="separation-of-concerns-principle">Separation of Concerns Principle <span class="badge badge-light"><small><small>
                       <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#separation-of-concerns-principle"></a></h4>
@@ -5034,7 +4939,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
                   </tip-box>
                   <modal title="TextBook <md>:glyphicon-log-in:</md>" id="modal:soc-nTier">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style
@@ -5060,7 +4965,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   </modal>
                   <p><strong>This principle should lead to higher <trigger trigger="click" for="soc-cohesion">cohesion</trigger> and lower <trigger trigger="click" for="soc-coupling">coupling</trigger>.</strong></p>
                   <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-coupling">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Coupling →
@@ -5146,7 +5051,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     </div>
                   </modal>
                   <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-cohesion">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Cohesion →
@@ -5229,7 +5134,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <panel type="seamless" header="The equivalent code">
                       <table>
                         <tr>
-                            <td>
+                          <td>
                             <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span></span>{
     
@@ -5245,10 +5150,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     }
 }
 </code></pre>
-                            <p></p>
                           </td>
-                            <td valign="bottom">  <br><br></td>
-                            <td valign="bottom">
+                          <td valign="bottom">&nbsp;&nbsp;<br><br></td>
+                          <td valign="bottom">
                             <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span>:</span>
     
@@ -5264,7 +5168,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-comment"># ...</span>
     
 </code></pre>
-                            <p></p>
                           </td>
                         </tr>
                       </table>
@@ -5411,7 +5314,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p>Note how the variable names match closely with the association roles.</p>
                     <table>
                       <tr>
-                          <td valign="top">
+                        <td valign="top">
                           <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span></span>{
     Woman wife;
@@ -5421,10 +5324,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     Man husband;
 }
 </code></pre>
-                          <p></p>
                         </td>
-                          <td>  <br><br></td>
-                          <td valign="top">
+                        <td>&nbsp;&nbsp;<br><br></td>
+                        <td valign="top">
                           <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
@@ -5434,7 +5336,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
      self.husband = <span class="hljs-literal">None</span> <span class="hljs-comment"># a Man object</span>
 </code></pre>
-                          <p></p>
                         </td>
                       </tr>
                     </table>
@@ -5445,22 +5346,20 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p></p>
                     <table>
                       <tr>
-                          <td valign="top">
+                        <td valign="top">
                           <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
     List&lt;Student&gt; charges;
 }
 </code></pre>
-                          <p></p>
                         </td>
-                          <td>  <br><br></td>
-                          <td valign="top">
+                        <td>&nbsp;&nbsp;<br><br></td>
+                        <td valign="top">
                           <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.charges = [] <span class="hljs-comment"># list of Student objects</span>
 </code></pre>
-                          <p></p>
                         </td>
                       </tr>
                     </table>
@@ -6357,7 +6256,7 @@ index 15b57f7..17f4528 100644
                   </tabs>
                   <p>Git can load a specific version of the history to the working directory. Note that if you have uncommitted changes in the working directory, you need to <trigger trigger="click" for="modal:checkout-stash">stash</trigger> them first to prevent them from being overwritten.</p>
                   <modal large title="%%Extract%%" id="modal:checkout-stash">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Tools → Git and GitHub →
@@ -6370,13 +6269,11 @@ index 15b57f7..17f4528 100644
                           <div>
                             <p><strong>You can use the git's <mark><em>stash</em></mark> feature to temporarily shelve (or stash) changes you've made to your working copy</strong> so that you can work on something else, and then come back and re-apply the stashed changes later on. <sub>-- adapted from <a href="https://www.atlassian.com/git/tutorials/git-stash">this</a></sub></p>
                             <tabs>
-                                <tab header="Source Tree">
+                              <tab header="Source Tree">
                                 <p>Follow <a href="https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html">this article from SourceTree creators</a>. <span class="dimmed">Note the GUI shown in the article is slightly outdated but you should be able to map it to the current GUI.</span></p>
-                                <p></p>
                               </tab>
-                                <tab header="CLI">
+                              <tab header="CLI">
                                 <p>Follow <a href="https://www.atlassian.com/git/tutorials/git-stash">this article from Atlassian</a>.</p>
-                                <p></p>
                               </tab>
                             </tabs>
                           </div>
@@ -6631,6 +6528,136 @@ index 15b57f7..17f4528 100644
                 </div>
               </div>
             </div>
+            <div class="indented-less">
+              <h4 id="branch">Branch <span class="badge badge-light"><small><small>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                    </small></small></span><a class="fa fa-anchor" href="#branch"></a></h4>
+              <div class="indented-less">
+                <div>
+                  <p><strong>0. Observe that you are normally in the branch called <code>master</code>.</strong> For this, you can take any repo you have on your computer (e.g. a clone of the <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a>).</p>
+                  <tabs>
+                    <tab header="SourceTree">
+                      <div>
+                        <img src="/website/book/gitAndGithub/branch/images/onMasterBranch.png" height="120">
+                        <p></p>
+                      </div>
+                    </tab>
+                    <tab header="CLI">
+                      <div>
+                        <pre><code class="hljs">git status
+</code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                        <pre><code class="hljs">on branch master
+</code></pre>
+                      </div>
+                    </tab>
+                  </tabs>
+                  <p><strong>1. Start a branch named <code>feature1</code> and switch to the new branch.</strong></p>
+                  <tabs>
+                    <tab header="SourceTree">
+                      <div>
+                        <p>Click on the <code>Branch</code> button on the main menu. In the next dialog, enter the branch name and click <code>Create Branch</code></p>
+                        <img src="/website/book/gitAndGithub/branch/images/sourcetree_1.png" height="150">
+                        <p></p>
+                        <p>Note how the <code>feature1</code> is indicated as the current branch.</p>
+                        <img src="/website/book/gitAndGithub/branch/images/sourcetree_2.png" height="150">
+                        <p></p>
+                      </div>
+                    </tab>
+                    <tab header="CLI">
+                      <div>
+                        <p>You can use the <code>branch</code> command to create a new branch and the <code>checkout</code> command to switch to a specific branch.</p>
+                        <pre><code class="hljs">git branch feature1
+git checkout feature1
+</code></pre>
+                        <p>One-step shortcut to create a branch and switch to it at the same time:</p>
+                        <pre><code class="hljs">git checkout –b feature1
+</code></pre>
+                      </div>
+                    </tab>
+                  </tabs>
+                  <p><strong>2. Create some commits in the new branch.</strong> <span class="dimmed">Just commit as per normal. Commits you add while on a certain branch will become part of that branch.</span></p>
+                  <p><strong>3. Switch to the <code>master</code> branch.</strong> Note how the changes you did in the <code>feature1</code> branch are no longer in the working directory.</p>
+                  <tabs>
+                    <tab header="SourceTree">
+                      <div>
+                        <p>Double-click the <code>master</code> branch</p>
+                        <img src="/website/book/gitAndGithub/branch/images/sourcetree_3.png" height="150">
+                        <p></p>
+                      </div>
+                    </tab>
+                    <tab header="CLI">
+                      <div>
+                        <pre><code class="hljs">git checkout master
+</code></pre>
+                      </div>
+                    </tab>
+                  </tabs>
+                  <p><strong>4. Add a commit to the master branch.</strong> Let’s imagine it’s a bug fix.</p>
+                  <img src="/website/book/gitAndGithub/branch/images/sourcetree_4.png" height="100">
+                  <p></p>
+                  <p><strong>5. Switch back to the <code>feature1</code> branch</strong> <span class="dimmed">(similar to step 3)</span>.</p>
+                  <p><strong>6. Merge the <code>master</code> branch to the <code>feature1</code> branch</strong>, giving an end-result like the below. Also note how Git has created a <em>merge commit</em>.</p>
+                  <img src="/website/book/gitAndGithub/branch/images/sourcetree_5.png" height="120">
+                  <p></p>
+                  <tabs>
+                    <tab header="SourceTree">
+                      <div>
+                        <p>Right-click on the <code>master</code> branch and choose <code>merge master into the current branch</code>. Click <code>OK</code> in the next dialog.</p>
+                      </div>
+                    </tab>
+                    <tab header="CLI">
+                      <div>
+                        <pre><code class="hljs">git merge master
+</code></pre>
+                      </div>
+                    </tab>
+                  </tabs>
+                  <p>Observe how the changes you did in the <code>master</code> branch (i.e. the imaginary bug fix) is now available even when you are in the <code>feature1</code> branch.</p>
+                  <p><strong>7. Add another commit to the <code>feature1</code> branch.</strong></p>
+                  <p><strong>8. Switch to the <code>master</code> branch and add one more commit.</strong></p>
+                  <p><strong>9. Merge <code>feature1</code> to the master branch</strong>, giving and end-result like this:</p>
+                  <img src="/website/book/gitAndGithub/branch/images/sourcetree_6.png" height="150">
+                  <p></p>
+                  <tabs>
+                    <tab header="SourceTree">
+                      <p>Right-click on the <code>feature1</code> branch and choose <code>Merge...</code>.</p>
+                    </tab>
+                    <tab header="CLI">
+                      <pre><code class="hljs">git merge feature1
+</code></pre>
+                    </tab>
+                  </tabs>
+                  <p><strong>10. Create a new branch called <code>add-countries</code>, switch to it, and add some commits to it</strong> <span class="dimmed">(similar to steps 1-2 above)</span>. You should have something like this now:</p>
+                  <img src="/website/book/gitAndGithub/branch/images/addCountriesBranchBeforeMerging.png" height="80">
+                  <p></p>
+                  <p><strong>11. Go back to the <code>master</code> branch and merge the <code>add-countries</code> branch onto the <code>master</code> branch</strong> <span class="dimmed">(similar to steps 8-9 above)</span>. While you might expect to see something like the below,</p>
+                  <img src="/website/book/gitAndGithub/branch/images/addCountriesBranchNoFastForward.png" height="100">
+                  <p></p>
+                  <p>... you are likely to see something like this instead:</p>
+                  <img src="/website/book/gitAndGithub/branch/images/addCountriesBranchAfterMerging.png" height="80">
+                  <p></p>
+                  <p>That is because <strong>Git does a <mark><em>fast forward</em> merge</mark> if possible</strong>. Seeing that the <code>master</code> branch has not changed since you started the <code>add-countries</code> branch, Git has decided it is simpler to just put the commits of the <code>add-countries</code> branch in front of the <code>master</code> branch, without going into the trouble of creating an extra merge commit.</p>
+                  <p><strong>It is possible to force Git to create a merge commit even if fast forwarding is possible.</strong></p>
+                  <tabs>
+                    <tab header="SourceTree">
+                      <div>
+                        <p>Tick the box shown below when you merge a branch:</p>
+                        <img src="/website/book/gitAndGithub/branch/images/mergeBranchDialog.png" height="150">
+                        <p></p>
+                      </div>
+                    </tab>
+                    <tab header="CLI">
+                      <div>
+                        <p>Use the <code>--no-ff</code> switch (short for <em>no fast forward</em>):</p>
+                        <pre><code class="hljs">git merge --no-ff add-countries
+</code></pre>
+                      </div>
+                    </tab>
+                  </tabs>
+                </div>
+              </div>
+            </div>
           </div>
           <p style="page-break-after: always;">&nbsp;</p>
           <div id="title">
@@ -6732,7 +6759,7 @@ index 15b57f7..17f4528 100644
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Wed, 17 Jul 2019 12:04:16 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
     </footer>
   </div>
 </body>
