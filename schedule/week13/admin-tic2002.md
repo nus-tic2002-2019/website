@@ -1,0 +1,17 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{% from "common/macros.njk" import show_as_tab, thumb, timing_badge with context %}
+{% from "common/admin.njk" import show_admin_summary with context %}
+
+{{ show_week_pagetop(13, "admin") }}
+
+<box type="info" dismissible>
+
+Admin info relevant to the week's will appear in this tab.
+</box>
+
+{% call show_admin_summary() %}
+1. ...
+{% endcall %}
+
+...
+

@@ -390,8 +390,9 @@ head: scheduleHead.md
 {% set week = weeks[week_num - 1] %}
 
 {% set categories = {
-  notices: {name: "Tasks", file: "index", icon: icon_todo, pagenav: 4},
-  topics: {name: "Topics", file: "topics", icon: icon_book, pagenav: 4}
+  notices: {name: "Summary", file: "index", icon: icon_announcement, pagenav: 4},
+  topics: {name: "Topics", file: "topics", icon: icon_book, pagenav: 4},
+  tasks: {name: "Tasks", file: "admin-" + (module | lower), icon: icon_todo, pagenav: 4}
 } %}
 
 <frontmatter>
