@@ -62,18 +62,13 @@ BSc, Computer Science & Engineering, University of Moratuwa, 1996-2001<br>
 <div class="indented">
 
 %%:far-clock:%% Tuesdays 7.30-9.30pm<br>
-%%:fas-map-marker-alt:%% SR10 (COM1-0210)<br>
+%%:fas-map-marker-alt:%% SR2 (COM1-02-04)<br>
 
 {{ far_frown }} **Lectures will not be webcast** as the venue does not have a webcast facility. ==Please bring your laptop to the lecture== as you will need to be using it for the most part of the lecture.
 
-**Lecture handouts will be uploaded to IVLE _before_ the lecture**, usually by midnight of the Sunday before the lecture.
+**Lecture slides are not suitable to be used as reference materials** as they have been <tooltip content="i.e., heavy use of graphics and animations">optimized for lecture delivery</tooltip> instead. Slides will be uploaded to LumiNUS _after_ the lecture, usually by Wednesday.
 
-**Lecture slides are not suitable to be used as reference materials** as they have been <tooltip content="i.e., heavy use of graphics and animations">optimized for lecture delivery</tooltip> instead. Slides will be uploaded to IVLE _after_ the lecture, usually by Wednesday.
-
-<box>
-
- :bulb: If handouts/slides are not in IVLE by the expected times, please feel free to ping the lecturer.
-</box>
+{{ icon_tip }} If slides are not in LumiNUS by the expected times, please feel free to ping the lecturer.
 
 </div>
 
@@ -83,7 +78,7 @@ BSc, Computer Science & Engineering, University of Moratuwa, 1996-2001<br>
 <div class="indented">
 
 %%:far-clock:%% Tuesdays 6.30-7.30pm<br>
-%%:fas-map-marker-alt:%% SR10 (COM1-0210)<br>
+%%:fas-map-marker-alt:%% SR2 (COM1-02-04)<br>
 </div>
 
 {{ dotted_line }}
@@ -102,6 +97,8 @@ BSc, Computer Science & Engineering, University of Moratuwa, 1996-2001<br>
 
 This module uses Java. It assumes you are familiar with C++ basics and provides lessons to help you transition from C++ to Java.
 
+{{ icon_important_big_red }} Install [JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) in your computer.
+
 </div>
 
 {{ dotted_line }}
@@ -109,42 +106,10 @@ This module uses Java. It assumes you are familiar with C++ basics and provides 
 # Project
 <div class="indented">
 
-
-
-For the project you can choose one of these options:
-
-* **Option 1:** Enhance the Task Manager app that you worked on during the preparation stage.
-* **Option 2:** Take the code from [Addressbook-level2]({{module_org}}/addressbook-level2) and enhance it in some way.
-* **Option 3:** Propose your own project.
-
-Can be done **individually or in a team of two/three members**.
-
-The project is divided into two phases:
-* Week 1 - 6: Preparation stage %%i.e., building up your coding skills for the module project%%
-* Week 7 - 12: Project execution.
-
-### Weeks 1-6: Project preparation
-
-<panel header="**Preparation - Week 3**" >
-
-..
-
-</panel>
-<panel header="**Preparation - Week 4**" >
-
-..
-
-</panel>
-<panel header="**Preparation - Week 5**" >
-
-..
-
-</panel>
-<panel header="**Preparation - Week 6**" >
-
-..
-
-</panel><p/>
+* The project is to be done **individually**.
+* In the project, you will build a small chatbot, using Java.
+* The project is to be done in small increments. You will be given a schedule of what increments to be done in each week.
+* Some weekly increments will be common to all students, while some will vary from student to student. That means your final product will be unique in terms of total features, but some features will be common to other students in the class.
 
 ### Week 7-9: First stage
 
@@ -212,7 +177,7 @@ The project is divided into two phases:
 
 1. Create a GitHub account. Create a repository under your account and push our code to it.
 1. Demo the current state of the project to prof during the week 10 lecture session. There should be some working features at this point.
-1. Submit interim project documents (handover a hard copy during lecture 10 or upload to IVLE before lecture 10). The document should contain,
+1. Submit interim project documents (handover a hard copy during lecture 10 or upload to LumiNUS before lecture 10). The document should contain,
    * URL of your GitHub repo
    * Some representative user stories for the product
    * A class diagram to match your code %%(scans of hand-drawn diagrams are acceptable too)%%
@@ -250,7 +215,7 @@ The project is divided into two phases:
 
 **Deliverables**:
 * **Source code** of the working program
-  * Submission: zip up the source code and upload to IVLE. The file name should be your name. e.g., `JunHao.zip` If you manage to create a JAR file, upload it as a separate file, named similarly e.g., `JunHao.jar`
+  * Submission: zip up the source code and upload to LumiNUS. The file name should be your name. e.g., `JunHao.zip` If you manage to create a JAR file, upload it as a separate file, named similarly e.g., `JunHao.jar`
 * **Project documentation**: a single pdf or a Word file containing,
   * A **Cover Page** containing your details and the link to your GitHub repository
   * The **link to your repo** on GitHub
@@ -261,7 +226,7 @@ The project is divided into two phases:
     * At least one sequence diagram illustrating an object interaction in your product
     * Some representative user stories, at least enough to cover the functionality of your product
     * Additional instructions for testing the product (if any) %%i.e., is there any additional steps (such as putting a specific file in a specific location) that one needs to do when testing your product manually?%%
-    * Submission: Upload to IVLE. The file name should be your name e.g., `JunHao.pdf`
+    * Submission: Upload to LumiNUS. The file name should be your name e.g., `JunHao.pdf`
 * **Project demo**: to be done during week 13 lecture session.
   * Demo schedule will be given closer to the date.
   * When it is your turn, demo the features of your product using the jar file (preferred) or the IDE.
@@ -285,8 +250,8 @@ The project is divided into two phases:
 # Assessment
 <div class="indented">
 
-* 60% : Project
-* 40% : Final Exam
+* 40% : Project
+* 60% : Final Exam
 
 </div>
 
