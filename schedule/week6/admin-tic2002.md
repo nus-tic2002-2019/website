@@ -10,8 +10,7 @@ Admin info relevant to the week's will appear in this tab.
 </box>
 
 {% call show_admin_summary() %}
-1. ...
+1. Implement increment `Level-5`: Handle Errors
 {% endcall %}
 
-...
-
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-5`: Handle Errors**" var-fragment="text.md#level5" />

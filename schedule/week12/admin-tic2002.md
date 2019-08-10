@@ -10,8 +10,7 @@ Admin info relevant to the week's will appear in this tab.
 </box>
 
 {% call show_admin_summary() %}
-1. ...
+1. Prepare project docs
 {% endcall %}
 
-...
-
+Prepare project docs

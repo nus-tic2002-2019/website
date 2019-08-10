@@ -10,8 +10,9 @@ Admin info relevant to the week's will appear in this tab.
 </box>
 
 {% call show_admin_summary() %}
-1. ...
+1. Implement increment `Level-1`: Greet, Echo, Exit
+1. Implement increment `Level-2`: Add, List
 {% endcall %}
 
-...
-
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-1`: Greet, Echo, Exit**" var-fragment="text.md#level1" />
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-2`: Add, List**" var-fragment="text.md#level2" />

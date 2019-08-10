@@ -1,9 +1,11 @@
-{% from "schedule/index.md" import show_week_pagetop with context%}
+{% from "common/macros.njk" import embed_topic, timing_badge, show_as_tab with context %}
+{% from "schedule/index.md" import show_week_pagetop, show_week_summary with context%}
 {{ show_week_pagetop(10, "notices") }}
 
-Extension 1
+<box type="info" dismissible>
 
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Packages`: Java Packages**" var-tag="optional" var-fragment="extensions.mbdf#A-Packages" />
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-JavaDoc`: JavaDoc**" var-fragment="extensions.mbdf#A-JavaDoc" />
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-CodingStandard`: Coding Standard**" var-fragment="extensions.mbdf#A-CodingStandard" />
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-CodeQuality`**" var-fragment="extensions.mbdf#A-CodeQuality" />
+A summary of the week, and announcements relevant to that week, will appear in this tab.
+</box>
+
+{{ show_week_summary(10) }}
+

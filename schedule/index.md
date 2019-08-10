@@ -442,8 +442,7 @@ pageNav: {{ categories[category].pagenav }}
   <div class="col-sm border-bottom">
 
 **Admin:**
-<include src="admin.md#summary" optional/>
-<include src="project.md#summary" optional/>
+<include src="admin-{{ module | lower }}.md#summary" optional/>
 
   </div>
   </div>

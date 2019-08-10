@@ -1,6 +1,11 @@
-{% from "schedule/index.md" import show_week_pagetop with context%}
+{% from "common/macros.njk" import embed_topic, timing_badge, show_as_tab with context %}
+{% from "schedule/index.md" import show_week_pagetop, show_week_summary with context%}
 {{ show_week_pagetop(4, "notices") }}
 
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-3`: Mark as Done**" var-fragment="text.md#level3" />
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-TextUiTesting`: Text UI Testing**" var-tag="optional" var-fragment="extensions.mbdf#A-TextUiTesting" />
+<box type="info" dismissible>
+
+A summary of the week, and announcements relevant to that week, will appear in this tab.
+</box>
+
+{{ show_week_summary(4) }}
 

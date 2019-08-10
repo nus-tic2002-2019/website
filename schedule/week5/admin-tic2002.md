@@ -10,8 +10,8 @@ Admin info relevant to the week's will appear in this tab.
 </box>
 
 {% call show_admin_summary() %}
-1. ...
+1. Implement increment `Level-4`: ToDo, Event, Deadline
 {% endcall %}
 
-...
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-4`: ToDo, Event, Deadline**" var-fragment="text.md#level4" />
 

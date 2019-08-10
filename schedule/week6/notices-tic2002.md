@@ -1,6 +1,10 @@
-{% from "schedule/index.md" import show_week_pagetop with context%}
+{% from "common/macros.njk" import embed_topic, timing_badge, show_as_tab with context %}
+{% from "schedule/index.md" import show_week_pagetop, show_week_summary with context%}
 {{ show_week_pagetop(6, "notices") }}
 
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-5`: Handle Errors**" var-fragment="text.md#level5" />
+<box type="info" dismissible>
 
+A summary of the week, and announcements relevant to that week, will appear in this tab.
+</box>
 
+{{ show_week_summary(6) }}
