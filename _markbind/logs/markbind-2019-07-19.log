@@ -1666,3 +1666,10 @@ Error: ENOENT: no such file or directory, open 'C:\repos\nus-tic2002-2019\tic200
 2019-07-19T12:37:05.047Z - info: Site data built
 2019-07-19T12:41:20.052Z - info: Website generation started at 8:41:18 PM
 2019-07-19T12:41:21.393Z - info: Building assets...
+2019-07-19T12:41:22.612Z - info: Assets built
+2019-07-19T12:41:22.612Z - info: Generating pages...
+2019-07-19T12:42:32.347Z - info: Pages built
+2019-07-19T12:42:47.303Z - info: Website generation complete! Total build time: 88.523s
+2019-07-19T12:42:47.303Z - info: Build success!
+2019-07-19T12:42:47.313Z - info: Site data built
+2019-07-19T12:43:35.063Z - info: Deployed!

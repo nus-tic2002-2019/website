@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 6 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,103 +65,110 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week5/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week7/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-6-sep-16">Week 6 <small><small><span class="dimmed">[Sep 16]</span></small></small><a class="fa fa-anchor" href="#week-6-sep-16"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week6/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week6/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week6/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week6/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week6/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-6-sep-16-topics">Week 6 <small><small><span class="dimmed">[Sep 16]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-6-sep-16-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W6-1">W6.1</a>] <strong>Java: Casting</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W6-1a">W6.1a</a>] <span>C++ to Java → Miscellaneous Topics →
-                    </span></span> <span>Casting</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W6-2">W6.2</a>] <strong>Java: Generics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-2a">W6.2a</a>] <span>C++ to Java → Generics →
-                      </span></span> <span>What are Generics?</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-2b">W6.2b</a>] <span>C++ to Java → Generics →
-                      </span></span> <span>How to use Generics</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W6-3">W6.3</a>] <strong>Java: Collections</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-3a">W6.3a</a>] <span>C++ to Java → Collections →
-                      </span></span> <span>The Collections Framework</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-3b">W6.3b</a>] <span>C++ to Java → Collections →
-                      </span></span> <span>The <code>ArrayList</code> Class</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-3c">W6.3c</a>] <span>C++ to Java → Collections →
-                      </span></span> <span>The <code>HashMap</code> Class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W6-4">W6.4</a>] <strong>Modeling: Intro</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-4a">W6.4a</a>] <span>Design → Modelling → Introduction →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-4b">W6.4b</a>] <span>Design → Modelling → Introduction →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W6-5">W6.5</a>] <strong>Class/Object Diagrams - Basics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-5a">W6.5a</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>OO Structures</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-5b">W6.5b</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Class Diagrams (Basics)</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-5c">W6.5c</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Object Diagrams</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W6-5d">W6.5d</a>] <span>Tools → UML →
-                      </span></span> <span>Object vs Class Diagrams</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week6/topics.html#W6-1">W6.1</a>] <strong>Java: Casting</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1a">W6.1a</a>] <span>C++ to Java → Miscellaneous Topics →
+                      </span></span> <span>Casting</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week6/topics.html#W6-2">W6.2</a>] <strong>Java: Generics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2a">W6.2a</a>] <span>C++ to Java → Generics →
+                        </span></span> <span>What are Generics?</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2b">W6.2b</a>] <span>C++ to Java → Generics →
+                        </span></span> <span>How to use Generics</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week6/topics.html#W6-3">W6.3</a>] <strong>Java: Collections</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3a">W6.3a</a>] <span>C++ to Java → Collections →
+                        </span></span> <span>The Collections Framework</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3b">W6.3b</a>] <span>C++ to Java → Collections →
+                        </span></span> <span>The <code>ArrayList</code> Class</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3c">W6.3c</a>] <span>C++ to Java → Collections →
+                        </span></span> <span>The <code>HashMap</code> Class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week6/topics.html#W6-4">W6.4</a>] <strong>Modeling: Intro</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-4a">W6.4a</a>] <span>Design → Modelling → Introduction →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-4b">W6.4b</a>] <span>Design → Modelling → Introduction →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week6/topics.html#W6-5">W6.5</a>] <strong>Class/Object Diagrams - Basics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5a">W6.5a</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>OO Structures</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5b">W6.5b</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Class Diagrams (Basics)</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5c">W6.5c</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Object Diagrams</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5d">W6.5d</a>] <span>Tools → UML →
+                        </span></span> <span>Object vs Class Diagrams</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W6-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -169,10 +179,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W6-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/misc/casting">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.1a</span></span> <span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                          </span></strong></span></small> <strong><span>Casting</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.1a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-miscellaneous-topics-casting"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Miscellaneous Topics →</span></span></small> <strong><span>Casting</span></strong><a class="fa fa-anchor" href="#c-to-java-miscellaneous-topics-casting"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -294,10 +304,10 @@ Integer x = (Integer)o;
           </span>
           <div class="indented-level1">
             <p><span id="W6-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/generics/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.2a</span></span> <span class="dimmed"><strong><span>C++ to Java → Generics →
-                          </span></strong></span></small> <strong><span>What are Generics?</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.2a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="c-to-java-generics-what-are-generics"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Generics →</span></span></small> <strong><span>What are Generics?</span></strong><a class="fa fa-anchor" href="#c-to-java-generics-what-are-generics"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -362,10 +372,10 @@ Integer x = (Integer)o;
               </div>
             </panel>
             <p><span id="W6-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/generics/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.2b</span></span> <span class="dimmed"><strong><span>C++ to Java → Generics →
-                          </span></strong></span></small> <strong><span>How to use Generics</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-generics-how-to-use-generics"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Generics →</span></span></small> <strong><span>How to use Generics</span></strong><a class="fa fa-anchor" href="#c-to-java-generics-how-to-use-generics"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -492,10 +502,10 @@ Pair&lt;String, String&gt;  p2 = <span class="hljs-keyword">new</span> OrderedPa
           </span>
           <div class="indented-level1">
             <p><span id="W6-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/collections/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.3a</span></span> <span class="dimmed"><strong><span>C++ to Java → Collections →
-                          </span></strong></span></small> <strong><span>The Collections Framework</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.3a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-collections-the-collections-framework"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Collections →</span></span></small> <strong><span>The Collections Framework</span></strong><a class="fa fa-anchor" href="#c-to-java-collections-the-collections-framework"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -554,10 +564,10 @@ Pair&lt;String, String&gt;  p2 = <span class="hljs-keyword">new</span> OrderedPa
               </div>
             </panel>
             <p><span id="W6-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/collections/arrayListClass">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.3b</span></span> <span class="dimmed"><strong><span>C++ to Java → Collections →
-                          </span></strong></span></small> <strong><span>The <code>ArrayList</code> Class</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.3b</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="c-to-java-collections-the-arraylist-class"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Collections →</span></span></small> <strong><span>The <code>ArrayList</code> Class</span></strong><a class="fa fa-anchor" href="#c-to-java-collections-the-arraylist-class"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -641,13 +651,13 @@ After clearing: []
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Numbers list">
                               <question>
                                 <p>Add the missing methods to the class given below so that it produces the output given.</p>
-                                <p>💡 Use an <code>ArrayList</code> to store the numbers.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use an <code>ArrayList</code> to store the numbers.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
     <span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> add your methods here</span>
@@ -697,101 +707,6 @@ The total is: 27
                               </question>
                             </panel>
                           </div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 4 - **Use `Collections`**">
-                              <div id="body">
-                                <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
-                                </p>
-                                <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-3</code> exercises quoted above.</span></p>
-                                <div id="main">
-                                  <p>Enhance the TaskManager in the following ways:</p>
-                                  <ol>
-                                    <li>Use a suitable Collection class to store tasks, instead of using an array.</li>
-                                    <li>Introduce a <code>done n</code> command to mark the task at index <code>n</code> as done.</li>
-                                  </ol>
-                                  <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                  <box>
-                                    <div class="text-monospace">
-                                      <p>Welcome to TaskManager-Level4!
-                                        <br>Your task? todo read book
-                                        <br>Tasks in the list: 1
-                                        <br>Your task? deadline return book /by Friday
-                                        <br>Tasks in the list: 2
-                                        <br>Your task? print
-                                        <br>Tasks:
-                                        <br>[1] description: read book
-                                        <br> is done? No
-                                        <br>[2] description: return book
-                                        <br> is done? No
-                                        <br> do by: Friday
-                                        <br>Your task? <mark>done 1</mark>
-                                        <br>Tasks in the list: 2
-                                        <br>Your task? print
-                                        <br>Tasks:
-                                        <br>[1] description: read book
-                                        <br> is done? <mark>Yes</mark>
-                                        <br>[2] description: return book
-                                        <br> is done? No
-                                        <br> do by: Friday
-                                        <br>Your task?</p>
-                                    </div>
-                                  </box>
-                                  <p>Suggestions:</p>
-                                  <ul>
-                                    <li>Move the <code>isDone</code> variable to the <code>Task</code> class and provide a <code>setDone(boolean)</code> method.</li>
-                                  </ul>
-                                  <panel type="seamless" header="Partial solution">
-                                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
-    <span class="hljs-keyword">protected</span> String description;
-    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
-
-    <span class="hljs-comment">// ...</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setDone</span><span class="hljs-params">(<span class="hljs-keyword">boolean</span> isDone)</span></span>{
-        <span class="hljs-keyword">this</span>.isDone = isDone;
-    }
-}
-</code></pre>
-                                    <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.ArrayList;
-<span class="hljs-keyword">import</span> java.util.List;
-<span class="hljs-keyword">import</span> java.util.Scanner;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-    <span class="hljs-keyword">static</span> Scanner in = <span class="hljs-keyword">new</span> Scanner(System.in);
-    <span class="hljs-keyword">static</span> List&lt;Task&gt; tasks = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        <span class="hljs-comment">// ...</span>
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addTodo</span><span class="hljs-params">(String line)</span> <span class="hljs-keyword">throws</span> TaskManagerException </span>{
-        <span class="hljs-comment">//...</span>
-        tasks.add(<span class="hljs-keyword">new</span> Todo(description));
-        <span class="hljs-comment">//...</span>
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">markAsDone</span><span class="hljs-params">(String line)</span> </span>{
-        <span class="hljs-keyword">int</span> index = Integer.parseInt(line.substring(<span class="hljs-string">"done"</span>.length()).trim());
-        tasks.get(index - <span class="hljs-number">1</span>).setDone(<span class="hljs-keyword">true</span>);
-        System.out.println(<span class="hljs-string">"Tasks in the list: "</span> + tasks.size());
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTasks</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-comment">// ...</span>
-        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; tasks.size(); i++) {
-            System.out.println(<span class="hljs-string">"["</span> + (i + <span class="hljs-number">1</span>) + <span class="hljs-string">"] "</span> + tasks.get(i));
-        }
-    }
-}
-</code></pre>
-                                  </panel>
-                                </div>
-                              </div>
-                            </panel>
-                          </div>
                         </div>
                       </panel>
                     </div>
@@ -800,10 +715,10 @@ The total is: 27
               </div>
             </panel>
             <p><span id="W6-3c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/collections/hashMapClass">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.3c</span></span> <span class="dimmed"><strong><span>C++ to Java → Collections →
-                          </span></strong></span></small> <strong><span>The <code>HashMap</code> Class</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.3c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-collections-the-hashmap-class"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Collections →</span></span></small> <strong><span>The <code>HashMap</code> Class</span></strong><a class="fa fa-anchor" href="#c-to-java-collections-the-hashmap-class"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -878,13 +793,13 @@ Number of keys after clearing: 0
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Weekly roster">
                               <question>
                                 <p>The class given below keeps track of how many people signup to attend an event on each day of the week. Add the missing methods so that it produces the output given.</p>
-                                <p>💡 Use an <code>HashMap</code> to store the number of entries for each day.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use an <code>HashMap</code> to store the number of entries for each day.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> HashMap&lt;String, Integer&gt; roster = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
 
@@ -959,10 +874,10 @@ Wednesday =&gt; 2
           </span>
           <div class="indented-level1">
             <p><span id="W6-4a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/introduction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.4a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Introduction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.4a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-modelling-introduction-what"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-modelling-introduction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -974,9 +889,9 @@ Wednesday =&gt; 2
                   <p></p>
                   <div>
                     <p><strong>A <em>model</em> is a representation of something else.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <trigger trigger="click" for="modal:modellingIntro-classDiagram">class diagram</trigger> is a model that represents a software design.</p>
-                    </tip-box>
+                    </box>
                     <modal large title="Class diagrams" id="modal:modellingIntro-classDiagram">
                       <p>A <em>class diagram</em> is a diagram drawn using the UML modelling notation.<br>
                         <span><span aria-hidden="true" class="fas fa-cube"></span></span> An example class diagram:<br></p>
@@ -995,25 +910,25 @@ Wednesday =&gt; 2
                           </div>
                           <div id="main">
                             <div>
-                              <tip-box type="definition">
+                              <box type="definition">
                                 <div>
                                   <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                                 </div>
-                              </tip-box>
+                              </box>
                               <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
-                              <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
-                              <tip-box>
+                              <p><strong><mark><em>Data abstraction</em></mark>: abstracting away the lower level data items and thinking in terms of bigger entities</strong></p>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
-                              </tip-box>
-                              <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
-                              <tip-box>
+                              </box>
+                              <p><strong><mark><em>Control abstraction</em></mark>: abstracting away details of the actual control flow to focus on tasks at a higher level</strong></p>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
-                              </tip-box>
+                              </box>
                               <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
-                              </tip-box>
+                              </box>
                               <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
@@ -1029,23 +944,23 @@ Wednesday =&gt; 2
                         </div>
                       </div>
                     </modal>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A class diagram captures the structure of the software design but not the behavior.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Multiple models of the same entity may be needed to capture it fully.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In addition to a class diagram (or even multiple class diagrams), a number of other diagrams may be needed to capture various interesting aspects of the software.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W6-4b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/introduction/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.4b</span></span> <span class="dimmed"><strong><span>Design → Modelling → Introduction →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.4b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-introduction-how"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Introduction →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#design-modelling-introduction-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1058,33 +973,24 @@ Wednesday =&gt; 2
                   <div>
                     <p><strong>In software development, models are useful in several ways:</strong></p>
                     <p>a) <strong>To analyze a complex entity related to software development.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models for analysis:</p>
                       <ol>
-                        <li>Models of the problem domain (i.e. the environment in which the software is expected to solve a problem) can be built to aid the understanding of the problem to be solved.</li>
-                        <li>When planning a software solution, models can be created to figure out how the solution is to be built. An architecture diagram is such a model.</li>
+                        <li>Models of the <tooltip content="i.e. the environment in which the software is expected to solve a problem">problem domain</tooltip> can be built to aid the understanding of the problem to be solved.</li>
+                        <li>When planning a software solution, models can be created to figure out how the solution is to be built. An <trigger trigger="click" for="modal:modelingIntro-archiDiagrams">architecture diagram</trigger> is such a model.</li>
                       </ol>
-                    </tip-box>
-                    <p>b) <strong>To communicate information among stakeholders.</strong> Models can be used as a visual aid in discussions and documentations.</p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models to communicate:</p>
-                      <ol>
-                        <li>We can use an <trigger trigger="click" for="modal:modelingIntro-archiDiagrams">architecture diagram</trigger> to explain the high-level design of the software to developers.</li>
-                        <li>A business analyst can use a use case diagram to explain to the customer the functionality of the system.</li>
-                        <li>A class diagram can be reverse-engineered from code so as to help explain the design of a component to a new developer.</li>
-                      </ol>
-                    </tip-box>
+                    </box>
                     <modal large title="Architecture Diagrams" id="modal:modelingIntro-archiDiagrams">
                       <p>An <em>architecture diagram</em> depicts the high-level design of a software.</p>
                       <div>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example architecture diagrams:</p>
                           <tabs>
                             <tab header="TEAMMATES">
                               <p><img src="https://github.com/TEAMMATES/teammates/raw/master/docs/images/highlevelArchitecture.png" width="700"><br></p>
                             </tab>
-                            <tab header="se-edu/addressbook-level4">
-                              <p><img src="https://se-edu.github.io/addressbook-level4/images/Architecture.png" width="700"><br></p>
+                            <tab header="se-edu/addressbook-level3">
+                              <p><img src="https://se-education.org/addressbook-level3/images/ArchitectureDiagram.png" width="300"><br></p>
                             </tab>
                             <tab header="Example 1">
                               <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Accelerator_Architecture.png" width="700"><br>
@@ -1099,21 +1005,30 @@ Wednesday =&gt; 2
                                 <sub><a href="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg">source: https://commons.wikimedia.org</a></sub></p>
                             </tab>
                           </tabs>
-                        </tip-box>
+                        </box>
                       </div>
                     </modal>
+                    <p>b) <strong>To communicate information among stakeholders.</strong> Models can be used as a visual aid in discussions and documentations.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models to communicate:</p>
+                      <ol>
+                        <li>We can use an architecture diagram to explain the high-level design of the software to developers.</li>
+                        <li>A business analyst can use a <em>use case diagram</em> to explain to the customer the functionality of the system.</li>
+                        <li>A <em>class diagram</em> can be reverse-engineered from code so as to help explain the design of a component to a new developer.</li>
+                      </ol>
+                    </box>
                     <p>c) <strong>As a blueprint for creating software.</strong> Models can be used as instructions for building software.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models to as blueprints:</p>
                       <ol>
                         <li>A senior developer draws a class diagram to propose a design for an OOP software and passes it to a junior programmer to implement.</li>
                         <li>A software tool allows users to draw UML models using its interface and the tool automatically generates the code based on the model.</li>
                       </ol>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
 
                       <panel type="seamless">
-                        <span slot="header" class="card-title">Model Driven Development <span class="badge badge-pill badge-secondary">tangential</span></span>
+                        <span slot="header" class="card-title">Model Driven Development <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
                         <p><strong><em>Model-driven development (MDD)</em>, also called <em>Model-driven engineering</em>, is an approach to software development that strives to exploit models as blueprints.</strong> MDD uses models as primary engineering artifacts when developing software. That is, the system is first created in the form of models. After that, the models are converted to code using code-generation techniques (usually, automated or semi-automated, but can even involve manual translation from model to code). MDD requires the use of a very expressive modeling notation (graphical or otherwise), often specific to a given problem domain. It also requires sophisticated tools to generate code from models and maintain the link between models and the code. One advantage of MDD is that the same model can be used to create software for different platforms and different languages. MDD has a lot of promise, but it is still an emerging technology</p>
                         <p>Further reading:</p>
                         <ul>
@@ -1121,7 +1036,7 @@ Wednesday =&gt; 2
                           <li><a href="http://www.theenterprisearchitect.eu/blog/2009/03/31/5-types-of-model-driven-software-development/">5 types of Model Driven Software Development</a> - A more optimistic view, although an old article</li>
                         </ul>
                       </panel>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1171,10 +1086,10 @@ Wednesday =&gt; 2
           </span>
           <div class="indented-level1">
             <p><span id="W6-5a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/ooStructures">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.5a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>OO Structures</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.5a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-modelling-modelling-structure-oo-structures"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>OO Structures</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-oo-structures"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1189,29 +1104,29 @@ Wednesday =&gt; 2
                   <p></p>
                   <p></p>
                   <div>
-                    <p>An OO solution is basically a network of objects interacting with each other. Therefore, <strong>it is useful to be able to model how the relevant objects are 'networked' together</strong> inside a software <span class="dimmed"> i.e. how the objects are connected together</span>.</p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is an illustration of some objects and how they are connected together. <span class="dimmed"> Note: the diagram uses an ad-hoc notation.</span></p>
+                    <p>An OO solution is basically a network of objects interacting with each other. Therefore, <strong>it is useful to be able to model how the relevant objects are 'networked' together</strong> inside a software <span class="dimmed">i.e. how the objects are connected together</span>.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is an illustration of some objects and how they are connected together. <span class="dimmed">Note: the diagram uses an ad-hoc notation.</span></p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectsAdHoc.png" width="500"></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p>Note that these <strong>object structures within the same software can change over time</strong>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is how the object structure in the previous example could have looked like at a different time.</p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectsAdHoc2.png" width="500"></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
-                    <p>However, object structures do not change at random; they change based on a set of rules, as was decided by the designer of that software. Those <strong>rules that object structures need to follow can be illustrated as a <em>class structure</em></strong> <span class="dimmed"> i.e. a structure that exists among the relevant classes</span>.</p>
-                    <tip-box>
+                    </box>
+                    <p>However, object structures do not change at random; they change based on a set of rules, as was decided by the designer of that software. Those <strong>rules that object structures need to follow can be illustrated as a <em>class structure</em></strong> <span class="dimmed">i.e. a structure that exists among the relevant classes</span>.</p>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is a class structure (drawn using an ad-hoc notation) that matches the object structures given in the previous two examples. For example, note how this class structure does not allow any connection between <code>Genre</code> objects and <code>Author</code> objects, a rule followed by the two object structures above.</p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/classesAdHoc.png" width="500"></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p>UML <em>Object Diagrams</em> are used to model object structures and UML <em>Class Diagrams</em> are used to model class structures of an OO solution.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an object diagram for the above example:</p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectDiagram.png" width="500">
                       </p>
@@ -1221,7 +1136,7 @@ Wednesday =&gt; 2
                       <p></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div></div>
@@ -1230,18 +1145,14 @@ Wednesday =&gt; 2
               </div>
             </panel>
             <p><span id="W6-5b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/classDiagramsBasic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.5b</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Class Diagrams (Basics)</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.5b</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-modelling-modelling-structure-class-diagrams-basics"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Class Diagrams (Basics)</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-class-diagrams-basics"></a></h4>
               </span>
               <div>
                 <div class="indented">
-                  <div>
-                    <p>
-                      <panel src="/website/book/oop/classes/what/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Design → OOP → Classes → Basic%%" popup-url="/website/book/oop/classes/what"></panel>
-                    </p>
-                  </div>
+                  <div></div>
                   <p></p>
                   <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use basic-level class diagrams</span></span></span></span></p>
                   <p></p>
@@ -1262,11 +1173,11 @@ Wednesday =&gt; 2
                       <panel type="seamless" src="/website/book/uml/classDiagrams/associations/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → What" alt="<md>:glyphicon-education:</md> UML/Associations" fragment="main"></panel>
                     </p>
                     <p>The most basic class diagram is a bunch of classes with some solid lines among them to represent associations, such as this one.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example class diagram showing associations between classes.</p>
                       <p></p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/ageListCalculatorPersonMinimal.png" width="450">
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p>In addition, <strong>associations can show additional decorations such as <em>association labels</em>, <em>association roles</em>, <em>multiplicity</em> and <em>navigability</em></strong> to add more information to a class diagram.</p>
                     <p>
                       <panel type="seamless" src="/website/book/uml/classDiagrams/associations/labels/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → Labels" alt="<md>:glyphicon-education:</md> Labels" fragment="main"></panel>
@@ -1276,15 +1187,15 @@ Wednesday =&gt; 2
                       <panel type="seamless" src="/website/book/oop/associations/navigability/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> OOP <md>:glyphicon-log-in:</md> Associations → Navigability" alt="<md>:glyphicon-education:</md> OOP/Navigability" fragment="main"></panel>
                       <panel type="seamless" src="/website/book/uml/classDiagrams/associations/navigability/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → Navigability" alt="<md>:glyphicon-education:</md> UML/Navigability" fragment="main"></panel>
                     </p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the same class diagram shown earlier but with some additional information included:</p>
                       <p></p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/ageListCalculatorPerson.png" width="450">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which association notations are shown?">
@@ -1348,10 +1259,10 @@ Wednesday =&gt; 2
               </div>
             </panel>
             <p><span id="W6-5c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/objectDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.5c</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Object Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.5c</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-modelling-modelling-structure-object-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Object Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-object-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1373,7 +1284,7 @@ Wednesday =&gt; 2
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Draw Class Diagram for Box etc.">
@@ -1417,10 +1328,10 @@ Wednesday =&gt; 2
               </div>
             </panel>
             <p><span id="W6-5d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/uml/miscellaneous/objectVsClassDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W6.5d</span></span> <span class="dimmed"><strong><span>Tools → UML →
-                          </span></strong></span></small> <strong><span>Object vs Class Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W6.5d</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="tools-uml-object-vs-class-diagrams"><small><span class="font-weight-bold text-muted"><span>Tools → UML →</span></span></small> <strong><span>Object vs Class Diagrams</span></strong><a class="fa fa-anchor" href="#tools-uml-object-vs-class-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1444,13 +1355,13 @@ Wednesday =&gt; 2
                       <li>Multiplicities are omitted</li>
                     </ul>
                     <p>Furthermore, <strong>multiple object diagrams can correspond to a single class diagram</strong>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Both object diagrams are derived from the same class diagram shown earlier. In other words, each of these object diagrams shows ‘an instance of’ the same class diagram.</p>
                       <img src="/website/book/uml/miscellaneous/objectVsClassDiagrams/images/professorStudentAdmin.png" height="85">
                       <p></p>
                       <img src="/website/book/uml/miscellaneous/objectVsClassDiagrams/images/professorStudent.png" height="150">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1486,7 +1397,7 @@ Wednesday =&gt; 2
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-6-sep-16">Week 6 [Sep 16]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-6-sep-16-topics">Week 6 [Sep 16] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w6-1-java-casting">[W6.1] Java: Casting &#x200E;</a>
               <a class="nav-link py-1" href="#w6-2-java-generics">[W6.2] Java: Generics &#x200E;</a>
@@ -1501,7 +1412,7 @@ Wednesday =&gt; 2
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

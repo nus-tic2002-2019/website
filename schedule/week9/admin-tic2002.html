@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TIC2002 Website - Week 9 - </title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week9/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week9/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week9/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week10"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
+        <p></p>
+        <h1 id="week-9-oct-14">Week 9 <small><small><span class="dimmed">[Oct 14]</span> - </small></small><a class="fa fa-anchor" href="#week-9-oct-14"></a></h1>
+        <box type="info" dismissible>
+          <p>Admin info relevant to the week's will appear in this tab.
+          </p>
+        </box>
+        <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple;">
+          <ol>
+            <li>Implement increment <code>Level-8</code>: Dates and Times</li>
+            <li>Implement increment <code>Level-9</code>: Find</li>
+            <li>Implement increment <code>A-JUnit</code>: JUnit Testing</li>
+            <li>Implement increment <code>A-Libraries</code>: Libraries <span class="badge badge-pill badge-secondary">optional</span></li>
+          </ol>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div></div>
+                <div slot="header"><span><span class="dimmed"><strong><code>Level-8</code>: Dates and Times</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                <div></div>
+                <div>
+                  <p><span>
+                      <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
+                    </span></p>
+                  <h3 id="level-8-dates-and-times">Level 8. Dates and Times<a class="fa fa-anchor" href="#level-8-dates-and-times"></a></h3>
+                  <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div></div>
+                <div slot="header"><span><span class="dimmed"><strong><code>Level-9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                <div></div>
+                <div>
+                  <p><span>
+                      <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
+                    </span></p>
+                  <h3 id="level-9-find">Level 9. Find<a class="fa fa-anchor" href="#level-9-find"></a></h3>
+                  <p>Give users a way to find a task by searching for a keyword.
+                    <br>
+                    <br></p>
+                  <p>Example:</p>
+                  <pre><code class="hljs">find book
+    ____________________________________________________________
+     Here are the matching tasks in your list:
+     1.[T][✓] read book
+     2.[D][✓] return book (by: June 6th)
+    ____________________________________________________________
+</code></pre>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div></div>
+                <div slot="header"><span><span class="dimmed"><strong><code>A-JUnit</code>: JUnit Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                <div></div>
+                <div>
+                  <div>
+                    <div></div>
+                    <h3 id="a-junit"><span class="badge badge-pill badge-primary">A-JUnit</span><a class="fa fa-anchor" href="#a-junit"></a></h3>
+                    <p>     <big>↳</big> <strong>Add JUnit tests</strong></p>
+                  </div>
+                  <p>Add JUnit tests to test the behavior of the code.</p>
+                  <p>Notes:</p>
+                  <ul>
+                    <li>Add test code in a folder named <code>[project root]\src\test\java\</code> folder (reason: to follow the convention followed by the project structure so far).</li>
+                    <li>Name the test class to match the class being tested (<code>Todo.java</code> can be tested by <code>TodoTest.java</code>), and put it in a package to match. For example,
+                      <ul>
+                        <li>Class being tested <code>seedu.duke.Todo</code>: <code>src\main\java\seedu\duke\Todo.java</code></li>
+                        <li>Test class <code>seedu.duke.TodoTest</code>: <code>src\test\java\seedu\duke\TodoTest.java</code></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p><strong>Adding JUnit support to your project:</strong> As JUnit is a third-party library, you need to add support to it specifically in your project.</p>
+                  <tabs>
+                    <tab header="In Intellij, without Gradle">
+                      <ol>
+                        <li>Add a folder named <code>[project root]\src\test\java\</code> (you may have to do this outside of Intellij)</li>
+                        <li>Go to Intellij and add a new module to the project as follows.
+                          <ol>
+                            <li><code>File</code> → <code>New</code> → <code>Module From Existing Sources ...</code></li>
+                            <li>Choose the <code>[project root]\src\test\</code> (not the <code>java</code>) folder.</li>
+                            <li>In the next screen, select <code>Create module from existing sources</code></li>
+                            <li>Keep clicking <code>Next</code> until the process is complete</li>
+                          </ol>
+                        </li>
+                        <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code> (that will make the folder turn to green color).</li>
+                        <li>Now, create a class inside the <code>java</code> folder and type <code>@Test</code> inside it. Example:
+                          <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
+    <span class="hljs-meta">@Test</span>
+}
+</code></pre>
+                        </li>
+                        <li>Note how the <code>@Test</code> turn to red because Intellij (not having JUnit support yet) does not understand it. But it will pop up a hint, asking if you want to add support for JUnit. Select <code>Add JUnit 5.* to classpath</code>.</li>
+                        <li>In the dialog that pops up, you can optionally tick the <code>Sources</code>, <code>JavaDocs</code> and <code>Annotations</code> boxes. After that, click <code>OK</code> to add the JUnit 5 to the project dependencies.</li>
+                        <li>To check if JUnit integration is working as expected,
+                          <ol>
+                            <li>Add a dummy test method to the class e.g.,
+                              <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.jupiter.api.Test;
+
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.jupiter.api.Assertions.assertEquals;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">dummyTest</span><span class="hljs-params">()</span></span>{
+        assertEquals(<span class="hljs-number">2</span>, <span class="hljs-number">2</span>);
+    }
+}
+</code></pre>
+                            </li>
+                            <li>Run the test (right-click on the class and choose <code>Run DukeTest</code>.
+                            </li>
+                          </ol>
+                        </li>
+                      </ol>
+                    </tab>
+                    <tab header="With Gradle">
+
+
+
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use JUnit via Gradle.</p>
+                      <panel header="**Extension `A-Gradle`**">
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-gradle"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle"></a></h3>
+                            <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                          </div>
+                          <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                          <ul>
+                            <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                            <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                            <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                          </ul>
+                        </div>
+                      </panel>
+                    </tab>
+                  </tabs>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div></div>
+                <div slot="header"><span><span class="dimmed"><strong><code>A-Libraries</code>: Libraries</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                <div></div>
+                <div>
+                  <div>
+                    <div></div>
+                    <h3 id="a-libraries"><span class="badge badge-pill badge-primary">A-Libraries</span><a class="fa fa-anchor" href="#a-libraries"></a></h3>
+                    <p>     <big>↳</big> <strong>Use external libraries</strong></p>
+                  </div>
+                  <p>Use third-party libraries in your project. For example, you can use the Natty library to parse strings into meaningful dates.</p>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
+    </footer>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

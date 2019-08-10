@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 7 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,120 +65,127 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week6/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week8/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-7-sep-30">Week 7 <small><small><span class="dimmed">[Sep 30]</span></small></small><a class="fa fa-anchor" href="#week-7-sep-30"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week7/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week7/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week6"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week7/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-7-sep-30-topics">Week 7 <small><small><span class="dimmed">[Sep 30]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-7-sep-30-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W7-1">W7.1</a>] <strong>Java: Constants</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W7-1a">W7.1a</a>] <span>C++ to Java → Miscellaneous Topics →
-                    </span></span> <span>Constants</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W7-2">W7.2</a>] <strong>Java: Enumerations</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-2a">W7.2a</a>] <span>Paradigms → OOP → Classes →
-                      </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-2b">W7.2b</a>] <span>C++ to Java → Miscellaneous Topics →
-                      </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W7-3">W7.3</a>] <strong>Java: File Access</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W7-3a">W7.3a</a>] <span>C++ to Java → Miscellaneous Topics →
-                    </span></span> <span>File Access</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W7-4">W7.4</a>] <strong>Class/Object Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-4a">W7.4a</a>] <span>Tools → UML →
-                      </span></span> <span>Notes</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-4b">W7.4b</a>] <span>Tools → UML →
-                      </span></span> <span>Constraints</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-4c">W7.4c</a>] <span>Tools → UML → Class Diagrams →
-                      </span></span> <span>Associations as Attributes</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-4d">W7.4d</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Class Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W7-5">W7.5</a>] <strong>Design Fundamentals</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <p>   <strong>Abstraction</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-5a">W7.5a</a>] <span>Design → Introduction →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-5b">W7.5b</a>] <span>Design → Design Fundamentals → Abstraction →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Coupling</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-5c">W7.5c</a>] <span>Design → Design Fundamentals → Coupling →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-5d">W7.5d</a>] <span>Design → Design Fundamentals → Coupling →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-5e">W7.5e</a>] <span>Design → Design Fundamentals → Coupling →
-                      </span></span> <span>Types of Coupling</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Cohesion</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-5f">W7.5f</a>] <span>Design → Design Fundamentals → Cohesion →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W7-5g">W7.5g</a>] <span>Design → Design Fundamentals → Cohesion →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week7/topics.html#W7-1">W7.1</a>] <strong>Java: Constants</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-1a">W7.1a</a>] <span>C++ to Java → Miscellaneous Topics →
+                      </span></span> <span>Constants</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week7/topics.html#W7-2">W7.2</a>] <strong>Java: Enumerations</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-2a">W7.2a</a>] <span>Paradigms → OOP → Classes →
+                        </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-2b">W7.2b</a>] <span>C++ to Java → Miscellaneous Topics →
+                        </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week7/topics.html#W7-3">W7.3</a>] <strong>Java: File Access</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-3a">W7.3a</a>] <span>C++ to Java → Miscellaneous Topics →
+                      </span></span> <span>File Access</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week7/topics.html#W7-4">W7.4</a>] <strong>Class/Object Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4a">W7.4a</a>] <span>Tools → UML →
+                        </span></span> <span>Notes</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4b">W7.4b</a>] <span>Tools → UML →
+                        </span></span> <span>Constraints</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4c">W7.4c</a>] <span>Tools → UML → Class Diagrams →
+                        </span></span> <span>Associations as Attributes</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4d">W7.4d</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Class Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week7/topics.html#W7-5">W7.5</a>] <strong>Design Fundamentals</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <p>   <strong>Abstraction</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5a">W7.5a</a>] <span>Design → Introduction →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5b">W7.5b</a>] <span>Design → Design Fundamentals → Abstraction →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Coupling</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5c">W7.5c</a>] <span>Design → Design Fundamentals → Coupling →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5d">W7.5d</a>] <span>Design → Design Fundamentals → Coupling →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5e">W7.5e</a>] <span>Design → Design Fundamentals → Coupling →
+                        </span></span> <span>Types of Coupling</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Cohesion</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5f">W7.5f</a>] <span>Design → Design Fundamentals → Cohesion →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5g">W7.5g</a>] <span>Design → Design Fundamentals → Cohesion →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W7-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -186,10 +196,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W7-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/misc/constants">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.1a</span></span> <span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                          </span></strong></span></small> <strong><span>Constants</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.1a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-miscellaneous-topics-constants"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Miscellaneous Topics →</span></span></small> <strong><span>Constants</span></strong><a class="fa fa-anchor" href="#c-to-java-miscellaneous-topics-constants"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -227,10 +237,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W7-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/classes/enumerations">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.2a</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Classes →
-                          </span></strong></span></small> <strong><span>Enumerations</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.2a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="paradigms-oop-classes-enumerations"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Classes →</span></span></small> <strong><span>Enumerations</span></strong><a class="fa fa-anchor" href="#paradigms-oop-classes-enumerations"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -241,9 +251,9 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>An <em>Enumeration</em> is a fixed set of values that can be considered as a data type.</strong> An enumeration is often useful when using a regular data type such as <code>int</code> or <code>String</code> would allow invalid values to be assigned to a variable. <strong>You are recommended to enumeration types any time you need to represent a fixed set of constants.</strong></p>
+                    <p><strong>An <em>Enumeration</em> is a fixed set of values that can be considered as a data type.</strong> An enumeration is often useful when using a regular data type such as <code>int</code> or <code>String</code> would allow invalid values to be assigned to a variable.</p>
                     <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose you want a variable to store the priority of something. There are only three priority levels: high, medium, and low. You can declare the variable as of type <code>int</code> and use only values <code>2</code>, <code>1</code>, and <code>0</code> to indication the three priority levels. However, this opens the possibility of an invalid values such as <code>9</code> to be assigned to it. But if you define an enumeration type called <code>Priority</code> that has three values <code>HIGH</code>, <code>MEDIUM</code>, <code>LOW</code> only, a variable of type <code>Priority</code> will never be assigned an invalid value because the compiler is able to catch such an error.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose you want a variable called <code>priority</code> to store the priority of something. There are only three priority levels: high, medium, and low. You can declare the variable <code>priority</code> as of type <code>int</code> and use only values <code>2</code>, <code>1</code>, and <code>0</code> to indication the three priority levels. However, this opens the possibility of an invalid values such as <code>9</code> being assigned to it. But if you define an enumeration type called <code>Priority</code> that has three values <code>HIGH</code>, <code>MEDIUM</code>, <code>LOW</code> only, a variable of type <code>Priority</code> will never be assigned an invalid value because the compiler is able to catch such an error.</p>
                       <p><code>Priority</code>: <code>HIGH</code>, <code>MEDIUM</code>, <code>LOW</code></p>
                     </box>
                   </div>
@@ -252,10 +262,10 @@
               </div>
             </panel>
             <p><span id="W7-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/misc/enums">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.2b</span></span> <span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                          </span></strong></span></small> <strong><span>Enumerations</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-miscellaneous-topics-enumerations"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Miscellaneous Topics →</span></span></small> <strong><span>Enumerations</span></strong><a class="fa fa-anchor" href="#c-to-java-miscellaneous-topics-enumerations"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -266,7 +276,7 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>You can define an enum type by using the <code>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code>FLAG_SUCCESS</code>.</p>
+                    <p><strong>You can define an enum type by using the <code>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code>FLAG_SUCCESS</code> by convention.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Defining an enumeration to represent days of a week (code to be put in the <code>Day.java</code> file):</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Day {
@@ -292,7 +302,7 @@ Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.S
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> show priority color">
@@ -354,10 +364,10 @@ Green indicates low priority
           </span>
           <div class="indented-level1">
             <p><span id="W7-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/misc/fileAccess">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.3a</span></span> <span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                          </span></strong></span></small> <strong><span>File Access</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.3a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-miscellaneous-topics-file-access"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Miscellaneous Topics →</span></span></small> <strong><span>File Access</span></strong><a class="fa fa-anchor" href="#c-to-java-miscellaneous-topics-file-access"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -390,7 +400,7 @@ file exists?: true
 is Directory?: false
 </code></pre>
                     </box>
-                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you use backslash to specify the file path in a Windows Computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
+                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you use backslash to specify the file path in a Windows computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
                     <p><strong>You can read from a file using a <code>Scanner</code> object that uses a <code>File</code> object as the <em>source</em> of data.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code uses a <code>Scanner</code> object to read (and print) contents of a text file line-by-line:</p>
@@ -465,7 +475,7 @@ second line
 }
 </code></pre>
                     </box>
-                    <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
+                    <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class that provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example uses the <code>Files</code> class to copy a file and delete a file.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.IOException;
@@ -484,63 +494,7 @@ second line
                     </box>
                     <p>The techniques above are good enough to manipulate simple text files. Note that <strong>it is also possible to <a href="https://www.tutorialspoint.com/java/java_files_io.htm">perform file I/O operations using other classes</a></strong>.</p>
                   </div>
-                  <div>
-                    <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
-                        <div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 5 - **Store data in a file**">
-                              <div id="body">
-                                <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header="<md>:glyphicon-education:</md> TM-L4" minimized fragment="main"></panel>
-                                </p>
-                                <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-4</code> exercises quoted above.</span></p>
-                                <div id="main">
-                                  <p><strong>Enhance the TaskManager to store tasks in a text file</strong> between runs:</p>
-                                  <ol>
-                                    <li>The text file can follow a format of your choice. For example, each line can represent one task. The attributes can be separated using a suitable delimiter.<br>Here is an example format:
-                                      <pre><code class="hljs">T | 1 | read book
-D | 0 | return book | June 6th
-T | 1 | join sports club
-</code></pre>
-                                      <ul>
-                                        <li>In the above example <code>|</code> is used as a delimiter, <code>T</code> → Todo, <code>D</code> → Deadline, <code>1</code> → task done, <code>0</code> → task not done.</li>
-                                        <li>💡 If you use <code>|</code> as the delimiter, use <code>split(&quot;\\|&quot;)</code> to split the line into its parts. <code>split(&quot;|&quot;)</code> will not work <span class="dimmed">because <code>|</code> has a special meaning when used in this context</span>.</li>
-                                      </ul>
-                                    </li>
-                                    <li>Load all tasks in the text file to the memory (i.e., convert to <code>Task</code> objects) at the start up of TaskManager. You can assume the data are in a predetermined file <span class="dimmed">e.g., <code>data/tasks.txt</code></span>.</li>
-                                    <li>Save all tasks to the text file every time there is a change to the data. <span class="dimmed">Alternatively, you can introduce a new command to save tasks to the text file.</span></li>
-                                  </ol>
-                                  <panel type="seamless" header="Partial solution">
-                                    <p>Here's an example method for loading data from the text file. Use this method at the start of your main method to load the tasks from the text file.</p>
-                                    <pre><code class="hljs java">    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> List&lt;Task&gt; <span class="hljs-title">getTasksFromFile</span><span class="hljs-params">()</span> </span>{
-        List&lt;Task&gt; loadedTasks = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
-        <span class="hljs-keyword">try</span> {
-            List&lt;String&gt; lines = getLines(<span class="hljs-string">"data/tasks.txt"</span>);
-            <span class="hljs-keyword">for</span> (String line : lines) {
-                <span class="hljs-keyword">if</span> (line.trim().isEmpty()) { <span class="hljs-comment">//ignore empty lines</span>
-                    <span class="hljs-keyword">continue</span>;
-                }
-                loadedTasks.add(createTask(line)); <span class="hljs-comment">//convert the line to a task and add to the list</span>
-            }
-        } <span class="hljs-keyword">catch</span> (FileNotFoundException e) {
-            printError(<span class="hljs-string">"problem encountered while loading data: "</span> + e.getMessage());
-        }
-        <span class="hljs-keyword">return</span> loadedTasks;
-    }
-</code></pre>
-                                  </panel>
-                                </div>
-                              </div>
-                            </panel>
-                          </div>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
+                  <div></div>
                 </div>
               </div>
             </panel>
@@ -556,10 +510,10 @@ T | 1 | join sports club
           </span>
           <div class="indented-level1">
             <p><span id="W7-4a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/uml/notes/notes">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.4a</span></span> <span class="dimmed"><strong><span>Tools → UML →
-                          </span></strong></span></small> <strong><span>Notes</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.4a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-uml-notes"><small><span class="font-weight-bold text-muted"><span>Tools → UML →</span></span></small> <strong><span>Notes</span></strong><a class="fa fa-anchor" href="#tools-uml-notes"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -571,21 +525,21 @@ T | 1 | join sports club
                   <p></p>
                   <div>
                     <p><strong>UML notes can augment UML diagrams with additional information.</strong> These notes can be shown connected to a particular element in the diagram or can be shown without a connection. The diagram below shows examples of both.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <img src="/website/book/uml/notes/notes/images/adminProfessor.png" height="120">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W7-4b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/uml/notes/constraints">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.4b</span></span> <span class="dimmed"><strong><span>Tools → UML →
-                          </span></strong></span></small> <strong><span>Constraints</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.4b</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-uml-constraints"><small><span class="font-weight-bold text-muted"><span>Tools → UML →</span></span></small> <strong><span>Constraints</span></strong><a class="fa fa-anchor" href="#tools-uml-constraints"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -601,21 +555,21 @@ T | 1 | join sports club
                   <p></p>
                   <div>
                     <p><strong>A <em>constraint</em> can be given inside a note, within curly braces</strong>. Natural language or a formal notation such as <em>OCL (Object Constraint Language)</em> may be used to specify constraints.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <img src="/website/book/uml/notes/constraints/images/playerTurn.png" height="120">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W7-4c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/uml/classDiagrams/associationsAsAttributes/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.4c</span></span> <span class="dimmed"><strong><span>Tools → UML → Class Diagrams →
-                          </span></strong></span></small> <strong><span>Associations as Attributes</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.4c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-uml-class-diagrams-associations-as-attributes"><small><span class="font-weight-bold text-muted"><span>Tools → UML → Class Diagrams →</span></span></small> <strong><span>Associations as Attributes</span></strong><a class="fa fa-anchor" href="#tools-uml-class-diagrams-associations-as-attributes"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -629,7 +583,7 @@ T | 1 | join sports club
                     <p><strong>An association can be shown as an attribute instead of a line.</strong></p>
                     <p>Association multiplicities and the default value too can be shown as part of the attribute using the following notation. Both are optional.</p>
                     <p><code>name: type [multiplicity] = default value</code></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The diagram below depicts a multi-player <em>Square Game</em> being played on a board comprising of 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain player.</p>
                       <p>A <code>Piece</code> may or may not be on a <code>Square</code>. Note how that association can be replaced by an <code>isOn</code> attribute of the <code>Piece</code> class. The <code>isOn</code> attribute can either be <code>null</code> or hold a reference to a <code>Square</code> object, matching the <code>0..1</code> multiplicity of the association it replaces. The default value is <code>null</code>.</p>
                       <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/squareMultiplicity.png" width="600">
@@ -637,17 +591,17 @@ T | 1 | join sports club
                       <p>The association that a <code>Board</code> has 100 <code>Sqaure</code>s can be shown in either of these two ways:</p>
                       <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/board.png" height="70">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W7-4d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/classDiagramsIntermediate">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.4d</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Class Diagrams - Intermediate</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.4d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-structure-class-diagrams-intermediate"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Class Diagrams - Intermediate</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-class-diagrams-intermediate"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -706,7 +660,7 @@ T | 1 | join sports club
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about class diagram.">
@@ -837,10 +791,10 @@ T | 1 | join sports club
             <br>
             <h3 id="abstraction"><span class="dimmed"><strong>Abstraction</strong></span><a class="fa fa-anchor" href="#abstraction"></a></h3>
             <p><span id="W7-5a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/design/introduction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.5a</span></span> <span class="dimmed"><strong><span>Design → Introduction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.5a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-introduction-what"><small><span class="font-weight-bold text-muted"><span>Design → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-introduction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -851,9 +805,9 @@ T | 1 | join sports club
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <p>Design in the creative process of transforming the problem into a solution; the solution is also called design. <sub>-- 📖 <em>Software Engineering Theory and Practice</em>, Shari Lawrence; Atlee, Joanne M. Pfleeger</sub></p>
-                    </tip-box>
+                    </box>
                     <p><strong>Software design has two main aspects:</strong></p>
                     <ul>
                       <li><strong>Product/external design: designing the external behavior of the product to meet the users' requirements.</strong> This is usually done by product designers with the input from business analysts, user experience experts, user representatives, etc.</li>
@@ -865,10 +819,10 @@ T | 1 | join sports club
               </div>
             </panel>
             <p><span id="W7-5b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/designFundamentals/abstraction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.5b</span></span> <span class="dimmed"><strong><span>Design → Design Fundamentals → Abstraction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.5b</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-design-fundamentals-abstraction-what"><small><span class="font-weight-bold text-muted"><span>Design → Design Fundamentals → Abstraction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-design-fundamentals-abstraction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -879,25 +833,25 @@ T | 1 | join sports club
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
-                    <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
-                    <tip-box>
+                    <p><strong><mark><em>Data abstraction</em></mark>: abstracting away the lower level data items and thinking in terms of bigger entities</strong></p>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
-                    </tip-box>
-                    <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
-                    <tip-box>
+                    </box>
+                    <p><strong><mark><em>Control abstraction</em></mark>: abstracting away details of the actual control flow to focus on tasks at a higher level</strong></p>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
@@ -915,10 +869,10 @@ T | 1 | join sports club
             <br>
             <h3 id="coupling"><span class="dimmed"><strong>Coupling</strong></span><a class="fa fa-anchor" href="#coupling"></a></h3>
             <p><span id="W7-5c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/designFundamentals/coupling/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.5c</span></span> <span class="dimmed"><strong><span>Design → Design Fundamentals → Coupling →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.5c</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-design-fundamentals-coupling-what"><small><span class="font-weight-bold text-muted"><span>Design → Design Fundamentals → Coupling →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-design-fundamentals-coupling-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -935,11 +889,11 @@ T | 1 | join sports club
                       <li><strong>Integration is harder</strong> because multiple components coupled with each other have to be integrated at the same time.</li>
                       <li><strong>Testing and reuse of the module is harder</strong> due to its dependence on other modules.</li>
                     </ul>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
                       <img src="/website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -948,10 +902,10 @@ T | 1 | join sports club
                           <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling levels of alternative designs">
                             <question has-input="true">
                               <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
-                              <tip-box>
+                              <box>
                                 <img src="/website/book/designFundamentals/coupling/what/images/alternativeDesigns.png" height="180">
                                 <p></p>
-                              </tip-box>
+                              </box>
                               <div slot="answer">
                                 <p>Overall coupling levels in <em>x</em> and <em>y</em> seem to be similar (neither has more dependencies than the other). (Note that the number of dependency links is not a definitive measure of the level of coupling. Some links may be stronger than the others.). However, in <em>x</em>, <code>A</code> is highly-coupled to the rest of the system while <code>B</code>, <code>C</code>, <code>D</code>, and <code>E</code> are standalone (do not depend on anything else). In <em>y</em>, no component is as highly-coupled as <code>A</code> of <em>x</em>. However, only <code>D</code> and <code>E</code> are standalone.</p>
                               </div>
@@ -963,7 +917,7 @@ T | 1 | join sports club
                             <question has-input="true">
                               <p>Explain the link (if any) between regressions and coupling.</p>
                               <div slot="answer">
-                                <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed"> e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
+                                <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed">e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
                               </div>
                             </question>
                           </panel>
@@ -1003,10 +957,10 @@ T | 1 | join sports club
               </div>
             </panel>
             <p><span id="W7-5d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/designFundamentals/coupling/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.5d</span></span> <span class="dimmed"><strong><span>Design → Design Fundamentals → Coupling →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.5d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-design-fundamentals-coupling-how"><small><span class="font-weight-bold text-muted"><span>Design → Design Fundamentals → Coupling →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#design-design-fundamentals-coupling-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1022,8 +976,8 @@ T | 1 | join sports club
                   <p></p>
                   <div>
                     <p><strong>X is <em>coupled</em> to Y if a change to Y can <mark>potentially</mark> require a change in X</strong>.</p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed"> e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed">e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
                       <panel type="seamless" header="%%code for the above example%%">
                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     ...
@@ -1042,8 +996,8 @@ T | 1 | join sports club
 }
 </code></pre>
                       </panel>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of coupling: <code>A</code> is coupled to <code>B</code> if,</p>
                       <ul>
                         <li><code>A</code> has access to the internal structure of <code>B</code> (this results in a very high level of coupling)</li>
@@ -1053,7 +1007,7 @@ T | 1 | join sports club
                         <li><code>A</code> inherits from <code>B</code></li>
                         <li><code>A</code> and <code>B</code> are required to follow the same data format or communication protocol</li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1084,10 +1038,10 @@ T | 1 | join sports club
               </div>
             </panel>
             <p><span id="W7-5e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/designFundamentals/coupling/types">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.5e</span></span> <span class="dimmed"><strong><span>Design → Design Fundamentals → Coupling →
-                          </span></strong></span></small> <strong><span>Types of Coupling</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.5e</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-design-fundamentals-coupling-types-of-coupling"><small><span class="font-weight-bold text-muted"><span>Design → Design Fundamentals → Coupling →</span></span></small> <strong><span>Types of Coupling</span></strong><a class="fa fa-anchor" href="#design-design-fundamentals-coupling-types-of-coupling"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1104,13 +1058,13 @@ T | 1 | join sports club
                   <div>
                     <p>Some examples of different coupling types:</p>
                     <ul>
-                      <li><strong>Content coupling</strong>: one module modifies or relies on the internal workings of another module <span class="dimmed"> e.g., accessing local data of another module</span></li>
+                      <li><strong>Content coupling</strong>: one module modifies or relies on the internal workings of another module <span class="dimmed">e.g., accessing local data of another module</span></li>
                       <li><strong>Common/Global coupling</strong>: two modules share the same global data</li>
-                      <li><strong>Control coupling</strong>: one module controlling the flow of another, by passing it information on what to do <span class="dimmed"> e.g., passing a flag</span></li>
-                      <li><strong>Data coupling</strong>: one module sharing data with another module <span class="dimmed"> e.g. via passing parameters</span></li>
-                      <li><strong>External coupling</strong>: two modules share an externally imposed convention <span class="dimmed"> e.g., data formats, communication protocols, device interfaces</span>.</li>
+                      <li><strong>Control coupling</strong>: one module controlling the flow of another, by passing it information on what to do <span class="dimmed">e.g., passing a flag</span></li>
+                      <li><strong>Data coupling</strong>: one module sharing data with another module <span class="dimmed">e.g. via passing parameters</span></li>
+                      <li><strong>External coupling</strong>: two modules share an externally imposed convention <span class="dimmed">e.g., data formats, communication protocols, device interfaces</span>.</li>
                       <li><strong>Subclass coupling</strong>: a class inherits from another class. Note that a child class is coupled to the parent class but not the other way around.</li>
-                      <li><strong>Temporal coupling</strong>: two actions are bundled together just because they happen to occur at the same time <span class="dimmed"> e.g. extracting a contiguous block of code as a method although the code block contains statements unrelated to each other</span></li>
+                      <li><strong>Temporal coupling</strong>: two actions are bundled together just because they happen to occur at the same time <span class="dimmed">e.g. extracting a contiguous block of code as a method although the code block contains statements unrelated to each other</span></li>
                     </ul>
                   </div>
                   <div></div>
@@ -1120,10 +1074,10 @@ T | 1 | join sports club
             <br>
             <h3 id="cohesion"><span class="dimmed"><strong>Cohesion</strong></span><a class="fa fa-anchor" href="#cohesion"></a></h3>
             <p><span id="W7-5f"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/designFundamentals/cohesion/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.5f</span></span> <span class="dimmed"><strong><span>Design → Design Fundamentals → Cohesion →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.5f</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-design-fundamentals-cohesion-what"><small><span class="font-weight-bold text-muted"><span>Design → Design Fundamentals → Cohesion →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#design-design-fundamentals-cohesion-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1138,7 +1092,7 @@ T | 1 | join sports club
                     <p><strong>Higher cohesion is better.</strong> Disadvantages of low cohesion (aka <em>weak</em> cohesion):</p>
                     <ul>
                       <li>Lowers the understandability of modules as it is difficult to express module functionalities at a higher level.</li>
-                      <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed"> (reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed"> (reason: because the code realated to that change is not localized to a single module)</span>.</li>
+                      <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed">(reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed">(reason: because the code realated to that change is not localized to a single module)</span>.</li>
                       <li>Lowers reusability of modules because they do not represent logical units of functionality.</li>
                     </ul>
                   </div>
@@ -1147,10 +1101,10 @@ T | 1 | join sports club
               </div>
             </panel>
             <p><span id="W7-5g"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/designFundamentals/cohesion/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W7.5g</span></span> <span class="dimmed"><strong><span>Design → Design Fundamentals → Cohesion →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W7.5g</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-design-fundamentals-cohesion-how"><small><span class="font-weight-bold text-muted"><span>Design → Design Fundamentals → Cohesion →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#design-design-fundamentals-cohesion-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1172,9 +1126,9 @@ What%%"></panel>
                       <li>Code that is invoked close together in time is kept together, e.g. all code related to initializing the system is kept together.</li>
                       <li>Code that manipulates the same data structure is kept together, e.g. the <code>GameArchive</code> component handles everything related to the storage and retrieval of game sessions.</li>
                     </ul>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a Payroll application contains a class that deals with writing data to the database. If the class include some code to show an error dialog to the user if the database is unreachable, that class is not cohesive because it seems to be interacting with the user as well as the database.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1244,7 +1198,7 @@ What%%"></panel>
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-7-sep-30">Week 7 [Sep 30]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-7-sep-30-topics">Week 7 [Sep 30] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w7-1-java-constants">[W7.1] Java: Constants &#x200E;</a>
               <a class="nav-link py-1" href="#w7-2-java-enumerations">[W7.2] Java: Enumerations &#x200E;</a>
@@ -1264,7 +1218,7 @@ What%%"></panel>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

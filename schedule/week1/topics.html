@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 1 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,123 +65,130 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:right"><span><a href="/website/schedule/week2/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-1-aug-12">Week 1 <small><small><span class="dimmed">[Aug 12]</span></small></small><a class="fa fa-anchor" href="#week-1-aug-12"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week1/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week1/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item disabled"><a class="page-link" href="/website/schedule/week0"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week1/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week1/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week1/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week2"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
-        <box type="info">
+        <h1 id="week-1-aug-12-topics">Week 1 <small><small><span class="dimmed">[Aug 12]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-1-aug-12-topics"></a></h1>
+        <box type="info" dismissible>
           <p>Topics allocated to the week will appear in this tab.
           </p>
         </box>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W1-1">W1.1</a>] <strong>Software Engineering: Intro</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W1-1a">W1.1a</a>] <span>Software Engineering → Introduction →
-                    </span></span> <span>Pros and Cons</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W1-2">W1.2</a>] <strong>Java: Intro</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-2a">W1.2a</a>] <span>C++ to Java →
-                      </span></span> <span>About this Chapter</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-2b">W1.2b</a>] <span>C++ to Java → The Java World →
-                      </span></span> <span>What is Java?</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-2c">W1.2c</a>] <span>C++ to Java → The Java World →
-                      </span></span> <span>How Java Works</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-2d">W1.2d</a>] <span>C++ to Java → The Java World →
-                      </span></span> <span>Java Editions</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W1-3">W1.3</a>] <strong>Java: HelloWorld</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-3a">W1.3a</a>] <span>C++ to Java → Getting Started →
-                      </span></span> <span>Installation</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-3b">W1.3b</a>] <span>C++ to Java → Getting Started →
-                      </span></span> <span>HelloWorld</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-3c">W1.3c</a>] <span>C++ to Java → Getting Started →
-                      </span></span> <span>Compliling a Program</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-3d">W1.3d</a>] <span>C++ to Java → Getting Started →
-                      </span></span> <span>Running a Program</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W1-4">W1.4</a>] <strong>Java: Data Types</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-4a">W1.4a</a>] <span>C++ to Java → Data Types →
-                      </span></span> <span>Primitive Data Types</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-4b">W1.4b</a>] <span>C++ to Java → Data Types →
-                      </span></span> <span>Variables</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-4c">W1.4c</a>] <span>C++ to Java → Data Types →
-                      </span></span> <span>Operators</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-4d">W1.4d</a>] <span>C++ to Java → Data Types →
-                      </span></span> <span>Arrays</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W1-5">W1.5</a>] <strong>Java: Control Flow</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-5a">W1.5a</a>] <span>C++ to Java → Control Flow →
-                      </span></span> <span>Branching</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-5b">W1.5b</a>] <span>C++ to Java → Control Flow →
-                      </span></span> <span>Methods</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W1-5c">W1.5c</a>] <span>C++ to Java → Control Flow →
-                      </span></span> <span>Loops</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week1/topics.html#W1-1">W1.1</a>] <strong>Software Engineering: Intro</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-1a">W1.1a</a>] <span>Software Engineering → Introduction →
+                      </span></span> <span>Pros and Cons</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week1/topics.html#W1-2">W1.2</a>] <strong>Java: Intro</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-2a">W1.2a</a>] <span>C++ to Java →
+                        </span></span> <span>About this Chapter</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-2b">W1.2b</a>] <span>C++ to Java → The Java World →
+                        </span></span> <span>What is Java?</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-2c">W1.2c</a>] <span>C++ to Java → The Java World →
+                        </span></span> <span>How Java Works</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-2d">W1.2d</a>] <span>C++ to Java → The Java World →
+                        </span></span> <span>Java Editions</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week1/topics.html#W1-3">W1.3</a>] <strong>Java: HelloWorld</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-3a">W1.3a</a>] <span>C++ to Java → Getting Started →
+                        </span></span> <span>Installation</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-3b">W1.3b</a>] <span>C++ to Java → Getting Started →
+                        </span></span> <span>HelloWorld</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-3c">W1.3c</a>] <span>C++ to Java → Getting Started →
+                        </span></span> <span>Compliling a Program</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-3d">W1.3d</a>] <span>C++ to Java → Getting Started →
+                        </span></span> <span>Running a Program</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week1/topics.html#W1-4">W1.4</a>] <strong>Java: Data Types</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-4a">W1.4a</a>] <span>C++ to Java → Data Types →
+                        </span></span> <span>Primitive Data Types</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-4b">W1.4b</a>] <span>C++ to Java → Data Types →
+                        </span></span> <span>Variables</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-4c">W1.4c</a>] <span>C++ to Java → Data Types →
+                        </span></span> <span>Operators</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-4d">W1.4d</a>] <span>C++ to Java → Data Types →
+                        </span></span> <span>Arrays</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week1/topics.html#W1-5">W1.5</a>] <strong>Java: Control Flow</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-5a">W1.5a</a>] <span>C++ to Java → Control Flow →
+                        </span></span> <span>Branching</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-5b">W1.5b</a>] <span>C++ to Java → Control Flow →
+                        </span></span> <span>Methods</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.html#W1-5c">W1.5c</a>] <span>C++ to Java → Control Flow →
+                        </span></span> <span>Loops</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W1-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -189,10 +199,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W1-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/softwareEngineering/introduction/prosAndCons">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.1a</span></span> <span class="dimmed"><strong><span>Software Engineering → Introduction →
-                          </span></strong></span></small> <strong><span>Pros and Cons</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.1a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="software-engineering-introduction-pros-and-cons"><small><span class="font-weight-bold text-muted"><span>Software Engineering → Introduction →</span></span></small> <strong><span>Pros and Cons</span></strong><a class="fa fa-anchor" href="#software-engineering-introduction-pros-and-cons"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -203,11 +213,11 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Software Engineering</strong>: Software Engineering is the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software&quot; <sub>-- IEEE Standard Glossary of Software Engineering Terminology</sub></p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>The following description of the <em>Joys of the Programming Craft</em> was taken from Chapter 1 of the famous book <trigger for="modal:mmm" trigger="click"><em>The Mythical Man-Month</em>, by Frederick P. Brooks</trigger>.</p>
                     <blockquote>
                       <p><strong>Why is programming fun? What delights may its practitioner expect as his reward?</strong></p>
@@ -421,10 +431,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W1-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/about">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.2a</span></span> <span class="dimmed"><strong><span>C++ to Java →
-                          </span></strong></span></small> <strong><span>About this Chapter</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.2a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-about-this-chapter"><small><span class="font-weight-bold text-muted"><span>C++ to Java →</span></span></small> <strong><span>About this Chapter</span></strong><a class="fa fa-anchor" href="#c-to-java-about-this-chapter"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -453,10 +463,10 @@
               </div>
             </panel>
             <p><span id="W1-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/javaWorld/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.2b</span></span> <span class="dimmed"><strong><span>C++ to Java → The Java World →
-                          </span></strong></span></small> <strong><span>What is Java?</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-the-java-world-what-is-java"><small><span class="font-weight-bold text-muted"><span>C++ to Java → The Java World →</span></span></small> <strong><span>What is Java?</span></strong><a class="fa fa-anchor" href="#c-to-java-the-java-world-what-is-java"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -483,10 +493,10 @@
               </div>
             </panel>
             <p><span id="W1-2c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/javaWorld/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.2c</span></span> <span class="dimmed"><strong><span>C++ to Java → The Java World →
-                          </span></strong></span></small> <strong><span>How Java Works</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.2c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-the-java-world-how-java-works"><small><span class="font-weight-bold text-muted"><span>C++ to Java → The Java World →</span></span></small> <strong><span>How Java Works</span></strong><a class="fa fa-anchor" href="#c-to-java-the-java-world-how-java-works"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -507,10 +517,10 @@
               </div>
             </panel>
             <p><span id="W1-2d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/javaWorld/editions">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.2d</span></span> <span class="dimmed"><strong><span>C++ to Java → The Java World →
-                          </span></strong></span></small> <strong><span>Java Editions</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.2d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-the-java-world-java-editions"><small><span class="font-weight-bold text-muted"><span>C++ to Java → The Java World →</span></span></small> <strong><span>Java Editions</span></strong><a class="fa fa-anchor" href="#c-to-java-the-java-world-java-editions"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -553,10 +563,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W1-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/gettingStarted/installation">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.3a</span></span> <span class="dimmed"><strong><span>C++ to Java → Getting Started →
-                          </span></strong></span></small> <strong><span>Installation</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.3a</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-getting-started-installation"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Getting Started →</span></span></small> <strong><span>Installation</span></strong><a class="fa fa-anchor" href="#c-to-java-getting-started-installation"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -575,10 +585,10 @@
               </div>
             </panel>
             <p><span id="W1-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/gettingStarted/helloWorld">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.3b</span></span> <span class="dimmed"><strong><span>C++ to Java → Getting Started →
-                          </span></strong></span></small> <strong><span>HelloWorld</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.3b</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-getting-started-helloworld"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Getting Started →</span></span></small> <strong><span>HelloWorld</span></strong><a class="fa fa-anchor" href="#c-to-java-getting-started-helloworld"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -642,10 +652,10 @@
               </div>
             </panel>
             <p><span id="W1-3c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/gettingStarted/compiling">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.3c</span></span> <span class="dimmed"><strong><span>C++ to Java → Getting Started →
-                          </span></strong></span></small> <strong><span>Compliling a Program</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.3c</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-getting-started-compliling-a-program"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Getting Started →</span></span></small> <strong><span>Compliling a Program</span></strong><a class="fa fa-anchor" href="#c-to-java-getting-started-compliling-a-program"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -678,10 +688,10 @@
               </div>
             </panel>
             <p><span id="W1-3d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/gettingStarted/running">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.3d</span></span> <span class="dimmed"><strong><span>C++ to Java → Getting Started →
-                          </span></strong></span></small> <strong><span>Running a Program</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.3d</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-getting-started-running-a-program"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Getting Started →</span></span></small> <strong><span>Running a Program</span></strong><a class="fa fa-anchor" href="#c-to-java-getting-started-running-a-program"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -702,7 +712,7 @@
                       <li>Similar to <code>javac</code>, your console should be able to find the java executable.</li>
                     </ul>
                     <p>When you run a Java program, you can encounter a <tooltip content="so-called because it does not appear until after the program has started running">run-time error</tooltip>. These errors are also called &quot;exceptions&quot; because they usually indicate that something exceptional (and bad) has happened. When a run-time error occurs, the interpreter displays an error message that explains what happened and where.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, modify the HelloWorld code to include the following line, compile it again, and run it.</p>
                       <pre><code class="hljs java">System.out.println(<span class="hljs-number">5</span>/<span class="hljs-number">0</span>);
 </code></pre>
@@ -710,7 +720,7 @@
                       <pre><code class="hljs sh">Exception <span class="hljs-keyword">in</span> thread <span class="hljs-string">"main"</span> java.lang.ArithmeticException: / by zero
     at Hello.main(Hello.java:5)
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p><strong>Integrated Development Environments (IDEs)</strong> can automate the intermediate step of compiling. They usually have a <span style="color:green"><span aria-hidden="true" class="fas fa-play-circle"></span></span> <em>Run</em> button which compiles the code first and then runs it.</p>
                     <p>Example IDEs:</p>
                     <ul>
@@ -721,14 +731,14 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Run HelloWorld">
                               <question>
                                 <ul>
-                                  <li>Install Java in your Computer, if you haven't done so already.</li>
-                                  <li>Write, compile and run a small Java program <span class="dimmed">(e.g., a HelloWorld program)</span> in your Computer. You can use any code editor to write the program but use the command prompt to compile and run the program.</li>
+                                  <li>Install Java in your computer, if you haven't done so already.</li>
+                                  <li>Write, compile and run a small Java program <span class="dimmed">(e.g., a HelloWorld program)</span> in your computer. You can use any code editor to write the program but use the command prompt to compile and run the program.</li>
                                   <li>Modify the code and run the program again.</li>
                                 </ul>
                               </question>
@@ -752,10 +762,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W1-4a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/dataTypes/primitiveTypes">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.4a</span></span> <span class="dimmed"><strong><span>C++ to Java → Data Types →
-                          </span></strong></span></small> <strong><span>Primitive Data Types</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.4a</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-data-types-primitive-data-types"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Data Types →</span></span></small> <strong><span>Primitive Data Types</span></strong><a class="fa fa-anchor" href="#c-to-java-data-types-primitive-data-types"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -801,10 +811,10 @@ System.out.println(<span class="hljs-string">"Hello "</span> + name + <span clas
               </div>
             </panel>
             <p><span id="W1-4b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/dataTypes/variables">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.4b</span></span> <span class="dimmed"><strong><span>C++ to Java → Data Types →
-                          </span></strong></span></small> <strong><span>Variables</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.4b</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-data-types-variables"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Data Types →</span></span></small> <strong><span>Variables</span></strong><a class="fa fa-anchor" href="#c-to-java-data-types-variables"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -861,10 +871,10 @@ done
               </div>
             </panel>
             <p><span id="W1-4c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/dataTypes/operators">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.4c</span></span> <span class="dimmed"><strong><span>C++ to Java → Data Types →
-                          </span></strong></span></small> <strong><span>Operators</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.4c</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-data-types-operators"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Data Types →</span></span></small> <strong><span>Operators</span></strong><a class="fa fa-anchor" href="#c-to-java-data-types-operators"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1077,10 +1087,10 @@ System.out.println(hour * <span class="hljs-number">60</span> + minute);
               </div>
             </panel>
             <p><span id="W1-4d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/dataTypes/arrays">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.4d</span></span> <span class="dimmed"><strong><span>C++ to Java → Data Types →
-                          </span></strong></span></small> <strong><span>Arrays</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.4d</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-data-types-arrays"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Data Types →</span></span></small> <strong><span>Arrays</span></strong><a class="fa fa-anchor" href="#c-to-java-data-types-arrays"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1172,7 +1182,7 @@ System.out.println(names[<span class="hljs-number">0</span>][<span class="hljs-n
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Compare names">
@@ -1196,7 +1206,7 @@ They are the same: false
                                 <pre><code class="hljs">Words given: eve, eve
 They are the same: true
 </code></pre>
-                                <p>💡 Use the following technique to compare two <code>Strings</code>(i.e., don't use <code>==</code>). <span class="dimmed">Reason: to be covered in a later topic</span>.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use the following technique to compare two <code>Strings</code>(i.e., don't use <code>==</code>). <span class="dimmed">Reason: to be covered in a later topic</span>.</p>
                                 <pre><code class="hljs java">String x = <span class="hljs-string">"foo"</span>;
 <span class="hljs-keyword">boolean</span> isSame = x.equals(<span class="hljs-string">"bar"</span>) <span class="hljs-comment">// false</span>
 isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comment">// true</span>
@@ -1240,10 +1250,10 @@ isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comm
           </span>
           <div class="indented-level1">
             <p><span id="W1-5a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/controlFlow/branching">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.5a</span></span> <span class="dimmed"><strong><span>C++ to Java → Control Flow →
-                          </span></strong></span></small> <strong><span>Branching</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.5a</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-control-flow-branching"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Control Flow →</span></span></small> <strong><span>Branching</span></strong><a class="fa fa-anchor" href="#c-to-java-control-flow-branching"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1339,7 +1349,7 @@ isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comm
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Greeter">
@@ -1403,7 +1413,7 @@ isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comm
                             <panel header="<md>:glyphicon-question-sign:</md> Grade Helper">
                               <question>
                                 <p>Write a Java program that takes a letter grade e.g., <code>A+</code> as a command line argument and prints the CAP value for that grade.</p>
-                                <p>💡 Use a <code>switch</code> statement in your code.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use a <code>switch</code> statement in your code.</p>
                                 <div id="capConversion">
                                   <div class="table-responsive">
                                     <table class="markbind-table table table-bordered table-striped">
@@ -1474,10 +1484,10 @@ isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comm
               </div>
             </panel>
             <p><span id="W1-5b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/controlFlow/methods">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.5b</span></span> <span class="dimmed"><strong><span>C++ to Java → Control Flow →
-                          </span></strong></span></small> <strong><span>Methods</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.5b</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-control-flow-methods"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Control Flow →</span></span></small> <strong><span>Methods</span></strong><a class="fa fa-anchor" href="#c-to-java-control-flow-methods"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1590,10 +1600,10 @@ Polly likes crackers
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> `getGradeCap` Method">
+                            <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] `getGradeCap` Method</small></small><a class='fa fa-anchor' href='#key-exercise-getgradecap-method'></a>" expanded>
                               <question>
                                 <p>Add the following method to the class given below.</p>
                                 <ul>
@@ -1683,10 +1693,10 @@ B : 3.5
               </div>
             </panel>
             <p><span id="W1-5c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/controlFlow/loops">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W1.5c</span></span> <span class="dimmed"><strong><span>C++ to Java → Control Flow →
-                          </span></strong></span></small> <strong><span>Loops</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W1.5c</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-control-flow-loops"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Control Flow →</span></span></small> <strong><span>Loops</span></strong><a class="fa fa-anchor" href="#c-to-java-control-flow-loops"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1804,10 +1814,10 @@ B : 3.5
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> `getMultipleGradeCaps` Method">
+                            <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] `getMultipleGradeCaps` Method</small></small><a class='fa fa-anchor' href='#key-exercise-getmultiplegradecaps-method'></a>" expanded>
                               <question>
                                 <p>Add the following method to the class given below.</p>
                                 <ul>
@@ -1919,13 +1929,17 @@ A-:4.5
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-1-aug-12">Week 1 [Aug 12]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-1-aug-12-topics">Week 1 [Aug 12] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w1-1-software-engineering-intro">[W1.1] Software Engineering: Intro &#x200E;</a>
               <a class="nav-link py-1" href="#w1-2-java-intro">[W1.2] Java: Intro &#x200E;</a>
               <a class="nav-link py-1" href="#w1-3-java-helloworld">[W1.3] Java: HelloWorld &#x200E;</a>
               <a class="nav-link py-1" href="#w1-4-java-data-types">[W1.4] Java: Data Types &#x200E;</a>
               <a class="nav-link py-1" href="#w1-5-java-control-flow">[W1.5] Java: Control Flow &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#key-exercise-getgradecap-method"> [Key Exercise] getGradeCap Method&#x200E;</a>
+                <a class="nav-link py-1" href="#key-exercise-getmultiplegradecaps-method"> [Key Exercise] getMultipleGradeCaps Method&#x200E;</a>
+              </nav>
             </nav>
 
           </nav>
@@ -1934,7 +1948,7 @@ A-:4.5
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

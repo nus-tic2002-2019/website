@@ -1,0 +1,293 @@
+<div class="website-content">
+  <p><span class="float-left">
+      <b-btn variant="light" href="project-deliverables.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP: Deliverables</span></b-btn>
+    </span><span class="float-right">
+      <b-btn variant="light" href="project-supervision.html"><span>tP: Supervision <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
+    </span></p>
+  <br>
+  <p>
+    <div>
+      <h2 id="tp-grading">tP: Grading <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span></h2>
+    </div>
+  </p>
+  <div id="main">
+    <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. TIC2002T projects will be assessed separately from TIC2002 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
+    <p><strong>Total</strong>: 45 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 35 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
+    <p>See the sections below for details of how we assess each aspect.</p>
+    <hr>
+    <h4 id="1-project-grading-product-design-5-marks">1. Project Grading: Product Design <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 marks]</span></h4>
+    <p><strong>Evaluates:</strong> how well your features fit together to form a cohesive product (not how many features or how big the features are) and how well does it match the target user</p>
+    <p><strong>Evaluated by:</strong></p>
+    <ul>
+      <li>tutors (based on product demo and user guide)</li>
+      <li>peers from other teams (based on peer testing and user guide)</li>
+    </ul>
+    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some grading instructions that will be given to peers/tutors grading this aspect:</p>
+    <blockquote>
+      <div id="projectGrading-featureFit-instructions">
+        <p>Evaluate the product design <strong>based on how the product <mark>V2.0 (not V1.4)</mark> is described in the User Guide</strong>.</p>
+        <ul class="task-list">
+          <li class="task-list-item">
+            <p><input class="task-list-item-checkbox" type="checkbox"> <code>unable to judge</code>: You are unable to judge this aspect for some reason e.g., UG is not available or does not have enough information.</p>
+          </li>
+          <li>
+            <p>Target user:</p>
+            <ul class="task-list">
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>target user specified and appropriate</code>: The target user is clearly specified, <strong>prefers typing over other modes of input</strong>, and not too general (should be narrowed to a specific user group with certain characteristics).</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value specified and matching</code>: The value offered by the product is clearly specified and matches the target user.</li>
+            </ul>
+          </li>
+          <li>
+            <p>Value to the target user:</p>
+            <ul class="task-list">
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: low</code>: The value to target user is low. App is not worth using.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: medium</code>: Some small group of target users might find the app worth using.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: high</code>: Most of the target users are likely to find the app worth using.</li>
+            </ul>
+          </li>
+          <li>
+            <p>Feature-fit:</p>
+            <ul class="task-list">
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: low</code>: Features don't seem to fit together.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: medium</code>: Some features fit together but some don't.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: high</code>: All features fit together.</li>
+            </ul>
+          </li>
+          <li class="task-list-item">
+            <p><input class="task-list-item-checkbox" type="checkbox"> <code>polished</code>: The product looks well-designed.</p>
+          </li>
+        </ul>
+      </div>
+    </blockquote>
+    <hr>
+    <h4 id="2-project-grading-implementation-10-marks">2. Project Grading: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span></h4>
+    <p><strong><big>2A. Code quality</big></strong></p>
+    <p><strong>Evaluates:</strong> the quality of the code you have written yourself</p>
+    <p><strong>Based on:</strong> the parts of the code you claim as written by you</p>
+    <p><strong>Evaluation method:</strong>: manual inspection by tutors + automated-analysis by a script</p>
+    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some factors considered when grading this aspect:</p>
+    <span id="projectGrading-codeQuality-criteria">
+      <ul>
+        <li>
+          <p>At least some evidence of these (see <a href="/website/se-book-adapted/chapters/errorHandling.html">here</a> for more info)</p>
+          <ul>
+            <li>logging</li>
+            <li>exceptions</li>
+            <li>assertions</li>
+            <li>defensive coding</li>
+          </ul>
+        </li>
+        <li>
+          <p>No <a href="/website/coding-standards/java/intermediate.html">coding standard</a> violations <span class="dimmed">e.g. all boolean variables/methods sounds like booleans</span>. Checkstyle can prevent only <em>some</em> coding standard violations; others need to be checked manually.</p>
+        </li>
+        <li>
+          <p><a href="/website/se-book-adapted/chapters/codeQuality.html#slap-hard">SLAP</a> is applied at a reasonable level. Long methods or deeply-nested code are symptoms of low-SLAP.</p>
+        </li>
+        <li>
+          <p>No noticeable code duplications <span class="dimmed">i.e. if there multiple blocks of code that vary only in minor ways, try to extract out similarities into one place</span>, especially in test code.</p>
+        </li>
+        <li>
+          <p>Evidence of applying <a href="/website/book/codeQuality">code quality guidelines covered in the module</a>.</p>
+        </li>
+      </ul>
+    </span>
+    <p><strong><big>2B. Feature Quality</big></strong></p>
+    <p><strong>Evaluates:</strong> how deep is your biggest feature, how complete is the feature, how well it solves the target user needs, etc.</p>
+    <p><strong>Evaluation method:</strong></p>
+    <ul>
+      <li>by peers from own team and other teams (based on peer testing session, PPP, RepoSense data) -- more weight for team members from own team than those from other teams</li>
+      <li>by tutors (based on demo, <tooltip content="Project Portfolio Page">PPP</tooltip>, RepoSense data)</li>
+    </ul>
+    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some grading instructions that will be given to peers/tutors grading this aspect:</p>
+    <blockquote>
+      <div id="projectGrading-featureQuality-instructions">
+        <p>Evaluate <mark>the biggest feature done by the student</mark> for difficulty, completeness, and testability. Note: examples given below assume that AB3 did not have the commands <code>edit</code>, <code>undo</code>, and <code>redo</code>.</p>
+        <ul>
+          <li>Difficulty
+            <ul class="task-list">
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: low</code>: <span class="dimmed">e.g. make the existing <em>find</em> command case insensitive</span>.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: medium</code>: <span class="dimmed">e.g. an <em>edit</em> command that requires the user to type <em>all</em> fields, even the ones that are not being edited</span>.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: high</code>: e.g., <span class="dimmed">undo/redo command</span></li>
+            </ul>
+          </li>
+          <li>Completeness
+            <ul class="task-list">
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: low</code>: A partial implementation of the feature. Barely useful.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: medium</code>: The feature has enough functionality to be useful for some of the users.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: high</code>: The feature has all functionality to be useful to almost all users.</li>
+            </ul>
+          </li>
+          <li>Other
+            <ul class="task-list">
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ not hard to test</code>: The feature was not too hard to test manually.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ polished: high</code>: The feature looks <em>polished</em> (as if done by a professional programmer).</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="projectGrading-effort-instructions">
+        <p>Evaluate the amount of work, on a scale of 0 to 30.</p>
+        <ul>
+          <li>Consider <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">this PR (<code>history</code> command)</a> as 5 units of effort which means <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">this PR (<code>undo/redo</code> command)</a> is about 15 points of effort. Given that 30 points matches an effort twice as that needed for the <code>undo/redo</code> feature (which was given as an example of an <code>A</code> grade project), we expect most students to be have efforts lower than 20.</li>
+          <li>Count all implementation/testing/documentation work as mentioned in that person's PPP. Also look at the actual code written by the person.</li>
+          <li>
+            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Do not give a high value just <em>to be nice</em>. You will be asked to provide a brief justification for your effort estimates.
+          </li>
+        </ul>
+      </div>
+    </blockquote>
+    <hr>
+    <h4 id="3-project-grading-qa-10-marks">3. Project Grading: QA <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span></h4>
+    <p><big><strong>3A. System/Acceptance Testing:</strong></big></p>
+    <p><strong>Evaluates:</strong> How well you can system-test/acceptance-test a product</p>
+    <p><strong>Based on:</strong></p>
+    <ol>
+      <li>bugs you found in the <a href="/website/admin/project-deliverables.html#deliverable-practical-exam">Practical Exam</a></li>
+      <li>our own manual testing (when necessary)</li>
+    </ol>
+    <p><strong>Evaluated by:</strong> teaching team (in the capacity of <em>moderators</em> <span class="dimmed">e.g., to verify if it is reasonable for you to reject a bug reported by others</span>)</p>
+    <p><big><strong>3B. Developer Testing:</strong></big></p>
+    <p><strong>Evaluates:</strong> How well you tested your own feature</p>
+    <p><strong>Based on:</strong></p>
+    <ol>
+      <li>bugs in your work found by others during the PE</li>
+      <li>your test code <span class="dimmed">(note <trigger trigger="click" for="modal:projectGradingQA-testingExpectations">our expectations for automated testing</trigger>)</span></li>
+    </ol>
+    <p><strong>Evaluated by:</strong> tutors (in the capacity of <em>moderators</em> <span class="dimmed">e.g., to verify if it is reasonable for the team to downgrade the severity of a bug you reported</span>)</p>
+    <modal large title="Our expectations for automated testing in the project" id="modal:projectGradingQA-testingExpectations">
+        <div>
+        <div data-included-from="C:\repos\nus-tic2002-2019\tic2002-website\admin\project-scope.md">
+          <ul>
+            <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
+            <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
+            <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
+          </ul>
+        </div>
+      </div>
+    </modal>
+    <p><big><strong>Notes on how marks are calculated based on bugs</strong></big></p>
+    <ul>
+      <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not be affect marks of the tester or the developer.</li>
+      <li>The penalty/credit for a bug varies based on,
+        <ul>
+          <li>The severity of the bug: <code>severity.High</code> &gt; <code>severity.Medium</code> &gt; <code>severity.Low</code></li>
+          <li>The type of the bug: <code>type.FunctionalityBug</code> &gt; <code>type.DocumentationBug</code> &gt; <code>type.FeatureFlaw</code> &gt; <code>type.DocTypo</code></li>
+        </ul>
+      </li>
+      <li>The penalty for a bug is divided equally among assignees.</li>
+      <li>The developers are not penalized for the duplicate bug reports they received but the testers earn credit for the duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
+      <li>
+        <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn less credit for the tester and slightly more penalty for the developer.
+      </li>
+      <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
+      <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
+        <ul>
+          <li><code>n</code> bugs found in your feature; it is a difficult feature consisting of lot of code → 4/5 marks</li>
+          <li><code>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li>
+        </ul>
+      </li>
+      <li>You don't need to find all bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
+      <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">duplicate-flagging</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
+    </ul>
+    <hr>
+    <h4 id="4-project-grading-documentation-10-marks">4. Project Grading: Documentation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span></h4>
+    <p><strong>Evaluates:</strong> the quality of the sections you wrote for the user guide and the developer guide</p>
+    <p><strong>Based on:</strong> the relevant sections of your PPP.</p>
+    <p><strong>Evaluated by:</strong> tutors, peers from own team and other teams</p>
+    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some grading instructions that will be given to peers/tutors grading this aspect:</p>
+    <blockquote>
+      <div id="projectGrading-userGuide-instructions">
+        <p>Evaluate the quality of user documentation <strong>based on the parts of the user guide written by the person,</strong> as reproduced in the project portfolio. <mark>Evaluate from an end-user perspective.</mark></p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ unable to judge</code>: Less than 1 page worth of UG content written by the student or cannot find PPP</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ good use of visuals</code>: Uses visuals e.g., screenshots.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ good use of examples</code>: Uses examples e.g., sample inputs/outputs.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ just enough information</code>: Not too much information. All important information is given.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ easy to understand</code>: The information is easy to understand for the target audience.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ polished</code>: The document looks neat, well-formatted, and professional.</li>
+        </ul>
+      </div>
+      <div id="projectGrading-devGuide-instructions">
+        <p>Evaluate the quality of developer documentation <strong>based on the developer docs cited/reproduced in the respective project portfolio page.</strong> <mark>Evaluate from the perspective of a new developer trying to understand how the features are implemented.</mark></p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ unable to judge</code>: Less than 0.5 pages worth of content OR other problems in the document <span class="dimmed">e.g. looks like included wrong content</span>.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ too little</code>: 0.5 - 1 page of documentation</li>
+          <li>Diagrams:
+            <ul class="task-list">
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ types of UML diagrams: 1</code>: Only one type of diagram used (types: Class Diagrams, Object Diagrams, Sequence Diagrams, Activity Diagrams, Use Case Diagrams)</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ types of UML diagrams: 2</code>: Two types of diagrams used</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ types of UML diagrams: 3+</code>: Three or more types of diagrams used</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ UML diagrams suitable</code>: The diagrams used for the right purpose</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ UML notation correct</code>: No more than one minor error in the UML notation</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ diagrams not repetitive</code>: No evidence of repeating the same diagram with minor differences</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ diagrams not too complicated</code>: Diagrams don't cram too much information into them</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ diagrams integrates with text</code>: Diagrams are well integrated into the textual explanations</li>
+            </ul>
+          </li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ easy to understand</code>: The document is easy to understand/follow</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ just enough information</code>: Not too much information. All important information is given.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ polished</code>: The document looks neat, well-formatted, and professional.</li>
+        </ul>
+      </div>
+    </blockquote>
+    <hr>
+    <h4 id="5-project-grading-project-management-5-5-10-marks">5. Project Grading: Project Management <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 + <span><span aria-hidden="true" class="fas fa-user"></span></span> 5 = 10 marks]</span></h4>
+    <div id="project-management-grading">
+      <p><big><strong>5A. Process:</strong></big></p>
+      <p><strong>Evaluates:</strong> How well you did in project management related aspects of the project, as an individual and as a team</p>
+      <p><strong>Based on:</strong> tutor/bot observations of project milestones and GitHub data</p>
+      <p>Milestones <mark>need to be reached the midnight before of the tutorial</mark> for it to be counted as achieved. <mark>To get a good grade for this aspect, achieve at least 60% of the recommended milestone progress.</mark></p>
+      <p>Other criteria:</p>
+      <ul>
+        <li>Good use of GitHub milestones</li>
+        <li>Good use of GitHub release mechanism</li>
+        <li>Good version control, based on the repo</li>
+        <li>Reasonable attempt to use the forking workflow</li>
+        <li>Good task definition, assignment and tracking, based on the issue tracker</li>
+        <li>Good use of buffers <span class="dimmed">(opposite: everything at the last minute)</span></li>
+        <li>Project done iteratively and incrementally <span class="dimmed">(opposite: doing most of the work in one big burst)</span></li>
+      </ul>
+      <p><big><strong>5B. Team-tasks:</strong></big></p>
+      <p><strong>Evaluates:</strong> How much you contributed to team-tasks</p>
+      <p><strong>Based on:</strong> peer evaluations, tutor observations</p>
+      <p>To earn full marks, you should have done a fair share of the team tasks. You can earn bonus marks by doing more than your fair share.</p>
+      <div class="flat">
+        <div>
+          <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectGrading-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+        </div>
+      </div>
+      <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectGrading-exmapleTeamTasks">
+          <div>
+          <div data-included-from="C:\repos\nus-tic2002-2019\tic2002-website\admin\project-scope.md">
+            <p>Here is a non-exhaustive list of team-tasks:</p>
+            <ol>
+              <li>Necessary general code enhancements e.g.,
+                <ol>
+                  <li>Work related to renaming the product</li>
+                  <li>Work related to changing the product icon</li>
+                  <li>Morphing the product into a different product</li>
+                </ol>
+              </li>
+              <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
+              <li>Maintaining the issue tracker</li>
+              <li>Release management</li>
+              <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
+              <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
+            </ol>
+          </div>
+        </div>
+      </modal>
+      <p>
+        <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="example-team-tasks"></panel>
+      </p>
+    </div>
+  </div>
+  <br>
+  <p><span class="float-left">
+      <b-btn variant="light" href="project-deliverables.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP: Deliverables</span></b-btn>
+    </span><span class="float-right">
+      <b-btn variant="light" href="project-supervision.html"><span>tP: Supervision <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
+    </span></p>
+</div>

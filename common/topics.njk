@@ -71,12 +71,16 @@
 {% if not is_toc %}
 <span id="{{ make_anchor(id_prefix) }}" />
 
-<panel type="seamless" expanded>
-<span slot="header" class="card-title"><h4><md><small><span class='badge badge-pill badge-light'>%%{{ id_prefix }}%%</span> %%**<include src="{{ path_displacement }}../../book/{{  full_path }}/../path.md" inline />**%%</small> **<include src="{{ path_displacement }}../../book/{{  full_path }}/text.md#title" inline />**</md> <small><small>{{ show_stars(priority) }}</small></small></h4></span>
+<panel type="seamless" expanded popup-url="{{ baseUrl }}/book/{{  full_path }}">
+<span slot="header" class="card-title">
+<span class='badge badge-pill badge-light text-mute'>{{ id_prefix }}</span> {{ show_stars(priority) }}
+
+####  <small><span class="font-weight-bold text-muted"><include src="{{ path_displacement }}../../book/{{  full_path }}/../path.md" inline trim /></span></small> **<include src="{{ path_displacement }}../../book/{{  full_path }}/text.md#title" inline />**
+</span>
   <include src="{{ path_displacement }}../../book/{{  full_path }}/unit-inElsewhere-asPanelBody.md" boilerplate />
 </panel>
 {% else %}
-* %%[[{{ id_prefix }}](#{{ make_anchor(id_prefix) }})] <include src="{{ path_displacement }}../../book/{{  full_path }}/../path.md" inline />%% <include src="{{ path_displacement }}../../book/{{  full_path }}/text.md#title" inline /> {{ show_stars(priority) }}
+* %%[[{{ id_prefix }}](topics.html#{{ make_anchor(id_prefix) }})] <include src="{{ path_displacement }}../../book/{{  full_path }}/../path.md" inline />%% <include src="{{ path_displacement }}../../book/{{  full_path }}/text.md#title" inline /> {{ show_stars(priority) }}
 {% endif %}
 {% endmacro %}
 
@@ -130,7 +134,8 @@
 {% set panel_decorations = "expanded no-switch" if params.is_flat else "" %}
 {% set panel_expandable = "false" if params.is_flat else "true" %}
 {% if params.is_toc %}
-* [[{{ prefix | trim }}](#{{ make_anchor(prefix) }})] **{{ params.topic.heading }}** {{ show_stars(priority) }}
+* [[{{ prefix | trim }}](topics.html#{{ make_anchor(prefix) }})] **{{ params.topic.heading }}** {{ show_stars(priority) }}
+{% if not params.is_flat %}
 <div class="indented-level2">
 <small>
 
@@ -144,6 +149,7 @@
 {% endfor %}
 </small>
 </div>
+{% endif %} {# if not params.is_flat #}
 {% else %}
 <span id="{{ anchor }}" />
 
@@ -205,8 +211,10 @@
 
 {% macro show_week_schedule(week_num, entries, path_displacement="") %}
 <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
+<span id="toc">
 
 {{ show_week_schedule_main(week_num, entries, path_displacement, is_toc=true) }}
+</span>
 </panel>
 
 <hr style="border: 1px dotted #cccccc;" />

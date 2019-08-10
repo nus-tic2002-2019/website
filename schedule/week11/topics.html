@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 11 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,107 +65,114 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week10/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week12/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-11-oct-28">Week 11 <small><small><span class="dimmed">[Oct 28]</span></small></small><a class="fa fa-anchor" href="#week-11-oct-28"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week11/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week11/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week10"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week11/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week11/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week11/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week12"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-11-oct-28-topics">Week 11 <small><small><span class="dimmed">[Oct 28]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-11-oct-28-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W11-1">W11.1</a>] <strong>Sequence Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W11-1a">W11.1a</a>] <span>Design → Modelling → Modelling Behaviors
-                    </span></span> <span>Sequence Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W11-2">W11.2</a>] <strong>Java: Streams</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W11-2a">W11.2a</a>] <span>Tools → Java →
-                    </span></span> <span>Streams: Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W11-3">W11.3</a>] <strong>Java: JavaFX</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W11-3a">W11.3a</a>] <span>Tools → Java →
-                    </span></span> <span>JavaFX: Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W11-4">W11.4</a>] <strong>Java: JAR Files</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W11-4a">W11.4a</a>] <span>C++ to Java → Miscellaneous Topics →
-                    </span></span> <span>Using JAR Files</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W11-5">W11.5</a>] <strong>Testing Types</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <p>   <strong>Unit Testing</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W11-5a">W11.5a</a>] <span>Quality Assurance → Testing → Unit Testing →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W11-5b">W11.5b</a>] <span>Quality Assurance → Testing → Unit Testing →
-                      </span></span> <span>Stubs</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Integration Testing</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W11-5c">W11.5c</a>] <span>Quality Assurance → Testing → Integration Testing →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W11-5d">W11.5d</a>] <span>Quality Assurance → Testing → Integration Testing →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>System Testing</strong></p>
-              <ul>
-                <li><span class="dimmed">[<a href="#W11-5e">W11.5e</a>] <span>Quality Assurance → Testing → System Testing →
-                    </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-              </ul>
-              <p>   <strong>Acceptance Testing</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W11-5f">W11.5f</a>] <span>Quality Assurance → Testing → Acceptance Testing →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W11-5g">W11.5g</a>] <span>Quality Assurance → Testing → Acceptance Testing →
-                      </span></span> <span>Acceptance vs System Testing</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Alpha/Beta Testing</strong></p>
-              <ul>
-                <li><span class="dimmed">[<a href="#W11-5h">W11.5h</a>] <span>Quality Assurance → Testing → Alpha/Beta Testing →
-                    </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week11/topics.html#W11-1">W11.1</a>] <strong>Sequence Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-1a">W11.1a</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>Sequence Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week11/topics.html#W11-2">W11.2</a>] <strong>Java: Streams</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-2a">W11.2a</a>] <span>Tools → Java →
+                      </span></span> <span>Streams: Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week11/topics.html#W11-3">W11.3</a>] <strong>Java: JavaFX</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-3a">W11.3a</a>] <span>Tools → Java →
+                      </span></span> <span>JavaFX</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week11/topics.html#W11-4">W11.4</a>] <strong>Java: JAR Files</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-4a">W11.4a</a>] <span>C++ to Java → Miscellaneous Topics →
+                      </span></span> <span>Using JAR Files</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week11/topics.html#W11-5">W11.5</a>] <strong>Testing Types</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <p>   <strong>Unit Testing</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5a">W11.5a</a>] <span>Quality Assurance → Testing → Unit Testing →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5b">W11.5b</a>] <span>Quality Assurance → Testing → Unit Testing →
+                        </span></span> <span>Stubs</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Integration Testing</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5c">W11.5c</a>] <span>Quality Assurance → Testing → Integration Testing →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5d">W11.5d</a>] <span>Quality Assurance → Testing → Integration Testing →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>System Testing</strong></p>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5e">W11.5e</a>] <span>Quality Assurance → Testing → System Testing →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                </ul>
+                <p>   <strong>Acceptance Testing</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5f">W11.5f</a>] <span>Quality Assurance → Testing → Acceptance Testing →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5g">W11.5g</a>] <span>Quality Assurance → Testing → Acceptance Testing →
+                        </span></span> <span>Acceptance vs System Testing</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Alpha/Beta Testing</strong></p>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5h">W11.5h</a>] <span>Quality Assurance → Testing → Alpha/Beta Testing →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W11-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -173,10 +183,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W11-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.1a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
-                          </span></strong></span></small> <strong><span>Sequence Diagrams - Intermediate</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.1a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-behaviors-sequence-diagrams-intermediate"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Sequence Diagrams - Intermediate</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-sequence-diagrams-intermediate"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -196,7 +206,7 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What’s going on here?">
@@ -284,10 +294,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W11-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/javaTools/streamsBasic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.2a</span></span> <span class="dimmed"><strong><span>Tools → Java →
-                          </span></strong></span></small> <strong><span>Streams: Basic</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.2a</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-java-streams-basic"><small><span class="font-weight-bold text-muted"><span>Tools → Java →</span></span></small> <strong><span>Streams: Basic</span></strong><a class="fa fa-anchor" href="#tools-java-streams-basic"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -299,7 +309,7 @@
                   <p></p>
                   <div>
                     <p><strong>Java 8 introduced a number of new features (e.g. Lambdas, Streams)</strong> that are not trivial to learn but also extremely useful to know.</p>
-                    <p><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/">Here</a> is an overview of new Java 8 features .<span class="dimmed"> (written by Benjamin Winterberg)</span></p>
+                    <p><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/">Here</a> is an overview of new Java 8 features .<span class="dimmed">(written by Benjamin Winterberg)</span></p>
                   </div>
                   <div>
                     <div>
@@ -309,7 +319,7 @@
                           <tab header="<md>:far-file-alt:</md>">
                             <ul>
                               <li>
-                                <p><a href="https://www.tutorialspoint.com/java8/"><strong>Java 8 Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a>. 💡 Also provides a way to try out code online</p>
+                                <p><a href="https://www.tutorialspoint.com/java8/"><strong>Java 8 Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a>. <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Also provides a way to try out code online</p>
                               </li>
                               <li>
                                 <p><strong>Tutorials from Oracle</strong>: [<a href="http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html">Lambdas</a>][<a href="http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html">Streams</a>]</p>
@@ -343,10 +353,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W11-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/javaTools/javaFXBasic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.3a</span></span> <span class="dimmed"><strong><span>Tools → Java →
-                          </span></strong></span></small> <strong><span>JavaFX: Basic</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.3a</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-java-javafx"><small><span class="font-weight-bold text-muted"><span>Tools → Java →</span></span></small> <strong><span>JavaFX</span></strong><a class="fa fa-anchor" href="#tools-java-javafx"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -357,710 +367,7 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <p><span class="dimmed">Adapted (with permissions) from <a href="http://code.makery.ch/library/javafx-8-tutorial/">Marco Jakob's JavaFX 8 tutorial</a>.</span></p>
-                    <panel header="**Part 1: Scene Builder**" minimized>
-                      <div>
-                        <h1 id="javafx-9-tutorial-part-1-scene-builder">JavaFx 9 Tutorial - Part 1: Scene Builder<a class="fa fa-anchor" href="#javafx-9-tutorial-part-1-scene-builder"></a></h1>
-                        <h2 id="introduction">Introduction<a class="fa fa-anchor" href="#introduction"></a></h2>
-                        <p>This tutorial will teach you how to create a new JavaFX application in IntelliJ, and to use the SceneBuilder to create a layouts for your application.</p>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/address-app-final-screenshot.png" alt="Final Screenshot" height="350">
-                        <p></p>
-                        <h2 id="prerequisites">Prerequisites<a class="fa fa-anchor" href="#prerequisites"></a></h2>
-                        <ul>
-                          <li>Latest <a href="http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java JDK 9</a> (includes <em>JavaFX 9</em>)</li>
-                          <li>IntelliJ (2018.2 or later)</li>
-                          <li><a href="http://gluonhq.com/products/scene-builder/">SceneBuilder 8</a> (provided by Gluon as <a href="http://www.oracle.com/technetwork/java/javase/downloads/sb2download-2177776.html">Oracle no longer ships the tool in binary form</a>)</li>
-                        </ul>
-                        <tip-box type="tip">
-                          <p>Do remember the installation path to SceneBuilder 8 as we will need it to configure IntelliJ in a later step.</p>
-                        </tip-box>
-                        <h2 id="intellij-configurations">IntelliJ Configurations<a class="fa fa-anchor" href="#intellij-configurations"></a></h2>
-                        <p>If this is the first time using IntelliJ, you need to tell IntelliJ where to find JDK 9 and SceneBuilder.</p>
-                        <h3 id="configuring-jdk-9">Configuring JDK 9<a class="fa fa-anchor" href="#configuring-jdk-9"></a></h3>
-                        <ol>
-                          <li>On the Welcome screen, press <code>Configure</code> → <code>Project Default</code> → <code>Project Structure</code>.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/config-jdk-welcome-screen.png" alt="Welcome Screen" height="380">
-                        <p></p>
-                        <ul>
-                          <li>If you already have a project open, go to the Welcome screen by going to <code>File</code> → <code>Close Project</code>.</li>
-                        </ul>
-                        <ol start="2">
-                          <li>Under <code>Project SDK:</code>, press <code>New...</code> → <code>JDK</code>.</li>
-                          <li>Select the directory that you install JDK on, and press <code>OK</code>.</li>
-                          <li>Under <code>Project language level:</code>, select <code>9 - Modules, private methods in interfaces etc.</code>.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/config-jdk-project-structure.png" alt="JDK 9 under Project Structure" height="350">
-                        <p></p>
-                        <ol start="4">
-                          <li>Press <code>OK</code> again.</li>
-                        </ol>
-                        <h3 id="configuring-scene-builder">Configuring Scene Builder<a class="fa fa-anchor" href="#configuring-scene-builder"></a></h3>
-                        <ol>
-                          <li>On the Welcome screen, press <code>Configure</code> → <code>Settings</code>.</li>
-                          <li>On the left hand side, select <code>Languages &amp; Frameworks</code> → <code>JavaFX</code></li>
-                          <li>Under <code>Path to SceneBuilder:</code>, select the path to where SceneBuilder is installed (e.g. <code>C:\Users\Admin\AppData\Local\SceneBuilder\SceneBuilder.exe</code> on Windows)</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/config-scene-builder-settings.png" alt="Scene Builder settings" height="350">
-                        <p></p>
-                        <tip-box type="info" header="Helpful Links">
-                          <p>The JavaDocs will come in handy when writing your own JavaFX applications:</p>
-                          <ul>
-                            <li><a href="https://docs.oracle.com/javase/9/docs/api">Java 9 API</a></li>
-                            <li><a href="https://docs.oracle.com/javase/9/docs/api/overview-summary.html">JavaFX 9 API</a></li>
-                            <li><a href="http://controlsfx.bitbucket.org/">ControlsFX API</a></li>
-                          </ul>
-                          <p>Additionally, <a href="http://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm">Oracle also has a tutorial on JavaFX</a> if you are interested.</p>
-                        </tip-box>
-                        <h2 id="create-a-new-javafx-project">Create a new JavaFX Project<a class="fa fa-anchor" href="#create-a-new-javafx-project"></a></h2>
-                        <ol>
-                          <li>On the Welcome screen, press <code>Create New Project</code>.</li>
-                        </ol>
-                        <ul>
-                          <li>If you already have a project, you can create a new project by going <code>File</code> → <code>New</code> → <code>Project...</code>.</li>
-                        </ul>
-                        <ol start="2">
-                          <li>On the left side, select <code>JavaFX</code>. Make sure that the Project SDK is set to <code>9</code> and <code>JavaFX Application</code> is selected.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/new-project.png" alt="New Project" height="350">
-                        <p></p>
-                        <ol start="3">
-                          <li>Press <code>Next</code>.</li>
-                          <li>Give a name for the application (e.g. <code>AddressApp</code>), and specify a suitable location.</li>
-                          <li>Press <code>Finish</code>. If prompted to create a new directory, just press <code>OK</code>.</li>
-                        </ol>
-                        <p>Remove the <code>sample</code> package and its content. We will manually create our own package and resources in our tutorial.</p>
-                        <p>We will also have to set up the IDE further, so that warnings and errors show up correctly when working with Java 9:</p>
-                        <ol>
-                          <li>Go to the menu <code>File</code> → <code>Project Structure</code>.</li>
-                          <li>Under <code>Project language level:</code>, ensure that <code>9 - Modules, private methods in interfaces etc.</code> is selected.</li>
-                        </ol>
-                        <h2 id="create-the-packages">Create the Packages<a class="fa fa-anchor" href="#create-the-packages"></a></h2>
-                        <p>In We will create a package for each of the component. Ensure that your Project pane is open (<kbd>Alt</kbd>+<kbd>1</kbd>). Right click on the <code>src</code> folder, and select <code>New</code> → <code>Package</code>:</p>
-                        <ul>
-                          <li><code>seedu.address</code> - contains the <em>controller</em> classes (i.e. the part that deals with the business logic)</li>
-                          <li><code>seedu.address.model</code> - contains the <em>model</em> classes (i.e. the part that deals with data)</li>
-                          <li><code>seedu.address.view</code> - contains the <em>views</em> (i.e. the part that deals with presenting the data to the user)</li>
-                        </ul>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/new-packages.png" alt="New Packages" height="200">
-                        <p></p>
-                        <tip-box type="info">
-                          <p>In subsequent tutorials, our <code>view</code> package will also contain some controllers that are directly related to a single view. We will call them <code>view-controllers</code>.</p>
-                        </tip-box>
-                        <h2 id="create-the-fxml-layout-file">Create the FXML Layout File<a class="fa fa-anchor" href="#create-the-fxml-layout-file"></a></h2>
-                        <p>There are two ways to create the UI:</p>
-                        <ul>
-                          <li>Use FXML, which is an XML format.</li>
-                          <li>Programmatically create the interface in Java.</li>
-                        </ul>
-                        <p>We will use FXML for most parts, so that we can separate the view and controller from each other. Furthermore, we are able to use the Scene Builder tool to edit our FXML file. That means we will not have to directly work with XML.</p>
-                        <p>Right click on the <code>view</code> package, and press <code>New</code> → <code>FXML file</code>. For the file name, type <code>PersonOverview.fxml</code>.</p>
-                        <h2 id="design-with-scene-builder">Design with Scene Builder<a class="fa fa-anchor" href="#design-with-scene-builder"></a></h2>
-                        <p>Right-click on <code>PersonOverview.fxml</code> and choose <code>Open with Scene Builder</code>. Now you should see the Scene Builder with just an AnchorPane (visible under Hierarchy on the left).</p>
-                        <tip-box type="info">
-                          <p>If IntelliJ prompts for a location of the SceneBuilder executable, make sure to point to where you install SceneBuilder.</p>
-                        </tip-box>
-                        <ol>
-                          <li>Select the <code>Anchor Pane</code> in your Hierarchy, and adjust the size under Layout (right side). (Pref Width: 600, Pref Height: 300)</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-main-anchor.png" height="350">
-                        <p></p>
-                        <ol start="2">
-                          <li>Add a <code>Split Pane (horizontal)</code> (under <code>Containers</code>) by dragging it from the Library into the main area. Right-click the <code>Split Pane</code> in the Hierarchy view and select <code>Fit to Parent</code>.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-fit-to-parent.png" height="250">
-                        <p></p>
-                        <ol start="3">
-                          <li>Drag a <code>TableView</code> (under <code>Controls</code> in Library view) into the left side of the <code>SplitPane</code>. Select the <code>TableView</code> (not a Column) and set the following layout constraints in the Inspector to the <code>TableView</code>. Inside an <code>AnchorPane</code> you can always set anchors to the four borders (see <a href="http://docs.oracle.com/javase/8/javafx/layout-tutorial/builtin_layouts.htm">this page</a> for more information on Layouts).</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-table-anchors.png" height="250">
-                        <p></p>
-                        <ol start="4">
-                          <li>
-                            <p>Go to the menu <code>Preview</code> → <code>Show Preview in Window</code> to see whether the layout configuration is done correctly. Try resizing the window. The <code>TableView</code> should resize together with the window as it is anchored to the borders.</p>
-                          </li>
-                          <li>
-                            <p>Change the column text (under Properties) to &quot;First Name&quot; and &quot;Last Name&quot;.</p>
-                          </li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-table-columns.png" height="250">
-                        <p></p>
-                        <ol start="6">
-                          <li>Select the <code>TableView</code> and choose <code>constrainted-resize</code> for the 'Column Resize Policy'. This ensures that the columns will always fill up the entire available space.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-table-columns-resize.png" height="200">
-                        <p></p>
-                        <ol start="7">
-                          <li>Add a <code>Label</code> on the right side with the text &quot;Person Details:&quot;. Adjust the layout using anchors (Top: 5, Left: 5. Right: Blank, Bottom: Blank).</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-title-label.png" width="800">
-                        <p></p>
-                        <tip-box type="tip">
-                          <p>You can use the Search Bar at the top of Library/Inspector to find the respective controls/properties.</p>
-                        </tip-box>
-                        <ol start="8">
-                          <li>Add a <code>GridPane</code> on the right side. Select it, and adjust its layout using anchors (Top: 30, Left: 5, Right: 5, Bottom: Blank).</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-1.png" width="600">
-                        <p></p>
-                        <ol start="9">
-                          <li>Add the following labels to the cells, such that the grid is of this form:</li>
-                        </ol>
-                        <div class="table-responsive">
-                          <table class="markbind-table table table-bordered table-striped">
-                            <thead>
-                              <tr>
-                                <th>First Name</th>
-                                <th>Label</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>Last Name</td>
-                                <td>Label</td>
-                              </tr>
-                              <tr>
-                                <td>Street</td>
-                                <td>Label</td>
-                              </tr>
-                              <tr>
-                                <td>City</td>
-                                <td>Label</td>
-                              </tr>
-                              <tr>
-                                <td>Postal Code</td>
-                                <td>Label</td>
-                              </tr>
-                              <tr>
-                                <td>Birthday</td>
-                                <td>Label</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <tip-box type="tip">
-                          <p>To add a row to the GridPane, select an existing row number, right click the row number and choose &quot;Add Row Below&quot;.</p>
-                        </tip-box>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-2.png" height="250">
-                        <p></p>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-3.png" height="280">
-                        <p></p>
-                        <ol start="10">
-                          <li>Add a <code>ButtonBar</code> at the bottom. Add three buttons to the bar (&quot;New...&quot;, &quot;Edit...&quot;,&quot;Delete&quot;). Adjust the anchors so that it stays at the bottom right (Top: Blank, Left: Blank, Right: 10, Bottom: 5).</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-button-bar.png" height="50">
-                        <p></p>
-                        <ol start="11">
-                          <li>Now you should see something like the following. Use the <code>Preview</code> menu to test its resizing behaviour.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-final.png" height="300">
-                        <p></p>
-                        <ol start="12">
-                          <li>Save the <code>.fxml</code> file.</li>
-                        </ol>
-                        <h2 id="create-the-main-application">Create the Main Application<a class="fa fa-anchor" href="#create-the-main-application"></a></h2>
-                        <p>The <code>PersonOverview.fxml</code> that we just created only contains the content of our entire application. We need another FXML for our root layout, which will contain a menu bar and wraps <code>PersonOverview.fxml</code>.</p>
-                        <ol>
-                          <li>Inside IntelliJ, right click on the <code>view</code> package, and press <code>New</code> → <code>FXML file</code>. For the file name, type <code>RootLayout.fxml</code>.</li>
-                          <li>Right-click on <code>RootLayout.fxml</code> and choose <code>Open with Scene Builder</code>.</li>
-                          <li>Delete the <code>AnchorPane</code>. We will use another pane for our root layout.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-delete-anchor-pane.png" height="230">
-                        <p></p>
-                        <ol start="4">
-                          <li>Add <code>BorderPane</code> by dragging it from the Library view into the main area.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-add-border-pane.png" height="380">
-                        <p></p>
-                        <ol start="5">
-                          <li>Resize the <code>BorderPane</code> (Pref Width: 600, Pref Height: 400)</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-resize.png" height="280">
-                        <p></p>
-                        <ol start="6">
-                          <li>Add a <code>MenuBar</code> into the <code>insert TOP</code> slot. We will not implement menu functionality for now.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/create-main-app-menu-bar.png" height="100">
-                        <p></p>
-                        <h2 id="the-javafx-main-class">The JavaFX Main Class<a class="fa fa-anchor" href="#the-javafx-main-class"></a></h2>
-                        <p>Now, we need to create the <em>main Java class</em> that starts up our application with the <code>RootLayout.fxml</code> and adds the <code>PersonOverview.fxml</code> in the center.</p>
-                        <p>Right-click on your <code>seedu.address</code> package, and choose <code>New</code> → <code>JavaFXApplication</code>. For the class name, type <code>MainApp</code>.</p>
-                        <p>The generated <code>MainApp.java</code> class extends from <code>Application</code> and contains two methods. This is the basic structure that we need to start a JavaFX Application. The most important part for us is the <code>start(Stage primaryStage)</code> method. It is automatically called when the application is <code>launch()</code> from within the <code>main()</code> method.</p>
-                        <p>As you see, the <code>start(...)</code> method receives a <code>Stage</code> as parameter. The following graphic illustrates the structure of every JavaFX application:</p>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/javafx-hierarchy.png" height="350">
-                        <p></p>
-                        <p>Image Source: <a href="http://www.oracle.com">http://www.oracle.com</a></p>
-                        <p><em>It's like a theater play:</em> The <code>Stage</code> is the main container which is usually a <code>Window</code> with a border and the typical minimize, maximize and close buttons. Inside the <code>Stage</code> you add a <code>Scene</code> which can, of course, be switched out by another <code>Scene</code>. Inside the <code>Scene</code> the actual JavaFX nodes like <code>AnchorPane</code>, <code>TextBox</code>, etc. are added.</p>
-                        <p>See <a href="http://docs.oracle.com/javase/8/javafx/scene-graph-tutorial/scenegraph.htm">this page</a> for more info on working with the JavaFX Scene Graph.</p>
-                        <hr>
-                        <p>Open <code>MainApp.java</code> and replace the code with the following:</p>
-                        <p><strong>MainApp.java</strong></p>
-                        <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.address;
-
-<span class="hljs-keyword">import</span> java.io.IOException;
-
-<span class="hljs-keyword">import</span> javafx.application.Application;
-<span class="hljs-keyword">import</span> javafx.fxml.FXMLLoader;
-<span class="hljs-keyword">import</span> javafx.scene.Scene;
-<span class="hljs-keyword">import</span> javafx.scene.layout.AnchorPane;
-<span class="hljs-keyword">import</span> javafx.scene.layout.BorderPane;
-<span class="hljs-keyword">import</span> javafx.stage.Stage;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MainApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Application</span> </span>{
-    <span class="hljs-keyword">private</span> Stage primaryStage;
-    <span class="hljs-keyword">private</span> BorderPane rootLayout;
-
-    <span class="hljs-meta">@Override</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">start</span><span class="hljs-params">(Stage primaryStage)</span> </span>{
-        <span class="hljs-keyword">this</span>.primaryStage = primaryStage;
-        <span class="hljs-keyword">this</span>.primaryStage.setTitle(<span class="hljs-string">"AddressApp"</span>);
-
-        initRootLayout();
-
-        showPersonOverview();
-    }
-
-    <span class="hljs-comment">/**
-     * Initializes the root layout.
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">initRootLayout</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">try</span> {
-            <span class="hljs-comment">// Load root layout from fxml file.</span>
-            FXMLLoader loader = <span class="hljs-keyword">new</span> FXMLLoader();
-            loader.setLocation(MainApp.class.getResource(<span class="hljs-string">"view/RootLayout.fxml"</span>));
-            rootLayout = loader.load();
-
-            <span class="hljs-comment">// Show the scene containing the root layout.</span>
-            Scene scene = <span class="hljs-keyword">new</span> Scene(rootLayout);
-            primaryStage.setScene(scene);
-            primaryStage.show();
-        } <span class="hljs-keyword">catch</span> (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    <span class="hljs-comment">/**
-     * Shows the person overview inside the root layout.
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showPersonOverview</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">try</span> {
-            <span class="hljs-comment">// Load person overview.</span>
-            FXMLLoader loader = <span class="hljs-keyword">new</span> FXMLLoader();
-            loader.setLocation(MainApp.class.getResource(<span class="hljs-string">"view/PersonOverview.fxml"</span>));
-            AnchorPane personOverview = loader.load();
-
-            <span class="hljs-comment">// Set person overview into the center of root layout.</span>
-            rootLayout.setCenter(personOverview);
-        } <span class="hljs-keyword">catch</span> (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    <span class="hljs-comment">/**
-     * Returns the main stage.
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> Stage <span class="hljs-title">getPrimaryStage</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> primaryStage;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        launch(args);
-    }
-}
-</code></pre>
-                        <p>The various comments should give you some hints about what's going on.</p>
-                        <h2 id="importing-javafx-9">Importing JavaFx 9<a class="fa fa-anchor" href="#importing-javafx-9"></a></h2>
-                        <p>JavaFx 9 is a separate module from Java 9. We must ensure that the modules are imported correctly.</p>
-                        <p>Notice that IntellJ will complain about the imported modules &quot;not being in the module graph&quot;:</p>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/javafx-import-error.png" height="100">
-                        <p></p>
-                        <p>To fix this:</p>
-                        <ol>
-                          <li>Ensure that your Project pane is open (<kbd>Alt</kbd>+<kbd>1</kbd>). Right click on the <code>src</code> folder, and select <code>New</code> → <code>module-info.java</code>:</li>
-                          <li>Add the following <code>requires</code> and <code>exports</code> in order to import and export the modules correctly:</li>
-                        </ol>
-                        <pre><code class="hljs java"><span class="hljs-keyword">module</span> AddressApp {
-    <span class="hljs-keyword">requires</span> javafx.graphics;
-    <span class="hljs-keyword">requires</span> javafx.fxml;
-    <span class="hljs-keyword">requires</span> javafx.controls;
-
-    <span class="hljs-keyword">exports</span> seedu.address;
-}
-</code></pre>
-                        <h2 id="running-the-application">Running the Application<a class="fa fa-anchor" href="#running-the-application"></a></h2>
-                        <p>If you run the application now (right click <code>MainApp.java</code> and select <code>Run MainApp.main()</code>), you should see something like this:</p>
-                        <img src="/website/book/javaTools/javaFXBasic/part01/images/address-app-final-screenshot.png" height="350">
-                        <p></p>
-                        <h2 id="possible-issues">Possible Issues<a class="fa fa-anchor" href="#possible-issues"></a></h2>
-                        <p>If JavaFx fails to load <code>PersonOverview.fxml</code>, you might get the following error message:</p>
-                        <pre><code class="hljs">javafx.fxml.LoadException:
-/.../AddressApp/out/production/AddressApp/seedu/address/view/PersonOverview.fxml:15
-</code></pre>
-                        <p>To solve this issue, open <code>PersonOverview.fxml</code> normally in IntelliJ and ensure that there is no such attribute around:</p>
-                        <p><code>fx:controller=&quot;seedu.address.view.PersonOverview&quot;</code></p>
-                      </div>
-                    </panel>
-                    <panel header="**Part 2: Model and TableView**" minimized>
-                      <div>
-                        <h1 id="javafx-9-tutorial-part-2-model-and-tableview">JavaFx 9 tutorial - Part 2: Model and TableView<a class="fa fa-anchor" href="#javafx-9-tutorial-part-2-model-and-tableview"></a></h1>
-                        <h2 id="introduction-2">Introduction<a class="fa fa-anchor" href="#introduction-2"></a></h2>
-                        <p>In this tutorial, we will create the other parts of the application (mainly the model and the controller). We will also use <code>ObservableList</code> and <code>*Property</code> to bind our list of new model's <code>Person</code>s, and their individual details, to the view, with the controller as the &quot;middleman&quot;.</p>
-                        <img src="/website/book/javaTools/javaFXBasic/part02/images/address-app-final-screenshot.png" height="350">
-                        <p></p>
-                        <h2 id="create-the-model-class">Create the Model class<a class="fa fa-anchor" href="#create-the-model-class"></a></h2>
-                        <p>We need a model class in order to hold information about the people in our address book. Add a new class to the <code>model</code> package (<code>seedu.address.model</code>) called <code>Person</code>. The <code>Person</code> class will encapsulate the details of an individual person such as name, address and birthday. Add the following code to the class. The JavaFX specifics will be explained after the code snippet.</p>
-                        <p><strong>Person.java</strong></p>
-                        <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.address.model;
-
-<span class="hljs-keyword">import</span> java.time.LocalDate;
-
-<span class="hljs-keyword">import</span> javafx.beans.property.IntegerProperty;
-<span class="hljs-keyword">import</span> javafx.beans.property.ObjectProperty;
-<span class="hljs-keyword">import</span> javafx.beans.property.SimpleIntegerProperty;
-<span class="hljs-keyword">import</span> javafx.beans.property.SimpleObjectProperty;
-<span class="hljs-keyword">import</span> javafx.beans.property.SimpleStringProperty;
-<span class="hljs-keyword">import</span> javafx.beans.property.StringProperty;
-
-<span class="hljs-comment">/**
- * Model class for a Person.
- */</span>
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
-
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty firstName;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty lastName;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty street;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> IntegerProperty postalCode;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> StringProperty city;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> ObjectProperty&lt; LocalDate &gt; birthday;
-
-    <span class="hljs-comment">/**
-     * Default constructor.
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Person</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">this</span>(<span class="hljs-keyword">null</span>, <span class="hljs-keyword">null</span>);
-    }
-
-    <span class="hljs-comment">/**
-     * Constructor with some initial data.
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Person</span><span class="hljs-params">(String firstName, String lastName)</span> </span>{
-        <span class="hljs-keyword">this</span>.firstName = <span class="hljs-keyword">new</span> SimpleStringProperty(firstName);
-        <span class="hljs-keyword">this</span>.lastName = <span class="hljs-keyword">new</span> SimpleStringProperty(lastName);
-
-        <span class="hljs-comment">// Some initial dummy data, just for convenient testing.</span>
-        <span class="hljs-keyword">this</span>.street = <span class="hljs-keyword">new</span> SimpleStringProperty(<span class="hljs-string">"some street"</span>);
-        <span class="hljs-keyword">this</span>.postalCode = <span class="hljs-keyword">new</span> SimpleIntegerProperty(<span class="hljs-number">1234</span>);
-        <span class="hljs-keyword">this</span>.city = <span class="hljs-keyword">new</span> SimpleStringProperty(<span class="hljs-string">"some city"</span>);
-        <span class="hljs-keyword">this</span>.birthday = <span class="hljs-keyword">new</span> SimpleObjectProperty&lt; LocalDate &gt;(LocalDate.of(<span class="hljs-number">1999</span>, <span class="hljs-number">2</span>, <span class="hljs-number">21</span>));
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFirstName</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> firstName.get();
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFirstName</span><span class="hljs-params">(String firstName)</span> </span>{
-        <span class="hljs-keyword">this</span>.firstName.set(firstName);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">firstNameProperty</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> firstName;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getLastName</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> lastName.get();
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setLastName</span><span class="hljs-params">(String lastName)</span> </span>{
-        <span class="hljs-keyword">this</span>.lastName.set(lastName);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">lastNameProperty</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> lastName;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStreet</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> street.get();
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setStreet</span><span class="hljs-params">(String street)</span> </span>{
-        <span class="hljs-keyword">this</span>.street.set(street);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">streetProperty</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> street;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getPostalCode</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> postalCode.get();
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setPostalCode</span><span class="hljs-params">(<span class="hljs-keyword">int</span> postalCode)</span> </span>{
-        <span class="hljs-keyword">this</span>.postalCode.set(postalCode);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> IntegerProperty <span class="hljs-title">postalCodeProperty</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> postalCode;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getCity</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> city.get();
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setCity</span><span class="hljs-params">(String city)</span> </span>{
-        <span class="hljs-keyword">this</span>.city.set(city);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> StringProperty <span class="hljs-title">cityProperty</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> city;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> LocalDate <span class="hljs-title">getBirthday</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> birthday.get();
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setBirthday</span><span class="hljs-params">(LocalDate birthday)</span> </span>{
-        <span class="hljs-keyword">this</span>.birthday.set(birthday);
-    }
-
-    <span class="hljs-keyword">public</span> ObjectProperty&lt; LocalDate &gt; birthdayProperty() {
-        <span class="hljs-keyword">return</span> birthday;
-    }
-}
-</code></pre>
-                        <h3 id="explanations">Explanations<a class="fa fa-anchor" href="#explanations"></a></h3>
-                        <ul>
-                          <li>With JavaFX, it is common to use <code>*Property</code> for all fields of a model class. A <code>Property</code> allows us, for example, to automatically be notified when the <code>lastName</code> or any other variable is changed. This helps us keep the view in sync with the data.</li>
-                          <li>To learn more about <code>*Property</code>, refer to <a href="http://docs.oracle.com/javase/8/javafx/properties-binding-tutorial/binding.htm">Using JavaFX Properties and Binding</a></li>
-                          <li><code>LocalDate</code>, the type that we are using for <code>birthday</code>, is part of the <a href="http://docs.oracle.com/javase/tutorial/datetime/iso/">new Date and Time API since JDK 8</a></li>
-                        </ul>
-                        <h2 id="a-list-of-persons">A List of Persons<a class="fa fa-anchor" href="#a-list-of-persons"></a></h2>
-                        <p>The main data that our application manages is simply a bunch of persons. Let's create a list of <code>Person</code> objects inside the <code>MainApp</code> class. All other controller classes will later get access to that central list inside the <code>MainApp</code>.</p>
-                        <h3 id="observablelist">ObservableList<a class="fa fa-anchor" href="#observablelist"></a></h3>
-                        <p>We are working with JavaFX view classes that need to be informed about any changes made to the list of persons. This is important, since otherwise the view would not be in sync with the data. For this purpose, JavaFX introduces some new <a href="http://docs.oracle.com/javase/8/javafx/collections-tutorial/collections.htm">Collection classes</a>.</p>
-                        <p>Among all these collections, we need the <code>ObservableList</code>. To create a new <code>ObservableList</code>, add the following code at the beginning of the <code>MainApp</code> class. We'll also add a constructor that creates some sample data and a public getter method:</p>
-                        <p><strong>MainApp.java</strong></p>
-                        <pre><code class="hljs java"><span class="hljs-comment">// ... AFTER THE OTHER VARIABLES ...</span>
-
-<span class="hljs-comment">/**
-* The data as an observable list of {<span class="hljs-doctag">@link</span> Person}.
-*/</span>
-<span class="hljs-keyword">private</span> ObservableList&lt; Person &gt; personData = FXCollections.observableArrayList();
-
-    <span class="hljs-comment">/**
-     * Constructor
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MainApp</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-comment">// Add some sample data</span>
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Hans"</span>, <span class="hljs-string">"Muster"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Ruth"</span>, <span class="hljs-string">"Mueller"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Heinz"</span>, <span class="hljs-string">"Kurz"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Cornelia"</span>, <span class="hljs-string">"Meier"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Werner"</span>, <span class="hljs-string">"Meyer"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Lydia"</span>, <span class="hljs-string">"Kunz"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Anna"</span>, <span class="hljs-string">"Best"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Stefan"</span>, <span class="hljs-string">"Meier"</span>));
-        personData.add(<span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Martin"</span>, <span class="hljs-string">"Mueller"</span>));
-    }
-
-    <span class="hljs-comment">/**
-     * Returns the data as an observable list of {<span class="hljs-doctag">@link</span> Person}.
-     */</span>
-    <span class="hljs-keyword">public</span> ObservableList&lt; Person &gt; getPersonData() {
-        <span class="hljs-keyword">return</span> personData;
-    }
-
-    <span class="hljs-comment">// ... THE REST OF THE CLASS ...</span>
-</code></pre>
-                        <h2 id="the-personoverviewcontroller">The PersonOverviewController<a class="fa fa-anchor" href="#the-personoverviewcontroller"></a></h2>
-                        <p>We have our model and view. Let's get our data into our table. We'll need a controller for our <code>PersonOverview.fxml</code> to act as a &quot;middleman&quot; for the model and view.</p>
-                        <p>Create a normal Java class inside the <code>view</code> package called <code>PersonOverviewController</code>.</p>
-                        <tip-box type="tip">
-                          <p>Note: We must put the class inside the same package as <code>PersonOverview.fxml</code>, otherwise the SceneBuilder won't be able to find it.</p>
-                        </tip-box>
-                        <p>We will add some instance variables that give us access to the table and the labels inside the view. The fields and some methods have a special <code>@FXML</code> annotation. This is necessary in order for the <code>.fxml</code> file to have access to private fields and private methods. After we have everything set up in the <code>.fxml</code> file, the application will automatically fill the variables when the <code>.fxml</code> file is loaded.</p>
-                        <p>So let's add the following code:</p>
-                        <tip-box type="tip">
-                          <p>Note: Remember to always use the <code>javafx</code> imports, NOT <code>awt</code> or <code>swing</code>.</p>
-                        </tip-box>
-                        <p><strong>PersonOverviewController.java</strong></p>
-                        <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.address.view;
-
-<span class="hljs-keyword">import</span> javafx.fxml.FXML;
-<span class="hljs-keyword">import</span> javafx.scene.control.Label;
-<span class="hljs-keyword">import</span> javafx.scene.control.TableColumn;
-<span class="hljs-keyword">import</span> javafx.scene.control.TableView;
-<span class="hljs-keyword">import</span> seedu.address.MainApp;
-<span class="hljs-keyword">import</span> seedu.address.model.Person;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonOverviewController</span> </span>{
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> TableView&lt; Person&gt; personTable;
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> TableColumn&lt; Person, String&gt; firstNameColumn;
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> TableColumn&lt; Person, String&gt; lastNameColumn;
-
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> Label firstNameLabel;
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> Label lastNameLabel;
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> Label streetLabel;
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> Label postalCodeLabel;
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> Label cityLabel;
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-keyword">private</span> Label birthdayLabel;
-
-    <span class="hljs-comment">// Reference to the main application.</span>
-    <span class="hljs-keyword">private</span> MainApp mainApp;
-
-    <span class="hljs-comment">/**
-     * The constructor. It is called before the initialize() method.
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">PersonOverviewController</span><span class="hljs-params">()</span> </span>{
-    }
-
-    <span class="hljs-comment">/**
-     * Initializes the controller class. This method is automatically called
-     * after the fxml file has been loaded.
-     */</span>
-    <span class="hljs-meta">@FXML</span>
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">initialize</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-comment">// Initialize the person table with the two columns.</span>
-        firstNameColumn.setCellValueFactory(cellData -&gt; cellData.getValue().firstNameProperty());
-        lastNameColumn.setCellValueFactory(cellData -&gt; cellData.getValue().lastNameProperty());
-    }
-
-    <span class="hljs-comment">/**
-     * Is called by the main application to give a reference back to itself.
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setMainApp</span><span class="hljs-params">(MainApp mainApp)</span> </span>{
-        <span class="hljs-keyword">this</span>.mainApp = mainApp;
-
-        <span class="hljs-comment">// Add observable list data to the table</span>
-        personTable.setItems(mainApp.getPersonData());
-    }
-}
-</code></pre>
-                        <h3 id="explanations-2">Explanations<a class="fa fa-anchor" href="#explanations-2"></a></h3>
-                        <ul>
-                          <li>All fields and methods where the <code>.fxml</code> file needs access must be annotated with <code>@FXML</code>.
-                            <ul>
-                              <li>Actually, only if they are private, but it's better to have them private and mark them with the annotation!</li>
-                            </ul>
-                          </li>
-                          <li>The <code>initialize()</code> method is automatically called after the <code>.fxml</code> file has been loaded. At this time, all the FXML fields should have been initialized already.</li>
-                          <li>The <code>setCellValueFactory(...)</code> that we set on the table colums are used to determine which field inside the <code>Person</code> objects should be used for the particular column. The arrow <code>-&gt;</code> indicates that we're using a Java 8 feature called Lambdas. (Another option would be to use a <a href="https://docs.oracle.com/javase/9/docs/api/javafx/scene/control/cell/PropertyValueFactory.html"><code>PropertyValueFactory</code></a>, but this is not type-safe).</li>
-                        </ul>
-                        <tip-box type="tip">
-                          <p>Note:</p>
-                          <p>We're only using <code>StringProperty</code> values for our table columns in this example. When you want to use <code>IntegerProperty</code> or <code>DoubleProperty</code>, the <code>setCellValueFactory(...)</code> must have an additional <code>asObject()</code>:</p>
-                          <pre><code class="hljs java">myIntegerColumn.setCellValueFactory(cellData -&gt;
-    cellData.getValue().myIntegerProperty().asObject());
-</code></pre>
-                          <p>This is necessary because of a bad design decision of JavaFX (see <a href="https://community.oracle.com/thread/2575601">this discussion</a> for more details).</p>
-                        </tip-box>
-                        <h3 id="connecting-mainapp-with-the-personoverviewcontroller">Connecting MainApp with the PersonOverviewController<a class="fa fa-anchor" href="#connecting-mainapp-with-the-personoverviewcontroller"></a></h3>
-                        <p>The <code>setMainApp(...)</code> method must be called by the <code>MainApp</code> class. This gives us a way to access the <code>MainApp</code> object and get the list of <code>Persons</code> and other things. Add the following three lines to <code>showPersonOverview()</code> the method:</p>
-                        <p><strong>MainApp.java - additional lines to add to showPersonOverview() method</strong></p>
-                        <pre><code class="hljs java"><span class="hljs-comment">// (.... root layout statement goes here ....)</span>
-
-<span class="hljs-comment">// Give the controller access to the main app.</span>
-    PersonOverviewController controller = loader.getController();
-    controller.setMainApp(<span class="hljs-keyword">this</span>);
-
-<span class="hljs-comment">// (.... catch statement goes here ....)</span>
-</code></pre>
-                        <p>Your <code>showPersonOverview()</code> method in <code>MainApp</code> should now look like this:</p>
-                        <p><strong>MainApp.java - new showPersonOverview() method</strong></p>
-                        <pre><code class="hljs java"><span class="hljs-comment">/**
-* Shows the person overview inside the root layout.
-*/</span>
-<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showPersonOverview</span><span class="hljs-params">()</span> </span>{
-    <span class="hljs-keyword">try</span> {
-        <span class="hljs-comment">// Load person overview.</span>
-        FXMLLoader loader = <span class="hljs-keyword">new</span> FXMLLoader();
-        loader.setLocation(MainApp.class.getResource(<span class="hljs-string">"view/PersonOverview.fxml"</span>));
-        AnchorPane personOverview = loader.load();
-
-        <span class="hljs-comment">// Set person overview into the center of root layout.</span>
-        rootLayout.setCenter(personOverview);
-
-        <span class="hljs-comment">// Give the controller access to the main app.</span>
-        PersonOverviewController controller = loader.getController();
-        controller.setMainApp(<span class="hljs-keyword">this</span>);
-    } <span class="hljs-keyword">catch</span> (IOException e) {
-        e.printStackTrace();
-    }
-}
-</code></pre>
-                        <h2 id="hook-the-view-to-the-controller">Hook the View to the controller<a class="fa fa-anchor" href="#hook-the-view-to-the-controller"></a></h2>
-                        <p>We're almost there! But one thing is missing: We haven't told our <code>PersonOverview.fxml</code> file which controller to use, and which element should match to which field inside the controller.</p>
-                        <ol>
-                          <li>Open <code>PersonOverview.fxml</code> with the SceneBuilder.</li>
-                          <li>Open the Controller group on the left side (just below Hierarchy), and select the <code>seedu.address.view.PersonOverviewController</code> as the controller class.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part02/images/hook-view-controller.png" height="350">
-                        <p></p>
-                        <ol start="3">
-                          <li>Select the <code>TableView</code> in the Hierarchy group.</li>
-                          <li>In the Inspector view, under the Code group, set 'fx:id' to <code>personTable</code>.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part02/images/hook-view-person-table.png" height="250">
-                        <p></p>
-                        <ol start="5">
-                          <li>Do the same for the table columns. Select <code>firstNameColumn</code> and <code>lastNameColumn</code> for the 'fx:id' respectively.</li>
-                          <li>For each label in the second column of the grid pane, choose the corresponding 'fx:id'.</li>
-                        </ol>
-                        <img src="/website/book/javaTools/javaFXBasic/part02/images/hook-view-labels.png" width="650">
-                        <p></p>
-                        <ol start="7">
-                          <li>Save the <code>.fxml</code> file.</li>
-                        </ol>
-                        <h2 id="opening-up-the-personoverviewcontroller-to-javafx">Opening up the <code>PersonOverviewController</code> to JavaFx<a class="fa fa-anchor" href="#opening-up-the-personoverviewcontroller-to-javafx"></a></h2>
-                        <p>If you try and run the application now, you will encounter the following error:</p>
-                        <pre><code class="hljs">javafx.fxml.LoadException: ...
-
-...
-
-Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueElement (in module javafx.fxml) cannot access class seedu.address.view.PersonOverviewController (in module AddressApp) because module AddressApp does not export seedu.address.view to module javafx.fxml
-</code></pre>
-                        <p>This is because JavaFx is unable to access our <code>PersonOverviewController</code> class.</p>
-                        <p>To fix this, add this line of code to <code>src/module-info.java</code>:</p>
-                        <pre><code class="hljs java"><span class="hljs-keyword">module</span> AddressApp {
-    ... 
-
-    opens seedu.address.view;
-}
-</code></pre>
-                        <p>The file should now look something like this:</p>
-                        <p><strong>module-info.java</strong></p>
-                        <pre><code class="hljs java"><span class="hljs-keyword">module</span> AddressApp {
-    <span class="hljs-keyword">requires</span> javafx.graphics;
-    <span class="hljs-keyword">requires</span> javafx.fxml;
-    <span class="hljs-keyword">requires</span> javafx.controls;
-
-    <span class="hljs-keyword">exports</span> seedu.address;
-    opens seedu.address.view;
-}
-</code></pre>
-                        <h2 id="start-the-application">Start the Application<a class="fa fa-anchor" href="#start-the-application"></a></h2>
-                        <p>When you start your application now, you should see something like this:</p>
-                        <img src="/website/book/javaTools/javaFXBasic/part02/images/address-app-final-screenshot.png" height="350">
-                        <p></p>
-                        <p>Congratulations! The application now shows the list of <code>Person</code>s in the view!</p>
-                        <p>You may notice that selecting a person in the <code>TableView</code> does nothing to the labels at the right side. That is because the user interaction portion has not been programmed yet, which we will cover in the next part of the tutorial.</p>
-                      </div>
-                    </panel>
-                    <p></p>
-                    After going through the two parts above, you should be familiar with building basic JavaFX GUIs using IntelliJ. You can continue with the original tutorial (which is written for Eclipse), with the following links:
-                    <ul>
-                      <li><a href="http://code.makery.ch/library/javafx-8-tutorial/part3/"><strong>Part 3: Interacting with the User</strong></a></li>
-                      <li><a href="http://code.makery.ch/library/javafx-8-tutorial/part4/"><strong>Part 4: CSS Styling</strong></a></li>
-                      <li><a href="http://code.makery.ch/library/javafx-8-tutorial/part5/"><strong>Part 5: Storing Data as XML</strong></a></li>
-                    </ul>
+                    <p>JavaFX is a technology for building Java-based GUIs. Previously it was a part Java itself, but has become a third-party dependency since then. It is now being maintained by <a href="https://wiki.openjdk.java.net/display/OpenJFX">OpenJDK</a>.</p>
                   </div>
                   <div></div>
                 </div>
@@ -1077,10 +384,10 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
           </span>
           <div class="indented-level1">
             <p><span id="W11-4a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/misc/jar">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.4a</span></span> <span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                          </span></strong></span></small> <strong><span>Using JAR Files</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.4a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-miscellaneous-topics-using-jar-files"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Miscellaneous Topics →</span></span></small> <strong><span>Using JAR Files</span></strong><a class="fa fa-anchor" href="#c-to-java-miscellaneous-topics-using-jar-files"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1095,7 +402,7 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
                     <p>An executable JAR file can be launched using the <code>java -jar</code> command.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -jar foo.jar</code> launches the <code>foo.jar</code> file.</p>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can delete the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can download the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
                     </box>
                     <p>The IDE can help you to package your application as a JAR file.</p>
                   </div>
@@ -1108,35 +415,6 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
                           </ul>
                           <p><strong><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Creating a JAR file in Intellij</strong> - A video by Artur Spirin:</p>
                           <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/3Xo6zSBgdgk" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        </div>
-                      </panel>
-                    </div>
-                    <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
-                        <div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 12 - **Package as a JAR file**">
-                              <div id="body">
-                                <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header="<md>:glyphicon-education:</md> TM-L4" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel5._include_.html#main" header="<md>:glyphicon-education:</md> TM-L5" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel6._include_.html#main" header="<md>:glyphicon-education:</md> TM-L6" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel7._include_.html#main" header="<md>:glyphicon-education:</md> TM-L7" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel8._include_.html#main" header="<md>:glyphicon-education:</md> TM-L8" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel9._include_.html#main" header="<md>:glyphicon-education:</md> TM-L9" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel10._include_.html#main" header="<md>:glyphicon-education:</md> TM-L10" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel11._include_.html#main" header="<md>:glyphicon-education:</md> TM-L11" minimized fragment="main"></panel>
-                                </p>
-                                <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-11</code> exercises quoted above.</span></p>
-                                <div id="main">
-                                  <p>Package your TaskManager as a JAR file.</p>
-                                </div>
-                              </div>
-                            </panel>
-                          </div>
                         </div>
                       </panel>
                     </div>
@@ -1158,10 +436,10 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
             <br>
             <h3 id="unit-testing"><span class="dimmed"><strong>Unit Testing</strong></span><a class="fa fa-anchor" href="#unit-testing"></a></h3>
             <p><span id="W11-5a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/unitTesting/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Unit Testing →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5a</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-unit-testing-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Unit Testing →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-unit-testing-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1172,9 +450,13 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong><em>Unit testing</em> : testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</strong></p>
+                    <box type="definition">
+                      <div>
+                        <p><strong>Unit testing</strong>: testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly</p>
+                      </div>
+                    </box>
                     <p>In OOP code, it is common to write one or more unit tests for each public method of a class.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here are the code skeletons for a <code>Foo</code> class containing two methods and a <code>FooTest</code> class that contains unit tests for those two methods.</p>
                       <div class="alt-java">
                         <div>
@@ -1234,7 +516,7 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
 </code></pre>
                         </div>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1253,10 +535,10 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
               </div>
             </panel>
             <p><span id="W11-5b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/unitTesting/stubs">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Unit Testing →
-                          </span></strong></span></small> <strong><span>Stubs</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5b</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-unit-testing-stubs"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Unit Testing →</span></span></small> <strong><span>Stubs</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-unit-testing-stubs"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1271,17 +553,17 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed"> i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
-                    <tip-box>
+                    <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed">i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
-                    </tip-box>
+                    </box>
                     <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                       </div>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below:</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Logic</span> </span>{
     Storage s;
@@ -1311,7 +593,7 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
     }
 }
 </code></pre>
-                      <p>Normally, you would use the <code>Logic</code> class as follows (not how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
+                      <p>Normally, you would use the <code>Logic</code> class as follows (note how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
                       <pre><code class="hljs java">Logic logic = <span class="hljs-keyword">new</span> Logic(<span class="hljs-keyword">new</span> DatabaseStorage());
 String name = logic.getName(<span class="hljs-number">23</span>);
 </code></pre>
@@ -1336,7 +618,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                      <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
+                      <p>Note how the <code>StorageStub</code> has the same interface as <code>DatabaseStorage</code>, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
                       <p>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code>DatabaseStorage</code> class and hence is a pure unit test.</p>
                       <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
@@ -1344,7 +626,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: Adam"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p>In addition to Stubs, there are other type of replacements you can use during testing. E.g. <em>Mocks</em>, <em>Fakes</em>, <em>Dummies</em>, <em>Spies</em>.</p>
                   </div>
                   <div>
@@ -1380,10 +662,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <br>
             <h3 id="integration-testing"><span class="dimmed"><strong>Integration Testing</strong></span><a class="fa fa-anchor" href="#integration-testing"></a></h3>
             <p><span id="W11-5c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/integrationTesting/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5c</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Integration Testing →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5c</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="quality-assurance-testing-integration-testing-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Integration Testing →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-integration-testing-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1399,19 +681,19 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p></p>
                   <div>
                     <p><strong><em>Integration testing</em> : testing whether different parts of the software <em>work together</em> (i.e. integrates) as expected.</strong> Integration tests aim to discover bugs in the 'glue code' related to how components interact with each other. These bugs are often the result of misunderstanding of what the parts are supposed to do vs what the parts are actually doing.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a class <code>Car</code> users classes <code>Engine</code> and <code>Wheel</code>. If the <code>Car</code> class assumed a <code>Wheel</code> can support 200 mph speed but the actual <code>Wheel</code> can only support 150 mph, it is the integration test that is supposed to uncover this discrepancy.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W11-5d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/integrationTesting/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5d</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Integration Testing →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-integration-testing-how"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Integration Testing →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-integration-testing-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1426,21 +708,21 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>Integration testing is not simply a repetition of the unit test cases but run using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
-                    <tip-box>
+                    <p><strong>Integration testing is not simply a case of repeating the unit test cases using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a class <code>Car</code> uses classes <code>Engine</code> and <code>Wheel</code>. Here is how you would go about doing pure integration tests:</p>
                       <p>a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
                         b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, <mark>using stubs for <code>Engine</code> and <code>Wheel</code></mark>.<br>
                         c) After that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>In practice, developers often use a hybrid of unit+integration tests to minimize the need for stubs.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's how a hybrid unit+integration approach could be applied to the same example used above:</p>
                       <p>(a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
                         <s>(b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, using stubs for <code>Engine</code> and <code>Wheel</code>.</s><br>
                         (c) After that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>. <mark>This step should include test cases that are meant to test the unit <code>Car</code></mark> (i.e. test cases used in the step (b) of the example above) as well as test cases that are meant to test the integration of <code>Car</code> with <code>Wheel</code> and <code>Engine</code> (i.e. pure integration test cases used of the step (c) in the example above).</p>
-                      <p>💡 Note that you no longer need stubs for <code>Engine</code> and <code>Wheel</code>. The downside is that <code>Car</code> is never tested in isolation of its dependencies. Given that its dependencies are already unit tested, the risk of bugs in <code>Engine</code> and <code>Wheel</code> affecting the testing of <code>Car</code> can be considered minimal.</p>
-                    </tip-box>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Note that you no longer need stubs for <code>Engine</code> and <code>Wheel</code>. The downside is that <code>Car</code> is never tested in isolation of its dependencies. Given that its dependencies are already unit tested, the risk of bugs in <code>Engine</code> and <code>Wheel</code> affecting the testing of <code>Car</code> can be considered minimal.</p>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1449,10 +731,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <br>
             <h3 id="system-testing"><span class="dimmed"><strong>System Testing</strong></span><a class="fa fa-anchor" href="#system-testing"></a></h3>
             <p><span id="W11-5e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/systemTesting/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5e</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → System Testing →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5e</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="quality-assurance-testing-system-testing-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → System Testing →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-system-testing-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1463,17 +745,21 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
+                    <box type="definition">
+                      <div>
+                        <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
+                      </div>
+                    </box>
                     <p>System testing is typically done by a testing team (also called a QA team).</p>
                     <p><strong>System test cases are based on the specified external behavior of the system.</strong> Sometimes, system tests go beyond the bounds defined in the specification. This is useful when testing that the system fails 'gracefully' having pushed beyond its limits.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose the SUT is a browser supposedly capable of handling web pages containing up to 5000 characters. Given below is a test case to test if the SUT fails gracefully if pushed beyond its limits.</p>
                       <pre><code class="hljs">Test case: load a web page that is too big
 * Input: load a web page containing more than 5000 characters. 
 * Expected behavior: abort the loading of the page and show a meaningful error message. 
 </code></pre>
                       <p>This test case would fail if the browser attempted to load the large file anyway and crashed.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>System testing includes testing against non-functional requirements too.</strong> Here are some examples.</p>
                     <ul>
                       <li><em>Performance testing</em> – to ensure the system responds quickly.</li>
@@ -1491,10 +777,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <br>
             <h3 id="acceptance-testing"><span class="dimmed"><strong>Acceptance Testing</strong></span><a class="fa fa-anchor" href="#acceptance-testing"></a></h3>
             <p><span id="W11-5f"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/acceptanceTesting/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5f</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Acceptance Testing →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5f</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="quality-assurance-testing-acceptance-testing-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Acceptance Testing →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-acceptance-testing-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1505,7 +791,11 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
+                    <box type="definition">
+                      <div>
+                        <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
+                      </div>
+                    </box>
                     <p>Acceptance tests give an assurance to the customer that the system does what it is intended to do. Acceptance test cases are often defined at the beginning of the project, usually based on the use case specification. Successful completion of UAT is often a prerequisite to the project sign-off.</p>
                   </div>
                   <div></div>
@@ -1513,10 +803,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               </div>
             </panel>
             <p><span id="W11-5g"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/acceptanceTesting/acceptanceVsSystemTesting">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5g</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Acceptance Testing →
-                          </span></strong></span></small> <strong><span>Acceptance vs System Testing</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5g</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-acceptance-testing-acceptance-vs-system-testing"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Acceptance Testing →</span></span></small> <strong><span>Acceptance vs System Testing</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-acceptance-testing-acceptance-vs-system-testing"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1558,7 +848,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                       </table>
                     </div>
                     <p><span class="dimmed">Note: <em>negative</em> test cases: cases where the SUT is not expected to work normally e.g. incorrect inputs; <em>positive</em> test cases: cases where the SUT is expected to work normally</span></p>
-                    <tip-box>
+                    <box>
                       <p><strong>Requirement Specification vs System Specification</strong></p>
                       <p>The requirement specification need not be the same as the system specification. Some example differences:</p>
                       <div class="table-responsive">
@@ -1586,7 +876,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                         </table>
                       </div>
                       <p>However, <strong>in many cases one document serves as both a requirement specification and a system specification.</strong></p>
-                    </tip-box>
+                    </box>
                     <p><strong>Passing system tests does not necessarily mean passing acceptance testing.</strong> Some examples:</p>
                     <ul>
                       <li>The system might work on the testbed environments but might not work the same way in the deployment environment, due to subtle differences between the two environments.</li>
@@ -1626,10 +916,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <br>
             <h3 id="alpha-beta-testing"><span class="dimmed"><strong>Alpha/Beta Testing</strong></span><a class="fa fa-anchor" href="#alpha-beta-testing"></a></h3>
             <p><span id="W11-5h"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/alphaBetaTesting/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W11.5h</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Alpha/Beta Testing →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W11.5h</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-alpha-beta-testing-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Alpha/Beta Testing →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-alpha-beta-testing-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1656,7 +946,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-11-oct-28">Week 11 [Oct 28]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-11-oct-28-topics">Week 11 [Oct 28] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w11-1-sequence-diagrams-intermediate">[W11.1] Sequence Diagrams - Intermediate &#x200E;</a>
               <a class="nav-link py-1" href="#w11-2-java-streams">[W11.2] Java: Streams &#x200E;</a>
@@ -1678,7 +968,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

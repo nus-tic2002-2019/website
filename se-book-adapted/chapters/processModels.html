@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Textbook Chapter : SDLC Process Models</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -28,6 +28,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -46,11 +47,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -316,7 +319,7 @@
                 <p></p>
                 <div>
                   <p>The following description was adapted from the <a href="http://www.extremeprogramming.org">XP home page</a>, emphasis added:</p>
-                  <tip-box>
+                  <box>
                     <p><strong>Extreme Programming (XP) stresses customer satisfaction.</strong> Instead of delivering everything you could possibly want on some date far in the future, this process delivers the software you need as you need it.</p>
                     <p><strong>XP aims to empower developers to confidently respond to changing customer requirements</strong>, even late in the life cycle.</p>
                     <p><strong>XP emphasizes teamwork.</strong> Managers, customers, and developers are all equal partners in a collaborative team. XP implements a simple, yet effective environment enabling teams to become highly productive. The team self-organizes around the problem to solve it as efficiently as possible.</p>
@@ -324,7 +327,7 @@
                     <p><strong>XP has a set of simple rules.</strong> XP is a lot like a jig saw puzzle with many small pieces. Individually the pieces make no sense, but when combined together a complete picture can be seen. This flow chart shows how Extreme Programming's rules work together.</p>
                     <img src="/website/book/processModels/exampleProcessModels/xp/images/diagram.png" height="200">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p><strong><em>Pair programming, CRC cards, project velocity</em>, and <em>standup meetings</em> are some interesting topics related to XP.</strong> Refer to <a href="http://extremeprogramming.org">extremeprogramming.org</a> to find out more about XP.</p>
                 </div>
                 <div></div>
@@ -340,7 +343,7 @@
                 <p></p>
                 <div>
                   <p>This description of Scrum was adapted from Wikipedia [retrieved on 18/10/2011], emphasis added:</p>
-                  <tip-box>
+                  <box>
                     <p><strong>Scrum is a process skeleton that contains sets of practices and predefined roles. The main roles in Scrum are:</strong></p>
                     <ul>
                       <li><strong>The Scrum Master</strong>, who maintains the processes (typically in lieu of a project manager)</li>
@@ -354,9 +357,9 @@
                     <p><strong>A key principle of Scrum is its recognition that during a project the customers can change their minds about what they want and need</strong> (often called requirements churn), and that unpredicted challenges cannot be easily addressed in a traditional predictive or planned manner. As such, Scrum adopts an empirical approach—accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team’s ability to deliver quickly and respond to emerging requirements.</p>
                     <img src="/website/book/processModels/exampleProcessModels/scrum/images/diagram.png" height="250">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p><strong><em>Daily Scrum</em> is another key scrum practice</strong>. The description below was adapted from <a href="https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum">https://www.mountaingoatsoftware.com</a> (emphasis added):</p>
-                  <tip-box>
+                  <box>
                     <p><strong>In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the &quot;daily scrum.”</strong> Meetings are typically held in the same location and at the same time each day. Ideally, a daily scrum meeting is held in the morning, as it helps set the context for the coming day's work. These scrum meetings are strictly time-boxed to 15 minutes. This keeps the discussion brisk but relevant.</p>
                     <p>...</p>
                     <p><strong>During the daily scrum, each team member answers the following three questions:</strong></p>
@@ -371,7 +374,7 @@
                       <p><sub>(This is not an endorsement of the product mentioned in the video)</sub></p>
                       <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/XU0llRltyFM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                     </panel>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -505,9 +508,9 @@
                 <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain CMMI</span></span></span></span>
                 <p></p>
                 <div>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <p>CMMI (Capability Maturity Model Integration) is a process improvement approach defined by Software Engineering Institute at Carnegie Melon University. CMMI provides organizations with the essential elements of effective processes, which will improve their performance. <sub>-- adapted from <a href="http://www.sei.cmu.edu/cmmi/">http://www.sei.cmu.edu/cmmi/</a></sub></p>
-                  </tip-box>
+                  </box>
                   <p><strong>CMMI defines five maturity levels for a process and provides criteria to determine if the process of an organization is at a certain maturity level.</strong> The diagram below [taken from Wikipedia] gives an overview of the five levels.</p>
                   <img src="/website/book/processModels/more/cmmi/images/diagram.png" height="250">
                   <p></p>
@@ -734,7 +737,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

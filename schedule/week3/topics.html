@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 3 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,90 +65,97 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week2/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week4/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-3-aug-26">Week 3 <small><small><span class="dimmed">[Aug 26]</span></small></small><a class="fa fa-anchor" href="#week-3-aug-26"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week3/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week2"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week3/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week3/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week3/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week4"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-3-aug-26-topics">Week 3 <small><small><span class="dimmed">[Aug 26]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-3-aug-26-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W3-1">W3.1</a>] <strong>Java: Useful Classes</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-1a">W3.1a</a>] <span>C++ to Java → Some Useful Classes →
-                      </span></span> <span>Java API</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-1b">W3.1b</a>] <span>C++ to Java → Some Useful Classes →
-                      </span></span> <span>The <code>String</code> Class</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-1c">W3.1c</a>] <span>C++ to Java → Some Useful Classes →
-                      </span></span> <span>Wrapper Classes for Primitive Types</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-1d">W3.1d</a>] <span>C++ to Java → Some Useful Classes →
-                      </span></span> <span>The <code>Arrays</code> class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-1e">W3.1e</a>] <span>C++ to Java → Some Useful Classes →
-                      </span></span> <span>The <code>Scanner</code> class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W3-2">W3.2</a>] <strong>Git: Remote Repos</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-2a">W3.2a</a>] <span>Project Management → Revision Control →
-                      </span></span> <span>Remote Repositories</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-2b">W3.2b</a>] <span>Tools → Git and GitHub →
-                      </span></span> <span>Clone</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-2c">W3.2c</a>] <span>Tools → Git and GitHub →
-                      </span></span> <span>Pull</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-2d">W3.2d</a>] <span>Tools → Git and GitHub →
-                      </span></span> <span>Push</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W3-3">W3.3</a>] <strong>IDE: Basic Features</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-3a">W3.3a</a>] <span>Implementation → IDEs →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-3b">W3.3b</a>] <span>Tools → Intellij IDEA →
-                      </span></span> <span>Project Setup</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W3-3c">W3.3c</a>] <span>Tools → Intellij IDEA →
-                      </span></span> <span>Code Navigation</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week3/topics.html#W3-1">W3.1</a>] <strong>Java: Useful Classes</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-1a">W3.1a</a>] <span>C++ to Java → Some Useful Classes →
+                        </span></span> <span>Java API</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-1b">W3.1b</a>] <span>C++ to Java → Some Useful Classes →
+                        </span></span> <span>The <code>String</code> Class</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-1c">W3.1c</a>] <span>C++ to Java → Some Useful Classes →
+                        </span></span> <span>Wrapper Classes for Primitive Types</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-1d">W3.1d</a>] <span>C++ to Java → Some Useful Classes →
+                        </span></span> <span>The <code>Arrays</code> class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-1e">W3.1e</a>] <span>C++ to Java → Some Useful Classes →
+                        </span></span> <span>The <code>Scanner</code> class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week3/topics.html#W3-2">W3.2</a>] <strong>Git: Remote Repos</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-2a">W3.2a</a>] <span>Project Management → Revision Control →
+                        </span></span> <span>Remote Repositories</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-2b">W3.2b</a>] <span>Tools → Git and GitHub →
+                        </span></span> <span>Clone</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-2c">W3.2c</a>] <span>Tools → Git and GitHub →
+                        </span></span> <span>Pull</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-2d">W3.2d</a>] <span>Tools → Git and GitHub →
+                        </span></span> <span>Push</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week3/topics.html#W3-3">W3.3</a>] <strong>IDE: Basic Features</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-3a">W3.3a</a>] <span>Implementation → IDEs →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-3b">W3.3b</a>] <span>Tools → Intellij IDEA →
+                        </span></span> <span>Project Setup</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-3c">W3.3c</a>] <span>Tools → Intellij IDEA →
+                        </span></span> <span>Code Navigation</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W3-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -156,10 +166,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W3-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/usefulClasses/api">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.1a</span></span> <span class="dimmed"><strong><span>C++ to Java → Some Useful Classes →
-                          </span></strong></span></small> <strong><span>Java API</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.1a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="c-to-java-some-useful-classes-java-api"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Some Useful Classes →</span></span></small> <strong><span>Java API</span></strong><a class="fa fa-anchor" href="#c-to-java-some-useful-classes-java-api"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -181,10 +191,10 @@
               </div>
             </panel>
             <p><span id="W3-1b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/usefulClasses/stringClass">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.1b</span></span> <span class="dimmed"><strong><span>C++ to Java → Some Useful Classes →
-                          </span></strong></span></small> <strong><span>The <code>String</code> Class</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.1b</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-some-useful-classes-the-string-class"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Some Useful Classes →</span></span></small> <strong><span>The <code>String</code> Class</span></strong><a class="fa fa-anchor" href="#c-to-java-some-useful-classes-the-string-class"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -375,7 +385,7 @@ System.out.println(s1.equalsIgnoreCase(s2)); <span class="hljs-comment">//true</
 Second &quot;line&quot;
 </code></pre>
                       </box>
-                      <p>💡 As the behavior of the <code>\n</code> depends on the platform, the recommended way to print a line break is using the <code>System.lineSeparator()</code> as it works the same in all platforms.</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> As the behavior of the <code>\n</code> depends on the platform, the recommended way to print a line break is using the <code>System.lineSeparator()</code> as it works the same in all platforms.</p>
                       <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Using <code>System.lineSeparator()</code> to print a line break.</p>
                         <pre><code class="hljs java">System.out.println(<span class="hljs-string">"First line"</span> + System.lineSeparator() + <span class="hljs-string">"Second line"</span>);
@@ -420,7 +430,7 @@ Second line
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method">
@@ -433,7 +443,7 @@ Second line
                                   <li>The <code>name</code> part of the input can have trailing/leading spaces which should be omitted from the output.<br>
                                     e.g., <code>banana --$3/50</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>BANANA: 3.50</code></li>
                                 </ul>
-                                <p>💡 Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code>java string remove leading trailing spaces</code></p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code>java string remove leading trailing spaces</code></p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
 
@@ -476,10 +486,10 @@ FRIES: 0.50
               </div>
             </panel>
             <p><span id="W3-1c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/usefulClasses/wrapperClasses">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.1c</span></span> <span class="dimmed"><strong><span>C++ to Java → Some Useful Classes →
-                          </span></strong></span></small> <strong><span>Wrapper Classes for Primitive Types</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.1c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-some-useful-classes-wrapper-classes-for-primitive-types"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Some Useful Classes →</span></span></small> <strong><span>Wrapper Classes for Primitive Types</span></strong><a class="fa fa-anchor" href="#c-to-java-some-useful-classes-wrapper-classes-for-primitive-types"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -524,7 +534,7 @@ System.out.println(i);
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> `printTotalScore` method">
@@ -552,7 +562,7 @@ System.out.println(i);
 109
 </code></pre>
                                 <div slot="hint">
-                                  <p>💡 You can use the <a href="https://www.tutorialspoint.com/java/number_parseint.htm"><code>Integer.parseInt()</code></a> method to convert a <code>String</code> to the equivalent <code>int</code> value.</p>
+                                  <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <a href="https://www.tutorialspoint.com/java/number_parseint.htm"><code>Integer.parseInt()</code></a> method to convert a <code>String</code> to the equivalent <code>int</code> value.</p>
                                   <p>Partial solution:</p>
                                   <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTotalScore</span><span class="hljs-params">(String[] values)</span></span>{
     <span class="hljs-keyword">int</span> total = <span class="hljs-number">0</span>;
@@ -574,10 +584,10 @@ System.out.println(i);
               </div>
             </panel>
             <p><span id="W3-1d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/usefulClasses/arraysClass">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.1d</span></span> <span class="dimmed"><strong><span>C++ to Java → Some Useful Classes →
-                          </span></strong></span></small> <strong><span>The <code>Arrays</code> class</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.1d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-some-useful-classes-the-arrays-class"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Some Useful Classes →</span></span></small> <strong><span>The <code>Arrays</code> class</span></strong><a class="fa fa-anchor" href="#c-to-java-some-useful-classes-the-arrays-class"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -607,7 +617,7 @@ System.out.println(Arrays.toString(c));
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> `filterEmails` method">
@@ -664,7 +674,7 @@ System.out.println(Arrays.toString(c));
                                     </li>
                                     <li><strong><code>printItems(String[] items)</code></strong>
                                       <ul>
-                                        <li>💡 You can use the <code>Arrays.toString()</code> method for this.</li>
+                                        <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>Arrays.toString()</code> method for this.</li>
                                       </ul>
                                     </li>
                                   </ul>
@@ -697,10 +707,10 @@ System.out.println(Arrays.toString(c));
               </div>
             </panel>
             <p><span id="W3-1e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/usefulClasses/scannerClass">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.1e</span></span> <span class="dimmed"><strong><span>C++ to Java → Some Useful Classes →
-                          </span></strong></span></small> <strong><span>The <code>Scanner</code> class</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.1e</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-some-useful-classes-the-scanner-class"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Some Useful Classes →</span></span></small> <strong><span>The <code>Scanner</code> class</span></strong><a class="fa fa-anchor" href="#c-to-java-some-useful-classes-the-scanner-class"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -743,12 +753,12 @@ System.out.print(<span class="hljs-string">"What is your name? "</span>);
 String name = in.nextLine();
 System.out.printf(<span class="hljs-string">"Hello %s, age %d\n"</span>, name, age);
 </code></pre>
-                      <p>💡 Note the <a href="https://docs.oracle.com/javase/tutorial/java/data/numberformat.html">use of <code>printf</code> method for formatting the output</a>.</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Note the <a href="https://docs.oracle.com/javase/tutorial/java/data/numberformat.html">use of <code>printf</code> method for formatting the output</a>.</p>
                     </box>
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> find total expenditure">
@@ -787,14 +797,14 @@ Total in local currency: $17.00
     }
 }
 </code></pre>
-                                <p>💡 You can use the <code>split</code> method of the <code>String</code> class to convert a sentence into an array of words. e.g.,<br></p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>split</code> method of the <code>String</code> class to convert a sentence into an array of words. e.g.,<br></p>
                                 <pre><code class="hljs java">String sentence = <span class="hljs-string">"hello my dear"</span>;
 String[] words = sentence.split(<span class="hljs-string">" "</span>); <span class="hljs-comment">// split using the space as the delimiter</span>
 System.out.println(Arrays.toString(words));
 </code></pre>
                                 <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[hello, my, dear]</code></p>
                                 <div slot="hint">
-                                  <p>💡 You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
+                                  <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
                                     e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1.33</code></p>
                                   <panel type="seamless" header="Partial solution">
                                     <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Arrays;
@@ -838,106 +848,6 @@ System.out.println(Arrays.toString(words));
                               </question>
                             </panel>
                           </div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 1 - **Create a CLI**">
-                              <div id="body">
-                                <div id="main">
-                                  <p>In this first version of the TaskManager, the task list is not saved to the disk <span class="dimmed">i.e., the task list does not persist between multiple runs of the program</span></p>
-                                  <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                  <pre><code class="hljs">Welcome to TaskManager-Level1!
-Your task? add submit report
-Tasks in the list: 1
-Your task? add return library book
-Tasks in the list: 2
-Your task? add remind boss about meeting
-Tasks in the list: 3
-Your task? xyz
-Unknown command! please try again
-Your task? print
-[1] submit report
-[2] return library book
-[3] remind boss about meeting
-Your task? add set up meeting with boss
-Tasks in the list: 4
-Your task? print
-[1] submit report
-[2] return library book
-[3] remind boss about meeting
-[4] set up meeting with boss
-Your task? exit
-Bye!
-</code></pre>
-                                  <p>Summary of behavior:</p>
-                                  <ul>
-                                    <li>Task Manager prompts for user input with the message <code>Your task?</code></li>
-                                    <li><strong><code>add</code></strong> <code>task description</code>: adds the <code>task description</code> to the task list</li>
-                                    <li><strong><code>print</code></strong>: prints the tasks added so far</li>
-                                    <li><strong><code>exit</code></strong> or empty input: terminates the program</li>
-                                  </ul>
-                                  <p>If you are new to programming, we recommend you to build the program in small steps, as follows:</p>
-                                  <ol>
-                                    <li>Write a program that reads any user input, prints it back to the user, and exits.</li>
-                                    <li>Update the program to do the above in a loop until user types <code>exit</code>.</li>
-                                    <li>Add greetings printed at the start and the end.</li>
-                                    <li>If the first word is not <code>add</code> or <code>exit</code>, print an error message. Suggestion: use a <code>switch</code> statement to choose between multiple actions.</li>
-                                    <li>Create a <code>Task</code> class to represent tasks and add an <code>Task[]</code> to store tasks.</li>
-                                    <li>If the first word of the user input is <code>add</code>, add the whole line (no need to omit the first word) to the task list.</li>
-                                    <li>Update the code in the previous step to omit the word <code>add</code> from the task description.</li>
-                                    <li>Add support for the <code>print</code> command.</li>
-                                    <li>Add support for terminating if the user input is empty</li>
-                                    <li>and so on ...</li>
-                                  </ol>
-                                  <div slot="hint">
-                                    <panel type="seamless" header="Partial solution">
-                                      <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-    <span class="hljs-keyword">static</span> Scanner in = <span class="hljs-keyword">new</span> Scanner(System.in);
-    <span class="hljs-keyword">static</span> Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
-    <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> count = <span class="hljs-number">0</span>;  <span class="hljs-comment">// to keep track of number of tasks in the list</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        printWelcome();
-        String line;
-        <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
-        <span class="hljs-keyword">while</span> (!isExit) {
-            line = getInput();
-            String command = line.split(<span class="hljs-string">" "</span>)[<span class="hljs-number">0</span>]; <span class="hljs-comment">//extract the first word of the user input</span>
-            <span class="hljs-keyword">switch</span> (command) {
-                <span class="hljs-keyword">case</span> <span class="hljs-string">"exit"</span>:
-                <span class="hljs-keyword">case</span> <span class="hljs-string">""</span>: <span class="hljs-comment">// exit if user input is empty</span>
-                    isExit = <span class="hljs-keyword">true</span>;
-                    <span class="hljs-keyword">break</span>;
-                <span class="hljs-keyword">case</span> <span class="hljs-string">"add"</span>:
-                    <span class="hljs-comment">// todo: add code here</span>
-                <span class="hljs-keyword">default</span>:
-                    printError();
-            }
-        }
-        exit();
-
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printWelcome</span><span class="hljs-params">()</span> </span>{
-        System.out.println(<span class="hljs-string">"Welcome to TaskManager-Level1!"</span>);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTasks</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; count; i++) {
-            System.out.println(<span class="hljs-string">"["</span> + (i + <span class="hljs-number">1</span>) + <span class="hljs-string">"] "</span> + tasks[i].getDescription());
-        }
-    }
-
-    <span class="hljs-comment">// todo: add missing methods</span>
-}
-
-</code></pre>
-                                    </panel>
-                                  </div>
-                                </div>
-                              </div>
-                            </panel>
-                          </div>
                         </div>
                       </panel>
                     </div>
@@ -957,10 +867,10 @@ Bye!
           </span>
           <div class="indented-level1">
             <p><span id="W3-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/revisionControl/remoteRepositories">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.2a</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
-                          </span></strong></span></small> <strong><span>Remote Repositories</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.2a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="project-management-revision-control-remote-repositories"><small><span class="font-weight-bold text-muted"><span>Project Management → Revision Control →</span></span></small> <strong><span>Remote Repositories</span></strong><a class="fa fa-anchor" href="#project-management-revision-control-remote-repositories"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -988,10 +898,10 @@ Bye!
               </div>
             </panel>
             <p><span id="W3-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/gitAndGithub/clone">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.2b</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                          </span></strong></span></small> <strong><span>Clone</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-git-and-github-clone"><small><span class="font-weight-bold text-muted"><span>Tools → Git and GitHub →</span></span></small> <strong><span>Clone</span></strong><a class="fa fa-anchor" href="#tools-git-and-github-clone"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1007,12 +917,12 @@ Bye!
                   <p></p>
                   <div>
                     <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
-                    <tip-box type="error">
+                    <box type="error">
                       <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
                         e.g.</p>
                       <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
                         Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
-                    </tip-box>
+                    </box>
                     <tabs>
                       <tab header="SourceTree">
                         <div>
@@ -1032,10 +942,10 @@ Bye!
               </div>
             </panel>
             <p><span id="W3-2c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/gitAndGithub/pull">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.2c</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                          </span></strong></span></small> <strong><span>Pull</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.2c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-git-and-github-pull"><small><span class="font-weight-bold text-muted"><span>Tools → Git and GitHub →</span></span></small> <strong><span>Pull</span></strong><a class="fa fa-anchor" href="#tools-git-and-github-pull"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1066,12 +976,12 @@ Bye!
                           <p></p>
                           <div>
                             <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
-                            <tip-box type="error">
+                            <box type="error">
                               <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
                                 e.g.</p>
                               <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
                                 Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
-                            </tip-box>
+                            </box>
                             <tabs>
                               <tab header="SourceTree">
                                 <div>
@@ -1139,10 +1049,10 @@ Bye!
               </div>
             </panel>
             <p><span id="W3-2d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/gitAndGithub/push">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.2d</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                          </span></strong></span></small> <strong><span>Push</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.2d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-git-and-github-push"><small><span class="font-weight-bold text-muted"><span>Tools → Git and GitHub →</span></span></small> <strong><span>Push</span></strong><a class="fa fa-anchor" href="#tools-git-and-github-push"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1255,10 +1165,10 @@ Bye!
           </span>
           <div class="indented-level1">
             <p><span id="W3-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/ides/introduction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.3a</span></span> <span class="dimmed"><strong><span>Implementation → IDEs →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.3a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-ides-what"><small><span class="font-weight-bold text-muted"><span>Implementation → IDEs →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-ides-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1269,7 +1179,7 @@ Bye!
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>Professional software engineers often write code using <em>Integrated Development Environments (IDEs)</em>. IDEs support all development-related work within the same tool.</strong></p>
+                    <p><strong>Professional software engineers often write code using <em>Integrated Development Environments (IDEs)</em>. IDEs support most development-related work within the same tool</strong> (hence, the term <em>integrated</em>).</p>
                     <p>An IDE generally consists of:</p>
                     <ul>
                       <li>A source code editor that includes features such as syntax coloring, auto-completion, easy code navigation, error highlighting, and code-snippet generation.</li>
@@ -1320,10 +1230,10 @@ Bye!
               </div>
             </panel>
             <p><span id="W3-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/intellij/projectSetup">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.3b</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
-                          </span></strong></span></small> <strong><span>Project Setup</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.3b</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="tools-intellij-idea-project-setup"><small><span class="font-weight-bold text-muted"><span>Tools → Intellij IDEA →</span></span></small> <strong><span>Project Setup</span></strong><a class="fa fa-anchor" href="#tools-intellij-idea-project-setup"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1351,6 +1261,7 @@ Bye!
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/S764o0mAXhg" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                       </tab>
                     </tabs>
+                    <br>
                     <h5 id="importing-a-project-to-intellij-idea">Importing a Project to Intellij IDEA<a class="fa fa-anchor" href="#importing-a-project-to-intellij-idea"></a></h5>
                     <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/WIYTktB1bT4" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                   </div>
@@ -1359,10 +1270,10 @@ Bye!
               </div>
             </panel>
             <p><span id="W3-3c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/intellij/codeNavigation">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W3.3c</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
-                          </span></strong></span></small> <strong><span>Code Navigation</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W3.3c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-intellij-idea-code-navigation"><small><span class="font-weight-bold text-muted"><span>Tools → Intellij IDEA →</span></span></small> <strong><span>Code Navigation</span></strong><a class="fa fa-anchor" href="#tools-intellij-idea-code-navigation"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1381,11 +1292,8 @@ Bye!
                       <li>View the documentation of a method from where the method is being used, without navigating to the method itself.</li>
                       <li>Find where a method/field is being used.</li>
                     </ol>
-                    <panel header="Intellij IDEA Code Navigation (Basics)" alt="basics" expanded>
-                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/f885wy42IcM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                    </panel>
-                    <panel header="Intellij IDEA Code Navigation (Advanced)" alt="basics">
-                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/IiHZPvmVICg" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    <panel header="Intellij IDEA Code Navigation" expanded>
+                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/1UHsJyCq1SU" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                     </panel>
                   </div>
                   <div></div>
@@ -1400,7 +1308,7 @@ Bye!
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-3-aug-26">Week 3 [Aug 26]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-3-aug-26-topics">Week 3 [Aug 26] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w3-1-java-useful-classes">[W3.1] Java: Useful Classes &#x200E;</a>
               <a class="nav-link py-1" href="#w3-2-git-remote-repos">[W3.2] Git: Remote Repos &#x200E;</a>
@@ -1413,7 +1321,7 @@ Bye!
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

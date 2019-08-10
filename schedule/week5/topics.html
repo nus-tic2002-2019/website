@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 5 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,105 +65,112 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week4/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week6/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-5-sep-9">Week 5 <small><small><span class="dimmed">[Sep 9]</span></small></small><a class="fa fa-anchor" href="#week-5-sep-9"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week5/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week4"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week5/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week6"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-5-sep-9-topics">Week 5 <small><small><span class="dimmed">[Sep 9]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-5-sep-9-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W5-1">W5.1</a>] <strong>OOP: Abstract Classes</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-1a">W5.1a</a>] <span>Paradigms → OOP → Inheritance →
-                      </span></span> <span>Abstract Classes and Methods</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-1b">W5.1b</a>] <span>C++ to Java → Inheritance →
-                      </span></span> <span>Abstract Classes and Methods</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W5-2">W5.2</a>] <strong>OOP: Interfaces</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-2a">W5.2a</a>] <span>Paradigms → OOP → Inheritance →
-                      </span></span> <span>Interfaces</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-2b">W5.2b</a>] <span>C++ to Java → Inheritance →
-                      </span></span> <span>Interfaces</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W5-3">W5.3</a>] <strong>Error Handling: Exceptions</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-3a">W5.3a</a>] <span>Implementation → Error Handling → Introduction →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-3b">W5.3b</a>] <span>Implementation → Error Handling → Exceptions →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-3c">W5.3c</a>] <span>Implementation → Error Handling → Exceptions →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-3d">W5.3d</a>] <span>C++ to Java → Exceptions →
-                      </span></span> <span>What are Exceptions?</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-3e">W5.3e</a>] <span>C++ to Java → Exceptions →
-                      </span></span> <span>How to Use Exceptions</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-3f">W5.3f</a>] <span>Implementation → Error Handling → Exceptions →
-                      </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W5-4">W5.4</a>] <strong>Refactoring</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-4a">W5.4a</a>] <span>Implementation → Refactoring →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-4b">W5.4b</a>] <span>Tools → Intellij IDEA →
-                      </span></span> <span>Refactoring</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-4c">W5.4c</a>] <span>Implementation → Refactoring →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W5-4d">W5.4d</a>] <span>Implementation → Refactoring →
-                      </span></span> <span>When</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week5/topics.html#W5-1">W5.1</a>] <strong>OOP: Abstract Classes</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1a">W5.1a</a>] <span>Paradigms → OOP → Inheritance →
+                        </span></span> <span>Abstract Classes and Methods</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1b">W5.1b</a>] <span>C++ to Java → Inheritance →
+                        </span></span> <span>Abstract Classes and Methods</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week5/topics.html#W5-2">W5.2</a>] <strong>OOP: Interfaces</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2a">W5.2a</a>] <span>Paradigms → OOP → Inheritance →
+                        </span></span> <span>Interfaces</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2b">W5.2b</a>] <span>C++ to Java → Inheritance →
+                        </span></span> <span>Interfaces</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week5/topics.html#W5-3">W5.3</a>] <strong>Error Handling: Exceptions</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3a">W5.3a</a>] <span>Implementation → Error Handling → Introduction →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3b">W5.3b</a>] <span>Implementation → Error Handling → Exceptions →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3c">W5.3c</a>] <span>Implementation → Error Handling → Exceptions →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3d">W5.3d</a>] <span>C++ to Java → Exceptions →
+                        </span></span> <span>What are Exceptions?</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3e">W5.3e</a>] <span>C++ to Java → Exceptions →
+                        </span></span> <span>How to Use Exceptions</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3f">W5.3f</a>] <span>Implementation → Error Handling → Exceptions →
+                        </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week5/topics.html#W5-4">W5.4</a>] <strong>Refactoring</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4a">W5.4a</a>] <span>Implementation → Refactoring →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4b">W5.4b</a>] <span>Tools → Intellij IDEA →
+                        </span></span> <span>Refactoring</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4c">W5.4c</a>] <span>Implementation → Refactoring →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4d">W5.4d</a>] <span>Implementation → Refactoring →
+                        </span></span> <span>When</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W5-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -171,10 +181,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W5-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/inheritance/abstractClasses">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.1a</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                          </span></strong></span></small> <strong><span>Abstract Classes and Methods</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.1a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="paradigms-oop-inheritance-abstract-classes-and-methods"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Inheritance →</span></span></small> <strong><span>Abstract Classes and Methods</span></strong><a class="fa fa-anchor" href="#paradigms-oop-inheritance-abstract-classes-and-methods"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -187,10 +197,10 @@
                   <div>
                     <box type="definition">
                       <div>
-                        <p><strong>Abstract Class</strong>: A class declared as an <em>abstract class</em> cannot be instantiated, but they can be subclassed.</p>
+                        <p><strong>Abstract Class</strong>: A class declared as an <em>abstract class</em> cannot be instantiated, but it can be subclassed.</p>
                       </div>
                     </box>
-                    <p><strong>You can use declare a class as abstract when a class is merely a representation of commonalities among its subclasses</strong> in which case it does not make sense to instantiate objects of that class.</p>
+                    <p><strong>You can declare a class as <em>abstract</em> when a class is merely a representation of commonalities among its subclasses</strong> in which case it does not make sense to instantiate objects of that class.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Animal</code> class that exist as a generalization of its subclasses <code>Cat</code>, <code>Dog</code>, <code>Horse</code>, <code>Tiger</code> etc. can be declared as abstract because it does not make sense to instantiate an <code>Animal</code> object.</p>
                     </box>
@@ -203,17 +213,16 @@
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>move</code> method of the <code>Animal</code> class is likely to be an abstract method as it is not possible to implement a <code>move</code> method at the <code>Animal</code> class level to fit all subclasses <span class="dimmed">because each animal type can move in a different way</span>.</p>
                     </box>
                     <p><strong>A class that has an abstract method becomes an abstract class</strong> because the class definition is incomplete (due to the missing method body) and it is not possible to create objects using an incomplete class definition.</p>
-                    <p>Even <strong>a class that does not have any abstract methods <em>can</em> be declared as an abstract class.</strong></p>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W5-1b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/inheritance/abstractClassesAndMethods">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.1b</span></span> <span class="dimmed"><strong><span>C++ to Java → Inheritance →
-                          </span></strong></span></small> <strong><span>Abstract Classes and Methods</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.1b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-inheritance-abstract-classes-and-methods"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Inheritance →</span></span></small> <strong><span>Abstract Classes and Methods</span></strong><a class="fa fa-anchor" href="#c-to-java-inheritance-abstract-classes-and-methods"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -254,6 +263,7 @@
                       <p><code>Account a;</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK to use as a type <br>
                         <code>a = new Account();</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error!</p>
                     </box>
+                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> In Java, even <strong>a class that does not have any abstract methods <em>can</em> be declared as an abstract class.</strong></p>
                     <p><strong>When an abstract class is subclassed, the subclass should provides implementations for all of the abstract methods in its superclass or else the subclass must also be declared abstract.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Feline</code> class below inherits from the abstract class <code>Animal</code> but it does not provide an implementation for the abstract method <code>speak</code>. As a result, the <code>Feline</code> class needs to be abstract too.</p>
@@ -264,7 +274,7 @@
 
 }
 </code></pre>
-                      <p>The <code>DomesticCat</code> class inherits the abstract <code>Feline</code> class and provides the implementation for the abstract method <code>speak</code>. As a result, it need not be declared abstract.</p>
+                      <p>The <code>DomesticCat</code> class inherits the abstract <code>Feline</code> class and provides the implementation for the abstract method <code>speak</code>. As a result, it need not be (but <em>can</em> be) declared as abstract.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DomesticCat</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Feline</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">DomesticCat</span><span class="hljs-params">(String name)</span> </span>{
         <span class="hljs-keyword">super</span>(name);
@@ -276,8 +286,10 @@
     }
 }
 </code></pre>
-                      <p><code>Animal a = new Feline(&quot;Mittens&quot;);</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error! <code>Feline</code> is abstract.</p>
-                      <p><code>Animal a = new DomesticCat(&quot;Mittens&quot;);</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK. <code>DomesticCat</code> can be instantiated and assigned to a variable of <code>Animal</code> type <span class="dimmed">(the assignment is allowed by polymorphism)</span>.</p>
+                      <ul>
+                        <li><code class="hljs inline java">Animal a = <span class="hljs-keyword">new</span> Feline(<span class="hljs-string">"Mittens"</span>);</code><br><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error! <code>Feline</code> is abstract.</li>
+                        <li><code class="hljs inline java">Animal a = <span class="hljs-keyword">new</span> DomesticCat(<span class="hljs-string">"Mittens"</span>);</code><br><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK. <code>DomesticCat</code> can be instantiated and assigned to a variable of <code>Animal</code> type <span class="dimmed">(the assignment is allowed by polymorphism)</span>.</li>
+                      </ul>
                     </box>
                   </div>
                   <div>
@@ -291,7 +303,7 @@
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`">
@@ -414,10 +426,10 @@ Rectangle of area 16
           </span>
           <div class="indented-level1">
             <p><span id="W5-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/inheritance/interfaces">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.2a</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                          </span></strong></span></small> <strong><span>Interfaces</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.2a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="paradigms-oop-inheritance-interfaces"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Inheritance →</span></span></small> <strong><span>Interfaces</span></strong><a class="fa fa-anchor" href="#paradigms-oop-inheritance-interfaces"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -432,13 +444,13 @@ Rectangle of area 16
                     <blockquote>
                       <p>There are a number of situations in software engineering when it is important for disparate groups of programmers to agree to a &quot;contract&quot; that spells out how their software interacts. Each group should be able to write their code without any knowledge of how the other group's code is written. Generally speaking, interfaces are such contracts. <sub>--<a href="https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html">Oracle Docs on Java</a><sub></sub></sub></p>
                     </blockquote>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose <code>SalariedStaff</code> is an interface that contains two methods <code>setSalary(int)</code> and <code>getSalary()</code>. <code>AcademicStaff</code> can declare itself as <em>implementing</em> the <code>SalariedStaff</code> interface, which means the <code>AcademicStaff</code> class must implement all the methods specified by the <code>SalariedStaff</code> interface i.e., <code>setSalary(int)</code> and <code>getSalary()</code>.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>A class implementing an interface results in an <em>is-a</em> relationship</strong>, just like in class inheritance.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example above, <code>AcademicStaff</code> <em>is a</em> <code>SalariedStaff</code>. An <code>AcademicStaff</code> object can be used anywhere a <code>SalariedStaff</code> object is expected e.g. <code>SalariedStaff ss = new AcademicStaff()</code>.</p>
-                    </tip-box>
+                    </box>
                     <p></p>
                   </div>
                   <div></div>
@@ -446,10 +458,10 @@ Rectangle of area 16
               </div>
             </panel>
             <p><span id="W5-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/inheritance/interfaces">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.2b</span></span> <span class="dimmed"><strong><span>C++ to Java → Inheritance →
-                          </span></strong></span></small> <strong><span>Interfaces</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-inheritance-interfaces"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Inheritance →</span></span></small> <strong><span>Interfaces</span></strong><a class="fa fa-anchor" href="#c-to-java-inheritance-interfaces"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -471,10 +483,10 @@ Rectangle of area 16
     <span class="hljs-comment">// more method signatures</span>
 }
 </code></pre>
-                      <p>Note that the method signatures have no braces and are terminated with a semicolon.
+                      <p>Note that the method signatures have no braces (<code>{ }</code>) and are terminated with a semicolon.
                       </p>
                     </box>
-                    <p><strong>Interfaces cannot be instantiated—they can only be implemented by classes</strong>. When an instantiable class implements an interface, indicated by the keyword <code>implements</code>, it provides a method body for each of the methods declared in the interface.</p>
+                    <p><strong>Interfaces cannot be instantiated—they can only be <em>implemented</em> by classes</strong>. When an instantiable class implements an interface, indicated by the keyword <code>implements</code>, it provides a method body for each of the methods declared in the interface.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is how a class <code>CarModelX</code> can implement the <code>DrivableVehicle</code> interface.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CarModelX</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">DrivableVehicle</span> </span>{
@@ -488,7 +500,7 @@ Rectangle of area 16
 }
 </code></pre>
                     </box>
-                    <p><strong>An interface can be used as a type</strong> e.g., <code>DrivableVechile dv = new CarModelX();</code>.</p>
+                    <p><strong>An interface can be used as a type</strong> e.g., <code class="hljs inline java">DrivableVechile dv = <span class="hljs-keyword">new</span> CarModelX();</code>.</p>
                     <p><strong>Interfaces can inherit from other interfaces</strong> using the <code>extends</code> keyword, similar to a class inheriting another.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an interface named <code>SelfDrivableVehicle</code> that inherits the <code>DrivableVehicle</code> interface.</p>
@@ -562,7 +574,7 @@ Rectangle of area 16
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> print `Printable` items">
@@ -672,10 +684,10 @@ Person of name James Cook
           </span>
           <div class="indented-level1">
             <p><span id="W5-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/introduction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.3a</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Introduction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.3a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-error-handling-introduction-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-introduction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -695,10 +707,10 @@ Person of name James Cook
               </div>
             </panel>
             <p><span id="W5-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/exceptions/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.3b</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Exceptions →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.3b</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-error-handling-exceptions-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Exceptions →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-exceptions-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -710,31 +722,31 @@ Person of name James Cook
                   <p></p>
                   <div>
                     <p><strong>Exceptions are used to deal with <em>'unusual' but not entirely unexpected</em> situations</strong> that the program might encounter at run time.</p>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Exception</strong>:</p>
                         <blockquote>
                           <p>The term <em>exception</em> is shorthand for the phrase &quot;exceptional event.&quot; An <em>exception</em> is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions. –- Java Tutorial (Oracle Inc.)</p>
                         </blockquote>
                       </div>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                       <ul>
                         <li>A network connection encounters a timeout due to a slow server.</li>
                         <li>The code tries to read a file from the hard disk but the file is corrupted and cannot be read.</li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W5-3c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/exceptions/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.3c</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Exceptions →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.3c</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-error-handling-exceptions-how"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Exceptions →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-exceptions-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -784,10 +796,10 @@ Person of name James Cook
               </div>
             </panel>
             <p><span id="W5-3d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/exceptions/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.3d</span></span> <span class="dimmed"><strong><span>C++ to Java → Exceptions →
-                          </span></strong></span></small> <strong><span>What are Exceptions?</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.3d</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="c-to-java-exceptions-what-are-exceptions"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Exceptions →</span></span></small> <strong><span>What are Exceptions?</span></strong><a class="fa fa-anchor" href="#c-to-java-exceptions-what-are-exceptions"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -836,10 +848,10 @@ Person of name James Cook
               </div>
             </panel>
             <p><span id="W5-3e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/exceptions/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.3e</span></span> <span class="dimmed"><strong><span>C++ to Java → Exceptions →
-                          </span></strong></span></small> <strong><span>How to Use Exceptions</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.3e</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-exceptions-how-to-use-exceptions"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Exceptions →</span></span></small> <strong><span>How to Use Exceptions</span></strong><a class="fa fa-anchor" href="#c-to-java-exceptions-how-to-use-exceptions"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -991,7 +1003,7 @@ Person of name James Cook
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor">
@@ -1023,11 +1035,11 @@ Person of name James Cook
                                 <ol>
                                   <li>
                                     <p>Update the code of <code>printArea</code> to print an error message if <code>WIDTH</code> and/or <code>HEIGHT</code> are not numbers <span class="dimmed">e.g., <code>&quot;Ax4&quot;</code></span><br>
-                                      💡 <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the code tries to parse a non-number to an integer.</p>
+                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the code tries to parse a non-number to an integer.</p>
                                   </li>
                                   <li>
                                     <p>Update the code of <code>printArea</code> to print an error message if the descriptor is missing <code>WIDTH</code> and/or <code>HEIGHT</code> <span class="dimmed">e.g., <code>&quot;x4&quot;</code></span><br>
-                                      💡 <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if one or both dimensions are missing.</p>
+                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if one or both dimensions are missing.</p>
                                   </li>
                                   <li>
                                     <p>Update the code of <code>calculateArea</code> to throw the checked exception <code>IllegalShapeException</code> if there are more than 2 dimensions <span class="dimmed">e.g., <code>&quot;5x4x3&quot;</code></span> and update the <code>printArea</code> to print an error message for those cases. Here is the code for the <code>IllegalShapeException.java</code></p>
@@ -1086,77 +1098,6 @@ Too many dimensions: 3x4x5
                               </question>
                             </panel>
                           </div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 3 - **Use exceptions**">
-                              <div id="body">
-                                <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
-                                </p>
-                                <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-2</code> exercises quoted above.</span></p>
-                                <div id="main">
-                                  <p>Enhance the TaskManager to print an error message if a command is missing parts. Use exceptions so that error detection and printing of error message happen at different places of code and the error information is passed between the two places using an Exception object.</p>
-                                  <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                  <box>
-                                    <div class="text-monospace">
-                                      <p>Welcome to TaskManager-Level3!
-                                        <br>Your task? todo
-                                        <br><mark>Error: Empty description for TODO</mark>
-                                        <br>Your task? todo read book
-                                        <br>Tasks in the list: 1
-                                        <br>Your task? print
-                                        <br>Tasks:
-                                        <br>[1] description: read book
-                                        <br> is done? No
-                                        <br>Your task?</p>
-                                    </div>
-                                  </box>
-                                  <p>Suggested approach:</p>
-                                  <ul>
-                                    <li>Create a <code>TaskManagerException</code> class that inherits the <code>Exception</code> class. Override the constructor that takes a <code>String</code> parameter so that you can specify the error information when you create a <code>TaskManagerException</code> object.</li>
-                                    <li>Throw a new <code>TaskManagerException</code> object when you detect some necessary information is missing in the command.</li>
-                                    <li>Catch that exception somewhere else and print the message inside the exception object.</li>
-                                  </ul>
-                                  <panel type="seamless" header="Partial solution">
-                                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TaskManagerException</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Exception</span></span>{
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">TaskManagerException</span><span class="hljs-params">(String message)</span> </span>{
-        <span class="hljs-keyword">super</span>(message);
-    }
-}
-</code></pre>
-                                    <pre><code class="hljs java">    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        <span class="hljs-comment">// ...</span>
-        <span class="hljs-keyword">while</span> (!isExit) {
-            <span class="hljs-keyword">try</span> {
-                line = getInput();
-                String command = line.split(<span class="hljs-string">" "</span>)[<span class="hljs-number">0</span>];
-                <span class="hljs-keyword">switch</span> (command) {
-                    <span class="hljs-keyword">case</span> <span class="hljs-string">"todo"</span>:
-                        addTodo(line);
-                        <span class="hljs-keyword">break</span>;
-                    <span class="hljs-comment">// ...</span>
-                }
-            } <span class="hljs-keyword">catch</span> (TaskManagerException e) {
-                printError(e.getMessage());
-            }
-        }
-        <span class="hljs-comment">// ...</span>
-
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addTodo</span><span class="hljs-params">(String line)</span> <span class="hljs-keyword">throws</span> TaskManagerException </span>{
-        String description = line.substring(<span class="hljs-string">"todo"</span>.length()).trim();
-        <span class="hljs-keyword">if</span> (description.isEmpty()){
-            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> TaskManagerException(<span class="hljs-string">"Empty description for TODO"</span>);
-        }
-        <span class="hljs-comment">// ...</span>
-    }
-</code></pre>
-                                  </panel>
-                                </div>
-                              </div>
-                            </panel>
-                          </div>
                         </div>
                       </panel>
                     </div>
@@ -1165,10 +1106,10 @@ Too many dimensions: 3x4x5
               </div>
             </panel>
             <p><span id="W5-3f"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/exceptions/when">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.3f</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Exceptions →
-                          </span></strong></span></small> <strong><span>When</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.3f</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-error-handling-exceptions-when"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Exceptions →</span></span></small> <strong><span>When</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-exceptions-when"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1196,10 +1137,10 @@ Too many dimensions: 3x4x5
           </span>
           <div class="indented-level1">
             <p><span id="W5-4a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/refactoring/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.4a</span></span> <span class="dimmed"><strong><span>Implementation → Refactoring →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.4a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-refactoring-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Refactoring →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-refactoring-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1215,13 +1156,13 @@ Too many dimensions: 3x4x5
                       <li><strong>Refactoring is not rewriting</strong>: Discarding poorly-written code entirely and re-writing it from scratch is not refactoring because refactoring needs to be done in small steps.</li>
                       <li><strong>Refactoring is not bug fixing</strong>: By definition, refactoring is different from bug fixing or any other modifications that alter the external behavior (e.g. adding a feature) of the component in concern.</li>
                     </ul>
-                    <tip-box>
-                      <p>💡 Improving code structure can have many secondary benefits: e.g.</p>
+                    <box>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Improving code structure can have many secondary benefits: e.g.</p>
                       <ul>
                         <li>hidden bugs become easier to spot</li>
                         <li>improve performance (sometimes, simpler code runs faster than complex code because simpler code is easier for the compiler to optimize).</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p>Given below are two common refactorings (<trigger trigger="click" for="modal:refactoring-catalog-what">more</trigger>).</p>
                     <modal title="**Refactoring Catalogs**" id="modal:refactoring-catalog-what">
                       <div>
@@ -1231,7 +1172,7 @@ Too many dimensions: 3x4x5
                         </ul>
                       </div>
                     </modal>
-                    <tip-box>
+                    <box>
                       <p>Refactoring Name: <strong>Consolidate Duplicate Conditional Fragments</strong></p>
                       <p>Situation: The same fragment of code is in all branches of a conditional expression.</p>
                       <p>Method: Move it outside of the expression.</p>
@@ -1292,8 +1233,8 @@ send()
                           </table>
                         </div>
                       </div>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p>Refactoring Name: <strong>Extract Method</strong></p>
                       <p>Situation: You have a code fragment that can be grouped together.</p>
                       <p>Method: Turn the fragment into a method whose name explains the purpose of the method.</p>
@@ -1341,8 +1282,8 @@ send()
 </code></pre>
                         </div>
                       </div>
-                    </tip-box>
-                    <p>💡 Some IDEs have built in support for basic refactorings such as automatically renaming a variable/method/class in all places it has been used.</p>
+                    </box>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Some IDEs have built in support for basic refactorings such as automatically renaming a variable/method/class in all places it has been used.</p>
                     <p>
                       <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Refactoring, even if done with the aid of an IDE, may still result in regressions. Therefore, each small refactoring should be followed by regression testing.
                     </p>
@@ -1403,10 +1344,10 @@ send()
               </div>
             </panel>
             <p><span id="W5-4b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/intellij/refactoring">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.4b</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
-                          </span></strong></span></small> <strong><span>Refactoring</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.4b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-intellij-idea-refactoring"><small><span class="font-weight-bold text-muted"><span>Tools → Intellij IDEA →</span></span></small> <strong><span>Refactoring</span></strong><a class="fa fa-anchor" href="#tools-intellij-idea-refactoring"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1437,10 +1378,10 @@ send()
               </div>
             </panel>
             <p><span id="W5-4c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/refactoring/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.4c</span></span> <span class="dimmed"><strong><span>Implementation → Refactoring →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.4c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-refactoring-how"><small><span class="font-weight-bold text-muted"><span>Implementation → Refactoring →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#implementation-refactoring-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1465,7 +1406,7 @@ send()
                       <li><a href="https://refactoring.com/catalog/decomposeConditional.html">Decompose Conditional</a></li>
                       <li><a href="https://refactoring.com/catalog/inlineMethod.html">Inline Method</a></li>
                       <li><a href="https://refactoring.com/catalog/removeDoubleNegative.html">Remove Double Negative</a></li>
-                      <li><a href="https://refactoring.com/catalog/replaceMagicNumberWithSymbolicConstant.html">Replace Magic Number with Symbolic Constant</a></li>
+                      <li><a href="https://refactoring.com/catalog/replaceMagicLiteral.html">Replace Magic Literal</a></li>
                       <li><a href="https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html">Replace Nested Conditional with Guard Clauses</a></li>
                       <li><a href="https://refactoring.com/catalog/replaceParameterWithExplicitMethods.html">Replace Parameter with Explicit Methods</a></li>
                       <li><a href="https://refactoring.com/catalog/reverseConditional.html">Reverse Conditional</a></li>
@@ -1480,10 +1421,10 @@ send()
               </div>
             </panel>
             <p><span id="W5-4d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/refactoring/when">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.4d</span></span> <span class="dimmed"><strong><span>Implementation → Refactoring →
-                          </span></strong></span></small> <strong><span>When</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W5.4d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-refactoring-when"><small><span class="font-weight-bold text-muted"><span>Implementation → Refactoring →</span></span></small> <strong><span>When</span></strong><a class="fa fa-anchor" href="#implementation-refactoring-when"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1527,7 +1468,7 @@ send()
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-5-sep-9">Week 5 [Sep 9]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-5-sep-9-topics">Week 5 [Sep 9] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w5-1-oop-abstract-classes">[W5.1] OOP: Abstract Classes &#x200E;</a>
               <a class="nav-link py-1" href="#w5-2-oop-interfaces">[W5.2] OOP: Interfaces &#x200E;</a>
@@ -1541,7 +1482,7 @@ send()
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -5,9 +5,9 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TIC2002 Website - Week 7 - Tasks</title>
+  <title>TIC2002 Website - Week 7 - Summary</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -63,114 +66,180 @@
     <div id="flex-body">
       <div id="content-wrapper">
         <div>
-          <p><span style="float:left"><span><a href="/website/schedule/week6/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week8/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-          <h1 id="week-7-sep-30">Week 7 <small><small><span class="dimmed">[Sep 30]</span></small></small><a class="fa fa-anchor" href="#week-7-sep-30"></a></h1>
-          <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week7/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week7/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-          </ul>
+          <nav>
+            <ul class="pagination mt-2">
+              <li class="page-item"><a class="page-link" href="/website/schedule/week6"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item active"><a class="page-link" href="/website/schedule/week7/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week7/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week7/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week8"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+            </ul>
+          </nav>
           <p></p>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
-                    <p><span>
-                        <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
-                      </span></p>
-                    <h3 id="duke-6-delete">Duke 6. Delete<a class="fa fa-anchor" href="#duke-6-delete"></a></h3>
-                    <p>Add support for deleting tasks from the list.
-                      <br>
-                      <br></p>
-                    <p>Example:</p>
-                    <pre><code class="hljs">list
-    ____________________________________________________________
-     Here are the tasks in your list:
-     1.[T][✓] read book
-     2.[D][✓] return book (by: June 6th)
-     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
-     4.[T][✓] join sports club
-     5.[T][✗] borrow book
-    ____________________________________________________________
-
-delete 3
-    ____________________________________________________________
-     Noted. I've removed this task: 
-       [T][✓] join sports club
-     Now you have 4 tasks in the list.
-    ____________________________________________________________
-</code></pre>
+          <h1 id="week-7-sep-30-summary">Week 7 <small><small><span class="dimmed">[Sep 30]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-7-sep-30-summary"></a></h1>
+          <box type="info" dismissible>
+            <p>A summary of the week, and announcements relevant to that week, will appear in this tab.
+            </p>
+          </box>
+          <span id="summary">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm border-right border-bottom">
+                  <p><span><strong><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics Summary:</strong></span></p>
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week7/topics.html#W7-1">W7.1</a>] <strong>Java: Constants</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week7/topics.html#W7-2">W7.2</a>] <strong>Java: Enumerations</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week7/topics.html#W7-3">W7.3</a>] <strong>Java: File Access</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week7/topics.html#W7-4">W7.4</a>] <strong>Class/Object Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week7/topics.html#W7-5">W7.5</a>] <strong>Design Fundamentals</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <panel type="seamless" header="%%Full ToC%%">
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                      <panel header="**Extension: `A-Collections`**">
-                        <div>
-                          <div>
-                            <div></div>
-                            <h3 id="a-collections"><span class="badge badge-pill badge-primary">A-Collections</span><a class="fa fa-anchor" href="#a-collections"></a></h3>
-                            <p>     <big>↳</big> <strong>Use Java Collections classes</strong></p>
-                          </div>
-                          <p>Use Java Collections classes for storing data. For example, you can use an <code>ArrayList&lt;Task&gt;</code> to store the tasks.</p>
-                        </div>
-                      </panel>
+                      <ul>
+                        <li>[<a href="/website/schedule/week7/topics.html#W7-1">W7.1</a>] <strong>Java: Constants</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-1a">W7.1a</a>] <span>C++ to Java → Miscellaneous Topics →
+                                </span></span> <span>Constants</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week7/topics.html#W7-2">W7.2</a>] <strong>Java: Enumerations</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-2a">W7.2a</a>] <span>Paradigms → OOP → Classes →
+                                  </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-2b">W7.2b</a>] <span>C++ to Java → Miscellaneous Topics →
+                                  </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week7/topics.html#W7-3">W7.3</a>] <strong>Java: File Access</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-3a">W7.3a</a>] <span>C++ to Java → Miscellaneous Topics →
+                                </span></span> <span>File Access</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week7/topics.html#W7-4">W7.4</a>] <strong>Class/Object Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4a">W7.4a</a>] <span>Tools → UML →
+                                  </span></span> <span>Notes</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4b">W7.4b</a>] <span>Tools → UML →
+                                  </span></span> <span>Constraints</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4c">W7.4c</a>] <span>Tools → UML → Class Diagrams →
+                                  </span></span> <span>Associations as Attributes</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-4d">W7.4d</a>] <span>Design → Modelling → Modelling Structure →
+                                  </span></span> <span>Class Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week7/topics.html#W7-5">W7.5</a>] <strong>Design Fundamentals</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <p>   <strong>Abstraction</strong></p>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5a">W7.5a</a>] <span>Design → Introduction →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5b">W7.5b</a>] <span>Design → Design Fundamentals → Abstraction →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                          </ul>
+                          <p>   <strong>Coupling</strong></p>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5c">W7.5c</a>] <span>Design → Design Fundamentals → Coupling →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5d">W7.5d</a>] <span>Design → Design Fundamentals → Coupling →
+                                  </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5e">W7.5e</a>] <span>Design → Design Fundamentals → Coupling →
+                                  </span></span> <span>Types of Coupling</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                          <p>   <strong>Cohesion</strong></p>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5f">W7.5f</a>] <span>Design → Design Fundamentals → Cohesion →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week7/topics.html#W7-5g">W7.5g</a>] <span>Design → Design Fundamentals → Cohesion →
+                                  </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <p></p>
                     </div>
+                  </panel>
+                </div>
+                <div class="col-sm border-bottom">
+                  <p><span><strong><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks Summary:</strong></span></p>
+                  <div>
+                    <ol>
+                      <li>Implement increment <code>Level-6</code>: Delete</li>
+                      <li>Implement increment <code>A-Enums</code>: Enums <span class="badge badge-pill badge-secondary">if-applicable</span></li>
+                      <li>Implement increment <code>A-Gradle</code>: Gradle <span class="badge badge-pill badge-secondary">optional</span></li>
+                    </ol>
                   </div>
-                </panel>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Enums</code>: Enums</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span></div>
-                  <div></div>
-                  <div>
-                    <div>
-                      <div></div>
-                      <h3 id="a-enums"><span class="badge badge-pill badge-primary">A-Enums</span><a class="fa fa-anchor" href="#a-enums"></a></h3>
-                      <p>     <big>↳</big> <strong>Use Enumerations</strong></p>
-                    </div>
-                    <p>Use Java <code>enum</code>s, if applicable.</p>
-                  </div>
-                </panel>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Gradle</code>: Gradle</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                  <div></div>
-                  <div>
-                    <div>
-                      <div></div>
-                      <h3 id="a-gradle"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle"></a></h3>
-                      <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
-                    </div>
-                    <p>Use Gradle to automate some of the build tasks of the project.</p>
-                    <ul>
-                      <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
-                      <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
-                      <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
-                    </ul>
-                  </div>
-                </panel>
-              </div>
-            </div>
-          </div>
+          </span>
+          <br>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-7-sep-30">Week 7 [Sep 30]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-7-sep-30-summary">Week 7 [Sep 30] - Summary&#x200E;</a>
 
           </nav>
         </div>
@@ -178,7 +247,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

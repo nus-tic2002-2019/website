@@ -1,5 +1,9 @@
 <div class="website-content">
-  <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/exams.html">Exams</a></span></span><span style="float:right"><span><a href="/website/admin/appendixA-principles.html">A: Module Principles <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
+  <p><span class="float-left">
+      <b-btn variant="light" href="exams.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> Exams</span></b-btn>
+    </span><span class="float-right">
+      <b-btn variant="light" href="appendixA-principles.html"><span>A: Module Principles <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
+    </span></p>
   <br>
   <p>
     <div>
@@ -7,74 +11,91 @@
     </div>
   </p>
   <div id="main">
-    <p><strong>To receive full 10 marks allocated for participation, earn at least 15 participation <em>points</em>.</strong></p>
-    <p>There are 30+ available points to choose from:</p>
+    <p><strong>To receive full 5 marks allocated for participation, meet both these criteria:</strong></p>
     <ul>
       <li>
-        <tooltip content="No `Below Average`/`Poor` ratings">Good peer ratings</tooltip>
+        <p><strong>A. Earn at least half of weekly participation points in at least 10 weeks.</strong></p>
         <ul>
-          <li>Criteria for professional conduct (1 point for each criterion, max 7)</li>
-          <li>Competency criteria (2 points for each, max 6)</li>
+          <li>In-lecture quiz:
+            <ul>
+              <li>Answered at least 80% of the questions correctly: 2 points</li>
+              <li>Answered 40-80% questions correctly: 1 point</li>
+            </ul>
+          </li>
+          <li>Post-lecture quiz:
+            <ul>
+              <li>Answered at least 80% of the questions correctly: 3 points</li>
+              <li>Answered 60-80% questions correctly: 2 points</li>
+              <li>Answered 40-60% questions correctly: 1 point</li>
+            </ul>
+          </li>
+          <li>Missing compulsory administrative requirements <span class="dimmed">e.g., forgot to submit peer evaluations</span>: -2 for each miss</li>
         </ul>
       </li>
+      <li>
+        <p><strong>B. <tooltip content="No multiple `Below Average`/`Poor` ratings">Received good peer evaluations</tooltip></strong></p>
+      </li>
+    </ul>
+    <p>In addition, you can receive a bonus marks in the following ways. Bonus marks can be used to top up your participation marks should your marks from the above falls below 5.</p>
+    <ul>
+      <li>Receiving good ratings for all 10 peer evaluations criteria: 1 mark</li>
+      <li>Being very helpful to classmates <span class="dimmed">e.g., multiple helpful posts in forum</span>: 1 mark</li>
     </ul>
     <div class="indented">
-      <box type="warning">
-        <p>Only those who submit peer evaluations can earn participation points from peer evaluations they receive.
-        </p>
-      </box>
-    </div>
-    <ul>
-      <li>In-lecture quizzes (1 each, max 10 points)</li>
-      <li>Module admin tasks done <em>on time</em> and <em>as instructed</em>
-        <ul>
-          <li>Peer evaluations (1 points each, max 3)</li>
-          <li>Pre-module survey (1 points)</li>
-        </ul>
-      </li>
-      <li>Enhanced AB1-AB3 (2 points each, max 6 points)</li>
-    </ul>
-    <div class="flat">
-      <div>
-        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-      </div>
-    </div>
-    <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals">
-        <div>
-        <div data-included-from="C:\repos\nus-tic2002-2019\tic2002-website\admin\peerEvaluations.md">
-          <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
-          <ul>
-            <li><strong>Professional Communication</strong> :
-              <ul>
-                <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
-                <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
-              </ul>
-            </li>
-            <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
-            <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
-            <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
-            <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
-            <li><strong>Meticulousness</strong>:
-              <ul>
-                <li>Rarely overlooks submission requirements.</li>
-                <li>Rarely misses compulsory module activities such as pre-module survey.</li>
-              </ul>
-            </li>
-            <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc.</li>
-          </ul>
-          <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
-          <ul>
-            <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
-            <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
-            <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
-          </ul>
+      <div class="flat">
+        <div>
+          <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
         </div>
       </div>
-    </modal>
-    <p>
-      <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="peerEvaluation-criteria"></panel>
-    </p>
+      <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals">
+          <div>
+          <div data-included-from="C:\repos\nus-tic2002-2019\tic2002-website\admin\peerEvaluations.md">
+            <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
+            <ul>
+              <li><strong>Professional Communication</strong> :
+                <ul>
+                  <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
+                  <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
+                </ul>
+              </li>
+              <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
+              <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
+              <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
+              <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
+              <li><strong>Meticulousness</strong>:
+                <ul>
+                  <li>Rarely overlooks submission requirements.</li>
+                  <li>Rarely misses compulsory module activities such as pre-module survey.</li>
+                </ul>
+              </li>
+              <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
+            </ul>
+            <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
+            <ul>
+              <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
+              <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
+              <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
+            </ul>
+          </div>
+        </div>
+      </modal>
+      <p>
+        <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="peerEvaluation-criteria"></panel>
+      </p>
+    </div>
+    <box>
+      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples:</p>
+      <ul>
+        <li>Alicia earned 1/2, 3/5, <ins>2/5</ins>, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half of the points in 11 of the weeks, she gets 5 participation marks. Bonus marks are not applicable as she has full marks already.</li>
+        <li>Benjamin managed to get at least half of the participation points in 9 weeks only, which gives him 5-1 = 4 participation marks. But he received good peer ratings for all criteria, and hence get a bonus mark to make it 5/5.</li>
+        <li>Chun Ming met the participation points bar in 8 weeks only, giving him 5-2 = 3 marks. He lost 2 more marks because he received multiple negative ratings for two criteria, giving him 1/5 participation marks.</li>
+      </ul>
+    </box>
   </div>
   <br>
-  <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/exams.html">Exams</a></span></span><span style="float:right"><span><a href="/website/admin/appendixA-principles.html">A: Module Principles <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
+  <p><span class="float-left">
+      <b-btn variant="light" href="exams.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> Exams</span></b-btn>
+    </span><span class="float-right">
+      <b-btn variant="light" href="appendixA-principles.html"><span>A: Module Principles <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
+    </span></p>
 </div>

@@ -1,5 +1,9 @@
 <div class="website-content">
-  <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/gradeBreakdown.html">Grade Breakdown</a></span></span><span style="float:right"><span><a href="/website/admin/participation.html">Participation Marks <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
+  <p><span class="float-left">
+      <b-btn variant="light" href="gradeBreakdown.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> Grade Breakdown</span></b-btn>
+    </span><span class="float-right">
+      <b-btn variant="light" href="participation.html"><span>Participation Marks <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
+    </span></p>
   <br>
   <p>
     <div>
@@ -10,18 +14,27 @@
     <p>There is no midterm.</p>
     <p>The final exam has two parts:</p>
     <ul>
-      <li>Part 1: MCQ questions (1 hour, 20 marks)</li>
-      <li>Part 2: Essay questions (1 hour, 20 marks)</li>
+      <li>Part 1: MCQ questions (1 hour, 30 marks)</li>
+      <li>Part 2: Essay questions (1 hour, 30 marks)</li>
     </ul>
     <p>Both papers will be given to you at the start but you need to <strong>answer Part 1 first</strong> (i.e. MCQ paper). It will be <strong>collected 1 hour after the exam start time</strong> (even if arrived late for the exam). You are free to start part 2 early if you finish Part 1 early.</p>
+    <box type="important">
+      <p>Given the fast pace required by the paper and the large class size, to be fair to all students, <strong>invigilators will not answer queries about the questions in the exam paper</strong> (but <em>will</em> answer queries related to exam administration).</p>
+      <ul>
+        <li>If you have a doubt/query about a question or would like to make an assumption about a question, write down your doubt/query/assumption in the space provided for it in the exam paper.</li>
+        <li>Those doubts/queries/assumptions (if justified) will be taken into account when grading.
+        </li>
+      </ul>
+    </box>
+
     <h2 id="final-exam-part-1-mcq">Final Exam: Part 1 (MCQ)</h2>
     <p>Each MCQ question gives you a statement to evaluate.</p>
-    <tip-box>
+    <box>
       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example statement</p>
       <blockquote>
         <p>Testing is a Q&amp;A activity</p>
       </blockquote>
-    </tip-box>
+    </box>
     <p>Unless stated otherwise, the meaning of answer options are<br>
       <strong>A</strong>: Agree. If the question has multiple statements, <ins>agree with all of them</ins>.<br>
       <strong>B</strong>: Disagree. If the question has multiple statements, <ins>disagree with at least one of them</ins><br>
@@ -30,33 +43,29 @@
     <div class="full-mode">
       <p>Note that you have <strong>slightly more than ½ minute for each question</strong>, which means you need to go through the questions fairly quickly.</p>
     </div>
-    <p>Given the fast pace required by the paper, to be fair to all students, <strong>you will not be allowed to clarify doubts about questions</strong> (in Part 1) by talking to invigilators.</p>
-    <ul>
-      <li>If a question is not clear, you can circle the question number in the question paper and write your doubt in the question paper, near that question.</li>
-      <li>If your doubt is justified <span class="dimmed">(e.g. there is a typo in the question)</span> or if many students found the question to be unclear, the examiner may decide to omit that question from grading.</li>
-    </ul>
-    <p><strong>Questions in Part 1 are confidential.</strong> You are not allowed to reveal Part 1 content to anyone after the exam. All pages of the assessment paper are to be returned at the end of the exam.</p>
+    <p><strong>Questions in Part 1 are confidential.</strong> You are not allowed to reveal Part 1 content to anyone after the exam. All pages of the exam paper are to be returned at the end of the exam.</p>
     <div class="full-mode">
       <p>You will be given OCR forms <span class="dimmed">(i.e., bubble sheets)</span> to indicate your answers for Part 1. As each OCR form can accommodate only 50 answers, you will be given 2 OCR forms. <strong>Indicate your student number in both OCR forms</strong>.</p>
       <p>To save space, we use the following notation in MCQ question.
         <strong>[<ins>x</ins> | y | <ins>z</ins>] means ‘x and z, but not y’</strong></p>
-      <tip-box>
+      <box>
         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> SE is [boring | <ins>useful</ins> | <ins>fun</ins>] means <em>SE is not boring</em> AND <em>SE is useful</em> AND <em>SE is fun</em>.</p>
         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the following statement:</p>
         <ul>
           <li>IDEs can help with [<ins>writing</ins> | debugging | <ins>testing</ins>] code.</li>
         </ul>
-        <p>The correct response for it is <code>Disagree</code> because IDEs can help with all three of the given options, not just writing and testing.</p>
-      </tip-box>
+        <p>The correct response for it is <code>Disagree</code> because IDEs can help with all three of the given options, not just writing and testing.
+        </p>
+      </box>
     </div>
-    <p>Some questions will use <ins>underlines</ins> or <mark>highlighting</mark> to draw your attention to a specific part of the question. That is because those parts are highly relevant to the answer and we don’t want you to miss the relevance of that part.</p>
-    <tip-box>
+    <p>Some questions will use <mark>highlighting</mark> to draw your attention to a specific part of the question. That is because those parts are highly relevant to the answer and we don’t want you to miss the relevance of that part.</p>
+    <box>
       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the statement below:</p>
       <blockquote>
-        <p>Technique ABC <ins>can</ins> be used to generate more test cases.</p>
+        <p>Technique ABC <mark>can</mark> be used to generate more test cases.</p>
       </blockquote>
-      <p>The word <ins>can</ins> is underlined because the decision you need to make is whether the ABC <em>can or cannot</em> be used to generate more test cases; the decision is not whether ABC can be used to generate <em>more or better</em> test cases.</p>
-    </tip-box>
+      <p>The word <mark>can</mark> is highlighted because the decision you need to make is whether the ABC <em>can or cannot</em> be used to generate more test cases; the decision is not whether ABC can be used to generate <em>more or better</em> test cases.</p>
+    </box>
     <div class="full-mode">
       <p>Markers such as the one given below appears at left margin of the paper to <strong>indicate where the question corresponds to a new column in the OCR form</strong>. E.g. questions 11, 21, 31, etc. (a column has 10 questions). Such markers can help you to detect if you missed a question in the previous 10 questions. You can safely ignore those markers if you are not interested in making use of that additional hint.</p>
       <p><img src="/website/admin/images/columnMarker.png"><br></p>
@@ -65,17 +74,20 @@
     <p><img src="/website/admin/images/contextTag.png"><br></p>
     <p><strong>The exam paper is open-book</strong>: you may bring any printed or written materials to the exam in hard copy format.
       However, given the fast pace required by Part 1, you will not have time left to refer notes during that part of the exam.</p>
-    <p>💡 <strong>Mark the OCR form as you go</strong>, rather than planning to transfer your answers to the OCR form near the end. <span class="dimmed"> Reason: Given there are 50 questions, it will be hard to estimate how much time you need to mass-transfer all answers to OCR forms.</span></p>
-    <p>💡 <strong>Write the answer in the exam paper as well</strong> when marking it in the OCR form. <span class="dimmed"> Reason: It will reduce the chance of missing a question. Furthermore, in case you missed a question, it will help you correct the OCR form quickly.</span></p>
-    <p>💡 We have tried to <strong>avoid deliberately misleading/tricky questions</strong>. If a question seems to take a very long time to figure out, you are probably over-thinking it.</p>
+    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Mark the OCR form as you go</strong>, rather than planning to transfer your answers to the OCR form near the end. <span class="dimmed">Reason: Given there are 50 questions, it will be hard to estimate how much time you need to mass-transfer all answers to OCR forms.</span></p>
+    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Write the answer in the exam paper as well</strong> when marking it in the OCR form. <span class="dimmed">Reason: It will reduce the chance of missing a question. Furthermore, in case you missed a question, it will help you correct the OCR form quickly.</span></p>
+    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> We have tried to <strong>avoid deliberately misleading/tricky questions</strong>. If a question seems to take a very long time to figure out, you are probably over-thinking it.</p>
     <box type="success">
       <p>You will be given a practice exam paper to familiarize yourself with this slightly unusual exam format.
       </p>
     </box>
     <h2 id="final-exam-part-2-essay">Final Exam: Part 2 (Essay)</h2>
-    <p>Unlike in part 1, <strong>you can ask invigilators for clarifications</strong> if you found a question to be unclear in part 2.</p>
     <p>Yes, <strong>you may use pencils</strong> when answering part 2.</p>
   </div>
   <br>
-  <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/gradeBreakdown.html">Grade Breakdown</a></span></span><span style="float:right"><span><a href="/website/admin/participation.html">Participation Marks <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
+  <p><span class="float-left">
+      <b-btn variant="light" href="gradeBreakdown.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> Grade Breakdown</span></b-btn>
+    </span><span class="float-right">
+      <b-btn variant="light" href="participation.html"><span>Participation Marks <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
+    </span></p>
 </div>

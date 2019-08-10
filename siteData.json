@@ -10,6 +10,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixA-principles.md",
       "layout": "default"
     },
@@ -26,14 +27,14 @@
         "policy-on-plagiarism": "Policy on plagiarism ",
         "policy-on-reuse": "Policy on reuse ",
         "giving-credit-for-reused-work": "Giving credit for reused work",
-        "policy-on-help-from-outsiders": "Policy on help from outsiders ",
-        "policy-on-suggested-length-for-submissions": "Policy on suggested length for submissions "
+        "policy-on-help-from-outsiders": "Policy on help from outsiders "
       },
       "title": "Admin: B: Module Policies",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixB-policies.md",
       "layout": "default"
     },
@@ -45,15 +46,14 @@
         "why-the-workload-is-so-high": "Why the workload is so high? ",
         "what-are-the-extra-requirements-to-get-an-a": "What are the extra requirements to get an A+? ",
         "why-so-much-bean-counting": "Why so much bean counting? ",
-        "why-you-force-me-to-visit-a-separate-website-instead-of-using-ivle": "Why you force me to visit a separate website instead of using IVLE? ",
+        "why-you-force-me-to-visit-a-separate-website-instead-of-using-luminus": "Why you force me to visit a separate website instead of using LumiNUS? ",
         "why-slides-are-not-detailed": "Why slides are not detailed? ",
         "why-so-much-self-study": "Why so much self-study? ",
         "what-if-i-don-t-carry-around-a-laptop": "What if I don’t carry around a laptop? ",
         "why-very-narrow-project-scope": "Why very narrow project scope? ",
-        "why-project-requirements-are-so-vague": "Why project requirements are so vague? ",
         "why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc": "Why I’m not allowed to use my favorite tool/framework/language etc.? ",
         "why-so-many-submissions": "Why so many submissions? ",
-        "why-aren-t-we-allowed-to-build-a-new-product-from-scratch": "Why aren't we allowed to build a new product from scratch? ",
+        "why-aren-t-we-allowed-to-build-a-new-product-from-scratch-in-the-tp": "Why aren't we allowed to build a new product from scratch in the tP? ",
         "why-submission-requirements-differ-between-tic2002-and-cs2101": "Why submission requirements differ between TIC2002 and CS2101? "
       },
       "title": "Admin: C: Frequently Asked Questions",
@@ -61,6 +61,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixC-faq.md",
       "layout": "default"
     },
@@ -73,20 +74,19 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixD-help.md",
       "layout": "default"
     },
     {
       "headings": {
         "e-using-github": "E: Using GitHub ",
-        "creating-a-github-account": "Creating a GitHub account",
-        "setting-git-username-to-match-github-username": "Setting Git Username to Match GitHub Username",
-        "submitting-pull-requests-as-evidence-of-an-lo": "Submitting Pull Requests as evidence of an LO",
-        "organization-setup": "Organization setup",
-        "repo-setup": "Repo setup",
-        "workflow": "Workflow",
-        "issue-tracker-setup": "Issue tracker setup",
-        "project-schedule-tracking": "Project Schedule Tracking",
+        "creating-a-github-account": "\r\n              Creating a GitHub Account\r\n            ",
+        "organization-setup": "\r\n                Organization Setup\r\n              ",
+        "repo-setup": "\r\n                Repo Setup\r\n              ",
+        "workflow": "\r\n                Workflow\r\n              ",
+        "issue-tracker-setup": "\r\n                Issue Tracker Setup\r\n              ",
+        "project-schedule-tracking": "\r\n                Project Schedule Tracking\r\n              ",
         "using-issues": "Using Issues:",
         "using-milestones": "Using Milestones:"
       },
@@ -95,6 +95,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixE-gitHub.md",
       "layout": "default"
     },
@@ -107,6 +108,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixF-teamworkIssues.md",
       "layout": "default"
     },
@@ -121,6 +123,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/exams.md",
       "layout": "default"
     },
@@ -139,6 +142,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/gradeBreakdown.md",
       "layout": "default"
     },
@@ -163,7 +167,6 @@
         "textbook": "Textbook",
         "programming-language": "Programming language",
         "project": "Project",
-        "weeks-1-6-project-preparation": "Weeks 1-6: Project preparation",
         "week-7-9-first-stage": "Week 7-9: First stage",
         "week-7-project-kick-off": "Week 7: Project kick-off",
         "after-the-project-kickoff": "After the project kickoff",
@@ -207,7 +210,6 @@
         "textbook": "Textbook",
         "programming-language": "Programming language",
         "project": "Project",
-        "weeks-1-6-project-preparation": "Weeks 1-6: Project preparation",
         "week-7-9-first-stage": "Week 7-9: First stage",
         "week-7-project-kick-off": "Week 7: Project kick-off",
         "after-the-project-kickoff": "After the project kickoff",
@@ -239,6 +241,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/instructors.md",
       "layout": "default"
     },
@@ -251,78 +254,100 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-grading.md",
       "layout": "default"
     },
     {
       "headings": {
-        "ip-overview": "iP: Overview "
+        "ip-individual-project-overview": "iP (Individual Project): Overview "
       },
-      "title": "Admin: iP: Overview",
+      "title": "Admin: iP (Individual Project): Overview",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-overview.md",
       "layout": "default"
     },
     {
       "headings": {
-        "ip-week-2": "iP: Week 2 "
+        "ip-week-2": "iP: Week 2 ",
+        "1-set-up-prerequisites": "1 Set up prerequisites",
+        "2-set-up-the-project-in-your-computer": "2 Set up the project in your computer",
+        "3-implement-increments-while-committing-code-frequently": "3 Implement increments while committing code frequently"
       },
       "title": "Admin: iP: Week 2",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w02.md",
       "layout": "default"
     },
     {
       "headings": {
-        "ip-week-3": "iP: Week 3 "
+        "ip-week-3": "iP: Week 3 ",
+        "1-do-as-parallel-branches-level-7-and-level-8": "1 Do as parallel branches: Level-7 and Level-8",
+        "2-do-increments-a-moreoop-a-packages-a-junit-a-jar": "2 Do increments A-MoreOOP, A-Packages, A-JUnit, A-Jar",
+        "3-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9": "3 Do as parallel branches: A-JavaDoc, A-CodingStandard, Level-9",
+        "4-create-a-pr-to-the-upstream-repo": "4 Create a PR to the upstream repo"
       },
       "title": "Admin: iP: Week 3",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w03.md",
       "layout": "default"
     },
     {
       "headings": {
-        "ip-week-4": "iP: Week 4 "
+        "ip-week-4": "iP: Week 4 ",
+        "1-review-some-peer-prs": "1 Review some peer PRs",
+        "2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs": "2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs",
+        "3-add-another-extension": "3 Add another extension"
       },
       "title": "Admin: iP: Week 4",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w04.md",
       "layout": "default"
     },
     {
       "headings": {
-        "ip-week-5": "iP: Week 5 "
+        "ip-week-5": "iP: Week 5 ",
+        "1-add-increments-as-prs-a-assertions-a-codequality-a-lambdas-a-streams": "1 Add increments as PRs: A-Assertions, A-CodeQuality, A-Lambdas, A-Streams",
+        "2-set-up-ci": "2 Set up CI",
+        "3-add-another-extension-tbd": "3 Add another extension [TBD]"
       },
       "title": "Admin: iP: Week 5",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w05.md",
       "layout": "default"
     },
     {
       "headings": {
-        "ip-week-6": "iP: Week 6 "
+        "ip-week-6": "iP: Week 6 ",
+        "1-write-a-brief-user-guide": "1 Write a brief user guide",
+        "2-release-the-product": "2 Release the product"
       },
       "title": "Admin: iP: Week 6",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w06.md",
       "layout": "default"
     },
@@ -335,6 +360,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/lectures.md",
       "layout": "default"
     },
@@ -343,13 +369,14 @@
         "module-expectations": "Module Expectations ",
         "prior-knowledge-java-and-oop": "Prior Knowledge: Java and OOP",
         "workload": "Workload",
-        "star-rating-system": "Star rating system"
+        "star-rating-system": "Star Rating System"
       },
       "title": "Admin: Module Expectations",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/moduleExpectations.md",
       "layout": "default"
     },
@@ -362,6 +389,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/moduleOverview.md",
       "layout": "default"
     },
@@ -374,6 +402,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/participation.md",
       "layout": "default"
     },
@@ -386,6 +415,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/peerEvaluations.md",
       "layout": "default"
     },
@@ -399,24 +429,8 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/programmingLanguages.md",
-      "layout": "default"
-    },
-    {
-      "headings": {
-        "tp-assessment": "tP: Assessment ",
-        "1-project-assessment-product-design-5-marks": "1. Project Assessment: Product Design [ 5 marks]",
-        "2-project-assessment-implementation-15-marks": "2. Project Assessment: Implementation [ 15 marks]",
-        "3-project-assessment-qa-10-marks": "3. Project Assessment: QA [ 10 marks]",
-        "4-project-assessment-documentation-10-marks": "4. Project Assessment: Documentation [ 10 marks]",
-        "5-project-assessment-project-management-5-5-10-marks": "5. Project Assessment: Project Management [ 5 +  5 = 10 marks]"
-      },
-      "title": "Admin: tP: Assessment",
-      "header": "header.md",
-      "footer": "footer.md",
-      "siteNav": "adminSiteNav.md",
-      "head": "adminHead.md",
-      "src": "admin/project-assessment.md",
       "layout": "default"
     },
     {
@@ -428,6 +442,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-constraints.md",
       "layout": "default"
     },
@@ -445,26 +460,45 @@
         "testing-instructions-for-pe-and-pe-dry-run-2": "Testing instructions for PE and PE Dry Run",
         "deliverable-practical-exam": "Deliverable: Practical Exam",
         "testing-instructions-for-pe-and-pe-dry-run-3": "Testing instructions for PE and PE Dry Run",
-        "processing-pe-bug-reports-2": "Processing PE Bug Reports:",
-        "notes-for-those-using-ab-2-or-ab-3-for-the-project": "Notes for Those Using AB-2 or AB-3 for the Project"
+        "processing-pe-bug-reports-2": "Processing PE Bug Reports:"
       },
       "title": "Admin: tP: Deliverables",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-deliverables.md",
       "layout": "default"
     },
     {
       "headings": {
-        "tp-overview": "tP: Overview "
+        "tp-grading": "tP: Grading ",
+        "1-project-grading-product-design-5-marks": "1. Project Grading: Product Design [ 5 marks]",
+        "2-project-grading-implementation-10-marks": "2. Project Grading: Implementation [ 10 marks]",
+        "3-project-grading-qa-10-marks": "3. Project Grading: QA [ 10 marks]",
+        "4-project-grading-documentation-10-marks": "4. Project Grading: Documentation [ 10 marks]",
+        "5-project-grading-project-management-5-5-10-marks": "5. Project Grading: Project Management [ 5 +  5 = 10 marks]"
       },
-      "title": "Admin: tP: Overview",
+      "title": "Admin: tP: Grading",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
+      "src": "admin/project-grading.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "tp-team-project-overview": "tP (Team Project): Overview "
+      },
+      "title": "Admin: tP (Team Project): Overview",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-overview.md",
       "layout": "default"
     },
@@ -477,6 +511,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-product.md",
       "layout": "default"
     },
@@ -497,6 +532,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-scope.md",
       "layout": "default"
     },
@@ -509,185 +545,205 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-supervision.md",
       "layout": "default"
     },
     {
       "headings": {
-        "forming-teams": "Forming Teams "
+        "tp-forming-teams": "tP: Forming Teams "
       },
-      "title": "Admin: Forming Teams",
+      "title": "Admin: tP: Forming Teams",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-teams.md",
       "layout": "default"
     },
     {
       "headings": {
-        "tp-timeline": "tP: Timeline "
+        "tp-kickoff-week-3": "tP: Kickoff [week 3] ",
+        "1-set-up-a-project-meeting-time": "1 Set up a project meeting time.",
+        "2-get-familiar-with-ab3-features": "2 Get familiar with AB3 features."
       },
-      "title": "Admin: tP: Timeline",
+      "title": "Admin: tP: Kickoff [week 3]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
-      "src": "admin/project-timeline.md",
+      "pageNav": 4,
+      "src": "admin/project-w03-kickoff.md",
       "layout": "default"
     },
     {
       "headings": {
-        "tp-inception-week-3": "tP: inception [week 3] "
+        "tp-inception-week-4": "tP: Inception [week 4] ",
+        "1-start-weekly-project-meetings": "1 Start weekly project meetings",
+        "2-decide-on-a-overall-project-direction-user-profile-problem-addressed": "2 Decide on a overall project direction (user profile, problem addressed) | project expectations",
+        "3-start-a-collaborative-doc-to-take-project-notes": "3 Start a collaborative doc to take project notes"
       },
-      "title": "Admin: tP: inception [week 3]",
+      "title": "Admin: tP: Inception [week 4]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
-      "src": "admin/project-w03-inception.md",
-      "layout": "default"
-    },
-    {
-      "headings": {
-        "tp-mid-v1-0-week-4": "tP: mid-v1.0 [week 4] "
-      },
-      "title": "Admin: tP: mid-v1.0 [week 4]",
-      "header": "header.md",
-      "footer": "footer.md",
-      "siteNav": "adminSiteNav.md",
-      "head": "adminHead.md",
-      "src": "admin/project-w04-mid-v10.md",
+      "pageNav": 4,
+      "src": "admin/project-w04-inception.md",
       "layout": "default"
     },
     {
       "headings": {
         "tp-v1-0-week-5": "tP: v1.0 [week 5] ",
-        "v1-0-documentation": "v1.0 Documentation",
-        "v1-0-project-management": "v1.0 Project Management"
+        "1-brainstorm-user-stories": "1 Brainstorm user stories",
+        "2-prioritize-the-user-stories": "2 Prioritize the user stories"
       },
       "title": "Admin: tP: v1.0 [week 5]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w05-v10.md",
       "layout": "default"
     },
     {
       "headings": {
-        "tp-mid-v1-1-week-6": "tP: mid-v1.1 [week 6] "
+        "tp-mid-v1-1-week-6": "tP: mid-v1.1 [week 6] ",
+        "1-set-up-project-repo": "1  Set up project repo",
+        "2-get-familiar-with-the-code-base": "2  Get familiar with the code base",
+        "3-conceptualize-v2-0": "3  Conceptualize v2.0",
+        "4-draft-the-ug": "4  Draft the UG",
+        "5-refine-product-design": "5  Refine product design"
       },
       "title": "Admin: tP: mid-v1.1 [week 6]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w06-mid-v11.md",
       "layout": "default"
     },
     {
       "headings": {
         "tp-v1-1-week-7": "tP: v1.1 [week 7] ",
-        "v1-1-project-management": "v1.1 Project Management",
-        "v1-1-documentation": "v1.1 Documentation",
-        "v1-1-product": "v1.1 Product"
+        "1-update-project-site-aboutus-contactus-readme": "1  Update project site: AboutUs, ContactUs, README",
+        "2-update-ug": "2  Update UG",
+        "3-update-dg-user-stories-glossary-nfrs-use-cases": "3  Update DG: user stories, glossary, NFRs, use cases",
+        "4-wrap-up-v1-1": "4  Wrap up v1.1",
+        "5-draft-a-rough-project-plan": "5  Draft a rough project plan",
+        "6-start-implementing-a-minimal-version-of-your-feature": "6  start implementing a minimal version of your feature"
       },
       "title": "Admin: tP: v1.1 [week 7]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w07-v11.md",
       "layout": "default"
     },
     {
       "headings": {
-        "tp-mid-v1-2-week-8": "tP: mid-v1.2 [week 8] "
+        "tp-mid-v1-2-week-8": "tP: mid-v1.2 [week 8] ",
+        "1-adjust-process-rigor-if-necessary": "1  Adjust process rigor if necessary",
+        "2-start-proper-milestone-management": "2  Start proper milestone management",
+        "3-add-another-increment-to-your-feature": "3  Add another increment to your feature"
       },
       "title": "Admin: tP: mid-v1.2 [week 8]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w08-mid-v12.md",
       "layout": "default"
     },
     {
       "headings": {
         "tp-v1-2-week-9": "tP: v1.2 [week 9] ",
-        "v1-2-project-management": "v1.2 Project Management",
-        "v1-2-product": "v1.2 Product",
-        "v1-2-documentation": "v1.2 Documentation",
-        "v1-2-demo": "v1.2 Demo"
+        "deliver-an-intermediate-version-of-the-new-features": " Deliver an intermediate version of the new features",
+        "wrap-up-milestone": " Wrap up milestone",
+        "demo-new-features": " Demo new features"
       },
       "title": "Admin: tP: v1.2 [week 9]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w09-v12.md",
       "layout": "default"
     },
     {
       "headings": {
-        "ensuring-your-code-is-reposense-compatible": "Ensuring your code is RepoSense-Compatible",
-        "tp-mid-v1-3-week-10": "tP: mid-v1.3 [week 10] "
+        "tp-mid-v1-3-week-10": "tP: mid-v1.3 [week 10] ",
+        "1-start-on-the-full-version-of-the-new-features": "1  Start on the full version of the new features",
+        "2-update-dg-with-design-details-important": "2  Update DG with design details  IMPORTANT!",
+        "3-do-a-release": "3  Do a release",
+        "4-make-code-reposense-compatible": "4  Make code RepoSense-compatible"
       },
       "title": "Admin: tP: mid-v1.3 [week 10]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w10-mid-v13.md",
       "layout": "default"
     },
     {
       "headings": {
         "tp-v1-3-week-11": "tP: v1.3 [week 11] ",
-        "v1-3-project-management": "v1.3 Project Management",
-        "v1-3-product": "v1.3 Product",
-        "v1-3-documentation": "v1.3 Documentation",
-        "v1-3-demo": "v1.3 Demo",
-        "v1-3-testing-aka-practical-exam-dry-run": "v1.3 Testing (aka Practical Exam Dry Run)"
+        "1-deliver-the-feature": "1  Deliver the feature",
+        "2-update-user-docs": "2  Update user docs",
+        "3-release-as-a-jar-file": "3  Release as a jar file",
+        "4-wrap-up-milestone": "4  Wrap up milestone",
+        "5-attend-practical-exam-dry-run-during-lecture": "5  Attend practical exam dry run  during Lecture"
       },
       "title": "Admin: tP: v1.3 [week 11]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w11-v13.md",
       "layout": "default"
     },
     {
       "headings": {
-        "tp-mid-v1-4-week-12": "tP: mid-v1.4 [week 12] "
+        "tp-mid-v1-4-week-12": "tP: mid-v1.4 [week 12] ",
+        "1-tweak-the-product-as-per-peer-testing-results": "1  Tweak the product as per peer-testing results",
+        "2-draft-the-ppp": "2  Draft the PPP",
+        "3-prepare-for-the-demo-dry-run": "3  Prepare for the demo dry run",
+        "other-things-to-note": "+  Other things to note"
       },
       "title": "Admin: tP: mid-v1.4 [week 12]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w12-mid-v14.md",
       "layout": "default"
     },
     {
       "headings": {
         "tp-v1-4-week-13": "tP: v1.4 [week 13] ",
-        "v1-4-product": "v1.4 Product",
-        "v1-4-source-code": "v1.4 Source Code",
-        "v1-4-user-guide": "v1.4 User Guide",
-        "v1-4-developer-guide": "v1.4 Developer Guide",
-        "v1-4-project-portfolio-page-ppp": "v1.4 Project Portfolio Page (PPP)",
-        "v1-4-product-website": "v1.4 Product Website",
-        "v1-4-demo": "v1.4 Demo",
-        "v1-4-practical-exam": "v1.4 Practical Exam"
+        "1-do-final-tweaks-to-the-feature": "1  Do final tweaks to the feature",
+        "2-submit-the-deliverables-by-monday-2359": "2  Submit the deliverables  by Monday 2359",
+        "3-demo-the-product-during-tutorial": "3  Demo the product  during Tutorial",
+        "4-prepare-for-the-practical-exam-before-lecture": "4  Prepare for the practical exam  before Lecture",
+        "5-attend-the-practical-exam-during-lecture": "5  Attend the practical exam  during Lecture"
       },
       "title": "Admin: tP: v1.4 [week 13]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w13-v14.md",
       "layout": "default"
     },
@@ -987,9 +1043,7 @@
       "layout": "default"
     },
     {
-      "headings": {
-        "using-reposense": "Using RepoSense"
-      },
+      "headings": {},
       "src": "admin/reposenseCompatibility.md",
       "title": "",
       "layout": "default"
@@ -1064,19 +1118,26 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/textbooks.md",
       "layout": "default"
     },
     {
       "headings": {
-        "using-reposense": "Using RepoSense",
-        "tools": "Tools "
+        "tools": "Tools ",
+        "tools-used-learning-management-system": "\r\n              Tools Used: Learning Management System\r\n            ",
+        "tool-used-github-for-code-hosting": "\r\n                Tool Used: GitHub (for Code Hosting)\r\n              ",
+        "tool-used-git-for-revision-control": "\r\n                Tool Used: Git (for Revision Control)\r\n              ",
+        "tools-used-for-communication": "\r\n                Tools Used: for Communication\r\n              ",
+        "tool-used-intellij-ide": "\r\n                Tool Used: Intellij IDE\r\n              ",
+        "tool-used-reposense-for-analyzing-code-authorship": "\r\n                Tool Used: RepoSense (for Analyzing Code Authorship)\r\n              "
       },
       "title": "Admin: Tools",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/tools.md",
       "layout": "default"
     },
@@ -1084,13 +1145,14 @@
       "headings": {
         "tutorial-structure": "Tutorial Structure",
         "tutorial-timetable": "Tutorial Timetable",
-        "tutorials-tutor-role-times-venue": "Tutorials  #tutor role #times #venue"
+        "tutorials": "Tutorials "
       },
       "title": "Admin: Tutorials",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/tutorials.md",
       "layout": "default"
     },
@@ -1113,6 +1175,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/usingThisWebsite.md",
       "layout": "default"
     },
@@ -1125,6 +1188,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/weeklySchedule.md",
       "layout": "default"
     },
@@ -1317,11 +1381,13 @@
         "loops": "Loops",
         "if-else-statements": "if-else statements",
         "switch-statements": "switch statements",
+        "key-exercise-getgradecap-method": " [Key Exercise] getGradeCap Method",
         "defining-methods": "Defining methods",
         "parameters": "Parameters",
         "return-statements": "return statements",
         "overloading": "Overloading",
         "recursion": "Recursion",
+        "key-exercise-getmultiplegradecaps-method": " [Key Exercise] getMultipleGradeCaps Method",
         "while-loops": "while loops",
         "for-loops": "for loops",
         "do-while-loops": "do-while loops",
@@ -2122,16 +2188,16 @@
       "headings": {
         "project-duke": "Project Duke",
         "levels": "\r\n              Levels\r\n            ",
-        "duke-1-greet-echo-exit": "Duke 1. Greet, Echo, Exit",
-        "duke-2-add-list": "Duke 2. Add, List",
-        "duke-3-mark-as-done": "Duke 3. Mark as Done",
-        "duke-4-todos-events-deadlines": "Duke 4. ToDos, Events, Deadlines",
-        "duke-5-handle-errors": "Duke 5. Handle Errors",
-        "duke-6-delete": "Duke 6. Delete",
-        "duke-7-save": "Duke 7. Save",
-        "duke-8-dates-and-times": "Duke 8. Dates and Times",
-        "duke-9-find": "Duke 9. Find",
-        "duke-10-gui": "Duke 10. GUI",
+        "level-1-greet-echo-exit": "Level 1. Greet, Echo, Exit",
+        "level-2-add-list": "Level 2. Add, List",
+        "level-3-mark-as-done": "Level 3. Mark as Done",
+        "level-4-todos-events-deadlines": "Level 4. ToDos, Events, Deadlines",
+        "level-5-handle-errors": "Level 5. Handle Errors",
+        "level-6-delete": "Level 6. Delete",
+        "level-7-save": "Level 7. Save",
+        "level-8-dates-and-times": "Level 8. Dates and Times",
+        "level-9-find": "Level 9. Find",
+        "level-10-gui": "Level 10. GUI",
         "extensions-category-a": "\r\n                Extensions: Category A\r\n              ",
         "a-classes-2": "A-Classes",
         "a-inheritance-2": "A-Inheritance",
@@ -2147,7 +2213,7 @@
         "a-codequality": "A-CodeQuality",
         "a-assertions": "A-Assertions",
         "a-jar": "A-Jar",
-        "a-gradle": "A-Gradle",
+        "a-gradle-4": "A-Gradle",
         "a-travis": "A-Travis",
         "a-enums": "A-Enums",
         "a-varargs": "A-Varargs",

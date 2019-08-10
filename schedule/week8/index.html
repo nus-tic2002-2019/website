@@ -5,9 +5,9 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TIC2002 Website - Week 8 - Tasks</title>
+  <title>TIC2002 Website - Week 8 - Summary</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -63,89 +66,139 @@
     <div id="flex-body">
       <div id="content-wrapper">
         <div>
-          <p><span style="float:left"><span><a href="/website/schedule/week7/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week9/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-          <h1 id="week-8-oct-7">Week 8 <small><small><span class="dimmed">[Oct 7]</span></small></small><a class="fa fa-anchor" href="#week-8-oct-7"></a></h1>
-          <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week8/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-          </ul>
+          <nav>
+            <ul class="pagination mt-2">
+              <li class="page-item"><a class="page-link" href="/website/schedule/week7"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item active"><a class="page-link" href="/website/schedule/week8/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week8/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week8/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week9"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+            </ul>
+          </nav>
           <p></p>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-7</code>: Save</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
-                    <p><span>
-                        <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
-                      </span></p>
-                    <h3 id="duke-7-save">Duke 7. Save<a class="fa fa-anchor" href="#duke-7-save"></a></h3>
-                    <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
-                    <p>The format of the file is up to you. Example:</p>
-                    <pre><code class="hljs">T | 1 | read book
-D | 0 | return book | June 6th
-E | 0 | project meeting | Aug 6th 2-4pm
-T | 1 | join sports club
-</code></pre>
-                  </div>
-                </panel>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-MoreOOP</code>: More OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
+          <h1 id="week-8-oct-7-summary">Week 8 <small><small><span class="dimmed">[Oct 7]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-8-oct-7-summary"></a></h1>
+          <box type="info" dismissible>
+            <p>A summary of the week, and announcements relevant to that week, will appear in this tab.
+            </p>
+          </box>
+          <span id="summary">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm border-right border-bottom">
+                  <p><span><strong><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics Summary:</strong></span></p>
+                  <ul>
+                    <li>[<a href="/website/schedule/week8/topics.html#W8-1">W8.1</a>] <strong>Design Principles</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week8/topics.html#W8-2">W8.2</a>] <strong>Testing: JUnit</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week8/topics.html#W8-3">W8.3</a>] <strong>Git: Branching</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <panel type="seamless" header="%%Full ToC%%">
                     <div>
-                      <div></div>
-                      <h3 id="a-moreoop"><span class="badge badge-pill badge-primary">A-MoreOOP</span><a class="fa fa-anchor" href="#a-moreoop"></a></h3>
-                      <p>     <big>↳</big> <strong>Make the code more OOP</strong></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week8/topics.html#W8-1">W8.1</a>] <strong>Design Principles</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1a">W8.1a</a>] <span>Principles →</span></span> <span>Separation of Concerns Principle</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1b">W8.1b</a>] <span>Principles →</span></span> <span>Single Responsibility Principle</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1c">W8.1c</a>] <span>Principles →</span></span> <span>Liskov Substitution Principle</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1d">W8.1d</a>] <span>Principles →</span></span> <span>Open-Closed Principle</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1e">W8.1e</a>] <span>Principles →</span></span> <span>Law of Demeter</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week8/topics.html#W8-2">W8.2</a>] <strong>Testing: JUnit</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2a">W8.2a</a>] <span>Quality Assurance → Testing → Developer Testing →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2b">W8.2b</a>] <span>Quality Assurance → Testing → Developer Testing →
+                                  </span></span> <span>Why</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2c">W8.2c</a>] <span>Quality Assurance → Testing → Test Automation →
+                                  </span></span> <span>Test Automation Using Test Drivers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2d">W8.2d</a>] <span>Quality Assurance → Testing → Test Automation →
+                                  </span></span> <span>Test Automation Tools</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2e">W8.2e</a>] <span>Tools → JUnit →
+                                  </span></span> <span>JUnit: Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2f">W8.2f</a>] <span>Tools → JUnit →
+                                  </span></span> <span>JUnit: Intermediate</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week8/topics.html#W8-3">W8.3</a>] <strong>Git: Branching</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-3a">W8.3a</a>] <span>Project Management → Revision Control →
+                                  </span></span> <span>Branching</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-3b">W8.3b</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Branch</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <p></p>
                     </div>
-                    <p>Refactor the code to extract out closely related code as classes.</p>
-                    <ul>
-                      <li><strong>Minimal</strong>: Extract the following classes:
-                        <ul>
-                          <li><code>Ui</code>: Deals with interactions with the user</li>
-                          <li><code>Storage</code>: Deals with loading tasks from the file and saving tasks in the file.</li>
-                          <li><code>Parser</code>: Deals with making sense of the user command</li>
-                          <li><code>TaskList</code>: Contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
-                        </ul>
-                      </li>
-                      <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
-                        <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!isExit) {
-    <span class="hljs-keyword">try</span> {
-        String fullCommand = ui.readCommand();
-        ui.showLine();
-        Command c = Parser.parse(fullCommand);
-        c.execute(tasks, ui, storage);
-        isExit = c.isExit();
-    } <span class="hljs-keyword">catch</span> (DukeException e) {
-        ui.showError(e.getMessage());
-    } <span class="hljs-keyword">finally</span> {
-        ui.showLine();
-    }
-}
-</code></pre>
-                      </li>
-                    </ul>
+                  </panel>
+                </div>
+                <div class="col-sm border-bottom">
+                  <p><span><strong><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks Summary:</strong></span></p>
+                  <div>
+                    <ol>
+                      <li>Implement increment <code>Level-7</code>: Save</li>
+                      <li>Implement increment <code>A-MoreOOP</code>: More OOP</li>
+                    </ol>
                   </div>
-                </panel>
+                </div>
               </div>
             </div>
-          </div>
+          </span>
+          <br>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-8-oct-7">Week 8 [Oct 7]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-8-oct-7-summary">Week 8 [Oct 7] - Summary&#x200E;</a>
 
           </nav>
         </div>
@@ -153,7 +206,7 @@ T | 1 | join sports club
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

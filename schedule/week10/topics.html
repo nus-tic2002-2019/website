@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 10 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,182 +65,189 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week9/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week11/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-10-oct-21">Week 10 <small><small><span class="dimmed">[Oct 21]</span></small></small><a class="fa fa-anchor" href="#week-10-oct-21"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week10/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week10/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week9"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week10/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week10/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week10/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week11"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-10-oct-21-topics">Week 10 <small><small><span class="dimmed">[Oct 21]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-10-oct-21-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W10-1">W10.1</a>] <strong>Sequence Diagrams: Basics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W10-1a">W10.1a</a>] <span>Design → Modelling → Modelling Behaviors
-                    </span></span> <span>Sequence Diagrams - Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W10-2">W10.2</a>] <strong>Code Quality: Guidelines</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <p>   <strong>Intro</strong></p>
-              <ul>
-                <li><span class="dimmed">[<a href="#W10-2a">W10.2a</a>] <span>Implementation → Code Quality → Introduction →
-                    </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-              <p>   <strong>Coding Standards</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2b">W10.2b</a>] <span>Implementation → Code Quality → Style →
-                      </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2c">W10.2c</a>] <span>Implementation → Code Quality → Style →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2d">W10.2d</a>] <span>Implementation → Code Quality → Style →
-                      </span></span> <span>Intermediate</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Readability</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2e">W10.2e</a>] <span>Implementation → Code Quality → Readability →
-                      </span></span> <span>Introduction</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2f">W10.2f</a>] <span>Implementation → Code Quality → Readability → Basic →
-                      </span></span> <span>Avoid Long Methods</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2g">W10.2g</a>] <span>Implementation → Code Quality → Readability → Basic →
-                      </span></span> <span>Avoid Deep Nesting</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2h">W10.2h</a>] <span>Implementation → Code Quality → Readability → Basic →
-                      </span></span> <span>Avoid Complicated Expressions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2i">W10.2i</a>] <span>Implementation → Code Quality → Readability → Basic →
-                      </span></span> <span>Avoid Magic Numbers</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2j">W10.2j</a>] <span>Implementation → Code Quality → Readability → Basic →
-                      </span></span> <span>Make the Code Obvious</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2k">W10.2k</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                      </span></span> <span>Structure Code Logically</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2l">W10.2l</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                      </span></span> <span>Do Not 'Trip Up' Reader</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2m">W10.2m</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                      </span></span> <span>Practice KISSing</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2n">W10.2n</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                      </span></span> <span>Avoid Premature Optimizations</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2o">W10.2o</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                      </span></span> <span>SLAP Hard</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2p">W10.2p</a>] <span>Implementation → Code Quality → Readability → Advanced →
-                      </span></span> <span>Make the Happy Path Prominent</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Naming</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming →
-                      </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Basic →
-                      </span></span> <span>Use Nouns for Things and Verbs for Actions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Basic →
-                      </span></span> <span>Use Standard Words</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Intermediate →
-                      </span></span> <span>Use Name to Explain</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Intermediate →
-                      </span></span> <span>Not Too Long, Not Too Short</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Intermediate →
-                      </span></span> <span>Avoid Misleading Names</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Code Comments</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments →
-                      </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments → Basic →
-                      </span></span> <span>Do Not Repeat the Obvious</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments → Basic →
-                      </span></span> <span>Write to the Reader</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments → Intermediate →
-                      </span></span> <span>Explain WHAT and WHY, not HOW</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W10-3">W10.3</a>] <strong>Error Handling</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <p>   <strong>Logging</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-3a">W10.3a</a>] <span>Implementation → Error Handling → Logging →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-3b">W10.3b</a>] <span>Implementation → Error Handling → Logging →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Assertions</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-3c">W10.3c</a>] <span>Implementation → Error Handling → Assertions →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-3d">W10.3d</a>] <span>Implementation → Error Handling → Assertions →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-3e">W10.3e</a>] <span>Implementation → Error Handling → Assertions →
-                      </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week10/topics.html#W10-1">W10.1</a>] <strong>Sequence Diagrams: Basics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-1a">W10.1a</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>Sequence Diagrams - Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week10/topics.html#W10-2">W10.2</a>] <strong>Code Quality: Guidelines</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <p>   <strong>Intro</strong></p>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2a">W10.2a</a>] <span>Implementation → Code Quality → Introduction →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+                <p>   <strong>Coding Standards</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2b">W10.2b</a>] <span>Implementation → Code Quality → Style →
+                        </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2c">W10.2c</a>] <span>Implementation → Code Quality → Style →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2d">W10.2d</a>] <span>Implementation → Code Quality → Style →
+                        </span></span> <span>Intermediate</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Readability</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2e">W10.2e</a>] <span>Implementation → Code Quality → Readability →
+                        </span></span> <span>Introduction</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2f">W10.2f</a>] <span>Implementation → Code Quality → Readability → Basic →
+                        </span></span> <span>Avoid Long Methods</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2g">W10.2g</a>] <span>Implementation → Code Quality → Readability → Basic →
+                        </span></span> <span>Avoid Deep Nesting</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2h">W10.2h</a>] <span>Implementation → Code Quality → Readability → Basic →
+                        </span></span> <span>Avoid Complicated Expressions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2i">W10.2i</a>] <span>Implementation → Code Quality → Readability → Basic →
+                        </span></span> <span>Avoid Magic Numbers</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2j">W10.2j</a>] <span>Implementation → Code Quality → Readability → Basic →
+                        </span></span> <span>Make the Code Obvious</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2k">W10.2k</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+                        </span></span> <span>Structure Code Logically</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2l">W10.2l</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+                        </span></span> <span>Do Not 'Trip Up' Reader</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2m">W10.2m</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+                        </span></span> <span>Practice KISSing</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2n">W10.2n</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+                        </span></span> <span>Avoid Premature Optimizations</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2o">W10.2o</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+                        </span></span> <span>SLAP Hard</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2p">W10.2p</a>] <span>Implementation → Code Quality → Readability → Advanced →
+                        </span></span> <span>Make the Happy Path Prominent</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Naming</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming →
+                        </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Basic →
+                        </span></span> <span>Use Nouns for Things and Verbs for Actions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Basic →
+                        </span></span> <span>Use Standard Words</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Intermediate →
+                        </span></span> <span>Use Name to Explain</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Intermediate →
+                        </span></span> <span>Not Too Long, Not Too Short</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Naming → Intermediate →
+                        </span></span> <span>Avoid Misleading Names</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Code Comments</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments →
+                        </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments → Basic →
+                        </span></span> <span>Do Not Repeat the Obvious</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments → Basic →
+                        </span></span> <span>Write to the Reader</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-2undefined">W10.2undefined</a>] <span>Implementation → Code Quality → Comments → Intermediate →
+                        </span></span> <span>Explain WHAT and WHY, not HOW</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week10/topics.html#W10-3">W10.3</a>] <strong>Error Handling</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <p>   <strong>Logging</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-3a">W10.3a</a>] <span>Implementation → Error Handling → Logging →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-3b">W10.3b</a>] <span>Implementation → Error Handling → Logging →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Assertions</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-3c">W10.3c</a>] <span>Implementation → Error Handling → Assertions →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-3d">W10.3d</a>] <span>Implementation → Error Handling → Assertions →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week10/topics.html#W10-3e">W10.3e</a>] <span>Implementation → Error Handling → Assertions →
+                        </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W10-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -248,10 +258,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W10-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/sequenceDiagramsBasic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
-                          </span></strong></span></small> <strong><span>Sequence Diagrams - Basic</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.1a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="design-modelling-modelling-behaviors-sequence-diagrams-basic"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Sequence Diagrams - Basic</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-sequence-diagrams-basic"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -278,7 +288,7 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Explain Sequence Diagram about Machine">
@@ -359,10 +369,10 @@
             <br>
             <h3 id="intro"><span class="dimmed"><strong>Intro</strong></span><a class="fa fa-anchor" href="#intro"></a></h3>
             <p><span id="W10-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/introduction/basic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2a</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Introduction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-introduction-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-introduction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -392,10 +402,10 @@
             <br>
             <h3 id="coding-standards"><span class="dimmed"><strong>Coding Standards</strong></span><a class="fa fa-anchor" href="#coding-standards"></a></h3>
             <p><span id="W10-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/followStandard/introduction">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2b</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Style →
-                          </span></strong></span></small> <strong><span>Introduction</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2b</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-style-introduction"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Style →</span></span></small> <strong><span>Introduction</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-style-introduction"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -408,7 +418,7 @@
                   <div>
                     <p><strong>One essential way to improve code quality is to follow a consistent style. That is why software engineers follow a strict coding standard (aka <em>style guide</em>).</strong></p>
                     <p><strong>The aim of a coding standard is to make the entire code base look like it was written by one person</strong>. A coding standard is usually specific to a programming language and specifies guidelines such as the location of opening and closing braces, indentation styles and naming styles (e.g. whether to use <em>Hungarian style</em>, <em>Pascal casing</em>, <em>Camel casing</em>, etc.). It is important that the whole team/company use the same coding standard and that standard is not generally inconsistent with typical industry practices. <span class="dimmed">If a company's coding standards is very different from what is used typically in the industry, new recruits will take longer to get used to the company's coding style.</span></p>
-                    <p>💡 IDEs can help to enforce some parts of a coding standard e.g. indentation rules.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> IDEs can help to enforce some parts of a coding standard e.g. indentation rules.</p>
                   </div>
                   <div>
                     <div>
@@ -443,10 +453,10 @@
               </div>
             </panel>
             <p><span id="W10-2c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/followStandard/basic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2c</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Style →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-style-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Style →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-style-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -466,7 +476,7 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
@@ -518,10 +528,10 @@
               </div>
             </panel>
             <p><span id="W10-2d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/followStandard/intermediate">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2d</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Style →
-                          </span></strong></span></small> <strong><span>Intermediate</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-style-intermediate"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Style →</span></span></small> <strong><span>Intermediate</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-style-intermediate"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -536,7 +546,7 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Unsuitable variable name">
@@ -622,10 +632,10 @@
             <br>
             <h3 id="readability"><span class="dimmed"><strong>Readability</strong></span><a class="fa fa-anchor" href="#readability"></a></h3>
             <p><span id="W10-2e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/introduction">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2e</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability →
-                          </span></strong></span></small> <strong><span>Introduction</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2e</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-introduction"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability →</span></span></small> <strong><span>Introduction</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-introduction"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -640,7 +650,7 @@
                       <p>Programs should be written and polished until they acquire publication quality. <sub>--<a href="https://en.wikipedia.org/wiki/Niklaus_Wirth">Niklaus Wirth</a></sub></p>
                     </blockquote>
                     <p><strong>Among various dimensions of code quality, such as run-time efficiency, security, and robustness, one of the most important is understandability.</strong> This is because in any non-trivial software project, code needs to be read, understood, and modified by other developers later on. Even if we do not intend to pass the code to someone else, code quality is still important because we all become 'strangers' to our own code someday.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The two code samples given below achieve the same functionality, but one is easier to read.</p>
                       <div class="alt-java">
                         <div>
@@ -735,17 +745,17 @@
                           </table>
                         </div>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W10-2f"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/basic/avoidLongMethods">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2f</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Basic →
-                          </span></strong></span></small> <strong><span>Avoid Long Methods</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2f</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-readability-basic-avoid-long-methods"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Basic →</span></span></small> <strong><span>Avoid Long Methods</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-basic-avoid-long-methods"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -763,10 +773,10 @@
               </div>
             </panel>
             <p><span id="W10-2g"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/basic/avoidDeepNesting">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2g</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Basic →
-                          </span></strong></span></small> <strong><span>Avoid Deep Nesting</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2g</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-readability-basic-avoid-deep-nesting"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Basic →</span></span></small> <strong><span>Avoid Deep Nesting</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-basic-avoid-deep-nesting"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -885,10 +895,10 @@
               </div>
             </panel>
             <p><span id="W10-2h"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/basic/avoidComplicatedExpressions">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2h</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Basic →
-                          </span></strong></span></small> <strong><span>Avoid Complicated Expressions</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2h</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-readability-basic-avoid-complicated-expressions"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Basic →</span></span></small> <strong><span>Avoid Complicated Expressions</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-basic-avoid-complicated-expressions"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -902,7 +912,7 @@
                     <p>Avoid complicated expressions, especially those having many negations and nested parentheses. If you must evaluate complicated expressions, have it done in steps (i.e. calculate some intermediate values first and use them to calculate the final value).</p>
                     <div class="alt-java">
                       <div>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                           <p>
                             <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -921,12 +931,12 @@
 
 <span class="hljs-keyword">return</span> isValidCode &amp;&amp; isUrgent;
 </code></pre>
-                        </tip-box>
+                        </box>
                       </div>
                     </div>
                     <div class="alt-python">
                       <div>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                           <p>
                             <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -944,7 +954,7 @@ is_urgent = type_code == URGENT
 
 <span class="hljs-keyword">return</span> is_valid_code <span class="hljs-keyword">and</span> is_urgent
 </code></pre>
-                        </tip-box>
+                        </box>
                       </div>
                     </div>
                     <blockquote>
@@ -956,10 +966,10 @@ is_urgent = type_code == URGENT
               </div>
             </panel>
             <p><span id="W10-2i"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/basic/avoidMagicNumbers">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2i</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Basic →
-                          </span></strong></span></small> <strong><span>Avoid Magic Numbers</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2i</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-readability-basic-avoid-magic-numbers"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Basic →</span></span></small> <strong><span>Avoid Magic Numbers</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-basic-avoid-magic-numbers"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -970,8 +980,8 @@ is_urgent = type_code == URGENT
                   <p></p>
                   <p></p>
                   <div>
-                    <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
-                    <tip-box>
+                    <p>When the code has a number that does not explain the meaning of the number, we call that a &quot;magic number&quot; (as in &quot;the number appears as if by magic&quot;). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <div class="alt-java">
                         <div>
@@ -1034,25 +1044,26 @@ MAX_SIZE = <span class="hljs-number">10</span>
                           </table>
                         </div>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>Similarly, we can have ‘magic’ values of other data types.</p>
-                    <tip-box>
+                    <box>
                       <p>
                         <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                       </p>
                       <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
-                    </tip-box>
+                    </box>
+                    <p>In general, try to avoid any magic literals.</p>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W10-2j"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/basic/makeCodeObvious">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2j</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Basic →
-                          </span></strong></span></small> <strong><span>Make the Code Obvious</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2j</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-basic-make-the-code-obvious"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Basic →</span></span></small> <strong><span>Make the Code Obvious</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-basic-make-the-code-obvious"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1081,10 +1092,10 @@ MAX_SIZE = <span class="hljs-number">10</span>
               </div>
             </panel>
             <p><span id="W10-2k"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/intermediate/structureCodeLogically">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2k</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Intermediate →
-                          </span></strong></span></small> <strong><span>Structure Code Logically</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2k</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-intermediate-structure-code-logically"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Intermediate →</span></span></small> <strong><span>Structure Code Logically</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-intermediate-structure-code-logically"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1103,10 +1114,10 @@ MAX_SIZE = <span class="hljs-number">10</span>
               </div>
             </panel>
             <p><span id="W10-2l"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/intermediate/dontTripReader">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2l</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Intermediate →
-                          </span></strong></span></small> <strong><span>Do Not 'Trip Up' Reader</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2l</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-intermediate-do-not-trip-up-reader"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Intermediate →</span></span></small> <strong><span>Do Not 'Trip Up' Reader</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-intermediate-do-not-trip-up-reader"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1131,10 +1142,10 @@ MAX_SIZE = <span class="hljs-number">10</span>
               </div>
             </panel>
             <p><span id="W10-2m"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/intermediate/practiceKISSing">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2m</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Intermediate →
-                          </span></strong></span></small> <strong><span>Practice KISSing</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2m</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-intermediate-practice-kissing"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Intermediate →</span></span></small> <strong><span>Practice KISSing</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-intermediate-practice-kissing"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1158,10 +1169,10 @@ MAX_SIZE = <span class="hljs-number">10</span>
               </div>
             </panel>
             <p><span id="W10-2n"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/intermediate/avoidPrematureOptimizations">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2n</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Intermediate →
-                          </span></strong></span></small> <strong><span>Avoid Premature Optimizations</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2n</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-intermediate-avoid-premature-optimizations"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Intermediate →</span></span></small> <strong><span>Avoid Premature Optimizations</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-intermediate-avoid-premature-optimizations"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1189,10 +1200,10 @@ MAX_SIZE = <span class="hljs-number">10</span>
               </div>
             </panel>
             <p><span id="W10-2o"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/intermediate/slapHard">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2o</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Intermediate →
-                          </span></strong></span></small> <strong><span>SLAP Hard</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2o</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-intermediate-slap-hard"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Intermediate →</span></span></small> <strong><span>SLAP Hard</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-intermediate-slap-hard"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1205,10 +1216,10 @@ MAX_SIZE = <span class="hljs-number">10</span>
                   <div>
                     <p>Avoid varying the level of <trigger trigger="click" for="modal:slap-abstraction">abstraction</trigger> within a code fragment.
                       Note: The <em>Productive Programmer</em> (by Neal Ford) calls this the <em>SLAP principle</em> i.e. Single Level of Abstraction Per method.</p>
-                    <tip-box>
+                    <box>
                       <p>Example:</p>
                       <p>
-                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> (<code>readData();</code> and <code>salary = basic*rise+1000;</code> are at different levels of abstraction)
                       </p>
                       <pre><code class="hljs java">readData();
 salary = basic*rise+<span class="hljs-number">1000</span>;
@@ -1216,13 +1227,13 @@ tax = (taxable?salary*<span class="hljs-number">0.07</span>:<span class="hljs-nu
 displayResult();
 </code></pre>
                       <p>
-                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> (all statements are at the same level of abstraction)
                       </p>
                       <pre><code class="hljs java">readData();
 processData();
 displayResult();
 </code></pre>
-                    </tip-box>
+                    </box>
                     <modal title id="modal:slap-abstraction">
                       <div>
                         <div></div>
@@ -1235,25 +1246,25 @@ displayResult();
                           </div>
                           <div id="main">
                             <div>
-                              <tip-box type="definition">
+                              <box type="definition">
                                 <div>
                                   <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                                 </div>
-                              </tip-box>
+                              </box>
                               <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
-                              <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
-                              <tip-box>
+                              <p><strong><mark><em>Data abstraction</em></mark>: abstracting away the lower level data items and thinking in terms of bigger entities</strong></p>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
-                              </tip-box>
-                              <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
-                              <tip-box>
+                              </box>
+                              <p><strong><mark><em>Control abstraction</em></mark>: abstracting away details of the actual control flow to focus on tasks at a higher level</strong></p>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
-                              </tip-box>
+                              </box>
                               <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
-                              </tip-box>
+                              </box>
                               <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
@@ -1275,10 +1286,10 @@ displayResult();
               </div>
             </panel>
             <p><span id="W10-2p"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/maximiseReadability/advanced/makeHappyPathProminent">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2p</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Readability → Advanced →
-                          </span></strong></span></small> <strong><span>Make the Happy Path Prominent</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2p</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-readability-advanced-make-the-happy-path-prominent"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Readability → Advanced →</span></span></small> <strong><span>Make the Happy Path Prominent</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-readability-advanced-make-the-happy-path-prominent"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1290,7 +1301,7 @@ displayResult();
                   <p></p>
                   <div>
                     <p>The happy path (i.e. the execution path taken when everything goes well) should be clear and prominent in your code. Restructure the code to make the happy path unindented as much as possible. It is the ‘unusual’ cases that should be indented. Someone reading the code should not get distracted by alternative paths taken when error conditions happen. One technique that could help in this regard is the use of <a href="http://wiki.c2.com/?GuardClause">guard clauses</a>.</p>
-                    <tip-box>
+                    <box>
                       <p>Example:</p>
                       <p>
                         <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -1336,7 +1347,7 @@ exit();
                         <li>deals with unusual conditions as soon as they are detected so that the reader doesn't have to remember them for long.</li>
                         <li>keeps the main path un-indented.</li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1345,10 +1356,10 @@ exit();
             <br>
             <h3 id="naming"><span class="dimmed"><strong>Naming</strong></span><a class="fa fa-anchor" href="#naming"></a></h3>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/nameWell/introduction">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Naming →
-                          </span></strong></span></small> <strong><span>Introduction</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-naming-introduction"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Naming →</span></span></small> <strong><span>Introduction</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-naming-introduction"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1369,10 +1380,10 @@ exit();
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/nameWell/basic/nounsAndVerbsAsNames">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Naming → Basic →
-                          </span></strong></span></small> <strong><span>Use Nouns for Things and Verbs for Actions</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-naming-basic-use-nouns-for-things-and-verbs-for-actions"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Naming → Basic →</span></span></small> <strong><span>Use Nouns for Things and Verbs for Actions</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-naming-basic-use-nouns-for-things-and-verbs-for-actions"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1387,7 +1398,7 @@ exit();
                       <p><span aria-hidden="true" class="fas fa-quote-left"></span> Every system is built from a domain-specific language designed by the programmers to describe that system. Functions are the verbs of that language, and classes are the nouns. <sub>― Robert C. Martin, <em>Clean Code: A Handbook of Agile Software Craftsmanship</em></sub></p>
                     </blockquote>
                     <p><strong>Use nouns for classes/variables and verbs for methods/functions.</strong></p>
-                    <tip-box>
+                    <box>
                       <p>Examples:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -1416,9 +1427,9 @@ exit();
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>Distinguish clearly between single-valued and multivalued variables.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                       <div class="alt-java">
                         <p>
@@ -1436,17 +1447,17 @@ ArrayList&lt;Person&gt; students;
 names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alice'</span>]
 </code></pre>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/nameWell/basic/useStandardWords">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Naming → Basic →
-                          </span></strong></span></small> <strong><span>Use Standard Words</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-naming-basic-use-standard-words"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Naming → Basic →</span></span></small> <strong><span>Use Standard Words</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-naming-basic-use-standard-words"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1464,10 +1475,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/nameWell/intermediate/useNameExplain">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Naming → Intermediate →
-                          </span></strong></span></small> <strong><span>Use Name to Explain</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-naming-intermediate-use-name-to-explain"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Naming → Intermediate →</span></span></small> <strong><span>Use Name to Explain</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-naming-intermediate-use-name-to-explain"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1479,7 +1490,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                   <p></p>
                   <div>
                     <p><strong>A name is not just for differentiation; it should explain the named entity to the reader accurately and at a sufficient level of detail.</strong></p>
-                    <tip-box>
+                    <box>
                       <p>Examples:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -1509,9 +1520,9 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>If the name has multiple words, they should be in a sensible order.</strong></p>
-                    <tip-box>
+                    <box>
                       <p>Examples:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -1533,9 +1544,9 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>Imagine going to the doctor's and saying &quot;My eye1 is swollen&quot;! Don’t use numbers or case to distinguish names.</p>
-                    <tip-box>
+                    <box>
                       <p>Examples:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -1561,17 +1572,17 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/nameWell/intermediate/notTooLongNorShort">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Naming → Intermediate →
-                          </span></strong></span></small> <strong><span>Not Too Long, Not Too Short</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-naming-intermediate-not-too-long-not-too-short"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Naming → Intermediate →</span></span></small> <strong><span>Not Too Long, Not Too Short</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-naming-intermediate-not-too-long-not-too-short"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1589,10 +1600,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/nameWell/intermediate/avoidMisleadingNames">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Naming → Intermediate →
-                          </span></strong></span></small> <strong><span>Avoid Misleading Names</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-naming-intermediate-avoid-misleading-names"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Naming → Intermediate →</span></span></small> <strong><span>Avoid Misleading Names</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-naming-intermediate-avoid-misleading-names"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1604,22 +1615,22 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                   <p></p>
                   <div>
                     <p><strong>Related things should be named similarly, while unrelated things should NOT.</strong></p>
-                    <tip-box>
+                    <box>
                       <p>Example: Consider these variables</p>
                       <ul>
-                        <li><code>colorBlack</code> : hex value for color black</li>
-                        <li><code>colorWhite</code> : hex value for color white</li>
-                        <li><code>colorBlue</code> : number of times blue is used</li>
-                        <li><code>hexForRed</code> : : hex value for color red</li>
+                        <li><code>colorBlack</code>: hex value for color black</li>
+                        <li><code>colorWhite</code>: hex value for color white</li>
+                        <li><code>colorBlue</code>: number of times blue is used</li>
+                        <li><code>hexForRed</code>: hex value for color red</li>
                       </ul>
                       <p>This is misleading because <code>colorBlue</code> is named similar to <code>colorWhite</code> and <code>colorBlack</code> but has a different purpose while <code>hexForRed</code> is named differently but has very similar purpose to the first two variables. The following is better:</p>
                       <ul>
                         <li><code>hexForBlack</code> <code>hexForWhite</code> <code>hexForRed</code></li>
                         <li><code>blueColorCount</code></li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p>Avoid misleading or ambiguous names (e.g. those with multiple meanings), similar sounding names, hard-to-pronounce ones (e.g. avoid ambiguities like &quot;is that a lowercase L, capital I or number 1?&quot;, or &quot;is that number 0 or letter O?&quot;), almost similar names.</p>
-                    <tip-box>
+                    <box>
                       <p>Examples:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -1663,7 +1674,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1672,10 +1683,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
             <br>
             <h3 id="code-comments"><span class="dimmed"><strong>Code Comments</strong></span><a class="fa fa-anchor" href="#code-comments"></a></h3>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/commentMinimally/introduction">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Comments →
-                          </span></strong></span></small> <strong><span>Introduction</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-comments-introduction"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Comments →</span></span></small> <strong><span>Introduction</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-comments-introduction"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1696,10 +1707,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/commentMinimally/basic/dontRepeatObvious">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Comments → Basic →
-                          </span></strong></span></small> <strong><span>Do Not Repeat the Obvious</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-comments-basic-do-not-repeat-the-obvious"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Comments → Basic →</span></span></small> <strong><span>Do Not Repeat the Obvious</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-comments-basic-do-not-repeat-the-obvious"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1739,10 +1750,10 @@ trim_input()
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/commentMinimally/basic/writeToReader">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Comments → Basic →
-                          </span></strong></span></small> <strong><span>Write to the Reader</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-code-quality-comments-basic-write-to-the-reader"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Comments → Basic →</span></span></small> <strong><span>Write to the Reader</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-comments-basic-write-to-the-reader"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1753,8 +1764,8 @@ trim_input()
                   <p></p>
                   <p></p>
                   <div>
-                    <p>Do not write comments as if they are private notes to self. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
-                    <tip-box>
+                    <p>Do not write comments as if they are private notes to yourself. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                       <div class="alt-java">
                         <div>
@@ -1794,17 +1805,17 @@ trim_input()
 </code></pre>
                         </div>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W10-2undefined"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/codeQuality/commentMinimally/intermediate/explainWhatWhyNotHow">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2undefined</span></span> <span class="dimmed"><strong><span>Implementation → Code Quality → Comments → Intermediate →
-                          </span></strong></span></small> <strong><span>Explain WHAT and WHY, not HOW</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.2undefined</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-code-quality-comments-intermediate-explain-what-and-why-not-how"><small><span class="font-weight-bold text-muted"><span>Implementation → Code Quality → Comments → Intermediate →</span></span></small> <strong><span>Explain WHAT and WHY, not HOW</span></strong><a class="fa fa-anchor" href="#implementation-code-quality-comments-intermediate-explain-what-and-why-not-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1817,23 +1828,23 @@ trim_input()
                   <div>
                     <p>Comments should explain <em>what</em> and <em>why</em> aspect of the code, rather than the <em>how</em> aspect.</p>
                     <p><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <strong>What</strong> : The specification of what the code <em>supposed</em> to do. The reader can compare such comments to the implementation to verify if the implementation is correct</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: This method is possibly buggy because the implementation does not seem to match the comment. In this case the comment could help the reader to detect the bug.</p>
                       <pre><code class="hljs java"><span class="hljs-comment">/** Removes all spaces from the {<span class="hljs-doctag">@code</span> input} */</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">compact</span><span class="hljs-params">(String input)</span></span>{
     input.trim();
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <strong>Why</strong> : The rationale for the current implementation.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: Without this comment, the reader will not know the reason for calling this method.</p>
                       <pre><code class="hljs java"><span class="hljs-comment">// Remove spaces to comply with IE23.5 formatting rules</span>
 compact(input);
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <strong>How</strong> : The explanation for how the code works. This should already be apparent from the code, if the code is self-explanatory. Adding comments to explain the same thing is redundant.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <p>
                         <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: Comment explains how the code works.</span>
@@ -1848,7 +1859,7 @@ compact(input);
 <span class="hljs-keyword">boolean</span> isSameSize = (input.size() == size) ;
 <span class="hljs-keyword">return</span> (isLeftEndCorrect &amp;&amp; isRightEndCorrect) || isSameSize;
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1867,10 +1878,10 @@ compact(input);
             <br>
             <h3 id="logging"><span class="dimmed"><strong>Logging</strong></span><a class="fa fa-anchor" href="#logging"></a></h3>
             <p><span id="W10-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/logging/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3a</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Logging →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.3a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-error-handling-logging-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Logging →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-logging-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1881,16 +1892,16 @@ compact(input);
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong><em>Logging</em> is the deliberate recording of certain information during a program execution for future reference.</strong> Logs are typically written to a log file but it is also possible to log information in other ways <span class="dimmed"> e.g. into a database or a remote server</span>.</p>
-                    <p><strong><em>Logging</em> can be useful for troubleshooting problems</strong>. A good logging system records some system information regularly. When bad things happen to a system <span class="dimmed"> e.g. an unanticipated failure</span>, their associated log files may provide indications of what went wrong and action can then be taken to prevent it from happening again.</p>
+                    <p><strong><em>Logging</em> is the deliberate recording of certain information during a program execution for future reference.</strong> Logs are typically written to a log file but it is also possible to log information in other ways <span class="dimmed">e.g. into a database or a remote server</span>.</p>
+                    <p><strong><em>Logging</em> can be useful for troubleshooting problems</strong>. A good logging system records some system information regularly. When bad things happen to a system <span class="dimmed">e.g. an unanticipated failure</span>, their associated log files may provide indications of what went wrong and action can then be taken to prevent it from happening again.</p>
                     <div v-closeable alt="blackbox photo">
-                      <tip-box>
-                        <p>💡 <strong>A log file is like the <tooltip content="flight data recorder">black box</tooltip> of an airplane</strong>; they don't prevent problems but they can be helpful in understanding what went wrong after the fact.</p>
+                      <box>
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>A log file is like the <tooltip content="flight data recorder">black box</tooltip> of an airplane</strong>; they don't prevent problems but they can be helpful in understanding what went wrong after the fact.</p>
                         <div class="non-printable">
                           <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flight_data_recorder_displayed_at_HAL_Museum_7893.JPG" width="250"><br>
                             <sub>source:<a href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flight_data_recorder_displayed_at_HAL_Museum_7893.JPG">https://commons.wikimedia.org</a></sub></p>
                         </div>
-                      </tip-box>
+                      </box>
                     </div>
                   </div>
                   <div>
@@ -1919,10 +1930,10 @@ compact(input);
               </div>
             </panel>
             <p><span id="W10-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/logging/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3b</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Logging →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.3b</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-error-handling-logging-how"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Logging →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-logging-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1934,7 +1945,7 @@ compact(input);
                   <p></p>
                   <div>
                     <p><strong>Most programming environments come with logging systems that allow sophisticated forms of logging.</strong> They have features such as the ability to enable and disable logging easily or to change the logging <tooltip content="how much information to record">intensity</tooltip>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This sample Java code uses Java’s default logging mechanism.</p>
                       <p>First, import the relevant Java package:</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.logging.*;
@@ -1954,7 +1965,7 @@ processInput();
 <span class="hljs-comment">//...</span>
 logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1984,10 +1995,10 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
             <br>
             <h3 id="assertions"><span class="dimmed"><strong>Assertions</strong></span><a class="fa fa-anchor" href="#assertions"></a></h3>
             <p><span id="W10-3c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/assertions/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3c</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Assertions →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.3c</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-error-handling-assertions-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Assertions →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-assertions-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1999,25 +2010,25 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                   <p></p>
                   <div>
                     <p><strong><em>Assertions</em> are used to define assumptions about the program state so that the runtime can verify them.</strong> An assertion failure indicates a possible bug in the code <span class="dimmed">because the code has resulted in a program state that violates an assumption about how the code <em>should</em> behave</span>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An assertion can be used to express something like <em>when the execution comes to this point, the variable <code>v</code> cannot be null</em>.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>If the runtime detects an <em>assertion failure</em>, it typically take some drastic action</strong> such as terminating the execution with an error message. This is because an assertion failure indicates a possible bug and the sooner the execution stops, the safer it is.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the Java code below, suppose we set an assertion that <code>timeout</code> returned by <code>Config.getTimeout()</code> is greater than <code>0</code>. Now, if the <code>Config.getTimeout()</code> returned <code>-1</code> in a specific execution of this line, the runtime can detect it as a <em>assertion failure</em> -- i.e. an assumption about the expected behavior of the code turned out to be wrong which could potentially be the result of a bug -- and take some drastic action such as terminating the execution.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">int</span> timeout = Config.getTimeout(); 
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W10-3d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/assertions/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3d</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Assertions →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.3d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-error-handling-assertions-how"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Assertions →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-assertions-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -2033,21 +2044,21 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                   <p></p>
                   <div>
                     <p>Use the <code>assert</code> keyword to define assertions.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This assertion will fail with the message <code>x should be 0</code> if <code>x</code> is not 0 at this point.</p>
                       <pre><code class="hljs java">x = getX();
 <span class="hljs-keyword">assert</span> x == <span class="hljs-number">0</span> : <span class="hljs-string">"x should be 0"</span>;
 ...
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p><strong>Assertions can be disabled without modifying the code.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -enableassertions HelloWorld</code> (or <code>java -ea HelloWorld</code>) will run <code>HelloWorld</code> with assertions enabled while <code>java -disableassertions HelloWorld</code> will run it without verifying assertions.</p>
-                    </tip-box>
-                    <tip-box type="important">
+                    </box>
+                    <box type="important">
                       <p><strong>Java disables assertions by default.</strong> This could create a situation where you think all assertions are being verified as <code>true</code> while in fact they are not being verified at all. Therefore, remember to enable assertions when you run the program if you want them to be in effect.</p>
-                    </tip-box>
-                    <p>💡 Enable assertions in Intellij (<a href="https://stackoverflow.com/questions/18168257/where-to-add-compiler-options-like-ea-in-intellij-idea">how?</a>) and get an assertion to fail temporarily (e.g. insert an <code>assert false</code> into the code temporarily) to confirm assertions are being verified.</p>
+                    </box>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Enable assertions in Intellij (<a href="https://stackoverflow.com/questions/18168257/where-to-add-compiler-options-like-ea-in-intellij-idea">how?</a>) and get an assertion to fail temporarily (e.g. insert an <code>assert false</code> into the code temporarily) to confirm assertions are being verified.</p>
                     <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <strong>Java <code>assert</code> vs JUnit assertions: They are similar in purpose but JUnit assertions are more powerful and customized for testing.</strong> In addition, JUnit assertions are not disabled by default. We recommend you use JUnit assertions in test code and Java <code>assert</code> in functional code.</p>
                   </div>
                   <div>
@@ -2069,10 +2080,10 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
               </div>
             </panel>
             <p><span id="W10-3e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/errorHandling/assertions/when">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3e</span></span> <span class="dimmed"><strong><span>Implementation → Error Handling → Assertions →
-                          </span></strong></span></small> <strong><span>When</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W10.3e</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-error-handling-assertions-when"><small><span class="font-weight-bold text-muted"><span>Implementation → Error Handling → Assertions →</span></span></small> <strong><span>When</span></strong><a class="fa fa-anchor" href="#implementation-error-handling-assertions-when"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -2090,18 +2101,18 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                   <div>
                     <p><strong>It is recommended that assertions be used liberally in the code.</strong> Their impact on performance is considered low and worth the additional safety they provide.</p>
                     <p><strong>Do not use assertions to do <em>work</em></strong> because assertions can be disabled. If not, your program will stop working when assertions are not enabled.</p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below will not invoke the <code>writeFile()</code> method when assertions are disabled. <span class="dimmed"> If that method is performing some work that is necessary for your program, your program will not work correctly when assertions are disabled.</span></p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below will not invoke the <code>writeFile()</code> method when assertions are disabled. <span class="dimmed">If that method is performing some work that is necessary for your program, your program will not work correctly when assertions are disabled.</span></p>
                       <pre><code class="hljs java">...
 <span class="hljs-function"><span class="hljs-keyword">assert</span> <span class="hljs-title">writeFile</span><span class="hljs-params">()</span> : "File writing is supposed to return <span class="hljs-keyword">true</span>"</span>;
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p><strong>Assertions are suitable for verifying assumptions about <em>Internal Invariants</em>, <em>Control-Flow Invariants</em>,
                         <em>Preconditions</em>, <em>Postconditions</em>, and <em>Class Invariants</em>.</strong> Refer to [<a href="http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html#usage">Programming with Assertions (second half)</a>] to learn more.</p>
                     <p><strong>Exceptions and assertions are two complementary ways of handling errors in software but they serve different purposes.</strong> Therefore, both assertions and exceptions should be used in code.</p>
                     <ul>
-                      <li>The raising of an exception indicates an unusual condition created by the user <span class="dimmed"> (e.g. user inputs an unacceptable input)</span> or the environment <span class="dimmed"> (e.g., a file needed for the program is missing)</span>.</li>
-                      <li>An assertion failure indicates the programmer made a mistake in the code <span class="dimmed"> (e.g., a null value is returned from a method that is not supposed to return null under any circumstances)</span>.</li>
+                      <li>The raising of an exception indicates an unusual condition created by the user <span class="dimmed">(e.g. user inputs an unacceptable input)</span> or the environment <span class="dimmed">(e.g., a file needed for the program is missing)</span>.</li>
+                      <li>An assertion failure indicates the programmer made a mistake in the code <span class="dimmed">(e.g., a null value is returned from a method that is not supposed to return null under any circumstances)</span>.</li>
                     </ul>
                   </div>
                   <div>
@@ -2152,7 +2163,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-10-oct-21">Week 10 [Oct 21]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-10-oct-21-topics">Week 10 [Oct 21] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w10-1-sequence-diagrams-basics">[W10.1] Sequence Diagrams: Basics &#x200E;</a>
               <a class="nav-link py-1" href="#w10-2-code-quality-guidelines">[W10.2] Code Quality: Guidelines &#x200E;</a>
@@ -2176,7 +2187,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

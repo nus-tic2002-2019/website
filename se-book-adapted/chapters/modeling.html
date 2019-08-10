@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Textbook Chapter : Modeling</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -28,6 +28,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -46,11 +47,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -199,9 +202,9 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>model</em> is a representation of something else.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <trigger trigger="click" for="modal:modellingIntro-classDiagram">class diagram</trigger> is a model that represents a software design.</p>
-                  </tip-box>
+                  </box>
                   <modal large title="Class diagrams" id="modal:modellingIntro-classDiagram">
                     <p>A <em>class diagram</em> is a diagram drawn using the UML modelling notation.<br>
                       <span><span aria-hidden="true" class="fas fa-cube"></span></span> An example class diagram:<br></p>
@@ -220,25 +223,25 @@
                         </div>
                         <div id="main">
                           <div>
-                            <tip-box type="definition">
+                            <box type="definition">
                               <div>
                                 <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                               </div>
-                            </tip-box>
+                            </box>
                             <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
-                            <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
-                            <tip-box>
+                            <p><strong><mark><em>Data abstraction</em></mark>: abstracting away the lower level data items and thinking in terms of bigger entities</strong></p>
+                            <box>
                               <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
-                            </tip-box>
-                            <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
-                            <tip-box>
+                            </box>
+                            <p><strong><mark><em>Control abstraction</em></mark>: abstracting away details of the actual control flow to focus on tasks at a higher level</strong></p>
+                            <box>
                               <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
-                            </tip-box>
+                            </box>
                             <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
-                            <tip-box>
+                            <box>
                               <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
                               <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
-                            </tip-box>
+                            </box>
                             <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                             <box>
                               <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
@@ -254,13 +257,13 @@
                       </div>
                     </div>
                   </modal>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A class diagram captures the structure of the software design but not the behavior.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>Multiple models of the same entity may be needed to capture it fully.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In addition to a class diagram (or even multiple class diagrams), a number of other diagrams may be needed to capture various interesting aspects of the software.</p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -276,33 +279,24 @@
                 <div>
                   <p><strong>In software development, models are useful in several ways:</strong></p>
                   <p>a) <strong>To analyze a complex entity related to software development.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models for analysis:</p>
                     <ol>
-                      <li>Models of the problem domain (i.e. the environment in which the software is expected to solve a problem) can be built to aid the understanding of the problem to be solved.</li>
-                      <li>When planning a software solution, models can be created to figure out how the solution is to be built. An architecture diagram is such a model.</li>
+                      <li>Models of the <tooltip content="i.e. the environment in which the software is expected to solve a problem">problem domain</tooltip> can be built to aid the understanding of the problem to be solved.</li>
+                      <li>When planning a software solution, models can be created to figure out how the solution is to be built. An <trigger trigger="click" for="modal:modelingIntro-archiDiagrams">architecture diagram</trigger> is such a model.</li>
                     </ol>
-                  </tip-box>
-                  <p>b) <strong>To communicate information among stakeholders.</strong> Models can be used as a visual aid in discussions and documentations.</p>
-                  <tip-box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models to communicate:</p>
-                    <ol>
-                      <li>We can use an <trigger trigger="click" for="modal:modelingIntro-archiDiagrams">architecture diagram</trigger> to explain the high-level design of the software to developers.</li>
-                      <li>A business analyst can use a use case diagram to explain to the customer the functionality of the system.</li>
-                      <li>A class diagram can be reverse-engineered from code so as to help explain the design of a component to a new developer.</li>
-                    </ol>
-                  </tip-box>
+                  </box>
                   <modal large title="Architecture Diagrams" id="modal:modelingIntro-archiDiagrams">
                     <p>An <em>architecture diagram</em> depicts the high-level design of a software.</p>
                     <div>
-                      <tip-box>
+                      <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example architecture diagrams:</p>
                         <tabs>
                           <tab header="TEAMMATES">
                             <p><img src="https://github.com/TEAMMATES/teammates/raw/master/docs/images/highlevelArchitecture.png" width="700"><br></p>
                           </tab>
-                          <tab header="se-edu/addressbook-level4">
-                            <p><img src="https://se-edu.github.io/addressbook-level4/images/Architecture.png" width="700"><br></p>
+                          <tab header="se-edu/addressbook-level3">
+                            <p><img src="https://se-education.org/addressbook-level3/images/ArchitectureDiagram.png" width="300"><br></p>
                           </tab>
                           <tab header="Example 1">
                             <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Accelerator_Architecture.png" width="700"><br>
@@ -317,21 +311,30 @@
                               <sub><a href="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg">source: https://commons.wikimedia.org</a></sub></p>
                           </tab>
                         </tabs>
-                      </tip-box>
+                      </box>
                     </div>
                   </modal>
+                  <p>b) <strong>To communicate information among stakeholders.</strong> Models can be used as a visual aid in discussions and documentations.</p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models to communicate:</p>
+                    <ol>
+                      <li>We can use an architecture diagram to explain the high-level design of the software to developers.</li>
+                      <li>A business analyst can use a <em>use case diagram</em> to explain to the customer the functionality of the system.</li>
+                      <li>A <em>class diagram</em> can be reverse-engineered from code so as to help explain the design of a component to a new developer.</li>
+                    </ol>
+                  </box>
                   <p>c) <strong>As a blueprint for creating software.</strong> Models can be used as instructions for building software.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of using models to as blueprints:</p>
                     <ol>
                       <li>A senior developer draws a class diagram to propose a design for an OOP software and passes it to a junior programmer to implement.</li>
                       <li>A software tool allows users to draw UML models using its interface and the tool automatically generates the code based on the model.</li>
                     </ol>
-                  </tip-box>
-                  <tip-box>
+                  </box>
+                  <box>
 
                     <panel type="seamless">
-                      <span slot="header" class="card-title">Model Driven Development <span class="badge badge-pill badge-secondary">tangential</span></span>
+                      <span slot="header" class="card-title">Model Driven Development <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
                       <p><strong><em>Model-driven development (MDD)</em>, also called <em>Model-driven engineering</em>, is an approach to software development that strives to exploit models as blueprints.</strong> MDD uses models as primary engineering artifacts when developing software. That is, the system is first created in the form of models. After that, the models are converted to code using code-generation techniques (usually, automated or semi-automated, but can even involve manual translation from model to code). MDD requires the use of a very expressive modeling notation (graphical or otherwise), often specific to a given problem domain. It also requires sophisticated tools to generate code from models and maintain the link between models and the code. One advantage of MDD is that the same model can be used to create software for different platforms and different languages. MDD has a lot of promise, but it is still an emerging technology</p>
                       <p>Further reading:</p>
                       <ul>
@@ -339,7 +342,7 @@
                         <li><a href="http://www.theenterprisearchitect.eu/blog/2009/03/31/5-types-of-model-driven-software-development/">5 types of Model Driven Software Development</a> - A more optimistic view, although an old article</li>
                       </ul>
                     </panel>
-                  </tip-box>
+                  </box>
                 </div>
                 <div>
                   <div>
@@ -387,10 +390,10 @@
                 <p></p>
                 <div>
                   <p>The following diagram uses the class diagram notation to show the different types of UML diagrams.</p>
-                  <tip-box>
+                  <box>
                     <p><img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/UML_diagrams_overview.svg" width="800"><br>
                       <sub>source:<a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language">https://en.wikipedia.org/</a></sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -411,29 +414,29 @@
                 <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain structure modelling of OO solutions</span></span></span></span>
                 <p></p>
                 <div>
-                  <p>An OO solution is basically a network of objects interacting with each other. Therefore, <strong>it is useful to be able to model how the relevant objects are 'networked' together</strong> inside a software <span class="dimmed"> i.e. how the objects are connected together</span>.</p>
-                  <tip-box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is an illustration of some objects and how they are connected together. <span class="dimmed"> Note: the diagram uses an ad-hoc notation.</span></p>
+                  <p>An OO solution is basically a network of objects interacting with each other. Therefore, <strong>it is useful to be able to model how the relevant objects are 'networked' together</strong> inside a software <span class="dimmed">i.e. how the objects are connected together</span>.</p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is an illustration of some objects and how they are connected together. <span class="dimmed">Note: the diagram uses an ad-hoc notation.</span></p>
                     <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectsAdHoc.png" width="500"></p>
                     <p></p>
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p>Note that these <strong>object structures within the same software can change over time</strong>.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is how the object structure in the previous example could have looked like at a different time.</p>
                     <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectsAdHoc2.png" width="500"></p>
                     <p></p>
                     <p></p>
-                  </tip-box>
-                  <p>However, object structures do not change at random; they change based on a set of rules, as was decided by the designer of that software. Those <strong>rules that object structures need to follow can be illustrated as a <em>class structure</em></strong> <span class="dimmed"> i.e. a structure that exists among the relevant classes</span>.</p>
-                  <tip-box>
+                  </box>
+                  <p>However, object structures do not change at random; they change based on a set of rules, as was decided by the designer of that software. Those <strong>rules that object structures need to follow can be illustrated as a <em>class structure</em></strong> <span class="dimmed">i.e. a structure that exists among the relevant classes</span>.</p>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is a class structure (drawn using an ad-hoc notation) that matches the object structures given in the previous two examples. For example, note how this class structure does not allow any connection between <code>Genre</code> objects and <code>Author</code> objects, a rule followed by the two object structures above.</p>
                     <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/classesAdHoc.png" width="500"></p>
                     <p></p>
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p>UML <em>Object Diagrams</em> are used to model object structures and UML <em>Class Diagrams</em> are used to model class structures of an OO solution.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an object diagram for the above example:</p>
                     <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectDiagram.png" width="500">
                     </p>
@@ -443,7 +446,7 @@
                     <p></p>
                     <p></p>
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div>
                   <div></div>
@@ -473,11 +476,11 @@
                     <panel type="seamless" src="/website/book/uml/classDiagrams/associations/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → What" alt="<md>:glyphicon-education:</md> UML/Associations" fragment="main"></panel>
                   </p>
                   <p>The most basic class diagram is a bunch of classes with some solid lines among them to represent associations, such as this one.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example class diagram showing associations between classes.</p>
                     <p></p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/ageListCalculatorPersonMinimal.png" width="450">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p>In addition, <strong>associations can show additional decorations such as <em>association labels</em>, <em>association roles</em>, <em>multiplicity</em> and <em>navigability</em></strong> to add more information to a class diagram.</p>
                   <p>
                     <panel type="seamless" src="/website/book/uml/classDiagrams/associations/labels/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → Labels" alt="<md>:glyphicon-education:</md> Labels" fragment="main"></panel>
@@ -487,15 +490,15 @@
                     <panel type="seamless" src="/website/book/oop/associations/navigability/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> OOP <md>:glyphicon-log-in:</md> Associations → Navigability" alt="<md>:glyphicon-education:</md> OOP/Navigability" fragment="main"></panel>
                     <panel type="seamless" src="/website/book/uml/classDiagrams/associations/navigability/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → Navigability" alt="<md>:glyphicon-education:</md> UML/Navigability" fragment="main"></panel>
                   </p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the same class diagram shown earlier but with some additional information included:</p>
                     <p></p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/ageListCalculatorPerson.png" width="450">
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div>
                   <div>
-                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
                           <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which association notations are shown?">
@@ -627,7 +630,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
                           <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about class diagram.">
@@ -764,7 +767,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
                           <panel header="<md>:glyphicon-question-sign:</md> Draw Class Diagram for Box etc.">
@@ -819,20 +822,20 @@
                     <p>The analysis process for identifying objects and object classes is recognized as one of the most difficult areas of object-oriented development. <sub>--<a href="http://www.software-engin.com/">Ian Sommerville, in the book <em>Software Engineering</em></a></sub></p>
                   </blockquote>
                   <p>Class diagrams can also be used to model objects in the <tooltip content="the relevant information that needs to be examined to understand a problem">problem domain</tooltip> (i.e. to model how objects actually interact in the real world, before emulating them in the solution). <strong>Class diagrams are used to model the problem domain are called <em>conceptual class diagrams</em> or <em>OO domain models (OODMs)</em>.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> OO domain model of a snakes and ladders game is given below.</p>
                     <p>Description: Snakes and ladders game is played by two or more players using a board and a die. The board has 100 squares marked 1 to 100. Each player owns one piece. Players take turns to throw the die and advance their piece by the number of squares they earned from the die throw. The board has a number of snakes. If a player’s piece lands on a square with a snake head, the piece is automatically moved to the square containing the snake’s tail. Similarly, a piece can automatically move from a ladder foot to the ladder top. The player whose piece is the first to reach the 100th square wins.</p>
                     <img src="/website/book/modeling/modelingStructures/objectOrientedDomainModels/images/diagram.png" height="420">
                     <p></p>
                     <p>The above OO domain model omits the ladder class for simplicity. It can be included in a similar fashion to the Snake class.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>OODMs do not contain solution-specific classes</strong> (i.e. classes that are used in the solution domain but do not exist in the problem domain). For example, a class called DatabaseConnection could appear in a class diagram but not usually in an OO domain model because DatabaseConnection is something related to a software solution but not an entity in the problem domain.</p>
                   <p><strong>OODMs represents the class <em>structure</em> of the problem domain</strong> and not their behavior, just like class diagrams. To show behavior, use other diagrams such as sequence diagrams.</p>
                   <p><strong>OODM notation is similar to class diagram notation but typically omit methods and navigability.</strong></p>
                 </div>
                 <div>
                   <div>
-                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
                           <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: This diagram is,...">
@@ -886,12 +889,12 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>deployment diagram</em> shows a system's physical layout, revealing which pieces of software run on which pieces of hardware.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example deployment diagram:</p>
                     <img src="/website/book/modeling/modelingStructures/deploymentDiagrams/images/diagram.png" height="500">
                     <p></p>
                     <p><sub>source:<a href="https://en.wikipedia.org/wiki/Deployment_diagram">https://commons.wikimedia.org</a></sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -906,11 +909,11 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>component diagram</em> is used to show how a system is divided into components and how they are connected to each other through interfaces.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example component diagram:</p>
                     <p><img src="/website/book/modeling/modelingStructures/componentDiagrams/images/diagram.png" height="500"><br></p>
                     <p><sub>source:<a href="https://en.wikipedia.org/wiki/Component_diagram">https://commons.wikimedia.org</a></sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -925,11 +928,11 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>package diagram</em> shows packages and their dependencies.</strong> A package is a grouping construct for grouping UML elements (classes, use cases, etc.).</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example package diagram:</p>
                     <p><img src="/website/book/modeling/modelingStructures/packageDiagrams/images/diagram.png" height="450"><br>
                       <sub>source:<a href="https://en.wikipedia.org/wiki/Package_diagram">https://commons.wikimedia.org</a></sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -944,12 +947,12 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>composite structure diagram</em> hierarchically decomposes a class into its internal structure.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example composite structure diagram:</p>
                     <img src="/website/book/modeling/modelingStructures/compositeStructureDiagrams/images/diagram.png" height="150">
                     <br>
                     <p><sub>source:<a href="https://en.wikipedia.org/wiki/Composite_structure_diagram">https://commons.wikimedia.org</a></sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -972,11 +975,11 @@
                 <div>
                   <p><strong>Software projects often involve <em>workflows</em>.</strong> Workflows define the <tooltip content="a connected sequence of steps"></tooltip>flow in which a process or a set of tasks is executed.
                     Understanding such workflows is important for the success of the software project.</p>
-                  <tip-box>
+                  <box>
                     <p>Some examples in which a certain workflow is relevant to software project:</p>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A software that automates the work of an insurance company needs to take into account the workflow of processing an insurance claim.</p>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The algorithm of a price of code represents the workflow (i.e. the execution flow) of the code.</p>
-                  </tip-box>
+                  </box>
                   <p>
                     <panel type="seamless" src="/website/book/uml/activityDiagrams/introduction/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Introduction → What" alt="<md>:glyphicon-education:</md> UML/AD/Intro" fragment="main"></panel>
                   </p>
@@ -994,7 +997,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
                           <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which sequences are not allowed?">
@@ -1082,7 +1085,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
                           <panel header="<md>:glyphicon-question-sign:</md> Explain Sequence Diagram about Machine">
@@ -1166,7 +1169,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
                           <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What’s going on here?">
@@ -1251,12 +1254,12 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>timing diagram</em> focus on timing constraints.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example timing diagram:</p>
                     <img src="/website/book/modeling/modelingBehaviors/timingDiagrams/images/diagram.png" height="280">
                     <br>
                     <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -1271,12 +1274,12 @@
                 <p></p>
                 <div>
                   <p><strong>An <em>Interaction overview</em> diagrams is a combination of activity diagrams and sequence diagrams</strong>.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                     <img src="/website/book/modeling/modelingBehaviors/interactionOverviewDiagrams/images/diagram.png" height="420">
                     <p></p>
                     <p><sub>source:<a href="https://en.wikipedia.org/wiki/Interaction_overview_diagram">https://commons.wikimedia.org</a></sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -1291,12 +1294,12 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>Communication diagrams</em> are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                     <img src="/website/book/modeling/modelingBehaviors/communicationDiagrams/images/diagram.png" height="300">
                     <br>
                     <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -1311,7 +1314,7 @@
                 <p></p>
                 <div>
                   <p><strong>A <em>State Machine Diagram</em> models state-dependent behavior.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider how a CD player responds when the “eject CD” button is pushed:</p>
                     <ul>
                       <li>If the CD tray is already open, it does nothing.</li>
@@ -1321,15 +1324,15 @@
                       <li>If the CD tray is already in the process of closing (closed half-way), it waits until the CD tray is fully closed and opens it immediately afterwards.</li>
                     </ul>
                     <p>What this means is that the CD player’s response to pushing the “eject CD” button depends on what it was doing at the time of the event. More generally, the CD player’s response to the event received depends on its internal state. Such a behavior is called a <em>state-dependent behavior</em>.</p>
-                  </tip-box>
+                  </box>
                   <p>Often, state-dependent behavior displayed by an object in a system is simple enough that it needs no extra attention; such a behavior can be as simple as a <em>conditional</em> behavior like <code>if x&gt;y, then x=x-y</code>.
                     Occasionally, objects may exhibit state-dependent behavior that is complex enough such that it needs to be captured into a separate model. Such state-dependent behavior can be modelled using UML <em>state machine diagrams</em> (SMD for short, sometimes also called ‘state charts’, ‘state diagrams’ or ‘state machines’).</p>
                   <p>An SMD views the life-cycle of an object as consisting of a finite number of states where each state displays a unique behavior pattern. An SMD captures information such as the states an object can be in, during its lifetime, and how the object responds to various events while in each state and how the object transits from one state to another. In contrast to sequence diagrams that capture object behavior one scenario at a time, SMDs capture the object’s behavior over its full life cycle.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An SMD for the Minesweeper game.</p>
                     <img src="/website/book/modeling/modelingBehaviors/stateMachineDiagrams/images/minesweeper.png" height="200">
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -1380,7 +1383,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 8 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,93 +65,95 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week7/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week9/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-8-oct-7">Week 8 <small><small><span class="dimmed">[Oct 7]</span></small></small><a class="fa fa-anchor" href="#week-8-oct-7"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week8/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week8/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week9"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-8-oct-7-topics">Week 8 <small><small><span class="dimmed">[Oct 7]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-8-oct-7-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W8-1">W8.1</a>] <strong>Design Principles</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-1a">W8.1a</a>] <span>Supplmentary → Principles →
-                      </span></span> <span>Separation of Concerns Principle</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-1b">W8.1b</a>] <span>Supplmentary → Principles →
-                      </span></span> <span>Single Responsibility Principle</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-1c">W8.1c</a>] <span>Supplmentary → Principles →
-                      </span></span> <span>Liskov Substitution Principle</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-1d">W8.1d</a>] <span>Supplmentary → Principles →
-                      </span></span> <span>Open-Closed Principle</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-1e">W8.1e</a>] <span>Supplmentary → Principles →
-                      </span></span> <span>Law of Demeter</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W8-2">W8.2</a>] <strong>Testing: JUnit</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-2a">W8.2a</a>] <span>Quality Assurance → Testing → Developer Testing →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-2b">W8.2b</a>] <span>Quality Assurance → Testing → Developer Testing →
-                      </span></span> <span>Why</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-2c">W8.2c</a>] <span>Quality Assurance → Testing → Test Automation →
-                      </span></span> <span>Test Automation Using Test Drivers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-2d">W8.2d</a>] <span>Quality Assurance → Testing → Test Automation →
-                      </span></span> <span>Test Automation Tools</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-2e">W8.2e</a>] <span>Tools → JUnit →
-                      </span></span> <span>JUnit: Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-2f">W8.2f</a>] <span>Tools → JUnit →
-                      </span></span> <span>JUnit: Intermediate</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W8-3">W8.3</a>] <strong>Git: Branching</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-3a">W8.3a</a>] <span>Project Management → Revision Control →
-                      </span></span> <span>Branching</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W8-3b">W8.3b</a>] <span>Tools → Git and GitHub →
-                      </span></span> <span>Branch</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week8/topics.html#W8-1">W8.1</a>] <strong>Design Principles</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1a">W8.1a</a>] <span>Principles →</span></span> <span>Separation of Concerns Principle</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1b">W8.1b</a>] <span>Principles →</span></span> <span>Single Responsibility Principle</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1c">W8.1c</a>] <span>Principles →</span></span> <span>Liskov Substitution Principle</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1d">W8.1d</a>] <span>Principles →</span></span> <span>Open-Closed Principle</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-1e">W8.1e</a>] <span>Principles →</span></span> <span>Law of Demeter</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week8/topics.html#W8-2">W8.2</a>] <strong>Testing: JUnit</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2a">W8.2a</a>] <span>Quality Assurance → Testing → Developer Testing →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2b">W8.2b</a>] <span>Quality Assurance → Testing → Developer Testing →
+                        </span></span> <span>Why</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2c">W8.2c</a>] <span>Quality Assurance → Testing → Test Automation →
+                        </span></span> <span>Test Automation Using Test Drivers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2d">W8.2d</a>] <span>Quality Assurance → Testing → Test Automation →
+                        </span></span> <span>Test Automation Tools</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2e">W8.2e</a>] <span>Tools → JUnit →
+                        </span></span> <span>JUnit: Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2f">W8.2f</a>] <span>Tools → JUnit →
+                        </span></span> <span>JUnit: Intermediate</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week8/topics.html#W8-3">W8.3</a>] <strong>Git: Branching</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-3a">W8.3a</a>] <span>Project Management → Revision Control →
+                        </span></span> <span>Branching</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-3b">W8.3b</a>] <span>Tools → Git and GitHub →
+                        </span></span> <span>Branch</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W8-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -159,10 +164,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W8-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/principles/separationOfConcernsPrinciple">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.1a</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></small> <strong><span>Separation of Concerns Principle</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.1a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="principles-separation-of-concerns-principle"><small><span class="font-weight-bold text-muted"><span>Principles →</span></span></small> <strong><span>Separation of Concerns Principle</span></strong><a class="fa fa-anchor" href="#principles-separation-of-concerns-principle"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -173,33 +178,33 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="primary">
+                    <box type="definition">
                       <div>
                         <p><strong>Separation of Concerns Principle (SoC)</strong>: To achieve better modularity, separate the code into distinct sections, such that each section addresses a separate <em>concern</em>. -- Proposed by <a href="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra">Edsger W. Dijkstra</a></p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>A <em>concern</em> in this context is a set of information that affects the code of a computer program.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples for <em>concerns</em>:</p>
                       <ul>
                         <li>A specific feature, such as the code related to <code>add employee</code> feature</li>
                         <li>A specific aspect, such as the code related to <code>persistence</code> or <code>security</code></li>
                         <li>A specific entity, such as the code related to the <code>Employee</code> entity</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p><strong>Applying <tooltip content="Separation of Concerns">SoC</tooltip> reduces functional overlaps among code sections and also limits the ripple effect when changes are introduced to a specific part of the system.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the code related to <em>persistence</em> is separated from the code related to <em>security</em>, a change to how the data are persisted will not need changes to how the security is implemented.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>This principle can be applied at the class level, as well as on higher levels.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
-                    </tip-box>
+                    </box>
                     <modal title="TextBook <md>:glyphicon-log-in:</md>" id="modal:soc-nTier">
                       <div>
                         <div></div>
                         <p></p>
-                        <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style
+                        <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style →
                               </span></strong></span></p>
                         <div id="title-and-body">
                           <div>
@@ -209,10 +214,10 @@
                             <div>
                               <p><strong>In the <em>n-tier</em> style, higher layers make use of services provided by lower layers.</strong> Lower layers are independent of higher layers. Other names: <em>multi-layered</em>, <em>layered</em>.</p>
                               <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTier.png" height="150">
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Operating systems and network communication software often use n-tier style.
                                   <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTierExamples.png" height="150"></p>
-                              </tip-box>
+                              </box>
                               <p></p>
                             </div>
                             <div></div>
@@ -239,11 +244,11 @@
                                 <li><strong>Integration is harder</strong> because multiple components coupled with each other have to be integrated at the same time.</li>
                                 <li><strong>Testing and reuse of the module is harder</strong> due to its dependence on other modules.</li>
                               </ul>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
                                 <img src="/website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
                                 <p></p>
-                              </tip-box>
+                              </box>
                             </div>
                             <div>
                               <div>
@@ -252,10 +257,10 @@
                                     <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling levels of alternative designs">
                                       <question has-input="true">
                                         <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
-                                        <tip-box>
+                                        <box>
                                           <img src="/website/book/designFundamentals/coupling/what/images/alternativeDesigns.png" height="180">
                                           <p></p>
-                                        </tip-box>
+                                        </box>
                                         <div slot="answer">
                                           <p>Overall coupling levels in <em>x</em> and <em>y</em> seem to be similar (neither has more dependencies than the other). (Note that the number of dependency links is not a definitive measure of the level of coupling. Some links may be stronger than the others.). However, in <em>x</em>, <code>A</code> is highly-coupled to the rest of the system while <code>B</code>, <code>C</code>, <code>D</code>, and <code>E</code> are standalone (do not depend on anything else). In <em>y</em>, no component is as highly-coupled as <code>A</code> of <em>x</em>. However, only <code>D</code> and <code>E</code> are standalone.</p>
                                         </div>
@@ -267,7 +272,7 @@
                                       <question has-input="true">
                                         <p>Explain the link (if any) between regressions and coupling.</p>
                                         <div slot="answer">
-                                          <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed"> e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
+                                          <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed">e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
                                         </div>
                                       </question>
                                     </panel>
@@ -323,7 +328,7 @@
                               <p><strong>Higher cohesion is better.</strong> Disadvantages of low cohesion (aka <em>weak</em> cohesion):</p>
                               <ul>
                                 <li>Lowers the understandability of modules as it is difficult to express module functionalities at a higher level.</li>
-                                <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed"> (reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed"> (reason: because the code realated to that change is not localized to a single module)</span>.</li>
+                                <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed">(reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed">(reason: because the code realated to that change is not localized to a single module)</span>.</li>
                                 <li>Lowers reusability of modules because they do not represent logical units of functionality.</li>
                               </ul>
                             </div>
@@ -359,10 +364,10 @@
               </div>
             </panel>
             <p><span id="W8-1b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/principles/singleResponsibilityPrinciple">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.1b</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></small> <strong><span>Single Responsibility Principle</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.1b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="principles-single-responsibility-principle"><small><span class="font-weight-bold text-muted"><span>Principles →</span></span></small> <strong><span>Single Responsibility Principle</span></strong><a class="fa fa-anchor" href="#principles-single-responsibility-principle"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -373,15 +378,15 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="primary">
+                    <box type="definition">
                       <div>
                         <p><strong>Single Responsibility Principle (SRP)</strong>: A class should have one, and only one, reason to change. <sub>-- Robert C. Martin</sub></p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>If a class has only one responsibility, it needs to change only when there is a change to that responsibility.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.</p>
-                    </tip-box>
+                    </box>
                     <blockquote>
                       <p><span aria-hidden="true" class="fas fa-quote-left"></span> Gather together the things that change for the same reasons. Separate those things that change for different reasons. <sub>―<em>Agile Software Development, Principles, Patterns, and Practices</em> by Robert C. Martin</sub></p>
                     </blockquote>
@@ -402,10 +407,10 @@
               </div>
             </panel>
             <p><span id="W8-1c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/principles/liskovSubstitutionPrinciple">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.1c</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></small> <strong><span>Liskov Substitution Principle</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.1c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="principles-liskov-substitution-principle"><small><span class="font-weight-bold text-muted"><span>Principles →</span></span></small> <strong><span>Liskov Substitution Principle</span></strong><a class="fa fa-anchor" href="#principles-liskov-substitution-principle"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -416,11 +421,11 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Liskov Substitution Principle (LSP)</strong>: Derived classes must be substitutable for their base classes. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbara Liskov</a></sub></p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>LSP sounds same as <trigger large trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
                     <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:lsp-substitutability">
                       <div>
@@ -439,26 +444,26 @@
                           <div id="main">
                             <div>
                               <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is expected.</p>
-                              <tip-box>
+                              <box>
                                 <img src="/website/book/oop/inheritance/substitutability/images/staff.png" height="80">
                                 <p></p>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
                                 <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
                                 <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
-                                <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
+                                <p>But the following code is not valid <span class="dimmed">because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
                                 <pre><code class="hljs java">Staff staff;
 ...
 AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 </code></pre>
-                              </tip-box>
+                              </box>
                             </div>
                             <div></div>
                           </div>
                         </div>
                       </div>
                     </modal>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code> method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
                       <img src="/website/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
                       <p></p>
@@ -502,7 +507,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 </code></pre>
                         <p>This code will fail if it is called as <code>maekSameSize(new Rectangle(12,8), new Square(4, 4))</code> That is, <code>Square</code> class is not substitutable for the <code>Rectangle</code> class.</p>
                       </panel>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -529,10 +534,10 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
               </div>
             </panel>
             <p><span id="W8-1d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/principles/openClosedPrinciple">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.1d</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></small> <strong><span>Open-Closed Principle</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.1d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="principles-open-closed-principle"><small><span class="font-weight-bold text-muted"><span>Principles →</span></span></small> <strong><span>Open-Closed Principle</span></strong><a class="fa fa-anchor" href="#principles-open-closed-principle"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -544,23 +549,23 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <p></p>
                   <div>
                     <p><strong>The Open-Close Principle aims to make a code entity easy to adapt and reuse without needing to modify the code entity itself.</strong></p>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Open-Closed Principle (OCP)</strong>: A module should be <em>open</em> for extension but <em>closed</em> for modification. That is, modules should be written so that they can be extended, without requiring them to be modified. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></sub></p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>In object-oriented programming, OCP can be achieved in various ways. This often requires separating the <em>specification (i.e. interface)</em> of a module from its <em>implementation</em>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the design given below, the behavior of the <code>CommandQueue</code> class can be altered by adding more concrete <code>Command</code> subclasses. For example, by including a <code>Delete</code> class alongside <code>List</code>, <code>Sort</code>, and <code>Reset</code>, the <code>CommandQueue</code> can now perform delete commands without modifying its code at all. That is, its behavior was extended without having to modify its code. Hence, it was open to extensions, but closed to modification.</p>
                       <img src="/website/book/principles/openClosedPrinciple/images/commandQueue.png" height="170">
                       <p></p>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code> in one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
                       <pre><code class="hljs java">ArrayList students = <span class="hljs-keyword">new</span> ArrayList&lt; Student &gt;();
-ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();  	
+ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -589,10 +594,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </panel>
             <p><span id="W8-1e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/principles/lawOfDemeter">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.1e</span></span> <span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></small> <strong><span>Law of Demeter</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.1e</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="principles-law-of-demeter"><small><span class="font-weight-bold text-muted"><span>Principles →</span></span></small> <strong><span>Law of Demeter</span></strong><a class="fa fa-anchor" href="#principles-law-of-demeter"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -603,7 +608,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Law of Demeter (LoD)</strong>:</p>
                         <ul>
@@ -616,7 +621,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                           <li>Principle of least knowledge</li>
                         </ul>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>More concretely, a method <code>m</code> of an object <code>O</code> should invoke only the methods of the following kinds of objects:</p>
                     <ul>
                       <li>The object <code>O</code> itself</li>
@@ -624,18 +629,18 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                       <li>Objects created/instantiated in <code>m</code> (directly or indirectly)</li>
                       <li>Objects from the <tooltip content="objects that are held by instance variables of">direct association of</tooltip> <code>O</code></li>
                     </ul>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following code fragment violates LoD due to the reason: while <code>b</code> is a ‘friend’ of <code>foo</code> (because it receives it as a parameter), <code>g</code> is a ‘friend of a friend’ (which should be considered a ‘stranger’), and <code>g.doSomething()</code> is analogous to ‘talking to a stranger’.</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
     Goo g = b.getGoo();
     g.doSomething();
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p><strong>LoD aims to prevent objects navigating internal structures of other objects.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An analogy for LoD can be drawn from Facebook. If Facebook followed LoD, you would not be allowed to see posts of friends of friends, unless they are your friends as well. If Jake is your friend and Adam is Jake’s friend, you should not be allowed to see Adam’s posts unless Adam is a friend of yours as well.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -714,10 +719,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
           </span>
           <div class="indented-level1">
             <p><span id="W8-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/developerTesting/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Developer Testing →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.2a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="quality-assurance-testing-developer-testing-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Developer Testing →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-developer-testing-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -735,10 +740,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </panel>
             <p><span id="W8-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/developerTesting/why">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Developer Testing →
-                          </span></strong></span></small> <strong><span>Why</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-developer-testing-why"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Developer Testing →</span></span></small> <strong><span>Why</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-developer-testing-why"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -818,10 +823,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </panel>
             <p><span id="W8-2c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testAutomation/usingTestDrivers">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2c</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
-                          </span></strong></span></small> <strong><span>Test Automation Using Test Drivers</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.2c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-test-automation-test-automation-using-test-drivers"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Automation →</span></span></small> <strong><span>Test Automation Using Test Drivers</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-test-automation-test-automation-using-test-drivers"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -833,7 +838,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   <p></p>
                   <div>
                     <p><strong>A test driver is the code that ‘drives’ the <tooltip content="Software Under Test">SUT</tooltip> for the purpose of testing</strong> i.e. invoking the SUT with test inputs and verifying the behavior is as expected.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>PayrollTest</code> ‘drives’ the <code>PayRoll</code> class by sending it test inputs and verifies if the output is as expected.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PayrollTestDriver</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> Exception </span>{
@@ -860,17 +865,17 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
     }
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W8-2d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testAutomation/tools">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2d</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
-                          </span></strong></span></small> <strong><span>Test Automation Tools</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.2d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-test-automation-test-automation-tools"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Automation →</span></span></small> <strong><span>Test Automation Tools</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-test-automation-test-automation-tools"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -882,7 +887,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   <p></p>
                   <div>
                     <p><strong>JUnit is a tool for automated testing of Java programs.</strong> Similar tools are available for other languages and for automating different types of testing.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This an automated test for a <code>Payroll</code> class, written using JUnit libraries.</p>
                       <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testTotalSalary</span><span class="hljs-params">()</span></span>{
@@ -899,7 +904,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
     <span class="hljs-comment">//more tests...</span>
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p>Most modern IDEs has integrated support for testing tools. The figure below shows the JUnit output when running some JUnit tests using the Eclipse IDE.</p>
                     <img src="/website/book/testing/testAutomation/tools/images/junit.png" height="190">
                     <p></p>
@@ -909,10 +914,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </panel>
             <p><span id="W8-2e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/junit/basic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2e</span></span> <span class="dimmed"><strong><span>Tools → JUnit →
-                          </span></strong></span></small> <strong><span>JUnit: Basic</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.2e</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-junit-junit-basic"><small><span class="font-weight-bold text-muted"><span>Tools → JUnit →</span></span></small> <strong><span>JUnit: Basic</span></strong><a class="fa fa-anchor" href="#tools-junit-junit-basic"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -948,31 +953,34 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
     }
 }
 </code></pre>
-                      <p>Here's a <code>IntPairTest</code> class to match.</p>
-                      <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.Test;
-<span class="hljs-keyword">import</span> org.junit.Assert;
+                      <p>Here's a <code>IntPairTest</code> class to match (using JUnit 5).</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.jupiter.api.Test;
+
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.jupiter.api.Assertions.assertEquals;
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.jupiter.api.Assertions.fail;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IntPairTest</span> </span>{
 
+
     <span class="hljs-meta">@Test</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testStringConversion</span><span class="hljs-params">()</span> </span>{
-        Assert.assertEquals(<span class="hljs-string">"4,7"</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">7</span>).toString());
+        assertEquals(<span class="hljs-string">"4,7"</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">7</span>).toString());
     }
 
     <span class="hljs-meta">@Test</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">intDivision_nonZeroDivisor_success</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception </span>{
-        Assert.assertEquals(<span class="hljs-number">2</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">2</span>).intDivision());
-        Assert.assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>).intDivision());
-        Assert.assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>).intDivision());
+        assertEquals(<span class="hljs-number">2</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">2</span>).intDivision());
+        assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>).intDivision());
+        assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>).intDivision());
     }
 
     <span class="hljs-meta">@Test</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">intDivision_zeroDivisor_exceptionThrown</span><span class="hljs-params">()</span> </span>{
         <span class="hljs-keyword">try</span> {
-            Assert.assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">0</span>).intDivision());
-            Assert.fail(); <span class="hljs-comment">// the test should not reach this line</span>
+            assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">0</span>).intDivision());
+            fail(); <span class="hljs-comment">// the test should not reach this line</span>
         } <span class="hljs-keyword">catch</span> (Exception e) {
-            Assert.assertEquals(<span class="hljs-string">"Divisor is zero"</span>, e.getMessage());
+            assertEquals(<span class="hljs-string">"Divisor is zero"</span>, e.getMessage());
         }
     }
 }
@@ -983,22 +991,13 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                       <li>Each test method is marked with a <code>@Test</code> annotation.</li>
                       <li>Tests use <code>Assert.assertEquals(expected, actual)</code> methods to compare the expected output with the actual output. If they do not match, the test will fail. JUnit comes with other similar methods such as <code>Assert.assertNull</code> and <code>Assert.assertTrue</code>.</li>
                       <li>Java code normally use camelCase for method names e.g., <code>testStringConversion</code> but when writing test methods, sometimes another convention is used: <code>whatIsBeingTested_descriptionOfTestInputs_expectedOutcome</code> e.g., <code>intDivision_zeroDivisor_exceptionThrown</code></li>
-                      <li>There are <a href="https://github.com/junit-team/junit4/wiki/exception-testing">several ways to verify the code throws the correct exception</a>. The third test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the <code>catch</code> block. But if it is not thrown as expected, the test will reach <code>Assert.fail()</code> line and will fail as a result.</li>
+                      <li>There are <a href="https://howtodoinjava.com/junit5/expected-exception-example/">several ways to verify the code throws the correct exception</a>. The third test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the <code>catch</code> block. But if it is not thrown as expected, the test will reach <code>Assert.fail()</code> line and will fail as a result.</li>
                       <li>The easiest way to run JUnit tests is to do it via the IDE. For example, in Intellij you can right-click the folder containing test classes and choose 'Run all tests...'</li>
-                      <li>Optionally, you can use <a href="https://docs.oracle.com/javase/1.5.0/docs/guide/language/static-import.html">static imports</a> to avoid having to specify <code>Assert.</code> everywhere.
-                        <pre><code class="hljs java"><span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.Assert.assertEquals;
-<span class="hljs-comment">//...</span>
-<span class="hljs-meta">@Test</span>
-<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testStringConversion</span><span class="hljs-params">()</span> </span>{
-    assertEquals(<span class="hljs-string">"4,7"</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">7</span>).toString());
-}
-</code></pre>
-                      </li>
                     </ul>
                     <div v-closeable alt="Junit tutorial video" class="non-printable">
                       <box>
-                        <p><strong><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> JUnit 4 with IntelliJ: A quick introduction</strong> <sub>-- by DrBFraser</sub></p>
-                        <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Bld3644bIAo" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                        <p><strong><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Adding JUnit 5 to your IntelliJ Project</strong> <sub>-- by Kevintroko@YouTube</sub></p>
+                        <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Z8V7rnvDeB4" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                       </box>
                     </div>
                   </div>
@@ -1006,8 +1005,8 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                     <div>
                       <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                         <ul>
-                          <li><a href="http://junit.sourceforge.net/doc/cookbook/cookbook.htm">JUnit cookbook</a> - a short tutorial from JUnit creators</li>
-                          <li><a href="http://www.vogella.com/articles/JUnit/article.html">JUnit tutorial</a> - a more detailed tutorial from a developer Lars Vogel</li>
+                          <li><a href="https://junit.org/junit5/docs/current/user-guide/">JUnit Official User Guide</a></li>
+                          <li><a href="https://www.testingexcellence.com/junit-5-annotations/">JUnit 5 Tutorial – Common Annotations With Examples</a> - a short tutorial</li>
                           <li>How to test private methods in Java?
                             [ <a href="http://stackoverflow.com/questions/34571/whats-the-proper-way-to-test-a-class-with-private-methods-using-junit">short answer</a> ]
                             [ <a href="http://www.artima.com/suiterunner/private.html">long answer</a> ]</li>
@@ -1019,10 +1018,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </panel>
             <p><span id="W8-2f"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/junit/intermediate">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2f</span></span> <span class="dimmed"><strong><span>Tools → JUnit →
-                          </span></strong></span></small> <strong><span>JUnit: Intermediate</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.2f</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-junit-junit-intermediate"><small><span class="font-weight-bold text-muted"><span>Tools → JUnit →</span></span></small> <strong><span>JUnit: Intermediate</span></strong><a class="fa fa-anchor" href="#tools-junit-junit-intermediate"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1033,13 +1032,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   <p></p>
                   <p></p>
                   <div>
-                    <p>Some intermediate JUnit techniques that may be useful:</p>
-                    <ul>
-                      <li><strong>It is possible for a <a href="https://github.com/junit-team/junit4/wiki/Exception-testing">JUnit test case to verify if the SUT throws the right exception</a></strong>.</li>
-                      <li><strong><a href="https://github.com/junit-team/junit4/wiki/Rules">JUnit <em>Rules</em></a> are a way to add additional behavior to a test.</strong> e.g. to make a test case use a temporary folder for storing files needed for (or generated by) the test.</li>
-                      <li><strong>It is possible to <a href="https://www.mkyong.com/unittest/junit-4-tutorial-1-basic-usage/">write methods thar are automatically run before/after a test method/class</a></strong>. These are useful to do pre/post cleanups for example.</li>
-                      <li><strong><a href="http://www.artima.com/suiterunner/private.html">Testing private methods is possible, although not always necessray</a></strong></li>
-                    </ul>
+                    <p>Skim through the <a href="https://junit.org/junit5/docs/current/user-guide/">JUnit 5 User Guide</a> to see what advanced techniques are available. If applicable, feel free to adopt them.</p>
                   </div>
                   <div></div>
                 </div>
@@ -1056,10 +1049,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
           </span>
           <div class="indented-level1">
             <p><span id="W8-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/revisionControl/branching">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.3a</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
-                          </span></strong></span></small> <strong><span>Branching</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.3a</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="project-management-revision-control-branching"><small><span class="font-weight-bold text-muted"><span>Project Management → Revision Control →</span></span></small> <strong><span>Branching</span></strong><a class="fa fa-anchor" href="#project-management-revision-control-branching"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1100,10 +1093,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
               </div>
             </panel>
             <p><span id="W8-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/gitAndGithub/branch">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.3b</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                          </span></strong></span></small> <strong><span>Branch</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W8.3b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-git-and-github-branch"><small><span class="font-weight-bold text-muted"><span>Tools → Git and GitHub →</span></span></small> <strong><span>Branch</span></strong><a class="fa fa-anchor" href="#tools-git-and-github-branch"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1252,7 +1245,7 @@ git checkout feature1
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-8-oct-7">Week 8 [Oct 7]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-8-oct-7-topics">Week 8 [Oct 7] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w8-1-design-principles">[W8.1] Design Principles &#x200E;</a>
               <a class="nav-link py-1" href="#w8-2-testing-junit">[W8.2] Testing: JUnit &#x200E;</a>
@@ -1265,7 +1258,7 @@ git checkout feature1
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

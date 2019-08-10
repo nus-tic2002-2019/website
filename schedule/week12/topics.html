@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 12 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,142 +65,149 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week11/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week13/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-12-nov-4">Week 12 <small><small><span class="dimmed">[Nov 4]</span></small></small><a class="fa fa-anchor" href="#week-12-nov-4"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week12/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week12/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week11"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week12/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week12/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week12/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week13"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-12-nov-4-topics">Week 12 <small><small><span class="dimmed">[Nov 4]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-12-nov-4-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W12-1">W12.1</a>] <strong>Othere UML Models</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1a">W12.1a</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Object Oriented Domain Models</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1b">W12.1b</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Deployment Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1c">W12.1c</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Component Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1d">W12.1d</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Package Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1e">W12.1e</a>] <span>Design → Modelling → Modelling Structure →
-                      </span></span> <span>Composite Structure Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1f">W12.1f</a>] <span>Design → Modelling → Modelling Behaviors
-                      </span></span> <span>Activity Diagrams - Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1g">W12.1g</a>] <span>Design → Modelling → Modelling Behaviors
-                      </span></span> <span>Timing Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1h">W12.1h</a>] <span>Design → Modelling → Modelling Behaviors
-                      </span></span> <span>Interaction Overview Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1i">W12.1i</a>] <span>Design → Modelling → Modelling Behaviors
-                      </span></span> <span>Communication Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-1j">W12.1j</a>] <span>Design → Modelling → Modelling Behaviors
-                      </span></span> <span>State Machine Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W12-2">W12.2</a>] <strong>Reuse</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <p>   <strong>Intro</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-2a">W12.2a</a>] <span>Implementation → Reuse → Introduction →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-2b">W12.2b</a>] <span>Implementation → Reuse → Introduction →
-                      </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>APIs</strong></p>
-              <ul>
-                <li><span class="dimmed">[<a href="#W12-2c">W12.2c</a>] <span>Implementation → Reuse → APIs →
-                    </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-              </ul>
-              <p>   <strong>Libraries</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-2d">W12.2d</a>] <span>Implementation → Reuse → Libraries →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-2e">W12.2e</a>] <span>Implementation → Reuse → Libraries →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Frameworks</strong></p>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-2f">W12.2f</a>] <span>Implementation → Reuse → Frameworks →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-2g">W12.2g</a>] <span>Implementation → Reuse → Frameworks →
-                      </span></span> <span>Frameworks vs Libraries</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-              <p>   <strong>Platforms</strong></p>
-              <ul>
-                <li><span class="dimmed">[<a href="#W12-2h">W12.2h</a>] <span>Implementation → Reuse → Platforms →
-                    </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W12-3">W12.3</a>] <strong>Quality Assurance</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-3a">W12.3a</a>] <span>Quality Assurance → Quality Assurance → Introduction →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-3b">W12.3b</a>] <span>Quality Assurance → Quality Assurance → Introduction →
-                      </span></span> <span>Validation vs Verification</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-3c">W12.3c</a>] <span>Quality Assurance → Quality Assurance → Code Reviews →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-3d">W12.3d</a>] <span>Quality Assurance → Quality Assurance → Static Analysis →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W12-3e">W12.3e</a>] <span>Quality Assurance → Quality Assurance → Formal Verification →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week12/topics.html#W12-1">W12.1</a>] <strong>Othere UML Models</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1a">W12.1a</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Object Oriented Domain Models</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1b">W12.1b</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Deployment Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1c">W12.1c</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Component Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1d">W12.1d</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Package Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1e">W12.1e</a>] <span>Design → Modelling → Modelling Structure →
+                        </span></span> <span>Composite Structure Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1f">W12.1f</a>] <span>Design → Modelling → Modelling Behaviors
+                        </span></span> <span>Activity Diagrams - Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1g">W12.1g</a>] <span>Design → Modelling → Modelling Behaviors
+                        </span></span> <span>Timing Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1h">W12.1h</a>] <span>Design → Modelling → Modelling Behaviors
+                        </span></span> <span>Interaction Overview Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1i">W12.1i</a>] <span>Design → Modelling → Modelling Behaviors
+                        </span></span> <span>Communication Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-1j">W12.1j</a>] <span>Design → Modelling → Modelling Behaviors
+                        </span></span> <span>State Machine Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week12/topics.html#W12-2">W12.2</a>] <strong>Reuse</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <p>   <strong>Intro</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2a">W12.2a</a>] <span>Implementation → Reuse → Introduction →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2b">W12.2b</a>] <span>Implementation → Reuse → Introduction →
+                        </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>APIs</strong></p>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2c">W12.2c</a>] <span>Implementation → Reuse → APIs →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                </ul>
+                <p>   <strong>Libraries</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2d">W12.2d</a>] <span>Implementation → Reuse → Libraries →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2e">W12.2e</a>] <span>Implementation → Reuse → Libraries →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Frameworks</strong></p>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2f">W12.2f</a>] <span>Implementation → Reuse → Frameworks →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2g">W12.2g</a>] <span>Implementation → Reuse → Frameworks →
+                        </span></span> <span>Frameworks vs Libraries</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+                <p>   <strong>Platforms</strong></p>
+                <ul>
+                  <li><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-2h">W12.2h</a>] <span>Implementation → Reuse → Platforms →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week12/topics.html#W12-3">W12.3</a>] <strong>Quality Assurance</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-3a">W12.3a</a>] <span>Quality Assurance → Quality Assurance → Introduction →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-3b">W12.3b</a>] <span>Quality Assurance → Quality Assurance → Introduction →
+                        </span></span> <span>Validation vs Verification</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-3c">W12.3c</a>] <span>Quality Assurance → Quality Assurance → Code Reviews →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-3d">W12.3d</a>] <span>Quality Assurance → Quality Assurance → Static Analysis →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week12/topics.html#W12-3e">W12.3e</a>] <span>Quality Assurance → Quality Assurance → Formal Verification →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W12-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -208,10 +218,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W12-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/objectOrientedDomainModels">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Object Oriented Domain Models</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1a</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-structure-object-oriented-domain-models"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Object Oriented Domain Models</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-object-oriented-domain-models"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -226,20 +236,20 @@
                       <p>The analysis process for identifying objects and object classes is recognized as one of the most difficult areas of object-oriented development. <sub>--<a href="http://www.software-engin.com/">Ian Sommerville, in the book <em>Software Engineering</em></a></sub></p>
                     </blockquote>
                     <p>Class diagrams can also be used to model objects in the <tooltip content="the relevant information that needs to be examined to understand a problem">problem domain</tooltip> (i.e. to model how objects actually interact in the real world, before emulating them in the solution). <strong>Class diagrams are used to model the problem domain are called <em>conceptual class diagrams</em> or <em>OO domain models (OODMs)</em>.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> OO domain model of a snakes and ladders game is given below.</p>
                       <p>Description: Snakes and ladders game is played by two or more players using a board and a die. The board has 100 squares marked 1 to 100. Each player owns one piece. Players take turns to throw the die and advance their piece by the number of squares they earned from the die throw. The board has a number of snakes. If a player’s piece lands on a square with a snake head, the piece is automatically moved to the square containing the snake’s tail. Similarly, a piece can automatically move from a ladder foot to the ladder top. The player whose piece is the first to reach the 100th square wins.</p>
                       <img src="/website/book/modeling/modelingStructures/objectOrientedDomainModels/images/diagram.png" height="420">
                       <p></p>
                       <p>The above OO domain model omits the ladder class for simplicity. It can be included in a similar fashion to the Snake class.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>OODMs do not contain solution-specific classes</strong> (i.e. classes that are used in the solution domain but do not exist in the problem domain). For example, a class called DatabaseConnection could appear in a class diagram but not usually in an OO domain model because DatabaseConnection is something related to a software solution but not an entity in the problem domain.</p>
                     <p><strong>OODMs represents the class <em>structure</em> of the problem domain</strong> and not their behavior, just like class diagrams. To show behavior, use other diagrams such as sequence diagrams.</p>
                     <p><strong>OODM notation is similar to class diagram notation but typically omit methods and navigability.</strong></p>
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: This diagram is,...">
@@ -285,10 +295,10 @@
               </div>
             </panel>
             <p><span id="W12-1b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/deploymentDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1b</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Deployment Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1b</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-structure-deployment-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Deployment Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-deployment-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -300,22 +310,22 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>deployment diagram</em> shows a system's physical layout, revealing which pieces of software run on which pieces of hardware.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example deployment diagram:</p>
                       <img src="/website/book/modeling/modelingStructures/deploymentDiagrams/images/diagram.png" height="500">
                       <p></p>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Deployment_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-1c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/componentDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1c</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Component Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-structure-component-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Component Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-component-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -327,21 +337,21 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>component diagram</em> is used to show how a system is divided into components and how they are connected to each other through interfaces.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example component diagram:</p>
                       <p><img src="/website/book/modeling/modelingStructures/componentDiagrams/images/diagram.png" height="500"><br></p>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Component_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-1d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/packageDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1d</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Package Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-structure-package-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Package Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-package-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -353,21 +363,21 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>package diagram</em> shows packages and their dependencies.</strong> A package is a grouping construct for grouping UML elements (classes, use cases, etc.).</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example package diagram:</p>
                       <p><img src="/website/book/modeling/modelingStructures/packageDiagrams/images/diagram.png" height="450"><br>
                         <sub>source:<a href="https://en.wikipedia.org/wiki/Package_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-1e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingStructures/compositeStructureDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1e</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
-                          </span></strong></span></small> <strong><span>Composite Structure Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1e</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-structure-composite-structure-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Structure →</span></span></small> <strong><span>Composite Structure Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-structure-composite-structure-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -379,22 +389,22 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>composite structure diagram</em> hierarchically decomposes a class into its internal structure.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example composite structure diagram:</p>
                       <img src="/website/book/modeling/modelingStructures/compositeStructureDiagrams/images/diagram.png" height="150">
                       <br>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Composite_structure_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-1f"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/activityDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1f</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
-                          </span></strong></span></small> <strong><span>Activity Diagrams - Basic</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1f</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-behaviors-activity-diagrams-basic"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Activity Diagrams - Basic</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-activity-diagrams-basic"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -407,11 +417,11 @@
                   <div>
                     <p><strong>Software projects often involve <em>workflows</em>.</strong> Workflows define the <tooltip content="a connected sequence of steps"></tooltip>flow in which a process or a set of tasks is executed.
                       Understanding such workflows is important for the success of the software project.</p>
-                    <tip-box>
+                    <box>
                       <p>Some examples in which a certain workflow is relevant to software project:</p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A software that automates the work of an insurance company needs to take into account the workflow of processing an insurance claim.</p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The algorithm of a price of code represents the workflow (i.e. the execution flow) of the code.</p>
-                    </tip-box>
+                    </box>
                     <p>
                       <panel type="seamless" src="/website/book/uml/activityDiagrams/introduction/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Introduction → What" alt="<md>:glyphicon-education:</md> UML/AD/Intro" fragment="main"></panel>
                     </p>
@@ -429,7 +439,7 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which sequences are not allowed?">
@@ -475,10 +485,10 @@
               </div>
             </panel>
             <p><span id="W12-1g"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/timingDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1g</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
-                          </span></strong></span></small> <strong><span>Timing Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1g</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-behaviors-timing-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Timing Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-timing-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -490,22 +500,22 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>timing diagram</em> focus on timing constraints.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example timing diagram:</p>
                       <img src="/website/book/modeling/modelingBehaviors/timingDiagrams/images/diagram.png" height="280">
                       <br>
                       <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-1h"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/interactionOverviewDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1h</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
-                          </span></strong></span></small> <strong><span>Interaction Overview Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1h</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-behaviors-interaction-overview-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Interaction Overview Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-interaction-overview-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -517,22 +527,22 @@
                   <p></p>
                   <div>
                     <p><strong>An <em>Interaction overview</em> diagrams is a combination of activity diagrams and sequence diagrams</strong>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                       <img src="/website/book/modeling/modelingBehaviors/interactionOverviewDiagrams/images/diagram.png" height="420">
                       <p></p>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Interaction_overview_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-1i"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/communicationDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1i</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
-                          </span></strong></span></small> <strong><span>Communication Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1i</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-behaviors-communication-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>Communication Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-communication-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -544,22 +554,22 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>Communication diagrams</em> are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                       <img src="/website/book/modeling/modelingBehaviors/communicationDiagrams/images/diagram.png" height="300">
                       <br>
                       <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-1j"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/modeling/modelingBehaviors/stateMachineDiagrams">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1j</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
-                          </span></strong></span></small> <strong><span>State Machine Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.1j</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="design-modelling-modelling-behaviors-state-machine-diagrams"><small><span class="font-weight-bold text-muted"><span>Design → Modelling → Modelling Behaviors</span></span></small> <strong><span>State Machine Diagrams</span></strong><a class="fa fa-anchor" href="#design-modelling-modelling-behaviors-state-machine-diagrams"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -571,7 +581,7 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>State Machine Diagram</em> models state-dependent behavior.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider how a CD player responds when the “eject CD” button is pushed:</p>
                       <ul>
                         <li>If the CD tray is already open, it does nothing.</li>
@@ -581,15 +591,15 @@
                         <li>If the CD tray is already in the process of closing (closed half-way), it waits until the CD tray is fully closed and opens it immediately afterwards.</li>
                       </ul>
                       <p>What this means is that the CD player’s response to pushing the “eject CD” button depends on what it was doing at the time of the event. More generally, the CD player’s response to the event received depends on its internal state. Such a behavior is called a <em>state-dependent behavior</em>.</p>
-                    </tip-box>
+                    </box>
                     <p>Often, state-dependent behavior displayed by an object in a system is simple enough that it needs no extra attention; such a behavior can be as simple as a <em>conditional</em> behavior like <code>if x&gt;y, then x=x-y</code>.
                       Occasionally, objects may exhibit state-dependent behavior that is complex enough such that it needs to be captured into a separate model. Such state-dependent behavior can be modelled using UML <em>state machine diagrams</em> (SMD for short, sometimes also called ‘state charts’, ‘state diagrams’ or ‘state machines’).</p>
                     <p>An SMD views the life-cycle of an object as consisting of a finite number of states where each state displays a unique behavior pattern. An SMD captures information such as the states an object can be in, during its lifetime, and how the object responds to various events while in each state and how the object transits from one state to another. In contrast to sequence diagrams that capture object behavior one scenario at a time, SMDs capture the object’s behavior over its full life cycle.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An SMD for the Minesweeper game.</p>
                       <img src="/website/book/modeling/modelingBehaviors/stateMachineDiagrams/images/minesweeper.png" height="200">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -609,10 +619,10 @@
             <br>
             <h3 id="intro"><span class="dimmed"><strong>Intro</strong></span><a class="fa fa-anchor" href="#intro"></a></h3>
             <p><span id="W12-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/introduction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2a</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Introduction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-reuse-introduction-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-reuse-introduction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -630,10 +640,10 @@
               </div>
             </panel>
             <p><span id="W12-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/introduction/when">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2b</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Introduction →
-                          </span></strong></span></small> <strong><span>When</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-reuse-introduction-when"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → Introduction →</span></span></small> <strong><span>When</span></strong><a class="fa fa-anchor" href="#implementation-reuse-introduction-when"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -689,10 +699,10 @@
             <br>
             <h3 id="apis"><span class="dimmed"><strong>APIs</strong></span><a class="fa fa-anchor" href="#apis"></a></h3>
             <p><span id="W12-2c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/apis/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2c</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → APIs →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2c</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-reuse-apis-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → APIs →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-reuse-apis-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -704,11 +714,11 @@
                   <p></p>
                   <div>
                     <p><strong>An <em>Application Programming Interface (API)</em> specifies the interface through which other programs can interact with a software component.</strong> It is a contract between the component and its clients.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A class has an API (e.g., <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html">API of the Java <code>String</code> class</a>, <a href="https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str">API of the Python <code>str</code> class</a>) which is a collection of public methods that you can invoke to make use of the class.</p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <a href="https://developer.github.com/v3/">GitHub API</a> is a collection of Web request formats GitHub server accepts and the corresponding responses. We can write a program that interacts with GitHub through that API.</p>
-                    </tip-box>
-                    <p>When developing large systems, if you define the API of each components early, the development team can develop the components in parallel <span class="dimmed"> because the future behavior of the other components are now more predictable</span>.</p>
+                    </box>
+                    <p>When developing large systems, if you define the API of each components early, the development team can develop the components in parallel <span class="dimmed">because the future behavior of the other components are now more predictable</span>.</p>
                   </div>
                   <div>
                     <div>
@@ -755,10 +765,10 @@
             <br>
             <h3 id="libraries"><span class="dimmed"><strong>Libraries</strong></span><a class="fa fa-anchor" href="#libraries"></a></h3>
             <p><span id="W12-2d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/libraries/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2d</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Libraries →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2d</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-reuse-libraries-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → Libraries →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-reuse-libraries-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -770,7 +780,7 @@
                   <p></p>
                   <div>
                     <p>A library is a collection of modular code that is general and can be used by other programs.</p>
-                    <tip-box>
+                    <box>
                       <div class="alt-java">
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Java classes you get with the JDK (such as <code>String</code>, <code>ArrayList</code>, <code>HashMap</code>, etc.) are library classes that are provided in the default Java distribution.</p>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://github.com/joestelmach/natty">Natty</a> is a Java library that can be used for parsing strings that represent dates e.g. <code>The 31st of April in the year 2008</code></p>
@@ -779,17 +789,17 @@
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> built-in modules you get with Python (such as <code>csv</code>, <code>random</code>, <code>sys</code>, etc.) are libraries that are provided in the default Python distribution. Classes such as <code>list</code>, <code>str</code>, <code>dict</code> are built-in library classes that you get with Python.</p>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://pypi.python.org/pypi/colorama">Colorama</a> is a Python library that can be used for colorizing text in a CLI.</p>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-2e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/libraries/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2e</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Libraries →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2e</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-reuse-libraries-how"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → Libraries →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#implementation-reuse-libraries-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -815,10 +825,10 @@
             <br>
             <h3 id="frameworks"><span class="dimmed"><strong>Frameworks</strong></span><a class="fa fa-anchor" href="#frameworks"></a></h3>
             <p><span id="W12-2f"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/frameworks/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2f</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Frameworks →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2f</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="implementation-reuse-frameworks-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → Frameworks →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-reuse-frameworks-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -830,46 +840,46 @@
                   <p></p>
                   <div>
                     <p><strong>The overall structure and execution flow of a specific category of software systems can be very similar. The similarity is an opportunity to reuse at a high scale.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>IDEs for different programming languages are similar in how they support editing code, organizing project files, debugging, etc.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>A <em>software framework</em> is a reusable implementation of a software (or part thereof) providing <em>generic</em> functionality that can be selectively customized to produce a <em>specific</em> application.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>Eclipse is an IDE framework that can be used to create IDEs for different programming languages.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Some frameworks provide a complete implementation of a <em>default</em> behavior which makes them immediately usable.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>Eclipse is a fully functional Java IDE out-of-the-box.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>A framework facilitates the adaptation and customization of some desired functionality.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>Eclipse plugin system can be used to create an IDE for different programming languages while reusing most of the existing IDE features of Eclipse. E.g. <a href="https://marketplace.eclipse.org/content/pydev-python-ide-eclipse">https://marketplace.eclipse.org/content/pydev-python-ide-eclipse</a></p>
-                    </tip-box>
+                    </box>
                     <p>Some frameworks cover only a specific components or an aspect.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> JavaFx a framework for creating Java GUIs. TkInter is a GUI framework for Python.</p>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples of frameworks</p>
                       <ul>
                         <li>Frameworks for Web-based applications: Drupal(PHP), Django(Python), Ruby on Rails (Ruby), Spring (Java)</li>
                         <li>Frameworks for testing: JUnit (Java), unittest (Python), Jest (Java Script)</li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-2g"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/frameworks/frameworksVsLibraries">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2g</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Frameworks →
-                          </span></strong></span></small> <strong><span>Frameworks vs Libraries</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2g</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-reuse-frameworks-frameworks-vs-libraries"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → Frameworks →</span></span></small> <strong><span>Frameworks vs Libraries</span></strong><a class="fa fa-anchor" href="#implementation-reuse-frameworks-frameworks-vs-libraries"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -884,11 +894,11 @@
                     <ul>
                       <li>
                         <p><strong>Libraries are meant to be used ‘as is’ while frameworks are meant to be customized/extended.</strong>
-                          <span class="dimmed"> e.g., writing plugins for Eclipse so that it can be used as an IDE for different languages (C++, PHP, etc.), adding modules and themes to Drupal, and adding test cases to JUnit</span>.</p>
+                          <span class="dimmed">e.g., writing plugins for Eclipse so that it can be used as an IDE for different languages (C++, PHP, etc.), adding modules and themes to Drupal, and adding test cases to JUnit</span>.</p>
                       </li>
                       <li>
                         <p><strong>Your code calls the library code while the framework code calls your code.</strong>
-                          <strong>Frameworks use a technique called <em>inversion of control</em>, aka the “Hollywood principle”</strong> (i.e. don’t call us, we’ll call you!). That is, you write code that will be called by the framework, <span class="dimmed"> e.g. writing test methods that will be called by the JUnit framework.</span> In the case of libraries, your code calls libraries.</p>
+                          <strong>Frameworks use a technique called <em>inversion of control</em>, aka the “Hollywood principle”</strong> (i.e. don’t call us, we’ll call you!). That is, you write code that will be called by the framework, <span class="dimmed">e.g. writing test methods that will be called by the JUnit framework.</span> In the case of libraries, your code calls libraries.</p>
                       </li>
                     </ul>
                   </div>
@@ -940,10 +950,10 @@
             <br>
             <h3 id="platforms"><span class="dimmed"><strong>Platforms</strong></span><a class="fa fa-anchor" href="#platforms"></a></h3>
             <p><span id="W12-2h"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/reuse/platforms/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2h</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Platforms →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.2h</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-reuse-platforms-what"><small><span class="font-weight-bold text-muted"><span>Implementation → Reuse → Platforms →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-reuse-platforms-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -955,16 +965,16 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>platform</em> provides a runtime environment for applications.</strong> A platform is often bundled with various libraries, tools, frameworks, and technologies in addition to a runtime environment but the defining characteristic of a software platform is the presence of a runtime environment.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Technically, an operating system can be called a platform. For example, Windows PC is a platform for desktop applications while iOS is a platform for mobile apps.</p>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <strong>Two well-known examples of platforms are JavaEE and .NET</strong>, both of which sit above Operating systems layer, and are used to develop <trigger for="modal:enterprise-application" trigger="click">enterprise applications</trigger>. Infrastructure services such as connection pooling, load balancing, remote code execution, transaction management, authentication, security, messaging etc. are done similarly in most enterprise applications. Both JavaEE and .NET provide these services to applications in a customizable way without developers having to implement them from scratch every time.</p>
                       <ul>
                         <li>JavaEE (Java Enterprise Edition) is both a framework and a platform for writing enterprise applications. The runtime used by the JavaEE applications is the JVM (Java Virtual Machine) that can run on different Operating Systems.</li>
                         <li>.NET is a similar platform and a framework. Its runtime is called CLR (Common Language Runtime) and usually used on Windows machines.</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <modal title="**Enterprise Applications**" id="modal:enterprise-application">
                       <div>
                         <p><strong>Enterprise Application</strong>: ‘enterprise applications’ means software applications used at organizations level and therefore has to meet much higher demands (such as in scalability, security, performance, and robustness) than software meant for individual use.</p>
@@ -986,10 +996,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W12-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/introduction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Quality Assurance → Introduction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.3a</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="quality-assurance-quality-assurance-introduction-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-introduction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1008,10 +1018,10 @@
               </div>
             </panel>
             <p><span id="W12-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/introduction/validationVsVerification">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Quality Assurance → Introduction →
-                          </span></strong></span></small> <strong><span>Validation vs Verification</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.3b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-quality-assurance-introduction-validation-vs-verification"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Introduction →</span></span></small> <strong><span>Validation vs Verification</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-introduction-validation-vs-verification"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1063,10 +1073,10 @@
               </div>
             </panel>
             <p><span id="W12-3c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/codeReviews/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3c</span></span> <span class="dimmed"><strong><span>Quality Assurance → Quality Assurance → Code Reviews →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.3c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-quality-assurance-code-reviews-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Code Reviews →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-code-reviews-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1088,14 +1098,14 @@
                       </li>
                     </ul>
                     <modal large title="Pair Programming" id="modal:codeReview-pairProgramming">
-                      <tip-box type="definition">
+                      <box type="definition">
                         <div>
                           <p><strong>Pair Programming</strong>:</p>
                           <blockquote>
                             <p>Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. <sub>[<a href="https://en.wikipedia.org/wiki/Pair_programming">source: Wikipedia</a>]</sub></p>
                           </blockquote>
                         </div>
-                      </tip-box>
+                      </box>
                       <p><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg" width="400"><br>
                         <sub>[<a href="https://en.wikipedia.org/wiki/Pair_programming">image credit: Wikipedia</a>]</sub></p>
                       <p><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> A good introduction to pair programming:</p>
@@ -1134,15 +1144,23 @@
                       <li>It is a manual process and therefore, error prone.</li>
                     </ul>
                   </div>
-                  <div></div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
+                        <ul>
+                          <li><a href="https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/"><strong>10 tips for reviewing code you don’t like</strong></a> - a blog post by a Red Had developer By David Lloyd.</li>
+                        </ul>
+                      </panel>
+                    </div>
+                  </div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-3d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/staticAnalysis/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3d</span></span> <span class="dimmed"><strong><span>Quality Assurance → Quality Assurance → Static Analysis →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.3d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-quality-assurance-static-analysis-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Static Analysis →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-static-analysis-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1153,32 +1171,27 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Static analysis</strong>: Static analysis is the analysis of code without actually executing the code.</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>Static analysis of code can find useful information such unused variables, unhandled exceptions, style errors, and statistics. Most modern IDEs come with some inbuilt static analysis capabilities. For example, an IDE can highlight unused variables as you type the code into the editor.</p>
                     <p>Higher-end static analyzer tools can perform for more complex analysis such as locating potential bugs, memory leaks, inefficient code structures etc.</p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example static analyzer for Java:</p>
-                      <ul>
-                        <li><a href="http://checkstyle.sourceforge.net/">CheckStyle</a></li>
-                        <li><a href="http://findbugs.sourceforge.net/">PMD</a></li>
-                        <li><a href="https://pmd.github.io/">FindBugs</a></li>
-                      </ul>
-                    </tip-box>
-                    <p><em>Linters</em> are a subset of static analyzers that specifically aim to locate areas where the code can be made 'cleaner'.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example static analyzer for Java: <a href="http://checkstyle.sourceforge.net/">CheckStyle</a>, <a href="http://findbugs.sourceforge.net/">PMD</a>, <a href="https://pmd.github.io/">FindBugs</a></p>
+                    </box>
+                    <p><strong><em>Linters</em> are a subset of static analyzers</strong> that specifically aim to locate areas where the code can be made 'cleaner'.</p>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W12-3e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/qualityAssurance/formalVerification/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3e</span></span> <span class="dimmed"><strong><span>Quality Assurance → Quality Assurance → Formal Verification →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W12.3e</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-quality-assurance-formal-verification-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Quality Assurance → Formal Verification →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-quality-assurance-formal-verification-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1238,7 +1251,7 @@
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-12-nov-4">Week 12 [Nov 4]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-12-nov-4-topics">Week 12 [Nov 4] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w12-1-othere-uml-models">[W12.1] Othere UML Models &#x200E;</a>
               <a class="nav-link py-1" href="#w12-2-reuse">[W12.2] Reuse &#x200E;</a>
@@ -1258,7 +1271,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

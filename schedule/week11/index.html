@@ -5,9 +5,9 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TIC2002 Website - Week 11 - Tasks</title>
+  <title>TIC2002 Website - Week 11 - Summary</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -63,130 +66,166 @@
     <div id="flex-body">
       <div id="content-wrapper">
         <div>
-          <p><span style="float:left"><span><a href="/website/schedule/week10/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week12/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-          <h1 id="week-11-oct-28">Week 11 <small><small><span class="dimmed">[Oct 28]</span></small></small><a class="fa fa-anchor" href="#week-11-oct-28"></a></h1>
-          <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week11/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week11/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-          </ul>
+          <nav>
+            <ul class="pagination mt-2">
+              <li class="page-item"><a class="page-link" href="/website/schedule/week10"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item active"><a class="page-link" href="/website/schedule/week11/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week11/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week11/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week12"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+            </ul>
+          </nav>
           <p></p>
-          <p>Ext 2 or GUI</p>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-10</code>: GUI</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
-                    <p><span>
-                        <thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
-                      </span></p>
-                    <h3 id="duke-10-gui">Duke 10. GUI<a class="fa fa-anchor" href="#duke-10-gui"></a></h3>
-                    <p>Add a GUI to Duke.
-                      <br>
-                      <br></p>
+          <h1 id="week-11-oct-28-summary">Week 11 <small><small><span class="dimmed">[Oct 28]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-11-oct-28-summary"></a></h1>
+          <box type="info" dismissible>
+            <p>A summary of the week, and announcements relevant to that week, will appear in this tab.
+            </p>
+          </box>
+          <span id="summary">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm border-right border-bottom">
+                  <p><span><strong><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics Summary:</strong></span></p>
+                  <ul>
+                    <li>[<a href="/website/schedule/week11/topics.html#W11-1">W11.1</a>] <strong>Sequence Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week11/topics.html#W11-2">W11.2</a>] <strong>Java: Streams</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week11/topics.html#W11-3">W11.3</a>] <strong>Java: JavaFX</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week11/topics.html#W11-4">W11.4</a>] <strong>Java: JAR Files</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>[<a href="/website/schedule/week11/topics.html#W11-5">W11.5</a>] <strong>Testing Types</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                  </ul>
+                  <p></p>
+                  <panel type="seamless" header="%%Full ToC%%">
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                      <panel header="**Extension: `A-JavaFx`**">
-                        <div>
-                          <div>
-                            <div></div>
-                            <h3 id="a-javafx"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx"></a></h3>
-                            <p>     <big>↳</big> <strong>use JavaFX</strong></p>
-                          </div>
-                          <p>Use JavaFX to create a GUI.</p>
-                        </div>
-                      </panel>
+                      <ul>
+                        <li>[<a href="/website/schedule/week11/topics.html#W11-1">W11.1</a>] <strong>Sequence Diagrams - Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-1a">W11.1a</a>] <span>Design → Modelling → Modelling Behaviors
+                                </span></span> <span>Sequence Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week11/topics.html#W11-2">W11.2</a>] <strong>Java: Streams</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-2a">W11.2a</a>] <span>Tools → Java →
+                                </span></span> <span>Streams: Basic</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week11/topics.html#W11-3">W11.3</a>] <strong>Java: JavaFX</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-3a">W11.3a</a>] <span>Tools → Java →
+                                </span></span> <span>JavaFX</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week11/topics.html#W11-4">W11.4</a>] <strong>Java: JAR Files</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-4a">W11.4a</a>] <span>C++ to Java → Miscellaneous Topics →
+                                </span></span> <span>Using JAR Files</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week11/topics.html#W11-5">W11.5</a>] <strong>Testing Types</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <p>   <strong>Unit Testing</strong></p>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5a">W11.5a</a>] <span>Quality Assurance → Testing → Unit Testing →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5b">W11.5b</a>] <span>Quality Assurance → Testing → Unit Testing →
+                                  </span></span> <span>Stubs</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                          <p>   <strong>Integration Testing</strong></p>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5c">W11.5c</a>] <span>Quality Assurance → Testing → Integration Testing →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5d">W11.5d</a>] <span>Quality Assurance → Testing → Integration Testing →
+                                  </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                          <p>   <strong>System Testing</strong></p>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5e">W11.5e</a>] <span>Quality Assurance → Testing → System Testing →
+                                </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                          </ul>
+                          <p>   <strong>Acceptance Testing</strong></p>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5f">W11.5f</a>] <span>Quality Assurance → Testing → Acceptance Testing →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5g">W11.5g</a>] <span>Quality Assurance → Testing → Acceptance Testing →
+                                  </span></span> <span>Acceptance vs System Testing</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                          <p>   <strong>Alpha/Beta Testing</strong></p>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week11/topics.html#W11-5h">W11.5h</a>] <span>Quality Assurance → Testing → Alpha/Beta Testing →
+                                </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
                     </div>
+                  </panel>
+                </div>
+                <div class="col-sm border-bottom">
+                  <p><span><strong><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks Summary:</strong></span></p>
+                  <div>
+                    <ol>
+                      <li>Add Individual Feature 2 or <code>Level-10</code>: GUI</li>
+                      <li>Implement increment <code>A-Assertions</code></li>
+                      <li>Implement increment <code>A-Jar</code>: JAR File</li>
+                    </ol>
                   </div>
-                </panel>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Assertions</code></strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
-                    <div>
-                      <div></div>
-                      <h3 id="a-assertions"><span class="badge badge-pill badge-primary">A-Assertions</span><a class="fa fa-anchor" href="#a-assertions"></a></h3>
-                      <p>     <big>↳</big> <strong>Use Assertions</strong></p>
-                    </div>
-                    <p>Use <code>assert</code> feature (not JUnit assertions) to document important assumptions that should hold at various points in the code.</p>
-                  </div>
-                </panel>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Jar</code>: JAR file</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
-                    <div>
-                      <div></div>
-                      <h3 id="a-jar"><span class="badge badge-pill badge-primary">A-Jar</span><a class="fa fa-anchor" href="#a-jar"></a></h3>
-                      <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
-                    </div>
-                    <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
-                  </div>
-                </panel>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Lambdas</code></strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                  <div></div>
-                  <div>
-                    <div>
-                      <div></div>
-                      <h3 id="a-lambdas"><span class="badge badge-pill badge-primary">A-Lambdas</span><a class="fa fa-anchor" href="#a-lambdas"></a></h3>
-                      <p>     <big>↳</big> <strong>Use Lambdas</strong></p>
-                    </div>
-                    <p>Use the Lambdas feature of Java in your code, if applicable.</p>
-                  </div>
-                </panel>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Streams</code></strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                  <div></div>
-                  <div>
-                    <div>
-                      <div></div>
-                      <h3 id="a-streams"><span class="badge badge-pill badge-primary">A-Streams</span><a class="fa fa-anchor" href="#a-streams"></a></h3>
-                      <p>     <big>↳</big> <strong>Use Streams</strong></p>
-                    </div>
-                    <p>Use the Streams feature of Java in your code, if applicable.</p>
-                  </div>
-                </panel>
-              </div>
-            </div>
-          </div>
+          </span>
+          <br>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-11-oct-28">Week 11 [Oct 28]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-11-oct-28-summary">Week 11 [Oct 28] - Summary&#x200E;</a>
 
           </nav>
         </div>
@@ -194,7 +233,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Textbook Chapter [Printable] : Code Quality</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -79,7 +79,7 @@
                     <p>Programs should be written and polished until they acquire publication quality. <sub>--<a href="https://en.wikipedia.org/wiki/Niklaus_Wirth">Niklaus Wirth</a></sub></p>
                   </blockquote>
                   <p><strong>Among various dimensions of code quality, such as run-time efficiency, security, and robustness, one of the most important is understandability.</strong> This is because in any non-trivial software project, code needs to be read, understood, and modified by other developers later on. Even if we do not intend to pass the code to someone else, code quality is still important because we all become 'strangers' to our own code someday.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The two code samples given below achieve the same functionality, but one is easier to read.</p>
                     <div class="alt-java">
                       <div>
@@ -174,7 +174,7 @@
                         </table>
                       </div>
                     </div>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
             </div>
@@ -315,7 +315,7 @@
                   <p>Avoid complicated expressions, especially those having many negations and nested parentheses. If you must evaluate complicated expressions, have it done in steps (i.e. calculate some intermediate values first and use them to calculate the final value).</p>
                   <div class="alt-java">
                     <div>
-                      <tip-box>
+                      <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                         <p>
                           <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -334,12 +334,12 @@
 
 <span class="hljs-keyword">return</span> isValidCode &amp;&amp; isUrgent;
 </code></pre>
-                      </tip-box>
+                      </box>
                     </div>
                   </div>
                   <div class="alt-python">
                     <div>
-                      <tip-box>
+                      <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                         <p>
                           <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -357,7 +357,7 @@ is_urgent = type_code == URGENT
 
 <span class="hljs-keyword">return</span> is_valid_code <span class="hljs-keyword">and</span> is_urgent
 </code></pre>
-                      </tip-box>
+                      </box>
                     </div>
                   </div>
                   <blockquote>
@@ -372,8 +372,8 @@ is_urgent = type_code == URGENT
                     </small></small></span><a class="fa fa-anchor" href="#avoid-magic-numbers"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
-                  <tip-box>
+                  <p>When the code has a number that does not explain the meaning of the number, we call that a &quot;magic number&quot; (as in &quot;the number appears as if by magic&quot;). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                     <div class="alt-java">
                       <div>
@@ -436,15 +436,16 @@ MAX_SIZE = <span class="hljs-number">10</span>
                         </table>
                       </div>
                     </div>
-                  </tip-box>
+                  </box>
                   <p>Similarly, we can have ‘magic’ values of other data types.</p>
-                  <tip-box>
+                  <box>
                     <p>
                       <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                     </p>
                     <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
-                  </tip-box>
+                  </box>
+                  <p>In general, try to avoid any magic literals.</p>
                 </div>
               </div>
             </div>
@@ -503,7 +504,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                 <div>
                   <p><strong>One essential way to improve code quality is to follow a consistent style. That is why software engineers follow a strict coding standard (aka <em>style guide</em>).</strong></p>
                   <p><strong>The aim of a coding standard is to make the entire code base look like it was written by one person</strong>. A coding standard is usually specific to a programming language and specifies guidelines such as the location of opening and closing braces, indentation styles and naming styles (e.g. whether to use <em>Hungarian style</em>, <em>Pascal casing</em>, <em>Camel casing</em>, etc.). It is important that the whole team/company use the same coding standard and that standard is not generally inconsistent with typical industry practices. <span class="dimmed">If a company's coding standards is very different from what is used typically in the industry, new recruits will take longer to get used to the company's coding style.</span></p>
-                  <p>💡 IDEs can help to enforce some parts of a coding standard e.g. indentation rules.</p>
+                  <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> IDEs can help to enforce some parts of a coding standard e.g. indentation rules.</p>
                 </div>
               </div>
             </div>
@@ -559,7 +560,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                     <p><span aria-hidden="true" class="fas fa-quote-left"></span> Every system is built from a domain-specific language designed by the programmers to describe that system. Functions are the verbs of that language, and classes are the nouns. <sub>― Robert C. Martin, <em>Clean Code: A Handbook of Agile Software Craftsmanship</em></sub></p>
                   </blockquote>
                   <p><strong>Use nouns for classes/variables and verbs for methods/functions.</strong></p>
-                  <tip-box>
+                  <box>
                     <p>Examples:</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
@@ -588,9 +589,9 @@ MAX_SIZE = <span class="hljs-number">10</span>
                         </tbody>
                       </table>
                     </div>
-                  </tip-box>
+                  </box>
                   <p><strong>Distinguish clearly between single-valued and multivalued variables.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                     <div class="alt-java">
                       <p>
@@ -608,7 +609,7 @@ ArrayList&lt;Person&gt; students;
 names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alice'</span>]
 </code></pre>
                     </div>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
             </div>
@@ -688,8 +689,8 @@ trim_input()
                     </small></small></span><a class="fa fa-anchor" href="#write-to-the-reader"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>Do not write comments as if they are private notes to self. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
-                  <tip-box>
+                  <p>Do not write comments as if they are private notes to yourself. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                     <div class="alt-java">
                       <div>
@@ -729,7 +730,7 @@ trim_input()
 </code></pre>
                       </div>
                     </div>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
             </div>
@@ -740,7 +741,7 @@ trim_input()
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>

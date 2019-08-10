@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC2002 Website - Week 4 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,6 +29,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">TIC2002 <small>(2019)</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -47,11 +48,13 @@
         <li><a href="/website/admin/index-tic2002.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
         <dropdown text="Links" class="nav-link temp-dropdown">
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -62,118 +65,125 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week3/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week5/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-4-sep-2">Week 4 <small><small><span class="dimmed">[Sep 2]</span></small></small><a class="fa fa-anchor" href="#week-4-sep-2"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week3"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week4/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-4-sep-2-topics">Week 4 <small><small><span class="dimmed">[Sep 2]</span> - Topics</small></small><a class="fa fa-anchor" href="#week-4-sep-2-topics"></a></h1>
         <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
-          <ul>
-            <li>[<a href="#W4-1">W4.1</a>] <strong>OOP: Inheritance</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-1a">W4.1a</a>] <span>Paradigms → OOP → Inheritance →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-1b">W4.1b</a>] <span>Paradigms → OOP → Inheritance →
-                      </span></span> <span>Overloading</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-1c">W4.1c</a>] <span>Paradigms → OOP → Inheritance →
-                      </span></span> <span>Overriding</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-1d">W4.1d</a>] <span>C++ to Java → Inheritance →
-                      </span></span> <span>Inheritance (Basics)</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-1e">W4.1e</a>] <span>C++ to Java → Inheritance →
-                      </span></span> <span>The <code>Object</code> Class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W4-2">W4.2</a>] <strong>OOP: Polymorphism</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-2a">W4.2a</a>] <span>Paradigms → OOP → Polymorphism →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-2b">W4.2b</a>] <span>Paradigms → OOP → Inheritance →
-                      </span></span> <span>Substitutability</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-2c">W4.2c</a>] <span>Paradigms → OOP → Inheritance →
-                      </span></span> <span>Dynamic and Static Binding</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-2d">W4.2d</a>] <span>Paradigms → OOP → Polymorphism →
-                      </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-2e">W4.2e</a>] <span>C++ to Java → Inheritance →
-                      </span></span> <span>Polymorphism</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W4-3">W4.3</a>] <strong>Testing text UIs</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-3a">W4.3a</a>] <span>Quality Assurance → Testing → Introduction →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-3b">W4.3b</a>] <span>Quality Assurance → Testing → Regression Testing →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-3c">W4.3c</a>] <span>Quality Assurance → Testing → Test Automation →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-3d">W4.3d</a>] <span>Quality Assurance → Testing → Test Automation →
-                      </span></span> <span>Automated Testing of CLI Apps</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W4-4">W4.4</a>] <strong>IDE: Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-4a">W4.4a</a>] <span>Implementation → IDEs → Debugging →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-4b">W4.4b</a>] <span>Tools → Intellij IDEA →
-                      </span></span> <span>Debugging: Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W4-4c">W4.4c</a>] <span>Tools → Intellij IDEA →
-                      </span></span> <span>Productivity Shortcuts</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <p></p>
-        </panel>
+          <span id="toc">
+            <ul>
+              <li>[<a href="/website/schedule/week4/topics.html#W4-1">W4.1</a>] <strong>OOP: Inheritance</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-1a">W4.1a</a>] <span>Paradigms → OOP → Inheritance →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-1b">W4.1b</a>] <span>Paradigms → OOP → Inheritance →
+                        </span></span> <span>Overloading</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-1c">W4.1c</a>] <span>Paradigms → OOP → Inheritance →
+                        </span></span> <span>Overriding</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-1d">W4.1d</a>] <span>C++ to Java → Inheritance →
+                        </span></span> <span>Inheritance (Basics)</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-1e">W4.1e</a>] <span>C++ to Java → Inheritance →
+                        </span></span> <span>The <code>Object</code> Class</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <ul>
+              <li>[<a href="/website/schedule/week4/topics.html#W4-2">W4.2</a>] <strong>OOP: Polymorphism</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-2a">W4.2a</a>] <span>Paradigms → OOP → Polymorphism →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-2b">W4.2b</a>] <span>Paradigms → OOP → Inheritance →
+                        </span></span> <span>Substitutability</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-2c">W4.2c</a>] <span>Paradigms → OOP → Inheritance →
+                        </span></span> <span>Dynamic and Static Binding</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-2d">W4.2d</a>] <span>Paradigms → OOP → Polymorphism →
+                        </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-2e">W4.2e</a>] <span>C++ to Java → Inheritance →
+                        </span></span> <span>Polymorphism</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week4/topics.html#W4-3">W4.3</a>] <strong>Testing text UIs</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-3a">W4.3a</a>] <span>Quality Assurance → Testing → Introduction →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-3b">W4.3b</a>] <span>Quality Assurance → Testing → Regression Testing →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-3c">W4.3c</a>] <span>Quality Assurance → Testing → Test Automation →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-3d">W4.3d</a>] <span>Quality Assurance → Testing → Test Automation →
+                        </span></span> <span>Automated Testing of CLI Apps</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+            <ul>
+              <li>[<a href="/website/schedule/week4/topics.html#W4-4">W4.4</a>] <strong>IDE: Intermediate</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            </ul>
+            <div class="indented-level2">
+              <small>
+                <ul>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-4a">W4.4a</a>] <span>Implementation → IDEs → Debugging →
+                        </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-4b">W4.4b</a>] <span>Tools → Intellij IDEA →
+                        </span></span> <span>Debugging: Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                  <li>
+                    <p><span class="dimmed">[<a href="/website/schedule/week4/topics.html#W4-4c">W4.4c</a>] <span>Tools → Intellij IDEA →
+                        </span></span> <span>Productivity Shortcuts</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                  </li>
+                </ul>
+              </small></div>
+            <p></p>
+          </span></panel>
         <hr style="border: 1px dotted #cccccc;">
         <p><span id="W4-1"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
@@ -184,10 +194,10 @@
           </span>
           <div class="indented-level1">
             <p><span id="W4-1a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/inheritance/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.1a</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.1a</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="paradigms-oop-inheritance-what"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Inheritance →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#paradigms-oop-inheritance-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -199,38 +209,38 @@
                   <p></p>
                   <div>
                     <p><strong>The OOP concept <em>Inheritance</em> allows you to define a new class based on an existing class.</strong></p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, you can use inheritance to define an <code>EvaluationReport</code> class based on an existing <code>Report</code> class so that the <code>EvaluationReport</code> class does not have to duplicate code that is already implemented in the <code>Report</code> class. The <code>EvaluationReport</code> can inherit the <code>wordCount</code> attribute and the <code>print()</code> method from the <em>base class</em> <code>Report</code>.</p>
-                    </tip-box>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, you can use inheritance to define an <code>EvaluationReport</code> class based on an existing <code>Report</code> class so that the <code>EvaluationReport</code> class does not have to duplicate data/behaviors that are already implemented in the <code>Report</code> class. The <code>EvaluationReport</code> can inherit the <code>wordCount</code> attribute and the <code>print()</code> method from the <em>base class</em> <code>Report</code>.</p>
+                    </box>
                     <ul>
                       <li>Other names for Base class: <em>Parent</em> class, <em>Super</em> class</li>
                       <li>Other names for Derived class: <em>Child</em> class, <em>Sub</em> class, <em>Extended</em> class</li>
                     </ul>
                     <p><strong>A superclass is said to be <em>more general</em> than the subclass.</strong> Conversely, a subclass is said to be more <em>specialized</em> than the superclass.</p>
                     <p><strong>Applying inheritance on a group of similar classes can result in the common parts among classes being extracted into more general classes.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Man</code> and <code>Woman</code> behaves the same way for certain things. However, the two classes cannot be simply replaced with a more general class <code>Person</code> because of the need to distinguish between <code>Man</code> and <code>Woman</code> for certain other things. A solution is to add the <code>Person</code> class as a superclass (to contain the code common to men and woment) and let <code>Man</code> and <code>Woman</code> inherit from <code>Person</code> class.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Inheritance implies the derived class can be considered as a <em>sub-type</em> of the base class (and the base class is a <em>super-type</em> of the derived class), resulting in an <em>is a</em> relationship.</strong></p>
                     <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Inheritance does not necessarily mean a sub-type relationship exists. However, the two often go hand-in-hand. For simplicity, at this point let us assume inheritance implies a sub-type relationship.</span></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> To continue the previous example,</p>
                       <ul>
                         <li><code>Woman</code> <em>is a</em> <code>Person</code></li>
                         <li><code>Man</code> <em>is a</em> <code>Person</code></li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p><strong>Inheritance relationships through a chain of classes can result in inheritance <em>hierarchies</em> (aka inheritance <em>trees</em>).</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Two inheritance hierarchies/trees are given below. <span class="dimmed">Note that the triangle points to the parent class.</span> Observe how the <code>Parrot</code> <em>is a</em> <code>Bird</code> as well as it <em>is an</em> <code>Animal</code>.</p>
                       <img src="/website/book/oop/inheritance/what/images/inheritanceTreesExamples.png" width="500">
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p><strong><em>Multiple Inheritance</em> is when a class inherits <em>directly</em> from multiple classes.</strong> Multiple inheritance among classes is allowed in some languages (e.g., Python, C++) but not in other languages (e.g., Java, C#).</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Honey</code> class inherits from the <code>Food</code> class <em>and</em> the <code>Medicine</code> class <span class="dimmed">because honey can be consumed as a food as well as a medicine (in some oriental medicine practices)</span>. Similarly, a <code>Car</code> is an <code>Vehicle</code>, an <code>Asset</code> and a <code>Liability</code>.</p>
                       <img src="/website/book/oop/inheritance/what/images/multipleInheritanceExamples.png" width="440">
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -260,10 +270,10 @@
               </div>
             </panel>
             <p><span id="W4-1b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/inheritance/overloading">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.1b</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                          </span></strong></span></small> <strong><span>Overloading</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.1b</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="paradigms-oop-inheritance-overloading"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Inheritance →</span></span></small> <strong><span>Overloading</span></strong><a class="fa fa-anchor" href="#paradigms-oop-inheritance-overloading"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -275,10 +285,11 @@
                   <p></p>
                   <div>
                     <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                    <tip-box type="primary">
+                    <box type="definition">
                       <div>
                         <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                        <panel type="seamless" header="%%Examples%%">
+                        <box>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
@@ -307,26 +318,26 @@
                               </tbody>
                             </table>
                           </div>
-                        </panel>
+                        </box>
                       </div>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                       <ul>
                         <li><code>calculate(String): void</code></li>
                         <li><code>calculate(int): void</code></li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W4-1c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/inheritance/overriding">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.1c</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                          </span></strong></span></small> <strong><span>Overriding</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.1c</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="paradigms-oop-inheritance-overriding"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Inheritance →</span></span></small> <strong><span>Overriding</span></strong><a class="fa fa-anchor" href="#paradigms-oop-inheritance-overriding"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -342,7 +353,7 @@
                   <p></p>
                   <div>
                     <p><strong>Method <em>overriding</em> is when a sub-class changes the behavior inherited from the parent class</strong> by re-implementing the method. Overridden methods have the same name, same type signature, and same return type.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -367,12 +378,12 @@
                             <tr>
                               <td><code>read():String</code></td>
                               <td><code>read(int):String</code></td>
-                              <td>No. <span class="dimmed"> Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
+                              <td>No. <span class="dimmed">Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <modal title="**Overloading**" id="modal:overriding-overloading">
+                      <modal large title="**Overloading**" id="modal:overriding-overloading">
                         <div>
                           <div></div>
                           <p></p>
@@ -385,10 +396,11 @@
                             <div id="main">
                               <div>
                                 <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                                <tip-box type="primary">
+                                <box type="definition">
                                   <div>
                                     <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                    <panel type="seamless" header="%%Examples%%">
+                                    <box>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                       <div class="table-responsive">
                                         <table class="markbind-table table table-bordered table-striped">
                                           <thead>
@@ -417,23 +429,23 @@
                                           </tbody>
                                         </table>
                                       </div>
-                                    </panel>
+                                    </box>
                                   </div>
-                                </tip-box>
-                                <tip-box>
+                                </box>
+                                <box>
                                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                                   <ul>
                                     <li><code>calculate(String): void</code></li>
                                     <li><code>calculate(int): void</code></li>
                                   </ul>
-                                </tip-box>
+                                </box>
                               </div>
                               <div></div>
                             </div>
                           </div>
                         </div>
                       </modal>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -465,10 +477,10 @@
               </div>
             </panel>
             <p><span id="W4-1d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/inheritance/basic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.1d</span></span> <span class="dimmed"><strong><span>C++ to Java → Inheritance →
-                          </span></strong></span></small> <strong><span>Inheritance (Basics)</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.1d</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="c-to-java-inheritance-inheritance-basics"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Inheritance →</span></span></small> <strong><span>Inheritance (Basics)</span></strong><a class="fa fa-anchor" href="#c-to-java-inheritance-inheritance-basics"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -484,7 +496,7 @@
                       <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A class that is derived from another class is called a <em>subclass</em></strong> (also a <em>derived</em> class, <em>extended</em> class, or <em>child</em> class). The class from which the subclass is derived is called a <em>superclass</em> (also a <em>base</em> class or a <em>parent</em> class).</p>
                       <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A subclass inherits all the members</strong> (fields, methods, and nested classes) from its superclass. Constructors are not members, so they are not inherited by subclasses, but the constructor of the superclass can be invoked from the subclass.</p>
                       <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>Every class has one and only one direct superclass (<em>single inheritance</em>)</strong>, except the <code>Object</code> class, which has no superclass, . In the absence of any other explicit superclass, every class is implicitly a subclass of <code>Object</code>. Classes can be derived from classes that are derived from classes that are derived from classes, and so on, and ultimately derived from the topmost class, <code>Object</code>. Such a class is said to be <em>descended</em> from all the classes in the <em>inheritance chain</em> stretching back to <code>Object</code>. Java does not support <em>multiple inheritance</em> among classes.</p>
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>The <code>java.lang.Object</code> class defines and implements behavior common to all classes</strong>—including the ones that you write. In the Java platform, many classes derive directly from <code>Object</code>, other classes derive from some of those classes, and so on, forming a hierarchy of classes.</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>The <code>java.lang.Object</code> class defines and implements behavior common to all classes</strong>—including the ones that you write. In the Java platform, many classes derive directly from <code>Object</code>, other classes derive from some of those classes, and so on, forming a single hierarchy of classes.</p>
                       <p><strong>The keyword <code>extends</code> indicates one class inheriting from another.</strong></p>
                       <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the sample code for a possible implementation of a <code>Bicycle</code> class and a <code>MountainBike</code> class that is a subclass of the <code>Bicycle</code>:</p>
@@ -559,13 +571,13 @@
                         <pre><code class="hljs">Printed in Superclass.
 Printed in Subclass
 </code></pre>
-                        <p>Within <code>Subclass</code>, the simple name <code>printMethod()</code> refers to the one declared in <code>Subclass</code>, which overrides the one in <code>Superclass</code>. So, to refer to <code>printMethod()</code> inherited from <code>Superclass</code>, <code>Subclass</code> must use a qualified name, using <code>super</code> as shown. Compiling and executing <code>Subclass</code> prints the following:</p>
+                        <p>Within <code>Subclass</code>, the simple name <code>printMethod()</code> refers to the one declared in <code>Subclass</code>, which overrides the one in <code>Superclass</code>. So, to refer to <code>printMethod()</code> inherited from <code>Superclass</code>, <code>Subclass</code> must use a qualified name, using <code>super</code> as shown.</p>
                       </box>
                       <h5 id="subclass-constructors">Subclass Constructors<a class="fa fa-anchor" href="#subclass-constructors"></a></h5>
                       <p><strong>A subclass constructor can invoke the superclass constructor.</strong> Invocation of a superclass constructor must be the first line in the subclass constructor.
-                        The syntax for calling a superclass constructor is <code>super()</code> <span class="dimmed">(which invokes the no-argument constructor of the superclass)</span> or <code>super(parameter list)</code> <span class="dimmed">(to invoke the superclass constructor with a matching parameter list)</span>.</p>
+                        The syntax for calling a superclass constructor is <code>super()</code> <span class="dimmed">(which invokes the no-argument constructor of the superclass)</span> or <code>super(parameters)</code> <span class="dimmed">(to invoke the superclass constructor with a matching parameter list)</span>.</p>
                       <box>
-                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following example illustrates how to use the <code>super</code> keyword to invoke a superclass's constructor. Recall from the <code>Bicycle</code> example that <code>MountainBike</code> is a subclass of <code>Bicycle</code>. Here is the <code>MountainBike</code> (subclass) constructor that calls the superclass constructor and then adds initialization code of its own:</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following example illustrates how to use the <code>super</code> keyword to invoke a superclass's constructor. Recall from the <code>Bicycle</code> example that <code>MountainBike</code> is a subclass of <code>Bicycle</code>. Here is the <code>MountainBike</code> (subclass) constructor that calls the superclass constructor and then adds some initialization code of its own (i.e., <code class="hljs inline java">seatHeight = startHeight;</code>):</p>
                         <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MountainBike</span><span class="hljs-params">(<span class="hljs-keyword">int</span> startHeight, <span class="hljs-keyword">int</span> startSpeed, <span class="hljs-keyword">int</span> startGear)</span> </span>{
     <span class="hljs-keyword">super</span>(startSpeed, startGear);
     seatHeight = startHeight;
@@ -574,7 +586,7 @@ Printed in Subclass
                       </box>
                       <p>Note: If a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the superclass does not have a no-argument constructor, you will get a compile-time error. <code>Object</code> does have such a constructor, so if <code>Object</code> is the only superclass, there is no problem.</p>
                       <h5 id="access-modifiers-simplified">Access Modifiers (simplified)<a class="fa fa-anchor" href="#access-modifiers-simplified"></a></h5>
-                      <p><strong>Access level modifiers determine whether other classes can use a particular field or invoke a particular method.</strong> Given below is a simplified version of Java access modifiers, <mark>assuming you have not yet started placing your classes in different packages</mark> i.e., all classes are places in the root level. A full explanation of access modifiers is given in a later topic.</p>
+                      <p><strong>Access level modifiers determine whether other classes can use a particular field or invoke a particular method.</strong> Given below is a simplified version of Java access modifiers, <mark>assuming you have not yet started placing your classes in different packages</mark> i.e., all classes are placed in the root level. A full explanation of access modifiers is given in a later topic.</p>
                       <p>There are two levels of access control:</p>
                       <ol>
                         <li>
@@ -598,7 +610,7 @@ Printed in Subclass
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> inherit the `Task` class">
@@ -695,10 +707,10 @@ Postponed to Nov 18th
               </div>
             </panel>
             <p><span id="W4-1e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/inheritance/objectClass">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.1e</span></span> <span class="dimmed"><strong><span>C++ to Java → Inheritance →
-                          </span></strong></span></small> <strong><span>The <code>Object</code> Class</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.1e</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-inheritance-the-object-class"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Inheritance →</span></span></small> <strong><span>The <code>Object</code> Class</span></strong><a class="fa fa-anchor" href="#c-to-java-inheritance-the-object-class"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -750,7 +762,7 @@ Postponed to Nov 18th
 </code></pre>
                         <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>05:20:13</code></p>
                       </box>
-                      <p>💡 <code>@Override</code> is an optional annotation you can use to indicate that the method is overriding a method from the parent class.</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>@Override</code> is an optional annotation you can use to indicate that the method is overriding a method from the parent class.</p>
                     </div>
                     <h5 id="the-equals-method">The <code>equals</code> method<a class="fa fa-anchor" href="#the-equals-method"></a></h5>
                     <div class="indented">
@@ -807,7 +819,7 @@ true
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> override the `toString` method">
@@ -894,7 +906,7 @@ description: Read textbook
 is done? Yes
 do by: Postponed to Nov 18th
 </code></pre>
-                                <p>💡 You can use the <code>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em>adding onto</em> the behavior of the overridden method.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em>adding onto</em> the behavior of the overridden method.</p>
                                 <div slot="hint">
                                   <p><code>toString()</code> method of <code>Task</code> class and <code>Todo</code> class are given below. You can follow a similar approach for the <code>Deadline</code> class.</p>
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
@@ -943,10 +955,10 @@ do by: Postponed to Nov 18th
           </span>
           <div class="indented-level1">
             <p><span id="W4-2a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/polymorphism/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.2a</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Polymorphism →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.2a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="paradigms-oop-polymorphism-what"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Polymorphism →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#paradigms-oop-polymorphism-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -957,21 +969,21 @@ do by: Postponed to Nov 18th
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Polymorphism</strong>:</p>
                         <blockquote>
                           <p>The ability of different objects to respond, each in its own way, to identical messages is called polymorphism. <sub>-- <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/OOP_ObjC/">Object-Oriented Programming with Objective-C</a>, Apple</sub></p>
                         </blockquote>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong><em>Polymorphism</em> allows you to write code targeting superclass objects, use that code on subclass objects, and achieve possibly different results based on the actual class of the object.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Assume classes <code>Cat</code> and <code>Dog</code> are both subclasses of the <code>Animal</code> class. You can write code targeting <code>Animal</code> objects and use that code on <code>Cat</code> and <code>Dog</code> objects, achieving possibly different results based on whether it is a <code>Cat</code> object or a <code>Dog</code> object. Some examples:</p>
                       <ul>
                         <li>Declare an array of type <code>Animal</code> and still be able to store <code>Dog</code> and <code>Cat</code> objects in it.</li>
                         <li>Define a method that takes an <code>Animal</code> object as a parameter and yet be able to pass <code>Dog</code> and <code>Cat</code> objects to it.</li>
-                        <li>Call a method on a <code>Dog</code> or a <code>Cat</code> object as if it is an <code>Animal</code> object <span class="dimmed">(i.e., without knowing whether it is a <code>Dog</code> object or a <code>Cat</code> object)</span> and get a different response from it based on its actual class <span class="dimmed">e.g., call the <code>Animal</code> class' method <code>speak()</code> on object <code>a</code> and get a <code>Meow</code> as the return value if <code>a</code> is a <code>Cat</code> object and <code>Woof</code> if it is a <code>Dog</code> object</span>.
+                        <li>Call a method on a <code>Dog</code> or a <code>Cat</code> object as if it is an <code>Animal</code> object <span class="dimmed">(i.e., without knowing whether it is a <code>Dog</code> object or a <code>Cat</code> object)</span> and get a different response from it based on its actual class <span class="dimmed">e.g., call the <code>Animal</code> class' method <code>speak()</code> on object <code>a</code> and get a <code>&quot;Meow&quot;</code> as the return value if <code>a</code> is a <code>Cat</code> object and <code>&quot;Woof&quot;</code> if it is a <code>Dog</code> object</span>.
                         </li>
                       </ul>
                     </box>
@@ -983,10 +995,10 @@ do by: Postponed to Nov 18th
               </div>
             </panel>
             <p><span id="W4-2b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/inheritance/substitutability">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.2b</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                          </span></strong></span></small> <strong><span>Substitutability</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.2b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="paradigms-oop-inheritance-substitutability"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Inheritance →</span></span></small> <strong><span>Substitutability</span></strong><a class="fa fa-anchor" href="#paradigms-oop-inheritance-substitutability"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1002,29 +1014,29 @@ do by: Postponed to Nov 18th
                   <p></p>
                   <div>
                     <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is expected.</p>
-                    <tip-box>
+                    <box>
                       <img src="/website/book/oop/inheritance/substitutability/images/staff.png" height="80">
                       <p></p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
                       <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
                       <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
-                      <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
+                      <p>But the following code is not valid <span class="dimmed">because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
                       <pre><code class="hljs java">Staff staff;
 ...
 AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W4-2c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/inheritance/dynamicAndStaticBinding">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.2c</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
-                          </span></strong></span></small> <strong><span>Dynamic and Static Binding</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.2c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="paradigms-oop-inheritance-dynamic-and-static-binding"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Inheritance →</span></span></small> <strong><span>Dynamic and Static Binding</span></strong><a class="fa fa-anchor" href="#paradigms-oop-inheritance-dynamic-and-static-binding"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1035,11 +1047,11 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Dynamic Binding</strong> (<tooltip content="There are subtle differences between late binding and dynamic binding, but they are beyond the scope of this document">aka late binding</tooltip>) : a mechanism where method calls in code are <tooltip content="deciding which method implementation to execure">resolved</tooltip> at <tooltip content="at the moment the method call is executed">runtime</tooltip>, rather than at compile time.</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>
                         <trigger trigger="click" for="modal:dynamicAndStatic-overriding">Overridden methods</trigger> are resolved using dynamic binding, and therefore resolves to the implementation in the actual type of the object.
                       </strong></p>
@@ -1060,7 +1072,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                           <div id="main">
                             <div>
                               <p><strong>Method <em>overriding</em> is when a sub-class changes the behavior inherited from the parent class</strong> by re-implementing the method. Overridden methods have the same name, same type signature, and same return type.</p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
                                 <div class="table-responsive">
                                   <table class="markbind-table table table-bordered table-striped">
@@ -1085,12 +1097,12 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                       <tr>
                                         <td><code>read():String</code></td>
                                         <td><code>read(int):String</code></td>
-                                        <td>No. <span class="dimmed"> Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
+                                        <td>No. <span class="dimmed">Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
                                       </tr>
                                     </tbody>
                                   </table>
                                 </div>
-                                <modal title="**Overloading**" id="modal:overriding-overloading">
+                                <modal large title="**Overloading**" id="modal:overriding-overloading">
                                   <div>
                                     <div></div>
                                     <p></p>
@@ -1103,10 +1115,11 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                       <div id="main">
                                         <div>
                                           <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                                          <tip-box type="primary">
+                                          <box type="definition">
                                             <div>
                                               <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                              <panel type="seamless" header="%%Examples%%">
+                                              <box>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                                 <div class="table-responsive">
                                                   <table class="markbind-table table table-bordered table-striped">
                                                     <thead>
@@ -1135,23 +1148,23 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                                     </tbody>
                                                   </table>
                                                 </div>
-                                              </panel>
+                                              </box>
                                             </div>
-                                          </tip-box>
-                                          <tip-box>
+                                          </box>
+                                          <box>
                                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                                             <ul>
                                               <li><code>calculate(String): void</code></li>
                                               <li><code>calculate(int): void</code></li>
                                             </ul>
-                                          </tip-box>
+                                          </box>
                                         </div>
                                         <div></div>
                                       </div>
                                     </div>
                                   </div>
                                 </modal>
-                              </tip-box>
+                              </box>
                             </div>
                             <div>
                               <div>
@@ -1183,7 +1196,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                         </div>
                       </div>
                     </modal>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below. The declared type of <code>s</code> is <code>Staff</code> and it appears as if the <code>adjustSalary(int)</code> operation of the <code>Staff</code> class is invoked.</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> byPercent)</span> </span>{
     <span class="hljs-keyword">for</span> (Staff s: staff) {
@@ -1191,13 +1204,13 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     }
 }
 </code></pre>
-                      <p>However, at runtime s can receive an object of any subclass of <code>Staff</code>. That means the <code>adjustSalary(int)</code> operation of the actual subclass object will be called. If the subclass does not override that operation, the operation defined in the superclass (in this case, <code>Staff</code> class) will be called.</p>
-                    </tip-box>
-                    <tip-box type="definition">
+                      <p>However, at runtime <code>s</code> can receive an object of any subclass of <code>Staff</code>. That means the <code>adjustSalary(int)</code> operation of the actual subclass object will be called. If the subclass does not override that operation, the operation defined in the superclass (in this case, <code>Staff</code> class) will be called.</p>
+                    </box>
+                    <box type="definition">
                       <div>
                         <p><strong>Static binding</strong> (aka early binding): When a method call is resolved at compile time.</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>In contrast, <trigger trigger="click" for="modal:dynamicAndStatic-overloading">overloaded</trigger> methods are resolved using static binding.</strong></p>
                     <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overloading">
                       <div>
@@ -1212,10 +1225,11 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                           <div id="main">
                             <div>
                               <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                              <tip-box type="primary">
+                              <box type="definition">
                                 <div>
                                   <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                  <panel type="seamless" header="%%Examples%%">
+                                  <box>
+                                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                     <div class="table-responsive">
                                       <table class="markbind-table table table-bordered table-striped">
                                         <thead>
@@ -1244,23 +1258,23 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                         </tbody>
                                       </table>
                                     </div>
-                                  </panel>
+                                  </box>
                                 </div>
-                              </tip-box>
-                              <tip-box>
+                              </box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                                 <ul>
                                   <li><code>calculate(String): void</code></li>
                                   <li><code>calculate(int): void</code></li>
                                 </ul>
-                              </tip-box>
+                              </box>
                             </div>
                             <div></div>
                           </div>
                         </div>
                       </div>
                     </modal>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Note how the constructor is overloaded in the class below. The method call <code>new Account()</code> is bound to the first constructor at compile time.</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
 
@@ -1279,17 +1293,17 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">calculateGrade</span> <span class="hljs-params">(<span class="hljs-keyword">int</span>[] averages)</span> </span>{ ... }
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">calculateGrade</span> <span class="hljs-params">(String matric)</span> </span>{ ... }
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
               </div>
             </panel>
             <p><span id="W4-2d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/oop/polymorphism/how">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.2d</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Polymorphism →
-                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.2d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="paradigms-oop-polymorphism-how"><small><span class="font-weight-bold text-muted"><span>Paradigms → OOP → Polymorphism →</span></span></small> <strong><span>How</span></strong><a class="fa fa-anchor" href="#paradigms-oop-polymorphism-how"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1338,10 +1352,10 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
               </div>
             </panel>
             <p><span id="W4-2e"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/cppToJava/inheritance/polymorphism">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.2e</span></span> <span class="dimmed"><strong><span>C++ to Java → Inheritance →
-                          </span></strong></span></small> <strong><span>Polymorphism</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.2e</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="c-to-java-inheritance-polymorphism"><small><span class="font-weight-bold text-muted"><span>C++ to Java → Inheritance →</span></span></small> <strong><span>Polymorphism</span></strong><a class="fa fa-anchor" href="#c-to-java-inheritance-polymorphism"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1422,7 +1436,7 @@ Spot: Woof
 </code></pre>
                       </panel>
                     </box>
-                    <p>A better way is to <strong>take advantage of polymorphism to write code that targets a superclass but works with any subclass objects.</strong></p>
+                    <p>A better way is to <strong>take advantage of polymorphism to write code that targets a superclass so that it works with any subclass objects.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>PetShelter2</code> use one data structure to keep both types of animals and one loop to make them speak. The code targets the <code>Animal</code> superclass (assuming <code>Cat</code> and <code>Dog</code> inherits from the <code>Animal</code> class) instead of repeating the code for each animal type.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PetShelter2</span> </span>{
@@ -1480,7 +1494,7 @@ Spot: Woof
 </code></pre>
                       </panel>
                       <p><span class="dimmed">Explanation: Because Java supports polymorphism, you can store both <code>Cat</code> and <code>Dog</code> objects in an array of <code>Animal</code> objects. Similarly, you can call the <code>speak</code> method on any <code>Animal</code> object (as done in the loop) and yet get different behavior from <code>Cat</code> objects and <code>Dog</code> objects.</span></p>
-                      <p>💡 Suggestion: try to add an <code>Animal</code> object (e.g., <code>new Animal(&quot;Unnamed&quot;)</code>) to the <code>animals</code> array and see what happens.
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Suggestion: try to add an <code>Animal</code> object (e.g., <code>new Animal(&quot;Unnamed&quot;)</code>) to the <code>animals</code> array and see what happens.
                       </p>
                     </box>
                     <p><strong>Polymorphic code is better</strong> in several ways:</p>
@@ -1492,7 +1506,7 @@ Spot: Woof
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
                             <panel header="<md>:glyphicon-question-sign:</md> print shape area">
@@ -1549,7 +1563,7 @@ Spot: Woof
     }
 }
 </code></pre>
-                                <p>💡 You may use an array of size 100 to store the shapes.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You may use an array of size 100 to store the shapes.</p>
                                 <panel type="seamless" header="Partial solution">
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Shape[] shapes = <span class="hljs-keyword">new</span> Shape[<span class="hljs-number">100</span>];
@@ -1566,210 +1580,6 @@ Spot: Woof
 </code></pre>
                                 </panel>
                               </question>
-                            </panel>
-                          </div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 2 - **Use Inheritance**">
-                              <div id="body">
-                                <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                </p>
-                                <p><span class="dimmed">This exercise continues from the <code>TaskManager Level1</code> exercise quoted above.</span></p>
-                                <div id="main">
-                                  <p>Enhance your TaskManager program in the following ways.</p>
-                                  <p><strong>A. Add support for two types of tasks:</strong></p>
-                                  <ul>
-                                    <li>ToDo : a task to do someday</li>
-                                    <li>Deadline: a task to be done by a specific deadline</li>
-                                  </ul>
-                                  <p>Both types keeps an internal flag to indicate if the task is done. The flag is initially set to <code>false</code>.</p>
-                                  <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                  <box>
-                                    <div class="text-monospace">
-                                      <p>Welcome to TaskManager-Level2!
-                                        <br>Your task? <code>todo submit report</code>
-                                        <br>Tasks in the list: 1
-                                        <br>Your task? <code>deadline write report /by this Friday 4pm</code>
-                                        <br>Tasks in the list: 2
-                                        <br>Your task? <code>todo read textbook</code>
-                                        <br>Tasks in the list: 3
-                                        <br>Your task? <code>deadline return textbook /by Sunday</code>
-                                        <br>Tasks in the list: 4
-                                        <br>Your task? <code>print</code>
-                                        <br>Tasks:
-                                        <br>[1] description: submit report
-                                        <br>    is done? No
-                                        <br>[2] description: write report
-                                        <br>    is done? No
-                                        <br>do by: this Friday 4pm
-                                        <br>[3] description: read textbook
-                                        <br>    is done? No
-                                        <br>[4] description: return textbook
-                                        <br>    is done? No
-                                        <br>    do by: Sunday
-                                        <br>Your task? <code>exit</code>
-                                        <br>Bye!</p>
-                                    </div>
-                                  </box>
-                                  <p>Changes to the behavior:</p>
-                                  <ul>
-                                    <li><s><strong><code>add</code></strong> <code>task description</code>: adds the <code>task description</code> to the task list</s></li>
-                                    <li><strong><code>todo</code></strong> <code>task description</code>: adds to the task list a todo task with the given <code>task description</code></li>
-                                    <li><strong><code>deadline</code></strong> <code>task description /by deadline description</code>: adds to the task list a deadline task with the given <code>task description</code> and with the <code>deadline description</code></li>
-                                  </ul>
-                                  <p>Suggestion:</p>
-                                  <ul>
-                                    <li>Make the <code>Todo</code> class inherit from <code>Task</code> class, and make <code>Deadline</code> task inherit from <code>Todo</code> class.</li>
-                                    <li>Use polymorphism to store both types of tasks in an array of <code>Task</code> type and use one loop to print both types of tasks.</li>
-                                  </ul>
-                                  <p><strong>B. Add support for <trigger trigger="click" for="modal:taskManagerLevel2-testingClis">semi-automated regression testing using input/output redirection</trigger></strong>.</p>
-                                  <modal large title="Textbook »" id="modal:taskManagerLevel2-testingClis">
-                                    <div>
-                                      <div></div>
-                                      <p></p>
-                                      <p><span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
-                                            </span></strong></span></p>
-                                      <div id="title-and-body">
-                                        <div>
-                                          <h4 id="automated-testing-of-cli-apps"><span>Automated Testing of CLI Apps</span><a class="fa fa-anchor" href="#automated-testing-of-cli-apps"></a></h4>
-                                        </div>
-                                        <div id="main">
-                                          <div>
-                                            <p><strong>A simple way to semi-automate testing of a CLI(Command Line Interface) app is by using input/output re-direction.</strong></p>
-                                            <ul>
-                                              <li>First, we feed the app with a sequence of test inputs that is stored in a file while redirecting the output to another file.</li>
-                                              <li>Next, we compare the actual output file with another file containing the expected output.</li>
-                                            </ul>
-                                            <p>Let us assume we are testing a CLI app called <code>AddressBook</code>. Here are the detailed steps:</p>
-                                            <ol>
-                                              <li>
-                                                <p>Store the test input in the text file <code>input.txt</code>.</p>
-                                                <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless">
-                                                  <pre><code class="hljs">add Valid Name p/12345 valid@email.butNoPrefix
-add Valid Name 12345 e/valid@email.butPhonePrefixMissing
-</code></pre>
-                                                </panel>
-                                              </li>
-                                              <li>
-                                                <p>Store the output we expect from the SUT in another text file <code>expected.txt</code>.</p>
-                                                <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless">
-                                                  <pre><code class="hljs">Command: || [add Valid Name p/12345 valid@email.butNoPrefix]
-Invalid command format: add 
-
-Command: || [add Valid Name 12345 e/valid@email.butPhonePrefixMissing]
-Invalid command format: add 
-</code></pre>
-                                                </panel>
-                                              </li>
-                                              <li>
-                                                <p>Run the program as given below, which will redirect the text in <code>input.txt</code> as the input to <code>AddressBook</code> and similarly, will redirect the output of AddressBook to a text file <code>output.txt</code>. <span class="dimmed">Note that this does not require any code changes to <code>AddressBook</code>.</span></p>
-                                                <pre><code class="hljs sh">java AddressBook &lt; input.txt &gt; output.txt
-</code></pre>
-                                                <ul>
-                                                  <li>
-                                                    <p>💡 The way to run a CLI program differs based on the language.<br>
-                                                      e.g., In Python, assuming the code is in <code>AddressBook.py</code> file, use the command<br>
-                                                      <code>python AddressBook.py &lt; input.txt &gt; output.txt</code></p>
-                                                  </li>
-                                                  <li>
-                                                    <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
-                                                  </li>
-                                                </ul>
-                                                <panel header minimized>
-                                                  <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
-                                                  <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
-                                                  <pre><code class="hljs sh">java AddressBook &gt; output.txt 
-</code></pre>
-                                                  <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
-                                                  <tip-box>
-                                                    <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
-                                                    <ul>
-                                                      <li><a href="http://technet.microsoft.com/en-us/library/bb490982.aspx">Using command redirection operators in Windows</a></li>
-                                                    </ul>
-                                                  </tip-box>
-                                                  <p></p>
-                                                </panel>
-                                                <p></p>
-                                              </li>
-                                              <li>
-                                                <p>Next, we compare <code>output.txt</code> with the <code>expected.txt</code>. This can be done using a utility such as Windows <code>FC</code> (i.e. File Compare) command, Unix <code>diff</code> command, or a GUI tool such as <em>WinMerge</em>.</p>
-                                                <pre><code class="hljs">FC output.txt expected.txt
-</code></pre>
-                                              </li>
-                                            </ol>
-                                            <p>Note that the above technique is only suitable when testing CLI apps, and only if the exact output can be predetermined. <span class="dimmed">If the output varies from one run to the other (e.g. it contains a time stamp), this technique will not work. In those cases we need more sophisticated ways of automating tests.</span></p>
-                                            <div>
-                                              <popover id="pop:cli" placement="top">
-                                                <div slot="content">
-                                                  <div>
-                                                    <p><strong>CLI App</strong>: An application that has a <em>Command Line Interface</em>. i.e. user interacts with the app by typing in commands.</p>
-                                                  </div>
-                                                </div>
-                                              </popover>
-                                            </div>
-                                          </div>
-                                          <div></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </modal>
-                                  <panel type="seamless" header="Partial solution">
-                                    <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-    <span class="hljs-keyword">static</span> Scanner in = <span class="hljs-keyword">new</span> Scanner(System.in);
-    <span class="hljs-keyword">static</span> Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
-    <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> taskCount = <span class="hljs-number">0</span>;
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        printWelcome();
-        String line;
-
-        <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
-        <span class="hljs-keyword">while</span> (!isExit) {
-            line = getInput();
-            String command = line.split(<span class="hljs-string">" "</span>)[<span class="hljs-number">0</span>];
-            <span class="hljs-keyword">switch</span> (command) {
-                <span class="hljs-keyword">case</span> <span class="hljs-string">"exit"</span>:
-                <span class="hljs-keyword">case</span> <span class="hljs-string">""</span>:
-                    isExit = <span class="hljs-keyword">true</span>;
-                    <span class="hljs-keyword">break</span>;
-                <span class="hljs-keyword">case</span> <span class="hljs-string">"todo"</span>:
-                    addTodo(line);
-                    <span class="hljs-keyword">break</span>;
-                <span class="hljs-keyword">case</span> <span class="hljs-string">"deadline"</span>:
-                    addDeadline(line);
-                    <span class="hljs-keyword">break</span>;
-                <span class="hljs-keyword">case</span> <span class="hljs-string">"print"</span>:
-                    printTasks();
-                    <span class="hljs-keyword">break</span>;
-                <span class="hljs-keyword">default</span>:
-                    printError();
-            }
-        }
-        exit();
-
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addTodo</span><span class="hljs-params">(String line)</span> </span>{
-        tasks[taskCount] = <span class="hljs-keyword">new</span> Todo(line.substring(<span class="hljs-string">"todo"</span>.length()).trim());
-        taskCount++;
-        System.out.println(<span class="hljs-string">"Tasks in the list: "</span> + taskCount);
-    }
-
-  <span class="hljs-comment">// ...</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTasks</span><span class="hljs-params">()</span> </span>{
-        System.out.println(<span class="hljs-string">"Tasks:"</span>);
-        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; taskCount; i++) {
-            System.out.println(<span class="hljs-string">"["</span> + (i + <span class="hljs-number">1</span>) + <span class="hljs-string">"] "</span> + tasks[i]);
-        }
-    }
-}
-</code></pre>
-                                  </panel>
-                                </div>
-                              </div>
                             </panel>
                           </div>
                         </div>
@@ -1791,10 +1601,10 @@ Invalid command format: add
           </span>
           <div class="indented-level1">
             <p><span id="W4-3a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/introduction/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.3a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Introduction →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.3a</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-introduction-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Introduction →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-introduction-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1805,24 +1615,25 @@ Invalid command format: add
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
-                        <p><strong>Testing</strong>: Testing is operating a system or component under specified conditions, observing or recording the results, and making an evaluation of some aspect of the system or component. –- source: IEEE</p>
+                        <p><strong>Testing</strong>: Operating a system or component under specified conditions, observing or recording the results, and making an evaluation of some aspect of the system or component. –- source: IEEE</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <img src="/website/book/testing/introduction/what/images/diagram.png" height="220">
                     <p></p>
                     <p><strong>When testing, we execute a set of <em>test cases</em>.</strong> A test case specifies how to perform a test. At a minimum, it specifies the input to the <em>software under test (SUT)</em> and the expected behavior.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: A minimal test case for testing a browser:</p>
                       <ul>
                         <li><strong>Input</strong> – Start the browser using a blank page (vertical scrollbar disabled). Then, load <code>longfile.html</code> located in the <code>test data</code> folder.</li>
                         <li><strong>Expected behavior</strong> – The scrollbar should be automatically enabled upon loading <code>longfile.html</code>.</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p><strong>Test cases can be determined based on the specification, reviewing similar existing systems, or comparing to the past behavior of the SUT.</strong></p>
-                    <panel header="%%Other details a test case can contain%%" type="seamless">
-                      <p>A more elaborate test case can have other details such as those given below.</p>
+                    <panel type="seamless">
+                      <span slot="header" class="card-title"><span><span class="dimmed">Other details a test case can contain</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span></span>
+                      A more elaborate test case can have other details such as those given below.
                       <ul>
                         <li>A unique identifier : <span class="dimmed">e.g. TC0034-a</span></li>
                         <li>A descriptive name: <span class="dimmed">e.g. vertical scrollbar activation for long web pages</span></li>
@@ -1840,10 +1651,11 @@ Invalid command format: add
                       <li>Compare actual output with the expected output</li>
                     </ol>
                     <p><strong>A test case <em>failure</em> is a mismatch between the expected behavior and the actual behavior. A failure is caused by a <em>defect</em> (or a bug).</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: In the browser example above, a test case failure is implied if the scrollbar remains disabled after loading <code>longfile.html</code>. The defect/bug causing that failure could be an uninitialized variable.</p>
-                    </tip-box>
-                    <panel header="%%A deeper look at the definition of testing%%" type="seamless">
+                    </box>
+                    <panel type="seamless">
+                      <span slot="header" class="card-title"><span><span class="dimmed">A deeper look at the definition of testing</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span></span>
                       <p>Here is another definition of testing:</p>
                       <blockquote>
                         <p>Software testing consists of the <em>dynamic</em> verification that a program provides <em>expected</em> behaviors on a <em>finite</em> set of test cases, suitably <em>selected</em> from the usually infinite execution domain. <sub>-– source: <a href="https://www.computer.org/web/swebok/v3">Software Engineering Book of Knowledge V3</a></sub></p>
@@ -1876,10 +1688,10 @@ Invalid command format: add
               </div>
             </panel>
             <p><span id="W4-3b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testingTypes/regressionTesting/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.3b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Regression Testing →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.3b</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="quality-assurance-testing-regression-testing-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Regression Testing →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-regression-testing-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1891,7 +1703,7 @@ Invalid command format: add
                   <p></p>
                   <div>
                     <p><strong>When we modify a system, the modification may result in some unintended and undesirable effects on the system. Such an effect is called a <em>regression</em>.</strong></p>
-                    <p><strong><em>Regression testing</em> is re-testing the software to detect regressions.</strong> Note that to detect regressions, we need to retest all related components, even if they were tested before.</p>
+                    <p><strong><em>Regression testing</em> is re-testing the software to detect regressions.</strong> Note that to detect regressions, we need to retest all related components, even if they had been tested before.</p>
                     <p>Regression testing is more effective when it is done frequently, after each small change. However, doing so can be prohibitively expensive if testing is done manually. Hence, <strong>regression testing is more practical when it is automated</strong>.</p>
                   </div>
                   <div>
@@ -1927,10 +1739,10 @@ Invalid command format: add
               </div>
             </panel>
             <p><span id="W4-3c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testAutomation/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.3c</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.3c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-test-automation-what"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Automation →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-test-automation-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -1964,10 +1776,10 @@ Invalid command format: add
               </div>
             </panel>
             <p><span id="W4-3d"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/testing/testAutomation/testingTextUis">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.3d</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
-                          </span></strong></span></small> <strong><span>Automated Testing of CLI Apps</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.3d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="quality-assurance-testing-test-automation-automated-testing-of-cli-apps"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Test Automation →</span></span></small> <strong><span>Automated Testing of CLI Apps</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-test-automation-automated-testing-of-cli-apps"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -2010,26 +1822,26 @@ Invalid command format: add
 </code></pre>
                         <ul>
                           <li>
-                            <p>💡 The way to run a CLI program differs based on the language.<br>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> The way to run a CLI program differs based on the language.<br>
                               e.g., In Python, assuming the code is in <code>AddressBook.py</code> file, use the command<br>
                               <code>python AddressBook.py &lt; input.txt &gt; output.txt</code></p>
                           </li>
                           <li>
-                            <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
                           </li>
                         </ul>
                         <panel header minimized>
-                          <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
+                          <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span></span>
                           <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                           <pre><code class="hljs sh">java AddressBook &gt; output.txt 
 </code></pre>
                           <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
-                          <tip-box>
+                          <box>
                             <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
                             <ul>
                               <li><a href="http://technet.microsoft.com/en-us/library/bb490982.aspx">Using command redirection operators in Windows</a></li>
                             </ul>
-                          </tip-box>
+                          </box>
                           <p></p>
                         </panel>
                         <p></p>
@@ -2067,10 +1879,10 @@ Invalid command format: add
           </span>
           <div class="indented-level1">
             <p><span id="W4-4a"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/ides/debugging/what">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.4a</span></span> <span class="dimmed"><strong><span>Implementation → IDEs → Debugging →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.4a</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="implementation-ides-debugging-what"><small><span class="font-weight-bold text-muted"><span>Implementation → IDEs → Debugging →</span></span></small> <strong><span>What</span></strong><a class="fa fa-anchor" href="#implementation-ides-debugging-what"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -2084,28 +1896,22 @@ Invalid command format: add
                     <p><strong><em>Debugging</em> is the process of discovering defects in the program.</strong> Here are some approaches to debugging:</p>
                     <ul>
                       <li>
-                        <p>
-                          <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> -- <strong>By inserting temporary print statements</strong>: This is an ad-hoc approach in which print statements are inserted in the program to print information relevant to debugging, such as variable values. e.g. <code>Exiting process() method, x is 5.347</code>. This approach is not recommended due to these reasons.
-                        </p>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> -- <strong>By inserting temporary print statements</strong>: This is an ad-hoc approach in which print statements are inserted in the program to print information relevant to debugging, such as variable values. e.g. <code>Exiting process() method, x is 5.347</code>. This approach is not recommended due to these reasons.
                         <ul>
                           <li>Incurs extra effort when inserting and removing the print statements.</li>
-                          <li>Unnecessary program modifications increases the risk of introducing errors into the program.</li>
-                          <li>These print statements, if not promptly removed, may even appear unexpectedly in the production version.</li>
+                          <li>These extraneous program modifications increases the risk of introducing errors into the program.</li>
+                          <li>These print statements, if not removed promptly after the debugging, may even appear unexpectedly in the production version.</li>
                         </ul>
                       </li>
                       <li>
-                        <p>
-                          <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> -- <strong>By manually tracing through the code</strong>: Otherwise known as ‘eye-balling’, this approach doesn't have the cons of the previous approach, but it too is not recommended (other than as a 'quick try') due to these reasons:
-                        </p>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> -- <strong>By manually tracing through the code</strong>: Otherwise known as ‘eye-balling’, this approach doesn't have the cons of the previous approach, but it too is not recommended (other than as a 'quick try') due to these reasons:
                         <ul>
                           <li>It is difficult, time consuming, and error-prone technique.</li>
                           <li>If you didn't spot the error while writing code, you might not spot the error when reading code too.</li>
                         </ul>
                       </li>
                       <li>
-                        <p>
-                          <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> -- <strong>Using a debugger</strong>: A debugger tool allows you to pause the execution, then step through one statement at a time while examining the internal state if necessary. Most IDEs come with an inbuilt debugger. <strong>This is the recommended approach for debugging</strong>.
-                        </p>
+                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> -- <strong>Using a debugger</strong>: A debugger tool allows you to pause the execution, then step through one statement at a time while examining the internal state if necessary. Most IDEs come with an inbuilt debugger. <strong>This is the recommended approach for debugging</strong>.
                       </li>
                     </ul>
                   </div>
@@ -2114,10 +1920,10 @@ Invalid command format: add
               </div>
             </panel>
             <p><span id="W4-4b"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/intellij/debuggingBasic">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.4b</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
-                          </span></strong></span></small> <strong><span>Debugging: Basic</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.4b</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-intellij-idea-debugging-basic"><small><span class="font-weight-bold text-muted"><span>Tools → Intellij IDEA →</span></span></small> <strong><span>Debugging: Basic</span></strong><a class="fa fa-anchor" href="#tools-intellij-idea-debugging-basic"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -2141,10 +1947,10 @@ Invalid command format: add
               </div>
             </panel>
             <p><span id="W4-4c"></span></p>
-            <panel type="seamless" expanded>
+            <panel type="seamless" expanded popup-url="/website/book/intellij/productivityShortcuts">
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W4.4c</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
-                          </span></strong></span></small> <strong><span>Productivity Shortcuts</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <span class="badge badge-pill badge-light text-mute">W4.4c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <h4 id="tools-intellij-idea-productivity-shortcuts"><small><span class="font-weight-bold text-muted"><span>Tools → Intellij IDEA →</span></span></small> <strong><span>Productivity Shortcuts</span></strong><a class="fa fa-anchor" href="#tools-intellij-idea-productivity-shortcuts"></a></h4>
               </span>
               <div>
                 <div class="indented">
@@ -2172,7 +1978,7 @@ Invalid command format: add
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-4-sep-2">Week 4 [Sep 2]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-4-sep-2-topics">Week 4 [Sep 2] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w4-1-oop-inheritance">[W4.1] OOP: Inheritance &#x200E;</a>
               <a class="nav-link py-1" href="#w4-2-oop-polymorphism">[W4.2] OOP: Polymorphism &#x200E;</a>
@@ -2186,7 +1992,7 @@ Invalid command format: add
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 19 Jul 2019 12:41:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
     </footer>
   </div>
 </body>
