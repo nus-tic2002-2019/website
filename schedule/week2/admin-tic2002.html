@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TIC2002 Website - Week 2 - </title>
+  <title>TIC2002 - Week 2 - Tasks</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -16,13 +16,13 @@
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
-
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
   <link rel="stylesheet" href="/website/css/main.css">
   <link rel="stylesheet" href="/website/css/schedule.css">
   <link rel="icon" href="/website/favicon.ico">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
       <navbar placement="top" type="dark" class="temp-navbar">
@@ -52,7 +52,7 @@
           <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
           <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
           <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
-          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="/website/coding-standards/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
           <li><a href="https://github.com/nus-tic2002-2019/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
           <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
         </dropdown>
@@ -71,28 +71,60 @@
             <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
             <li class="page-item"><a class="page-link" href="/website/schedule/week2/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
             <li class="page-item"><a class="page-link" href="/website/schedule/week2/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-            <li class="page-item"><a class="page-link" href="/website/schedule/week2/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week2/admin-tic2002.html"><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> Tasks</a></li>
             <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
             <li class="page-item"><a class="page-link" href="/website/schedule/week3"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
           </ul>
         </nav>
         <p></p>
-        <h1 id="week-2-aug-19">Week 2 <small><small><span class="dimmed">[Aug 19]</span> - </small></small><a class="fa fa-anchor" href="#week-2-aug-19"></a></h1>
-        <box type="info" dismissible>
-          <p>Admin info relevant to the week's will appear in this tab.
-          </p>
-        </box>
+        <h1 id="week-2-aug-19-tasks">Week 2 <small><small><span class="dimmed">[Aug 19]</span> - Tasks</small></small><a class="fa fa-anchor" href="#week-2-aug-19-tasks"></a></h1>
         <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple;">
           <ol>
-            <li>...</li>
+            <li>Install SourceTree <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the lecture</span></span></li>
+            <li>Submit weekly exercises</li>
           </ol>
         </div>
-        <p>...</p>
+        <p><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Intellij SourceTree <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the lecture</span></span></p>
+        <ul>
+          <li>See the panel below:</li>
+        </ul>
+        <div class="indented-level2">
+          <div class="flat">
+            <div>
+              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:week2Admin-git">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tools → Intellij IDEA</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+            </div>
+          </div>
+          <modal large title="Admin <md>:glyphicon-log-in:</md> Tools → Intellij IDEA  <md>:glyphicon-star:</md>" id="modal:week2Admin-git">
+              <div>
+              <h3 id="git-sourcetree">Git, SourceTree<a class="fa fa-anchor" href="#git-sourcetree"></a></h3>
+              <p>We'll be using Git as our revision control tool (compulsory).</p>
+              <p>
+                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> If you are not familiar with Git already, install <a href="https://www.sourcetreeapp.com/">SourceTree</a> (a GUI for Git, but also contains Git) on your computer.
+              </p>
+            </div>
+          </modal>
+          <p>
+            <panel src="/website/admin/index-tic2002._include_.html#git-info" header="Admin <md>:glyphicon-log-in:</md> Tools → Intellij IDEA  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="git-info"></panel>
+          </p>
+        </div>
+        <p><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Submit weekly exercises</p>
+        <ul>
+          <li>As usual, submit weekly programming exercise.</li>
+        </ul>
       </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-2-aug-19-tasks">Week 2 [Aug 19] - Tasks&#x200E;</a>
+
+          </nav>
+        </div>
+      </nav>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 07:43:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 10 Aug 2019 11:30:46 GMT</small></div>
     </footer>
   </div>
 </body>
