@@ -391,8 +391,8 @@ head: scheduleHead.md
 
 {% set categories = {
   notices: {name: "Summary", file: "index", icon: icon_announcement, pagenav: 4},
-  topics: {name: "Topics", file: "topics", icon: icon_book, pagenav: 4},
-  tasks: {name: "Tasks", file: "admin-" + (module | lower), icon: icon_todo, pagenav: 4}
+  topics: {name: "Topics", file: "topics", icon: icon_book, pagenav: 3},
+  admin: {name: "Tasks", file: "admin-" + (module | lower), icon: icon_todo, pagenav: 4}
 } %}
 
 <frontmatter>
@@ -432,6 +432,8 @@ pageNav: {{ categories[category].pagenav }}
   <div class="row">
   <div class="col-sm border-right border-bottom">
 
+<md>**{{ icon_book }} Topics Summary:**</md>
+
 {{ topics.show_week_schedule_main(week_num, all_topics, "", is_toc=true, is_flat=true) }}
 
 <panel type="seamless" header="%%Full ToC%%">
@@ -441,7 +443,7 @@ pageNav: {{ categories[category].pagenav }}
   </div>
   <div class="col-sm border-bottom">
 
-**Admin:**
+<md>**{{ icon_todo }} Tasks Summary:**</md>
 <include src="admin-{{ module | lower }}.md#summary" optional/>
 
   </div>

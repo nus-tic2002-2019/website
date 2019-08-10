@@ -59,16 +59,15 @@ BSc, Computer Science & Engineering, University of Moratuwa, 1996-2001<br>
 {{ dotted_line }}
 
 # Lectures
-<div class="indented">
+<div class="indented" id="lectures-info">
 
 %%:far-clock:%% Tuesdays 7.30-9.30pm<br>
 %%:fas-map-marker-alt:%% SR2 (COM1-02-04)<br>
 
 {{ far_frown }} **Lectures will not be webcast** as the venue does not have a webcast facility. ==Please bring your laptop to the lecture== as you will need to be using it for the most part of the lecture.
 
-**Lecture slides are not suitable to be used as reference materials** as they have been <tooltip content="i.e., heavy use of graphics and animations">optimized for lecture delivery</tooltip> instead. Slides will be uploaded to LumiNUS _after_ the lecture, usually by Wednesday.
-
-{{ icon_tip }} If slides are not in LumiNUS by the expected times, please feel free to ping the lecturer.
+**Lecture slides are not suitable to be used as reference materials** as they have been <tooltip content="i.e., heavy use of graphics and animations">optimized for lecture delivery</tooltip> instead. Use the textbook (not slides) as your main reference. Slides will be uploaded to LumiNUS _after_ the lecture, usually by Wednesday.<br>
+  {{ icon_tip }} If slides are not in LumiNUS by the expected times, please feel free to ping the lecturer.
 
 </div>
 
@@ -93,7 +92,7 @@ BSc, Computer Science & Engineering, University of Moratuwa, 1996-2001<br>
 {{ dotted_line }}
 
 # Programming language
-<div class="indented">
+<div class="indented" id="java">
 
 This module uses Java. It assumes you are familiar with C++ basics and provides lessons to help you transition from C++ to Java.
 
@@ -111,112 +110,15 @@ This module uses Java. It assumes you are familiar with C++ basics and provides 
 * The project is to be done in small increments. You will be given a schedule of what increments to be done in each week.
 * Some weekly increments will be common to all students, while some will vary from student to student. That means your final product will be unique in terms of total features, but some features will be common to other students in the class.
 
-### Week 7-9: First stage
-
-<div id="project-week7">
-
-#### Week 7: Project kick-off
-
-<div class="indented">
-
-**Deadline** for project kickoff: week 7 lecture<br>
-**Marks:** 5
-
-1. **Show that you are ready to start the project**: %%i.e., a sanity check to ensure you have enough programming skills to start a project%%
-   * If you are new to programming, complete the _project preparation_ exercises i.e., reach _TaskManager - Level 5_. Demo your TaskManager to prof or email the code to prof.
-   * If you have prior programming experience, show/email to prof some code you have written before (at least 200 lines of code) to prove that you are ready to start the project.
-1. **Declare project direction and team**: Inform prof of the project direction and your team members and get approval to go ahead.
-
-</div>
-
-##### After the project kickoff
-
-* **if you chose option 1** %%(i.e., enhancing TaskManager)%%, given below are some further improvements you are recommended to do to your code base, while you are adding other features.<br>
-  **If you chose option 2 or 3**, you should still ensure you have similar enhancements in your code.
-
-<div class="indented-level2">
-  ..
-</div>
-<br>
-
-</div>
-<div id="project-week8">
-
-#### Week 8
-
-* As in the previous week, enhance your project (TaskManager or otherwise) as explained in the exercises below:
-
-<div class="indented-level2">
-  ..
-</div>
-<br>
-
-</div>
-<div id="project-week9">
-
-#### Week 9
-
-* Enhance your project (TaskManager or otherwise) as explained in the exercise below:
-
-<div class="indented-level2">
-  ..
-</div>
-<br>
-
-* Recommended (but not required): **Improve the code quality** of your code by applying the practices taught in the module.
-
-
-</div>
-
-<div id="project-midProjectCheckPoint">
-
-#### Week 10: mid-project checkpoint
-
-**Deadline**: week 10 lecture<br>
-**Marks:** 10, if you show a satisfactory level in the items below
-
-1. Create a GitHub account. Create a repository under your account and push our code to it.
-1. Demo the current state of the project to prof during the week 10 lecture session. There should be some working features at this point.
-1. Submit interim project documents (handover a hard copy during lecture 10 or upload to LumiNUS before lecture 10). The document should contain,
-   * URL of your GitHub repo
-   * Some representative user stories for the product
-   * A class diagram to match your code %%(scans of hand-drawn diagrams are acceptable too)%%
-   * At least one object diagram illustrating the state of your program at some point<br><br>
-</div>
-
-<div id="project-week10">
-
-**After the mid-project checkpoint,**
-* Enhance your project (TaskManager or otherwise) as explained in the exercise below:
-
-<div class="indented-level2">
-  ..
-</div>
-<br>
-
-</div>
-<div id="project-week11">
-
-#### Week 11
-
-* Enhance your project (TaskManager or otherwise) as explained in the exercise below:
-
-<div class="indented-level2">
-  ..
-</div>
-
-</div>
-<br>
 
 ### Week 13: Submission and demo
 
 **Deadline**: Monday of week 13<br>
-**Marks**: 45 (25 for the product, 20 for the documentation)
 
 **Deliverables**:
-* **Source code** of the working program
-  * Submission: zip up the source code and upload to LumiNUS. The file name should be your name. e.g., `JunHao.zip` If you manage to create a JAR file, upload it as a separate file, named similarly e.g., `JunHao.jar`
-* **Project documentation**: a single pdf or a Word file containing,
+* **Source code** of the working program: push to your GitHub repo
+* **Product**: Submit the JAR file, name: `{YourName}.jar` e.g., `JunHao.jar`
+* **Documentation**: a single pdf or a Word file containing,
   * A **Cover Page** containing your details and the link to your GitHub repository
   * The **link to your repo** on GitHub
   * A **User Guide**: explain how to start and use your product ([example](https://se-edu.github.io/addressbook-level2/UserGuide.html)).
@@ -227,22 +129,66 @@ This module uses Java. It assumes you are familiar with C++ basics and provides 
     * Some representative user stories, at least enough to cover the functionality of your product
     * Additional instructions for testing the product (if any) %%i.e., is there any additional steps (such as putting a specific file in a specific location) that one needs to do when testing your product manually?%%
     * Submission: Upload to LumiNUS. The file name should be your name e.g., `JunHao.pdf`
-* **Project demo**: to be done during week 13 lecture session.
-  * Demo schedule will be given closer to the date.
-  * When it is your turn, demo the features of your product using the jar file (preferred) or the IDE.
-  * The demo should take no more than 8 minutes.
+* **Demo video**:
+  * Record a demo video showcasing the features of your product.
+  * Use the exact version of the code you submitted (i.e., the demo should match the submitted code exactly).
+  * Recommended length 7 minutes, max length 10 minutes).
+  * Audio narration is optional if the demo can be understood without the audio.
+  * Ensure the video is in a format that can be played by any computer.
 
 </div>
 
 {{ dotted_line }}
 
+# Policies
+
+<span id="deadlines-info">
+
+### Deadlines
+* Deadline for weekly tasks:
+  * **If a specific deadline is given**, adhere to that.
+  * **If no specific deadline is given**, try to complete tasks allocated to a week by Tuesday 6.30pm of the following week (i.e., before the next lecture). In case you fail to meet that deadline, you should still do those tasks as soon as possible. There will be no penalty if a task is done within one week after the deadline.
+</span>
+
+{{ dotted_line }}
+
 # Tools
 <div class="indented">
+<div id="git-info">
 
-* **Git** [Required] : For revision control
-* **GitHub** [Required] : For project hosting
-* **Intellij IDEA** [Recommended] : The IDE used for programming
+### Git, SourceTree
 
+We'll be using Git as our revision control tool (compulsory).
+
+{{ icon_important_big_red }} If you are not familiar with Git already, install [SourceTree](https://www.sourcetreeapp.com/) (a GUI for Git, but also contains Git) on your computer.
+</div>
+<div id="github-info">
+
+### GitHub
+
+We'll be using GitHub for code hosting (compulsory).
+
+{{ icon_important_big_red }} Create a free GitHub account if you don't have one already.
+</div>
+<div id="repl-info">
+
+### `repl.it`
+
+We'll be using `Repl.it` for coding exercises (compulsory).
+
+* {{ icon_important_big_red }} Create an account on https://repl.it. 
+* Make sure you set your name correctly in your `repl.it` user profile (so that the prof can trace your `repl.it` submissions to you). 
+* Join the `repl.it` classroom `tic2002-2019` using the link [https://repl.it/classroom/invite/ciQ3DQs](https://repl.it/classroom/invite/ciQ3DQs).
+
+</div>
+<div id="intellij-info">
+
+### Intellij IDEA
+
+We'll be using Intellij IDE for programming. While using Intellij is not compulsory, there will be no help/instructions given for other IDEs.
+
+{{ icon_info }} Install [Intellij](https://www.jetbrains.com/idea/) on your computer. You may use the Community Edition (free) or the Ultimate Edition (free for students).
+</div>
 </div>
 
 {{ dotted_line }}
@@ -250,8 +196,13 @@ This module uses Java. It assumes you are familiar with C++ basics and provides 
 # Assessment
 <div class="indented">
 
-* 40% : Project
-* 60% : Final Exam
+**40% : CA**
+* 10%: Participation -- To get full marks, complete weekly tasks for at least 10 weeks.
+* 30%: Project
+  * 20%: Features, code
+  * 10%: Documentation
+
+**60% : Final Exam**
 
 </div>
 
