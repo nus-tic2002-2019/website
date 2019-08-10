@@ -110,8 +110,9 @@ This module uses Java. It assumes you are familiar with C++ basics and provides 
 * The project is to be done in small increments. You will be given a schedule of what increments to be done in each week.
 * Some weekly increments will be common to all students, while some will vary from student to student. That means your final product will be unique in terms of total features, but some features will be common to other students in the class.
 
+<div id="final-submission-info">
 
-### Week 13: Submission and demo
+### Week 13: Final Submission
 
 **Deadline**: Monday of week 13<br>
 
@@ -136,6 +137,7 @@ This module uses Java. It assumes you are familiar with C++ basics and provides 
   * Audio narration is optional if the demo can be understood without the audio.
   * Ensure the video is in a format that can be played by any computer.
 
+</div>
 </div>
 
 {{ dotted_line }}

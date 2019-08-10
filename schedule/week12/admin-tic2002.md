@@ -5,7 +5,18 @@
 {{ show_week_pagetop(12, "admin") }}
 
 {% call show_admin_summary() %}
-1. Prepare project docs
+1. Finish up the project coding
+1. Prepare the final submission
 {% endcall %}
 
-Prepare project docs
+{{ thumb(1) }} Finish up the project coding
+
+* Finish up any remaining coding work.
+* Test the product thoroughly.
+
+{{ thumb(2) }} Prepare the final submission
+
+<div class="indented-level2">
+
+{{ embed_topic("../../admin/index-tic2002.md#final-submission-info", "Admin " + icon_embedding + " Project → Final Submission", "week12Admin-finalSubmission", "1") }}
+</div>
