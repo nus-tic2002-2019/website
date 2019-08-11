@@ -201,3 +201,52 @@ Missing reference in C:\repos\nus-tic2002-2019\tic2002-website\schedule\week1\ad
 2019-08-11T03:11:02.248Z - info: Site data built
 2019-08-11T03:13:46.737Z - info: Website generation started at 11:13:44
 2019-08-11T03:13:47.949Z - info: Building assets...
+2019-08-11T03:13:49.207Z - info: Assets built
+2019-08-11T03:13:49.208Z - info: Generating pages...
+2019-08-11T03:15:32.389Z - info: Pages built
+2019-08-11T03:15:54.896Z - info: Website generation complete! Total build time: 130.111s
+2019-08-11T03:15:54.899Z - info: Build success!
+2019-08-11T03:15:54.905Z - info: Site data built
+2019-08-11T03:16:28.494Z - info: Deployed!
+2019-08-11T03:17:22.918Z - info: Website generation started at 11:17:21
+2019-08-11T03:17:24.107Z - info: Building assets...
+2019-08-11T03:17:25.560Z - info: Assets built
+2019-08-11T03:17:25.560Z - info: Generating pages...
+2019-08-11T03:19:20.074Z - info: Pages built
+2019-08-11T03:19:44.357Z - info: Website generation complete! Total build time: 143.102s
+2019-08-11T03:19:44.652Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-11T03:19:44.652Z - info: Press CTRL+C to stop ...
+2019-08-11T03:19:44.667Z - info: Site data built
+2019-08-11T03:19:59.898Z - info: [11:19:59] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\_markbind\headers\header.md
+2019-08-11T03:20:00.900Z - info: Rebuilding affected source files
+2019-08-11T03:20:00.922Z - info: Rebuilding 128 pages
+2019-08-11T03:20:20.862Z - info: [11:20:20] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\_markbind\headers\header.md
+2019-08-11T03:20:59.021Z - info: Pages rebuilt
+2019-08-11T03:20:59.115Z - info: Site data built
+2019-08-11T03:20:59.318Z - info: Rebuilding affected source files
+2019-08-11T03:20:59.334Z - info: Rebuilding 128 pages
+2019-08-11T03:21:59.425Z - info: Pages rebuilt
+2019-08-11T03:21:59.545Z - info: Site data built
+2019-08-11T03:22:10.222Z - info: [11:22:10] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\_markbind\headers\header.md
+2019-08-11T03:22:11.234Z - info: Rebuilding affected source files
+2019-08-11T03:22:11.265Z - info: Rebuilding 128 pages
+2019-08-11T03:22:45.154Z - info: [11:22:45] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\_markbind\headers\header.md
+2019-08-11T03:22:52.286Z - info: [11:22:52] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\_markbind\headers\header.md
+2019-08-11T03:23:10.407Z - info: Pages rebuilt
+2019-08-11T03:23:10.447Z - info: Site data built
+2019-08-11T03:23:10.759Z - info: Rebuilding affected source files
+2019-08-11T03:23:10.788Z - info: Rebuilding 128 pages
+2019-08-11T03:24:09.131Z - info: Pages rebuilt
+2019-08-11T03:24:09.159Z - info: Site data built
+2019-08-11T03:26:44.089Z - info: [11:26:44] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\_markbind\headers\header.md
+2019-08-11T03:26:45.090Z - info: Rebuilding affected source files
+2019-08-11T03:26:45.110Z - info: Rebuilding 128 pages
+2019-08-11T03:27:45.273Z - info: Pages rebuilt
+2019-08-11T03:27:45.310Z - info: Site data built
+2019-08-11T03:28:45.885Z - info: [11:28:45] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\_markbind\headers\header.md
+2019-08-11T03:28:46.887Z - info: Rebuilding affected source files
+2019-08-11T03:28:46.903Z - info: Rebuilding 128 pages
+2019-08-11T03:29:50.798Z - info: Pages rebuilt
+2019-08-11T03:29:50.823Z - info: Site data built
+2019-08-11T03:35:08.762Z - info: Website generation started at 11:35:06
+2019-08-11T03:35:10.165Z - info: Building assets...
