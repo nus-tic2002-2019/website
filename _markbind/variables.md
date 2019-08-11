@@ -30,6 +30,8 @@
 
 <span id="forum_link">https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c</span>
 
+<span id="repl_link">https://repl.it/classroom/invite/ciQ3DQs</span>
+
 <span id="admin_link"><md>[Admin Info page]({{baseUrl}}/admin/index.html)</md></span>
 
 <span id="schedule_link"><md>[Schedule page]({{baseUrl}}/index.html)</md></span>

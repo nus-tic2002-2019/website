@@ -192,7 +192,7 @@ We'll be using `Repl.it` for coding exercises (compulsory).
 
 * {{ icon_important_big_red }} Create an account on https://repl.it. 
 * Make sure you set your name correctly in your `repl.it` user profile (so that the prof can trace your `repl.it` submissions to you). 
-* Join the `repl.it` classroom `tic2002-2019` using the link [https://repl.it/classroom/invite/ciQ3DQs](https://repl.it/classroom/invite/ciQ3DQs).
+* Join the `repl.it` classroom `tic2002-2019` using the link [{{ repl_link }}]({{ repl_link }}).
 
 </div>
 <div id="intellij-info">
