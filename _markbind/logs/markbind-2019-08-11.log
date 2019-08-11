@@ -55,3 +55,149 @@
 2019-08-11T02:13:21.885Z - info: Site data built
 2019-08-11T02:16:54.091Z - info: Website generation started at 10:16:52
 2019-08-11T02:16:55.280Z - info: Building assets...
+2019-08-11T02:16:56.926Z - info: Assets built
+2019-08-11T02:16:56.926Z - info: Generating pages...
+2019-08-11T02:18:39.591Z - info: Pages built
+2019-08-11T02:19:00.241Z - info: Website generation complete! Total build time: 127.894s
+2019-08-11T02:19:00.241Z - info: Build success!
+2019-08-11T02:19:00.272Z - info: Site data built
+2019-08-11T02:19:38.342Z - info: Deployed!
+2019-08-11T02:50:34.927Z - info: Website generation started at 10:50:32
+2019-08-11T02:50:38.103Z - info: Building assets...
+2019-08-11T02:50:40.585Z - info: Assets built
+2019-08-11T02:50:40.585Z - info: Generating pages...
+2019-08-11T02:52:26.698Z - info: Pages built
+2019-08-11T02:52:48.582Z - info: Website generation complete! Total build time: 136.333s
+2019-08-11T02:52:48.966Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-11T02:52:48.966Z - info: Press CTRL+C to stop ...
+2019-08-11T02:52:48.982Z - info: Site data built
+2019-08-11T02:52:49.242Z - info: [10:52:49] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T02:52:50.299Z - info: Rebuilding affected source files
+2019-08-11T02:52:50.299Z - info: Rebuilding 10 pages
+2019-08-11T02:52:57.728Z - info: Pages rebuilt
+2019-08-11T02:52:57.940Z - info: Site data built
+2019-08-11T02:53:00.868Z - info: [10:53:00] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T02:53:01.873Z - info: Rebuilding affected source files
+2019-08-11T02:53:01.877Z - info: Rebuilding 10 pages
+2019-08-11T02:53:04.256Z - info: Pages rebuilt
+2019-08-11T02:53:04.272Z - info: Site data built
+2019-08-11T02:53:22.937Z - info: [10:53:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T02:53:23.942Z - info: Rebuilding affected source files
+2019-08-11T02:53:23.950Z - info: Rebuilding 10 pages
+2019-08-11T02:53:26.641Z - info: Pages rebuilt
+2019-08-11T02:53:26.657Z - info: Site data built
+2019-08-11T02:53:38.165Z - info: [10:53:38] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T02:53:39.171Z - info: Rebuilding affected source files
+2019-08-11T02:53:39.175Z - info: Rebuilding 10 pages
+2019-08-11T02:53:41.819Z - info: Pages rebuilt
+2019-08-11T02:53:41.835Z - info: Site data built
+2019-08-11T02:54:51.114Z - info: [10:54:51] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T02:54:52.119Z - info: Rebuilding affected source files
+2019-08-11T02:54:52.119Z - info: Rebuilding 10 pages
+2019-08-11T02:54:55.177Z - info: Pages rebuilt
+2019-08-11T02:54:55.201Z - info: Site data built
+2019-08-11T02:57:42.337Z - info: [10:57:42] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T02:57:43.344Z - info: Rebuilding affected source files
+2019-08-11T02:57:43.352Z - info: Rebuilding 10 pages
+2019-08-11T02:57:46.369Z - info: Pages rebuilt
+2019-08-11T02:57:46.389Z - info: Site data built
+2019-08-11T03:00:08.710Z - info: [11:00:08] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:00:09.713Z - info: Rebuilding affected source files
+2019-08-11T03:00:09.713Z - info: Rebuilding 10 pages
+2019-08-11T03:00:12.725Z - info: Pages rebuilt
+2019-08-11T03:00:12.737Z - info: Site data built
+2019-08-11T03:01:19.741Z - info: [11:01:19] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:01:20.746Z - info: Rebuilding affected source files
+2019-08-11T03:01:20.750Z - info: Rebuilding 10 pages
+2019-08-11T03:01:23.690Z - info: Pages rebuilt
+2019-08-11T03:01:23.706Z - info: Site data built
+2019-08-11T03:01:45.510Z - info: [11:01:45] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:01:46.515Z - info: Rebuilding affected source files
+2019-08-11T03:01:46.515Z - info: Rebuilding 10 pages
+2019-08-11T03:01:49.364Z - info: Pages rebuilt
+2019-08-11T03:01:49.393Z - info: Site data built
+2019-08-11T03:02:03.688Z - info: [11:02:03] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:02:04.693Z - info: Rebuilding affected source files
+2019-08-11T03:02:04.693Z - info: Rebuilding 10 pages
+2019-08-11T03:02:07.322Z - info: Pages rebuilt
+2019-08-11T03:02:07.338Z - info: Site data built
+2019-08-11T03:02:22.596Z - info: [11:02:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:02:23.604Z - info: Rebuilding affected source files
+2019-08-11T03:02:23.604Z - info: Rebuilding 10 pages
+2019-08-11T03:02:26.118Z - info: Pages rebuilt
+2019-08-11T03:02:26.130Z - info: Site data built
+2019-08-11T03:02:38.487Z - info: [11:02:38] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:02:39.498Z - info: Rebuilding affected source files
+2019-08-11T03:02:39.505Z - info: Rebuilding 10 pages
+2019-08-11T03:02:42.082Z - info: Pages rebuilt
+2019-08-11T03:02:42.098Z - info: Site data built
+2019-08-11T03:03:38.588Z - info: [11:03:38] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:03:39.594Z - info: Rebuilding affected source files
+2019-08-11T03:03:39.602Z - info: Rebuilding 10 pages
+2019-08-11T03:03:42.747Z - info: Pages rebuilt
+2019-08-11T03:03:42.759Z - info: Site data built
+2019-08-11T03:04:21.024Z - info: [11:04:21] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:04:22.030Z - info: Rebuilding affected source files
+2019-08-11T03:04:22.030Z - info: Rebuilding 10 pages
+2019-08-11T03:04:25.089Z - info: Pages rebuilt
+2019-08-11T03:04:25.105Z - info: Site data built
+2019-08-11T03:05:32.119Z - info: [11:05:32] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:05:33.129Z - info: Rebuilding affected source files
+2019-08-11T03:05:33.133Z - info: Rebuilding 10 pages
+2019-08-11T03:05:37.340Z - info: Pages rebuilt
+2019-08-11T03:05:37.356Z - info: Site data built
+2019-08-11T03:07:17.074Z - info: [11:07:17] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:07:17.078Z - info: [11:07:17] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week1\admin-tic2002.md
+2019-08-11T03:07:18.084Z - info: Rebuilding affected source files
+2019-08-11T03:07:18.090Z - info: Rebuilding 11 pages
+2019-08-11T03:07:19.992Z - error:  Error: No such segment 'exercises-info' in file: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+Missing reference in C:\repos\nus-tic2002-2019\tic2002-website\schedule\week1\admin-tic2002.md
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at dom.map (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:567:28)
+    at Array.map (<anonymous>)
+    at DomHandler.htmlparser.DomHandler [as _callback] (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:564:25)
+    at DomHandler._handleCallback.DomHandler.onerror (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:52:8)
+    at DomHandler.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:46:7)
+    at Parser.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:310:32)
+    at Tokenizer._finish (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:853:12)
+    at Tokenizer.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:844:25)
+    at Parser.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:338:18)
+2019-08-11T03:07:25.237Z - warn:  TypeError: Cannot read property 'parent' of null
+    at Function.exports.update (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:55:26)
+    at module.exports (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:17:11)
+    at Function.exports.load (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\static.js:22:14)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:348:19)
+    at Object.$.not.each.each (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:392:16)
+    at initialize.exports.each (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\api\traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:358:6)
+    at Page.collectHeadingsAndKeywords (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:339:8)
+    at pages.forEach (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1043:12)
+    at Array.forEach (<anonymous>)
+    at Site.updateSiteData (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1041:14)
+    at Promise.all.then (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1025:24)
+    at tryCatcher (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+2019-08-11T03:07:27.807Z - error: Cannot read property 'parent' of null
+2019-08-11T03:07:27.811Z - error: Cannot read property 'parent' of null
+2019-08-11T03:08:43.542Z - info: [11:08:43] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-11T03:08:43.545Z - info: Rebuilding affected source files
+2019-08-11T03:08:43.548Z - info: Rebuilding 10 pages
+2019-08-11T03:08:48.934Z - info: Website generation started at 11:08:48
+2019-08-11T03:08:50.220Z - info: Building assets...
+2019-08-11T03:08:51.641Z - info: Assets built
+2019-08-11T03:08:51.642Z - info: Generating pages...
+2019-08-11T03:10:37.241Z - info: Pages built
+2019-08-11T03:11:01.870Z - info: Website generation complete! Total build time: 132.965s
+2019-08-11T03:11:02.138Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-11T03:11:02.154Z - info: Press CTRL+C to stop ...
+2019-08-11T03:11:02.248Z - info: Site data built
+2019-08-11T03:13:46.737Z - info: Website generation started at 11:13:44
+2019-08-11T03:13:47.949Z - info: Building assets...

@@ -166,6 +166,7 @@
         "tutorials": "Tutorials",
         "textbook": "Textbook",
         "programming-language": "Programming language",
+        "programming-exercises": "Programming Exercises",
         "project": "Project",
         "week-13-final-submission": "Week 13: Final Submission",
         "policies": "Policies",
@@ -176,6 +177,7 @@
         "repl-it": "repl.it",
         "intellij-idea": "Intellij IDEA",
         "assessment": "Assessment",
+        "getting-help": "Getting Help",
         "exam": "Exam",
         "final-exam-part-1-mcq": "Final Exam: Part 1 (MCQ)",
         "final-exam-part-2-essay": "Final Exam: Part 2 (Essay)"
@@ -208,6 +210,7 @@
         "tutorials": "Tutorials",
         "textbook": "Textbook",
         "programming-language": "Programming language",
+        "programming-exercises": "Programming Exercises",
         "project": "Project",
         "week-13-final-submission": "Week 13: Final Submission",
         "policies": "Policies",
@@ -218,6 +221,7 @@
         "repl-it": "repl.it",
         "intellij-idea": "Intellij IDEA",
         "assessment": "Assessment",
+        "getting-help": "Getting Help",
         "exam": "Exam",
         "final-exam-part-1-mcq": "Final Exam: Part 1 (MCQ)",
         "final-exam-part-2-essay": "Final Exam: Part 2 (Essay)"
