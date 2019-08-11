@@ -63,5 +63,7 @@ Tasks you need to do in the week will appear in this tab.
 
 <div class="indented-level2">
 
+{{ embed_topic("../../admin/index-tic2002.md#exercises-info", "Admin " + icon_embedding + " Programming Exercises", "week1Admin-exercises", "1") }}
 {{ embed_topic("../../admin/index-tic2002.md#repl-info", "Admin " + icon_embedding + " Tools → `repl.it`", "week1Admin-repl", "1") }}
+{{ embed_topic("../../admin/index-tic2002.md#help-info", "Admin " + icon_embedding + " Getting Help", "week1Admin-help", "2") }}
 </div>

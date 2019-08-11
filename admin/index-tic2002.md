@@ -46,7 +46,7 @@ _TIC2002 Introduction to Software Engineering_ contains roughly a **50-50 balanc
 Associate Professor, NUS School of Computing<br>
 PhD, Software Engineering, NUS, 2002-2006<br>
 BSc, Computer Science & Engineering, University of Moratuwa, 1996-2001<br>
-%%:fas-envelope:%% `damith`[at]`comp`[dot]`nus`[dot]`edu`[dot]`sg`<br>
+%%:fas-envelope:%% <span id="prof-email">`damith`[at]`comp.nus.edu.sg`</span><br>
 %%:fas-map-marker-alt:%% COM2-02-57<br>
 %%:fas-phone-square:%% 651 64359<br>
 %%:fas-home:%% https://www.comp.nus.edu.sg/~damithch
@@ -99,6 +99,14 @@ This module uses Java. It assumes you are familiar with C++ basics and provides 
 {{ icon_important_big_red }} Install [JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) in your computer.
 
 </div>
+
+{{ dotted_line }}
+
+# Programming Exercises
+<span id="exercises-info">
+
+In some weeks, there will be some programming exercises for you to submit (on `Repl.it`). You should do the exercises as you learn the topics. ==Focus on learning the topic rather than finishing the exercises==. While these are exercises provided to self-test your knowledge, the more important thing is to read and understand the topic content. Furthermore, not all topics are tested by exercise.
+</span>
 
 {{ dotted_line }}
 
@@ -211,6 +219,19 @@ We'll be using Intellij IDE for programming. While using Intellij is not compuls
 **60% : Final Exam**
 
 </div>
+
+{{ dotted_line }}
+
+# Getting Help
+
+<span id="help-info">
+
+If you face difficulties/doubts while learning the weekly topics, doing weekly exercises/tasks
+* you can post in the [module forum]({{ forum_link }})
+* email prof at <include src="index-{{ module | lower }}.md#prof-email" inline trim/>
+* ask for prof's help during next week’s tutorial hour
+
+</span>
 
 {{ dotted_line }}
 
