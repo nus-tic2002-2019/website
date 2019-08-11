@@ -16,6 +16,7 @@
     <li><a href="{{ivle_announcements}}" target="_blank" class="dropdown-item"><md>:glyphicon-bullhorn: Announcements</md></a></li>
     <li><a href="{{ivle_files}}" target="_blank" class="dropdown-item"><md>:fas-file-upload: File Submissions</md></a></li>
     <li><a href="{{java_coding_standard}}" target="_blank" class="dropdown-item"><md>:fas-code: Java Coding Standard</md></a></li>
+    <li><a href="https://github.com/se-edu/samplerepo-things" target="_blank" class="dropdown-item"><md>{{ icon_repo }} samplerepo-things</md></a></li>
     <li><a href="{{module_org}}/duke" target="_blank" class="dropdown-item"><md>{{ icon_repo }} Duke</md></a></li>
   </dropdown>
   <li slot="right" class="nav-link">

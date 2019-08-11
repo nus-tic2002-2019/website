@@ -29,6 +29,9 @@
 
 0. Learn about the Duke project
 
+<div class="indented-level2">
+{{ embed_topic("../../admin/index-tic2002.md#project-info", "Admin " + icon_embedding + " Project", "week1Admin-java", "1") }}
+</div>
 <div class="indented">
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**Duke - Overview**" var-fragment="text.md#intro" />
 </div>
