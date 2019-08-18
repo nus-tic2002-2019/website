@@ -11,7 +11,7 @@
 1. Submit weekly exercises
 {% endcall %}
 
-{{ thumb(1) }} Intellij SourceTree {{ timing_badge("before the lecture", "secondary") }}
+{{ thumb(1) }} Install SourceTree {{ timing_badge("before the lecture", "secondary") }}
 
 * See the panel below:
 
