@@ -30,8 +30,8 @@
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
           <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
-          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
-          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] </span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
           <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
           <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
@@ -171,6 +171,10 @@
               </ol>
             </div>
             <div id="body">
+              <box type="info">
+                <p>iP is a new addition to the module. And we have done some major changes to tP too. As such, it is possible that there will be some teething issues. If you encounter any problem while doing iP/tP, please post in the <a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/forum/categories/03d11539-b980-45da-922e-fcb8f47e0b2c">forum</a> so that we can take necessary actions.
+                </p>
+              </box>
               <h4 id="1-set-up-prerequisites"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Set up prerequisites<a class="fa fa-anchor" href="#1-set-up-prerequisites"></a></h4>
               <p><strong>Ensure you have met the following prerequisites:</strong></p>
               <box>
@@ -476,12 +480,13 @@ method 2 ...
               <h4 id="2-set-up-the-project-in-your-computer"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Set up the project in your computer<a class="fa fa-anchor" href="#2-set-up-the-project-in-your-computer"></a></h4>
               <ol>
                 <li>Fork <a href="https://github.com/nus-tic2002-2019/duke">https://github.com/nus-tic2002-2019/duke</a>.</li>
-                <li><mark>Ensure the issue tracker of your fork is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your fork.</span></li>
+                <li><mark>Do not disable the issue tracker of your fork</mark> (it's enabled by default). <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your fork.</span></li>
                 <li>Clone the fork onto your computer.</li>
-                <li>Set up the project in your IDE as explained in the README file.</li>
+                <li>Set up the project in your IDE as explained in <a href="https://github.com/nus-tic2002-2019/duke/blob/master/README.md">the README file</a>.<br>
+                  <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you somewhat familiar with build tools such as Gradle, you are free to go ahead and start using Gradle from the beginning by following <a href="https://github.com/nus-tic2002-2019/duke/blob/master/tutorials/gradleTutorial.md">the Gradle tutorial</a>.</li>
               </ol>
               <h4 id="3-implement-increments-while-committing-code-frequently"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Implement increments while committing code frequently<a class="fa fa-anchor" href="#3-implement-increments-while-committing-code-frequently"></a></h4>
-              <p>Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> in the given order.</p>
+              <p>Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> <mark>in the given order</mark>.</p>
               <ul>
                 <li>Commit code at important points. <mark>Minimally, commit after completing each increment</mark>.</li>
                 <li>After completing each increment,
@@ -491,6 +496,17 @@ method 2 ...
                   </ul>
                 </li>
               </ul>
+              <box>
+                <p>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> We discourage you from doing project tasks allocated to future weeks. Reasons:
+                </p>
+                <ol>
+                  <li>In order to help you gain <tooltip content="the ability to apply knowledge or do tasks effortlessly as if you have been doing them for a long time"><em>fluency</em></tooltip> (and also to better simulate real projects), <strong>we want the project work to be <tooltip content="done at multiple times with time gaps in between"><em>spaced</em></tooltip> and spread over a longer period</strong>, rather than to be done as a short burst. Reminder: as per iP grading criteria, <em>some</em> increments need to to be done in each week for you to get full marks.</li>
+                  <li>As a further incentive to not jump ahead, we have left some future project requirements unspecified, and we might change some requirements along the way too.
+                  </li>
+                </ol>
+              </box>
+
               <div>
                 <div class="indented">
                   <div class="indented border">
@@ -765,6 +781,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                           <p>     <big>↳</big> <strong>Test using the I/O redirection technique</strong></p>
                         </div>
                         <p>Use the input/output redirection technique to semi-automate testing of Duke.</p>
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> A tutorial is provided in the duke repository.</p>
                       </div>
                     </panel>
                   </div>
@@ -847,7 +864,7 @@ blah
 delete 3
     ____________________________________________________________
      Noted. I've removed this task: 
-       [T][✓] join sports club
+       [E][✗] project meeting (at: Aug 6th 2-4pm)
      Now you have 4 tasks in the list.
     ____________________________________________________________
 </code></pre>
@@ -888,6 +905,7 @@ delete 3
                   </div>
                 </div>
               </div>
+              <p></p>
             </div>
           </div>
           <br>
@@ -915,7 +933,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 13 Aug 2019 06:29:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 18 Aug 2019 12:25:43 GMT</small></div>
     </footer>
   </div>
 </body>

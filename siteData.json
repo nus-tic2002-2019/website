@@ -292,6 +292,7 @@
     {
       "headings": {
         "ip-week-3": "iP: Week 3 ",
+        "0-do-any-leftover-ip-increments-from-the-previous-week": "0 Do any leftover iP increments from the previous week",
         "1-do-as-parallel-branches-level-7-and-level-8": "1 Do as parallel branches: Level-7 and Level-8",
         "2-do-increments-a-moreoop-a-packages-a-junit-a-jar": "2 Do increments A-MoreOOP, A-Packages, A-JUnit, A-Jar",
         "3-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9": "3 Do as parallel branches: A-JavaDoc, A-CodingStandard, Level-9",
@@ -567,8 +568,8 @@
     {
       "headings": {
         "tp-kickoff-week-3": "tP: Kickoff [week 3] ",
-        "1-set-up-a-project-meeting-time": "1 Set up a project meeting time.",
-        "2-get-familiar-with-ab3-features": "2 Get familiar with AB3 features."
+        "1-get-familiar-with-ab3-features": "1 Get familiar with AB3 features",
+        "2-set-up-a-project-meeting-time-by-the-end-of-the-tutorial": "2 Set up a project meeting time  by the end of the tutorial"
       },
       "title": "Admin: tP: Kickoff [week 3]",
       "header": "header.md",
