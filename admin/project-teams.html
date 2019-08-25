@@ -54,8 +54,7 @@
           <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="https://repl.it/classroom/invite/ciQ3DQs" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> <code>repl.it</code> link</span></a></li>
           <li><a href="/website/coding-standards/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
-          <li><a href="https://github.com/se-edu/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke repo</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -172,9 +171,28 @@
               <li>CS2103: Your team will be formed at the <em>start</em> of the week 3 tutorial. Please try to arrive on time for that tutorial; if you are not there at the team forming time and others in the class are unaware which team you wanted to be in, we'll have to put you into a team randomly.</li>
             </ul>
             <p><strong>Team size</strong>: The default <mark>team size is five</mark>.</p>
-            <div id="teamIdFormat">
-              <p><strong>Team ID</strong>: This will be given to you after forming teams. It has the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>CS2103-W14-2</code> means you are in tutorial <code>CS2103-W14</code> (i.e., in module <code>CS2103</code>, on <code>Wednesday</code>, at <code>1400-1500</code>), team <code>2</code>.</p>
-            </div>
+            <p><strong>Team composition</strong></p>
+            <p>We allow some freedom in choosing team members, subject to these constraints:</p>
+            <ul>
+              <li>
+                <p>All team members should be in the same tutorial. <mark>Delay forming teams until your place in a tutorial is confirmed.</mark> We do not allow changing tutorials to team up with your preferred team mates.</p>
+              </li>
+              <li>
+                <p>Teams of <mark>single nationality are not allowed</mark> unless the only language common among all team members is English. e.g. an all-Singaporean team that include both Chinese and Malay students. <span class="dimmed">Rationale: to train you to work in multicultural teams, to ensure that English is used for all project communication</span></p>
+              </li>
+              <li>
+                <p>No more than one exchange students per team <span class="dimmed">Rationale: to increase interaction between exchange students and NUS students.</span></p>
+              </li>
+              <li>
+                <p>Same gender teams are discouraged but allowed. <span class="dimmed">Rationale: to train you for mixed-gender work environments.</span></p>
+              </li>
+              <li>
+                <p>Also note that <mark><strong>we may modify teams when circumstances call for it</strong></mark>. There is no avenue for you to object. Staying with your preferred team is not guaranteed.</p>
+              </li>
+            </ul>
+          </div>
+          <div id="teamIdFormat">
+            <p><strong>Team ID</strong>: This will be given to you after forming teams. It has the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>CS2103-W14-2</code> means you are in tutorial <code>CS2103-W14</code> (i.e., in module <code>CS2103</code>, on <code>Wednesday</code>, at <code>1400-1500</code>), team <code>2</code>.</p>
             <div class="flat">
               <div>
                 <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectTeams-tutorialIDs">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tutorials → Tutorial IDs</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
@@ -221,13 +239,6 @@
                         <td><strong>W</strong>ed <strong>13</strong>:00</td>
                         <td><s><span class="dimmed">G03</span></s></td>
                         <td><strong><code>CS2103T-W13</code></strong></td>
-                      </tr>
-                      <tr>
-                        <td><span class="badge badge-info"> CS2103 </span></td>
-                        <td>COM1-0210 (SR 10)</td>
-                        <td><strong>W</strong>ed <strong>14</strong>:00</td>
-                        <td><s><span class="dimmed">01</span></s></td>
-                        <td><strong><code>CS2103-W14</code></strong></td>
                       </tr>
                       <tr>
                         <td></td>
@@ -288,27 +299,13 @@
                       <tr>
                         <td><span class="badge badge-info"> CS2103 </span></td>
                         <td>COM1-0210 (SR 10)</td>
-                        <td><strong>T</strong>hu <strong>15</strong>:00</td>
-                        <td><s><span class="dimmed">03</span></s></td>
-                        <td><strong><code>CS2103-T15</code></strong></td>
-                      </tr>
-                      <tr>
-                        <td><span class="badge badge-info"> CS2103 </span></td>
-                        <td>COM1-0210 (SR 10)</td>
                         <td><strong>T</strong>hu <strong>16</strong>:00</td>
                         <td><s><span class="dimmed">04</span></s></td>
                         <td><strong><code>CS2103-T15</code></strong></td>
                       </tr>
                       <tr>
-                        <td><span class="badge badge-info"> CS2103 </span></td>
-                        <td>COM1-0210 (SR 10)</td>
-                        <td><strong>T</strong>hu <strong>17</strong>:00</td>
-                        <td><s><span class="dimmed">05</span></s></td>
-                        <td><strong><code>CS2103-T17</code></strong></td>
-                      </tr>
-                      <tr>
                         <td><span class="badge badge-warning">CS2103T</span></td>
-                        <td><mark>COM1-B103</mark></td>
+                        <td><s>COM1-B103</s> COM1-0210 (SR 10)</td>
                         <td><strong>T</strong>hu <strong>17</strong>:00</td>
                         <td><s><span class="dimmed">G13</span></s></td>
                         <td><strong><code>CS2103T-T17</code></strong></td>
@@ -370,23 +367,18 @@
             <p>
               <panel src="/website/admin/tutorials._include_.html#tutorialTimetable" header="Admin <md>:glyphicon-log-in:</md> Tutorials → Tutorial IDs  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="tutorialTimetable"></panel>
             </p>
-            <p><strong>Team composition</strong></p>
-            <p>We allow some freedom in choosing team members, subject to these constraints:</p>
+          </div>
+          <div id="teamCommunication">
             <ul>
               <li>
-                <p>All team members should be in the same tutorial. <mark>Delay forming teams until your place in a tutorial is confirmed.</mark> We do not allow changing tutorials to team up with your preferred team mates.</p>
+                <p><strong>We recommend at least one 1-2 hour <mark>face-to-face</mark> project meeting per week</strong>, in addition to any online meetings. <span class="dimmed">Reason: you need to know how to run both types of project meetings</span>. The project meeting time can be used to discuss project related things, but also, can be used as a time for team members to work on the project tasks individually (having all members in the same place will facilitate easier collaboration and more peer-learning).</p>
               </li>
               <li>
-                <p>Teams of <mark>single nationality are not allowed</mark> unless the only language common among all team members is English. e.g. an all-Singaporean team that include both Chinese and Malay students. <span class="dimmed">Rationale: to train you to work in multicultural teams, to ensure that English is used for all project communication</span></p>
+                <p>After the team has been finalized (latest by week 3 tutorial), decide on a 1-2 hour time slot and a venue that all commit to. <strong>All members are expected to honor this commitment</strong> (not doing so could lower the peer evaluation ratings you receive, which in turn will be factored into your grade).<br>
+                  <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> The best time to have the weekly project meeting is, after the previous week's lecture but before the deadline for weekly tasks.</p>
               </li>
               <li>
-                <p>No more than one exchange students per team <span class="dimmed">Rationale: to increase interaction between exchange students and NUS students.</span></p>
-              </li>
-              <li>
-                <p>Same gender teams are discouraged but allowed. <span class="dimmed">Rationale: to train you for mixed-gender work environments.</span></p>
-              </li>
-              <li>
-                <p>Also note that <mark><strong>we may modify teams when circumstances call for it</strong></mark>. There is no avenue for you to object. Staying with your preferred team is not guaranteed.</p>
+                <p>You can also create private slack channels within the <a href="https://nus-tic2002-2019.slack.com">module's slack team</a>. These channels will not be visible to others (even instructors).</p>
               </li>
             </ul>
           </div>
@@ -410,7 +402,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 20 Aug 2019 06:51:24 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 25 Aug 2019 15:13:00 GMT</small></div>
     </footer>
   </div>
 </body>

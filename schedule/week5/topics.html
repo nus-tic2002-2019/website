@@ -54,8 +54,7 @@
           <li><a href="https://luminus.nus.edu.sg/modules/3c3b6256-7c08-4044-8a3d-ba9efa1dd652/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
           <li><a href="https://repl.it/classroom/invite/ciQ3DQs" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> <code>repl.it</code> link</span></a></li>
           <li><a href="/website/coding-standards/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
-          <li><a href="https://github.com/se-edu/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
-          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
+          <li><a href="https://github.com/nus-tic2002-2019/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke repo</span></a></li>
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
@@ -307,7 +306,7 @@
                       <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`">
+                            <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] print area with abstract `Shape`</small></small><a class='fa fa-anchor' href='#key-exercise-print-area-with-abstract-shape'></a>" expanded>
                               <question>
                                 <p>The <code>Main</code> class below keeps a list of <code>Circle</code> and <code>Rectangle</code> objects and prints the area (as an <code>int</code> value) of each shape when requested.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -578,7 +577,7 @@ Rectangle of area 16
                       <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> print `Printable` items">
+                            <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] print `Printable` items</small></small><a class='fa fa-anchor' href='#key-exercise-print-printable-items'></a>" expanded>
                               <question>
                                 <p>The <code>Main</code> class below passes a list of <code>Printable</code> objects (i.e., objects that implement the <code>Printable</code> interface) for another method to be printed.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -1007,7 +1006,7 @@ Person of name James Cook
                       <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor">
+                            <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] parse rectangle descriptor</small></small><a class='fa fa-anchor' href='#key-exercise-parse-rectangle-descriptor'></a>" expanded>
                               <question>
                                 <p>The <code>Main</code> class below parses a string descriptor of a rectangle of the format <code>&quot;WIDTHxHEIGHT&quot;</code> <span class="dimmed">e.g., <code>&quot;3x4&quot;</code></span> and prints the area of the rectangle.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -1472,8 +1471,17 @@ send()
             <a class="nav-link py-1" href="#week-5-sep-9-topics">Week 5 [Sep 9] - Topics&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#w5-1-oop-abstract-classes">[W5.1] OOP: Abstract Classes &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#key-exercise-print-area-with-abstract-shape"> [Key Exercise] print area with abstract Shape&#x200E;</a>
+              </nav>
               <a class="nav-link py-1" href="#w5-2-oop-interfaces">[W5.2] OOP: Interfaces &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#key-exercise-print-printable-items"> [Key Exercise] print Printable items&#x200E;</a>
+              </nav>
               <a class="nav-link py-1" href="#w5-3-error-handling-exceptions">[W5.3] Error Handling: Exceptions &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#key-exercise-parse-rectangle-descriptor"> [Key Exercise] parse rectangle descriptor&#x200E;</a>
+              </nav>
               <a class="nav-link py-1" href="#w5-4-refactoring">[W5.4] Refactoring &#x200E;</a>
             </nav>
 
@@ -1483,7 +1491,7 @@ send()
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 20 Aug 2019 06:51:24 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 25 Aug 2019 15:13:00 GMT</small></div>
     </footer>
   </div>
 </body>

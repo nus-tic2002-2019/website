@@ -622,7 +622,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
     <span class="hljs-keyword">while</span> (!isExit) {
         <span class="hljs-keyword">try</span> {
             String fullCommand = ui.readCommand();
-            ui.showLine();
+            ui.showLine(); <span class="hljs-comment">// show the divider line ("_______")</span>
             Command c = Parser.parse(fullCommand);
             c.execute(tasks, ui, storage);
             isExit = c.isExit();
@@ -645,7 +645,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Add JUnit tests</strong></p>
                     </div>
                     <p>Add JUnit tests to test the behavior of the code.</p>
-                    <p>Notes:</p>
+                    <p><strong>Conventions to follow</strong>:</p>
                     <ul>
                       <li>Add test code in a folder named <code>[project root]\src\test\java\</code> folder (reason: to follow the convention followed by the project structure so far).</li>
                       <li>Name the test class to match the class being tested (<code>Todo.java</code> can be tested by <code>TodoTest.java</code>), and put it in a package to match. For example,
@@ -654,6 +654,11 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                           <li>Test class <code>seedu.duke.TodoTest</code>: <code>src\test\java\seedu\duke\TodoTest.java</code></li>
                         </ul>
                       </li>
+                    </ul>
+                    <p><strong>Requirements</strong>:</p>
+                    <ul>
+                      <li>Minimum: More than two test methods, preferably targeting more than one class (if you have multiple classes)</li>
+                      <li>Stretch goal: test methods to target all public methods of all classes</li>
                     </ul>
                     <p><strong>Adding JUnit support to your project:</strong> As JUnit is a third-party library, you need to add support to it specifically in your project.</p>
                     <tabs>
@@ -799,6 +804,16 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
                     </div>
                     <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
+                    <p><span><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></span> Do not commit the JAR file created. Instead, you can make the JAR file available in the following manner.</p>
+                    <ul>
+                      <li>Go to your fork on GitHub and <a href="https://help.github.com/en/articles/creating-releases">create a new <em>release</em></a>.</li>
+                      <li>In the page where you fill the details of th release,
+                        <ul>
+                          <li>give an appropriate version number e.g., <code>v0.1</code></li>
+                          <li>attach the JAR file where it says <code>Attach binaries by dropping them ...</code>.</li>
+                        </ul>
+                      </li>
+                    </ul>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to create a jar file using Gradle.</p>
                     <panel header="**Extension `A-Gradle`**">
                       <div>
