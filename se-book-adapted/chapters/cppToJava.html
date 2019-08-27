@@ -2788,7 +2788,51 @@ FRIES: 0.50
 System.out.println(i.equals(<span class="hljs-number">5</span>));  <span class="hljs-comment">// compiler error</span>
 </code></pre>
                   </box>
-                  <p>But <strong>for each primitive type, there is a corresponding class in the Java library, called a <em>wrapper class</em></strong>. The wrapper class for <code>char</code> is called <code>Character</code>; for <code>int</code> it’s called <code>Integer</code>. Other wrapper classes include <code>Boolean</code>, <code>Long</code>, and <code>Double</code>. They are in the <code>java.lang</code> package, so you can use them without importing them.</p>
+                  <p>But <strong>for each primitive type, there is a corresponding class in the Java library, called a <em>wrapper class</em></strong>. The wrapper classes the various primitive types are given in the table below. They are in the <code>java.lang</code> package, so you can use them without importing them.</p>
+                  <div class="table-responsive">
+                    <table class="markbind-table table table-bordered table-striped">
+                      <thead>
+                        <tr>
+                          <th>Primitive type</th>
+                          <th>Wrapper class</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><code>byte</code></td>
+                          <td><code>Byte</code></td>
+                        </tr>
+                        <tr>
+                          <td><code>short</code></td>
+                          <td><code>Short</code></td>
+                        </tr>
+                        <tr>
+                          <td><code>int</code></td>
+                          <td><code>Integer</code></td>
+                        </tr>
+                        <tr>
+                          <td><code>long</code></td>
+                          <td><code>Long</code></td>
+                        </tr>
+                        <tr>
+                          <td><code>float</code></td>
+                          <td><code>Float</code></td>
+                        </tr>
+                        <tr>
+                          <td><code>double</code></td>
+                          <td><code>Double</code></td>
+                        </tr>
+                        <tr>
+                          <td><code>char</code></td>
+                          <td><code>Character</code></td>
+                        </tr>
+                        <tr>
+                          <td><code>boolean</code></td>
+                          <td><code>Boolean</code></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span></p>
                     <pre><code class="hljs java">Double d = <span class="hljs-keyword">new</span> Double(<span class="hljs-number">2.5</span>);
@@ -2809,9 +2853,9 @@ System.out.println(i);
                     <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>-2147483648 : 2147483647</code></p>
                   </box>
                   <p><strong>Wrapper classes provide methods for converting strings to other types.</strong> In this context, parse means something like “read and translate”. <code>Integer.parseInt</code> converts a string to (you guessed it) an integer. The other wrapper classes provide similar methods, like <code>Double.parseDouble</code> and <code>Boolean.parseBoolean</code>.</p>
-                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Integer.parseInt(&quot;12345&quot;)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1234</code></p>
+                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Integer.parseInt(&quot;1234&quot;)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1234</code></p>
                   <p>Wrapper classes also provide <code>toString</code>, which returns a string representation of a value.</p>
-                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Integer.toString(12345)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;1234&quot;</code></p>
+                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Integer.toString(1234)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;1234&quot;</code></p>
                 </div>
                 <div>
                   <div>
@@ -5816,7 +5860,7 @@ second line
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 27 Aug 2019 07:59:23 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 27 Aug 2019 15:26:21 GMT</small></div>
     </footer>
   </div>
 </body>

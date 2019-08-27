@@ -1,0 +1,309 @@
+2019-08-10T02:07:58.449Z - info: Website generation started at 10:07:56
+2019-08-10T02:08:00.199Z - info: Building assets...
+2019-08-10T02:08:01.677Z - info: Assets built
+2019-08-10T02:08:01.681Z - info: Generating pages...
+2019-08-10T02:10:03.690Z - info: Pages built
+2019-08-10T02:10:28.261Z - info: Website generation complete! Total build time: 152.204s
+2019-08-10T02:10:28.720Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-10T02:10:28.720Z - info: Press CTRL+C to stop ...
+2019-08-10T02:10:28.926Z - info: Site data built
+2019-08-10T02:10:57.985Z - info: [10:10:57] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week3\notices-tic2002.md
+2019-08-10T02:10:58.006Z - info: [10:10:58] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week2\notices-tic2002.md
+2019-08-10T02:10:58.030Z - info: [10:10:58] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\notices-tic2002.md
+2019-08-10T02:10:58.997Z - info: Rebuilding affected source files
+2019-08-10T02:10:59.001Z - info: Rebuilding 3 pages
+2019-08-10T02:11:00.199Z - info: Pages rebuilt
+2019-08-10T02:11:00.203Z - info: Site data built
+2019-08-10T02:11:23.990Z - info: [10:11:23] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:11:24.781Z - info: [10:11:24] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:11:24.997Z - info: Rebuilding affected source files
+2019-08-10T02:11:25.001Z - info: Rebuilding 1 pages
+2019-08-10T02:11:26.306Z - info: Pages rebuilt
+2019-08-10T02:11:26.310Z - info: Site data built
+2019-08-10T02:14:40.684Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week6\notices-cs2103.md
+2019-08-10T02:14:40.700Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:14:40.712Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\notices-tic2002.md
+2019-08-10T02:14:40.724Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week8\notices-tic2002.md
+2019-08-10T02:14:40.728Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week13\notices-tic2002.md
+2019-08-10T02:14:40.736Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\notices-tic2002.md
+2019-08-10T02:14:40.745Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week12\notices-tic2002.md
+2019-08-10T02:14:40.753Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\notices-tic2002.md
+2019-08-10T02:14:40.761Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week5\notices-tic2002.md
+2019-08-10T02:14:40.765Z - info: [10:14:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week11\notices-tic2002.md
+2019-08-10T02:14:41.212Z - info: [10:14:41] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:14:41.692Z - info: Rebuilding affected source files
+2019-08-10T02:14:41.700Z - info: Rebuilding 9 pages
+2019-08-10T02:14:47.341Z - info: Pages rebuilt
+2019-08-10T02:14:47.357Z - info: Site data built
+2019-08-10T02:15:06.877Z - info: [10:15:06] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week6\notices-cs2103.md
+2019-08-10T02:15:07.891Z - info: Rebuilding affected source files
+2019-08-10T02:15:07.892Z - info: Rebuilding 0 pages
+2019-08-10T02:15:07.892Z - info: Pages rebuilt
+2019-08-10T02:15:07.908Z - info: Site data built
+2019-08-10T02:15:42.975Z - info: [10:15:42] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:15:42.975Z - info: [10:15:42] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week6\notices-tic2002.md
+2019-08-10T02:15:43.443Z - info: [10:15:43] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:15:43.988Z - info: Rebuilding affected source files
+2019-08-10T02:15:43.988Z - info: Rebuilding 2 pages
+2019-08-10T02:15:47.361Z - info: Pages rebuilt
+2019-08-10T02:15:47.369Z - info: Site data built
+2019-08-10T02:17:19.897Z - info: [10:17:19] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week3\notices-tic2002.md
+2019-08-10T02:17:19.913Z - info: [10:17:19] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week3\admin-tic2002.md
+2019-08-10T02:17:20.905Z - info: Rebuilding affected source files
+2019-08-10T02:17:20.909Z - info: Rebuilding 2 pages
+2019-08-10T02:17:21.557Z - info: Pages rebuilt
+2019-08-10T02:17:21.561Z - info: Site data built
+2019-08-10T02:17:28.542Z - info: [10:17:28] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week3\admin-tic2002.md
+2019-08-10T02:17:29.547Z - info: Rebuilding affected source files
+2019-08-10T02:17:29.547Z - info: Rebuilding 1 pages
+2019-08-10T02:17:29.804Z - info: Pages rebuilt
+2019-08-10T02:17:29.812Z - info: Site data built
+2019-08-10T02:19:21.729Z - info: [10:19:21] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\index.md
+2019-08-10T02:19:22.733Z - info: Rebuilding affected source files
+2019-08-10T02:19:22.733Z - info: Rebuilding 2 pages
+2019-08-10T02:19:23.464Z - info: Pages rebuilt
+2019-08-10T02:19:23.468Z - info: Site data built
+2019-08-10T02:19:57.499Z - info: [10:19:57] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:19:57.898Z - info: [10:19:57] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T02:19:58.513Z - info: Rebuilding affected source files
+2019-08-10T02:19:58.513Z - info: Rebuilding 1 pages
+2019-08-10T02:20:01.765Z - info: Pages rebuilt
+2019-08-10T02:20:01.786Z - info: Site data built
+2019-08-10T02:20:33.369Z - info: Website generation started at 10:20:31
+2019-08-10T02:20:35.169Z - info: Building assets...
+2019-08-10T02:20:36.448Z - info: Assets built
+2019-08-10T02:20:36.448Z - info: Generating pages...
+2019-08-10T02:22:31.709Z - info: Pages built
+2019-08-10T02:22:51.866Z - info: Website generation complete! Total build time: 140.266s
+2019-08-10T02:22:52.191Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-10T02:22:52.191Z - info: Press CTRL+C to stop ...
+2019-08-10T02:22:52.206Z - info: Site data built
+2019-08-10T02:25:55.444Z - info: [10:25:55] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week5\admin-tic2002.md
+2019-08-10T02:25:55.456Z - info: [10:25:55] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week5\notices-tic2002.md
+2019-08-10T02:25:55.456Z - info: [10:25:55] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-08-10T02:25:55.472Z - info: [10:25:55] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week3\admin-tic2002.md
+2019-08-10T02:25:56.453Z - info: Rebuilding affected source files
+2019-08-10T02:25:56.453Z - info: Rebuilding 7 pages
+2019-08-10T02:26:00.221Z - info: Pages rebuilt
+2019-08-10T02:26:00.229Z - info: Site data built
+2019-08-10T02:27:15.563Z - info: [10:27:15] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week6\admin-tic2002.md
+2019-08-10T02:27:15.579Z - info: [10:27:15] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week6\notices-tic2002.md
+2019-08-10T02:27:16.568Z - info: Rebuilding affected source files
+2019-08-10T02:27:16.568Z - info: Rebuilding 3 pages
+2019-08-10T02:27:19.567Z - info: Pages rebuilt
+2019-08-10T02:27:19.583Z - info: Site data built
+2019-08-10T02:29:24.435Z - info: [10:29:24] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\admin-tic2002.md
+2019-08-10T02:29:24.439Z - info: [10:29:24] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\notices-tic2002.md
+2019-08-10T02:29:25.437Z - info: Rebuilding affected source files
+2019-08-10T02:29:25.437Z - info: Rebuilding 3 pages
+2019-08-10T02:29:28.555Z - info: Pages rebuilt
+2019-08-10T02:29:28.567Z - info: Site data built
+2019-08-10T02:30:55.976Z - info: [10:30:55] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week8\notices-tic2002.md
+2019-08-10T02:30:55.992Z - info: [10:30:55] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week8\admin-tic2002.md
+2019-08-10T02:30:56.991Z - info: Rebuilding affected source files
+2019-08-10T02:30:56.991Z - info: Rebuilding 3 pages
+2019-08-10T02:31:00.128Z - info: Pages rebuilt
+2019-08-10T02:31:00.147Z - info: Site data built
+2019-08-10T02:33:28.893Z - info: [10:33:28] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin-tic2002.md
+2019-08-10T02:33:28.897Z - info: [10:33:28] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\notices-tic2002.md
+2019-08-10T02:33:29.898Z - info: Rebuilding affected source files
+2019-08-10T02:33:29.898Z - info: Rebuilding 3 pages
+2019-08-10T02:33:33.107Z - info: Pages rebuilt
+2019-08-10T02:33:33.130Z - info: Site data built
+2019-08-10T02:33:54.351Z - info: [10:33:54] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin-tic2002.md
+2019-08-10T02:33:55.377Z - info: Rebuilding affected source files
+2019-08-10T02:33:55.386Z - info: Rebuilding 3 pages
+2019-08-10T02:33:58.695Z - info: Pages rebuilt
+2019-08-10T02:33:58.719Z - info: Site data built
+2019-08-10T02:35:35.390Z - info: [10:35:35] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T02:35:35.402Z - info: [10:35:35] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\notices-tic2002.md
+2019-08-10T02:35:36.404Z - info: Rebuilding affected source files
+2019-08-10T02:35:36.404Z - info: Rebuilding 3 pages
+2019-08-10T02:35:39.827Z - info: Pages rebuilt
+2019-08-10T02:35:39.834Z - info: Site data built
+2019-08-10T02:37:08.852Z - info: [10:37:08] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T02:37:09.858Z - info: Rebuilding affected source files
+2019-08-10T02:37:09.858Z - info: Rebuilding 3 pages
+2019-08-10T02:37:12.974Z - info: Pages rebuilt
+2019-08-10T02:37:13.065Z - info: Site data built
+2019-08-10T02:39:34.053Z - info: [10:39:34] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T02:39:34.069Z - info: [10:39:34] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week11\notices-tic2002.md
+2019-08-10T02:39:34.073Z - info: [10:39:34] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week11\admin-tic2002.md
+2019-08-10T02:39:35.059Z - info: Rebuilding affected source files
+2019-08-10T02:39:35.059Z - info: Rebuilding 5 pages
+2019-08-10T02:39:39.172Z - info: Pages rebuilt
+2019-08-10T02:39:39.186Z - info: Site data built
+2019-08-10T02:40:50.573Z - info: [10:40:50] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week12\admin-tic2002.md
+2019-08-10T02:40:50.573Z - info: [10:40:50] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week12\notices-tic2002.md
+2019-08-10T02:40:51.584Z - info: Rebuilding affected source files
+2019-08-10T02:40:51.584Z - info: Rebuilding 3 pages
+2019-08-10T02:40:56.269Z - info: Pages rebuilt
+2019-08-10T02:40:56.281Z - info: Site data built
+2019-08-10T02:43:23.140Z - info: [10:43:23] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-08-10T02:43:24.156Z - info: Rebuilding affected source files
+2019-08-10T02:43:24.172Z - info: Rebuilding 3 pages
+2019-08-10T02:43:27.973Z - info: Pages rebuilt
+2019-08-10T02:43:27.989Z - info: Site data built
+2019-08-10T02:44:48.042Z - info: [10:44:48] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin-tic2002.md
+2019-08-10T02:44:48.042Z - info: [10:44:48] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\admin-tic2002.md
+2019-08-10T02:44:49.060Z - info: Rebuilding affected source files
+2019-08-10T02:44:49.060Z - info: Rebuilding 5 pages
+2019-08-10T02:44:54.268Z - info: Pages rebuilt
+2019-08-10T02:44:54.296Z - info: Site data built
+2019-08-10T02:46:31.611Z - info: [10:46:31] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T02:46:32.616Z - info: Rebuilding affected source files
+2019-08-10T02:46:32.616Z - info: Rebuilding 3 pages
+2019-08-10T02:46:37.468Z - info: Pages rebuilt
+2019-08-10T02:46:37.507Z - info: Site data built
+2019-08-10T02:46:40.860Z - info: [10:46:40] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T02:46:41.862Z - info: Rebuilding affected source files
+2019-08-10T02:46:41.866Z - info: Rebuilding 3 pages
+2019-08-10T02:46:46.618Z - info: Pages rebuilt
+2019-08-10T02:46:46.634Z - info: Site data built
+2019-08-10T02:47:47.117Z - info: [10:47:47] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week11\admin-tic2002.md
+2019-08-10T02:47:48.121Z - info: Rebuilding affected source files
+2019-08-10T02:47:48.121Z - info: Rebuilding 3 pages
+2019-08-10T02:47:52.332Z - info: Pages rebuilt
+2019-08-10T02:47:52.348Z - info: Site data built
+2019-08-10T14:33:25.636Z - info: Website generation started at 22:33:23
+2019-08-10T14:33:27.487Z - info: Building assets...
+2019-08-10T14:33:29.484Z - info: Assets built
+2019-08-10T14:33:29.484Z - info: Generating pages...
+2019-08-10T14:35:18.702Z - info: Pages built
+2019-08-10T14:35:41.400Z - info: Website generation complete! Total build time: 137.786s
+2019-08-10T14:35:41.812Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-10T14:35:41.812Z - info: Press CTRL+C to stop ...
+2019-08-10T14:35:41.892Z - info: Site data built
+2019-08-10T14:36:58.050Z - info: [22:36:58] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-08-10T14:36:59.060Z - info: Rebuilding affected source files
+2019-08-10T14:36:59.060Z - info: Rebuilding 3 pages
+2019-08-10T14:37:02.738Z - info: Pages rebuilt
+2019-08-10T14:37:02.750Z - info: Site data built
+2019-08-10T14:39:05.917Z - info: [22:39:05] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-08-10T14:39:06.922Z - info: Rebuilding affected source files
+2019-08-10T14:39:06.926Z - info: Rebuilding 3 pages
+2019-08-10T14:39:10.385Z - info: Pages rebuilt
+2019-08-10T14:39:10.393Z - info: Site data built
+2019-08-10T14:39:13.849Z - info: [22:39:13] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-08-10T14:39:14.855Z - info: Rebuilding affected source files
+2019-08-10T14:39:14.855Z - info: Rebuilding 3 pages
+2019-08-10T14:39:17.393Z - info: Pages rebuilt
+2019-08-10T14:39:17.401Z - info: Site data built
+2019-08-10T14:43:00.533Z - info: [22:43:00] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T14:43:01.534Z - info: Rebuilding affected source files
+2019-08-10T14:43:01.535Z - info: Rebuilding 1 pages
+2019-08-10T14:43:04.323Z - info: Pages rebuilt
+2019-08-10T14:43:04.340Z - info: Site data built
+2019-08-10T14:47:22.773Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T14:47:22.783Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week5\admin-tic2002.md
+2019-08-10T14:47:22.788Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\admin-tic2002.md
+2019-08-10T14:47:22.799Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin.md
+2019-08-10T14:47:22.801Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week8\admin-tic2002.md
+2019-08-10T14:47:22.806Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week6\admin-tic2002.md
+2019-08-10T14:47:22.815Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week12\admin.md
+2019-08-10T14:47:22.820Z - info: [22:47:22] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week11\admin-tic2002.md
+2019-08-10T14:47:23.777Z - info: Rebuilding affected source files
+2019-08-10T14:47:23.780Z - info: Rebuilding 13 pages
+2019-08-10T14:47:29.384Z - info: Pages rebuilt
+2019-08-10T14:47:29.404Z - info: Site data built
+2019-08-10T14:48:32.019Z - info: [22:48:32] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week12\admin.md
+2019-08-10T14:48:33.032Z - info: Rebuilding affected source files
+2019-08-10T14:48:33.032Z - info: Rebuilding 0 pages
+2019-08-10T14:48:33.032Z - info: Pages rebuilt
+2019-08-10T14:48:33.032Z - info: Site data built
+2019-08-10T14:48:35.587Z - info: [22:48:35] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week11\admin-tic2002.md
+2019-08-10T14:48:36.588Z - info: Rebuilding affected source files
+2019-08-10T14:48:36.597Z - info: Rebuilding 3 pages
+2019-08-10T14:48:40.982Z - info: Pages rebuilt
+2019-08-10T14:48:41.002Z - info: Site data built
+2019-08-10T14:49:01.932Z - info: [22:49:01] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week8\admin-tic2002.md
+2019-08-10T14:49:01.934Z - info: [22:49:01] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\admin-tic2002.md
+2019-08-10T14:49:02.934Z - info: Rebuilding affected source files
+2019-08-10T14:49:02.937Z - info: Rebuilding 5 pages
+2019-08-10T14:49:06.635Z - info: Pages rebuilt
+2019-08-10T14:49:06.648Z - info: Site data built
+2019-08-10T14:49:11.297Z - info: [22:49:11] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin.md
+2019-08-10T14:49:12.299Z - info: Rebuilding affected source files
+2019-08-10T14:49:12.299Z - info: Rebuilding 0 pages
+2019-08-10T14:49:12.301Z - info: Pages rebuilt
+2019-08-10T14:49:12.304Z - info: Site data built
+2019-08-10T14:50:33.306Z - info: [22:50:33] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week5\admin-tic2002.md
+2019-08-10T14:50:34.307Z - info: Rebuilding affected source files
+2019-08-10T14:50:34.309Z - info: Rebuilding 3 pages
+2019-08-10T14:50:37.319Z - info: Pages rebuilt
+2019-08-10T14:50:37.331Z - info: Site data built
+2019-08-10T14:51:28.703Z - info: [22:51:28] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T14:51:29.707Z - info: Rebuilding affected source files
+2019-08-10T14:51:29.708Z - info: Rebuilding 1 pages
+2019-08-10T14:51:32.541Z - info: Pages rebuilt
+2019-08-10T14:51:32.556Z - info: Site data built
+2019-08-10T14:52:45.879Z - info: [22:52:45] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week5\admin-tic2002.md
+2019-08-10T14:52:45.890Z - info: [22:52:45] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\timeline.md
+2019-08-10T14:52:45.904Z - info: [22:52:45] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week6\admin-tic2002.md
+2019-08-10T14:52:46.890Z - info: Rebuilding affected source files
+2019-08-10T14:52:46.892Z - info: Rebuilding 5 pages
+2019-08-10T14:52:50.393Z - info: Pages rebuilt
+2019-08-10T14:52:50.402Z - info: Site data built
+2019-08-10T14:54:29.992Z - info: [22:54:29] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\admin-tic2002.md
+2019-08-10T14:54:30.997Z - info: Rebuilding affected source files
+2019-08-10T14:54:30.998Z - info: Rebuilding 3 pages
+2019-08-10T14:54:34.351Z - info: Pages rebuilt
+2019-08-10T14:54:34.362Z - info: Site data built
+2019-08-10T14:55:54.787Z - info: [22:55:54] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week8\admin-tic2002.md
+2019-08-10T14:55:55.794Z - info: Rebuilding affected source files
+2019-08-10T14:55:55.799Z - info: Rebuilding 3 pages
+2019-08-10T14:55:59.097Z - info: Pages rebuilt
+2019-08-10T14:55:59.109Z - info: Site data built
+2019-08-10T14:57:03.756Z - info: [22:57:03] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin-tic2002.md
+2019-08-10T14:57:04.759Z - info: Rebuilding affected source files
+2019-08-10T14:57:04.766Z - info: Rebuilding 3 pages
+2019-08-10T14:57:08.913Z - info: Pages rebuilt
+2019-08-10T14:57:08.926Z - info: Site data built
+2019-08-10T14:57:44.783Z - info: [22:57:44] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T14:57:45.784Z - info: Rebuilding affected source files
+2019-08-10T14:57:45.785Z - info: Rebuilding 3 pages
+2019-08-10T14:57:50.168Z - info: Pages rebuilt
+2019-08-10T14:57:50.178Z - info: Site data built
+2019-08-10T15:00:16.597Z - info: [23:00:16] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week10\admin-tic2002.md
+2019-08-10T15:00:16.607Z - info: [23:00:16] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week7\admin-tic2002.md
+2019-08-10T15:00:16.608Z - info: [23:00:16] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week8\admin-tic2002.md
+2019-08-10T15:00:16.624Z - info: [23:00:16] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin-tic2002.md
+2019-08-10T15:00:17.604Z - info: Rebuilding affected source files
+2019-08-10T15:00:17.614Z - info: Rebuilding 9 pages
+2019-08-10T15:00:23.848Z - info: Pages rebuilt
+2019-08-10T15:00:23.863Z - info: Site data built
+2019-08-10T15:03:04.987Z - info: [23:03:04] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week11\admin-tic2002.md
+2019-08-10T15:03:05.988Z - info: Rebuilding affected source files
+2019-08-10T15:03:05.992Z - info: Rebuilding 3 pages
+2019-08-10T15:03:10.340Z - info: Pages rebuilt
+2019-08-10T15:03:10.348Z - info: Site data built
+2019-08-10T15:07:30.592Z - info: [23:07:30] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week12\admin-tic2002.md
+2019-08-10T15:07:30.604Z - info: [23:07:30] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\index-tic2002.md
+2019-08-10T15:07:31.594Z - info: Rebuilding affected source files
+2019-08-10T15:07:31.600Z - info: Rebuilding 11 pages
+2019-08-10T15:07:39.072Z - info: Pages rebuilt
+2019-08-10T15:07:39.169Z - info: Site data built
+2019-08-10T15:08:12.739Z - info: [23:08:12] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week12\admin-tic2002.md
+2019-08-10T15:08:13.744Z - info: Rebuilding affected source files
+2019-08-10T15:08:13.746Z - info: Rebuilding 3 pages
+2019-08-10T15:08:19.033Z - info: Pages rebuilt
+2019-08-10T15:08:19.054Z - info: Site data built
+2019-08-10T15:10:00.466Z - info: [23:10:00] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week13\admin-tic2002.md
+2019-08-10T15:10:01.469Z - info: Rebuilding affected source files
+2019-08-10T15:10:01.472Z - info: Rebuilding 3 pages
+2019-08-10T15:10:05.353Z - info: Pages rebuilt
+2019-08-10T15:10:05.361Z - info: Site data built
+2019-08-10T15:12:09.411Z - info: [23:12:09] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week13\admin-tic2002.md
+2019-08-10T15:12:10.411Z - info: Rebuilding affected source files
+2019-08-10T15:12:10.420Z - info: Rebuilding 3 pages
+2019-08-10T15:12:15.173Z - info: Pages rebuilt
+2019-08-10T15:12:15.187Z - info: Site data built
+2019-08-10T15:17:16.600Z - info: Website generation started at 23:17:14
+2019-08-10T15:17:17.785Z - info: Building assets...
+2019-08-10T15:17:19.006Z - info: Assets built
+2019-08-10T15:17:19.007Z - info: Generating pages...
+2019-08-10T15:19:01.607Z - info: Pages built
+2019-08-10T15:19:25.318Z - info: Website generation complete! Total build time: 130.324s
+2019-08-10T15:19:25.319Z - info: Build success!
+2019-08-10T15:19:25.327Z - info: Site data built
+2019-08-10T15:20:09.387Z - info: Deployed!
