@@ -328,7 +328,7 @@
         "ip-week-5": "iP: Week 5 ",
         "1-add-increments-as-prs-a-assertions-a-codequality-a-lambdas-a-streams": "1 Add increments as PRs: A-Assertions, A-CodeQuality, A-Lambdas, A-Streams",
         "2-set-up-ci": "2 Set up CI",
-        "3-add-another-extension-tbd": "3 Add another extension [TBD]"
+        "3-add-an-extension": "3 Add an extension"
       },
       "title": "Admin: iP: Week 5",
       "header": "header.md",
