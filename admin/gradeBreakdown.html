@@ -32,8 +32,8 @@
           <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
-          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
-          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
           <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
           <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
@@ -172,86 +172,85 @@
             </div>
             <modal large title="Admin <md>:glyphicon-log-in:</md> Participation Marks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-participation">
                 <div>
-                <p><strong>To receive full 5 marks allocated for participation, meet both these criteria:</strong></p>
+                <p><strong>To receive full 5 marks allocated for participation, meet the criteria <span class="badge badge-pill badge-info p-2"><big><big>A</big></big></span>, <span class="badge badge-pill badge-info p-2"><big><big>B</big></big></span>, and <span class="badge badge-pill badge-info p-2"><big><big>C</big></big></span>.</strong></p>
+                <p><strong><span class="badge badge-pill badge-info p-2"><big><big>A</big></big></span> Earn at least half of weekly participation points in at least 10 weeks.</strong></p>
                 <ul>
-                  <li><strong>A. Earn at least half of weekly participation points in at least 10 weeks.</strong>
+                  <li>In-lecture quiz:
                     <ul>
-                      <li>In-lecture quiz:
-                        <ul>
-                          <li>Answered at least 80% of the questions correctly: 2 points</li>
-                          <li>Answered 40-80% questions correctly: 1 point</li>
-                        </ul>
-                      </li>
-                      <li>Post-lecture quiz:
-                        <ul>
-                          <li>Answered at least 80% of the questions correctly: 3 points</li>
-                          <li>Answered 60-80% questions correctly: 2 points</li>
-                          <li>Answered 40-60% questions correctly: 1 point</li>
-                        </ul>
-                      </li>
-                      <li>Missing compulsory administrative requirements <span class="dimmed">e.g., forgot to submit peer evaluations</span>: -2 for each miss</li>
+                      <li>Answered at least 80% of the questions correctly: 2 points</li>
+                      <li>Answered 40-80% questions correctly: 1 point</li>
                     </ul>
                   </li>
+                  <li>Post-lecture quiz:
+                    <ul>
+                      <li>Answered at least 80% of the questions correctly: 3 points</li>
+                      <li>Answered 60-80% questions correctly: 2 points</li>
+                      <li>Answered 40-60% questions correctly: 1 point</li>
+                    </ul>
+                  </li>
+                  <li>Missing compulsory administrative requirements <span class="dimmed">e.g., forgot to submit peer evaluations</span>: -2 for each miss</li>
                 </ul>
                 <div class="indented">
                   <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> As the lecture on Week <code>N</code> covers topics for Week <code>N+1</code>, the Lecture <code>N</code>'s in-lecture and post-lecture quiz points are counted for Week <code>N+1</code></p>
                 </div>
-                <ul>
-                  <li><strong>B. <tooltip content="No multiple `Below Average`/`Poor` ratings">Received good peer evaluations</tooltip></strong></li>
-                </ul>
-                <p>In addition, you can receive a bonus marks in the following ways. Bonus marks can be used to top up your participation marks should your marks from the above falls below 5.</p>
-                <ul>
-                  <li>Receiving good ratings for all 10 peer evaluations criteria: 1 mark</li>
-                  <li>Being very helpful to classmates <span class="dimmed">e.g., multiple helpful posts in forum</span>: 1 mark</li>
-                </ul>
+                <p><strong><span class="badge badge-pill badge-info p-2"><big><big>B</big></big></span> Received <tooltip content="No multiple `Below Average`/`Poor` ratings">good peer evaluations</tooltip></strong></p>
                 <div class="indented">
-                  <div class="flat">
-                    <div>
-                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                    </div>
-                  </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals">
-                      <div>
-                      <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
-                      <ul>
-                        <li><strong>Professional Communication</strong> :
-                          <ul>
-                            <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
-                            <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
-                          </ul>
-                        </li>
-                        <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
-                        <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
-                        <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
-                        <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
-                        <li><strong>Meticulousness</strong>:
-                          <ul>
-                            <li>Rarely overlooks submission requirements.</li>
-                            <li>Rarely misses compulsory module activities such as pre-module survey.</li>
-                          </ul>
-                        </li>
-                        <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
-                      </ul>
-                      <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
-                      <ul>
-                        <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
-                        <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
-                        <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
-                      </ul>
-                    </div>
-                  </modal>
-                  <p>
-                    <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="peerEvaluation-criteria"></panel>
-                  </p>
-                </div>
-                <box>
-                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples:</p>
+                  <p>In addition, you can receive a bonus marks in the following ways. Bonus marks can be used to top up your participation marks should your marks from the above falls below 5.</p>
                   <ul>
-                    <li>Alicia earned 1/2, 3/5, <ins>2/5</ins>, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half of the points in 11 of the weeks, she gets 5 participation marks. Bonus marks are not applicable as she has full marks already.</li>
-                    <li>Benjamin managed to get at least half of the participation points in 9 weeks only, which gives him 5-1 = 4 participation marks. But he received good peer ratings for all criteria, and hence get a bonus mark to make it 5/5.</li>
-                    <li>Chun Ming met the participation points bar in 8 weeks only, giving him 5-2 = 3 marks. He lost 2 more marks because he received multiple negative ratings for two criteria, giving him 1/5 participation marks.</li>
+                    <li>Receiving good ratings for all 10 peer evaluations criteria: 1 mark</li>
+                    <li>Being very helpful to classmates <span class="dimmed">e.g., multiple helpful posts in forum</span>: 1 mark</li>
                   </ul>
-                </box>
+                  <div class="indented">
+                    <div class="flat">
+                      <div>
+                        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                      </div>
+                    </div>
+                    <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals">
+                        <div>
+                        <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
+                        <ul>
+                          <li><strong>Professional Communication</strong> :
+                            <ul>
+                              <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
+                              <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
+                            </ul>
+                          </li>
+                          <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
+                          <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
+                          <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
+                          <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
+                          <li><strong>Meticulousness</strong>:
+                            <ul>
+                              <li>Rarely overlooks submission requirements.</li>
+                              <li>Rarely misses compulsory module activities such as pre-module survey.</li>
+                            </ul>
+                          </li>
+                          <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
+                        </ul>
+                        <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
+                        <ul>
+                          <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
+                          <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
+                          <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
+                        </ul>
+                      </div>
+                    </modal>
+                    <p>
+                      <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="peerEvaluation-criteria"></panel>
+                    </p>
+                  </div>
+                </div>
+                <p><strong><span class="badge badge-pill badge-info p-2"><big><big>C</big></big></span> Tutorial attendance/participation not too low</strong></p>
+                <div class="indented">
+                  <p>Low attendance/participation can affect participation marks directly (i.e., attended fewer than 7) or indirectly (i.e., it might result in low peer evaluation ratings).</p>
+                </div>
+                <p><span class="badge badge-pill badge-secondary p-2"><big><big>Examples:</big></big></span></p>
+                <ul>
+                  <li>Alicia earned 1/2, 3/5, <ins>2/5</ins>, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half of the points in 11 of the weeks, she gets 5 participation marks. Bonus marks are not applicable as she has full marks already.</li>
+                  <li>Benjamin managed to get at least half of the participation points in 9 weeks only, which gives him 5-1 = 4 participation marks. But he received good peer ratings for all criteria, and hence get a bonus mark to make it 5/5.</li>
+                  <li>Chun Ming met the participation points bar in 8 weeks only, giving him 5-2 = 3 marks. He lost 2 more marks because he received multiple negative ratings for two criteria, giving him 1/5 participation marks.</li>
+                </ul>
               </div>
             </modal>
             <p>
@@ -662,7 +661,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 27 Aug 2019 15:26:21 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 03 Sep 2019 05:09:04 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -293,10 +293,10 @@
       "headings": {
         "ip-week-3": "iP: Week 3 ",
         "0-do-any-leftover-ip-increments-from-the-previous-week": "0 Do any leftover iP increments from the previous week",
-        "1-do-as-parallel-branches-level-7-and-level-8": "1 Do as parallel branches: Level-7 and Level-8",
-        "2-do-increments-a-moreoop-a-packages-a-junit-a-jar": "2 Do increments A-MoreOOP, A-Packages, A-JUnit, A-Jar",
-        "3-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9": "3 Do as parallel branches: A-JavaDoc, A-CodingStandard, Level-9",
-        "4-create-a-pr-to-the-upstream-repo": "4 Create a PR to the upstream repo"
+        "1-create-a-pr-to-the-upstream-repo": "1 Create a PR to the upstream repo",
+        "2-do-as-parallel-branches-level-7-and-level-8": "2 Do as parallel branches: Level-7 and Level-8",
+        "3-do-increments-a-moreoop-a-packages-a-junit-a-jar": "3 Do increments A-MoreOOP, A-Packages, A-JUnit, A-Jar",
+        "4-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9": "4 Do as parallel branches: A-JavaDoc, A-CodingStandard, Level-9"
       },
       "title": "Admin: iP: Week 3",
       "header": "header.md",
@@ -309,10 +309,10 @@
     },
     {
       "headings": {
+        "guidelines-for-pr-reviewers-authors": "Guidelines for PR reviewers/authors",
         "ip-week-4": "iP: Week 4 ",
         "1-review-some-peer-prs": "1 Review some peer PRs",
-        "2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs": "2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs",
-        "3-add-another-extension": "3 Add another extension"
+        "2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs": "2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs"
       },
       "title": "Admin: iP: Week 4",
       "header": "header.md",
