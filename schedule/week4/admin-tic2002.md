@@ -16,11 +16,14 @@
 
 {{ thumb(2) }} Create a Pull Request {{ timing_badge("during/after the lecture", "secondary") }}
 
-* Create a pull request from your fork to [{{ module_org }}/duke]({{ module_org }}/duke)
+* After pushing some code to your fork, create a pull request (PR) from your fork to [{{ module_org }}/duke]({{ module_org }}/duke)
+  * PR name should be your name (you may leave out the family name if you wish)
+  * PR description can be left blank
+  * [GitHub's help page about creating PRs](https://help.github.com/en/articles/creating-a-pull-request)
 
 {{ thumb(3) }} Implement project increments `Level-3`, `A-TextUiTesting` <span class="badge badge-pill badge-secondary">optional</span>
 
-* As before, implement increments, commit at regular intervals, and push to your fork.
+* As before, implement increments, commit at regular intervals, and push to your fork. Your PR will update automatically to reflect the new commits.
 
 <div class="indented">
 
