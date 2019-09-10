@@ -349,7 +349,7 @@ head: scheduleHead.md
         {location: ["testing", "testingTypes", "alphaBetaTesting", "what"]},
 {week: "12"},
   {name: "Design"},
-    {heading: "Othere UML Models"},
+    {heading: "Other UML Models"},
       {location: ["modeling", "modelingStructures", "objectOrientedDomainModels"], omit_evidence: true},
       {location: ["modeling", "modelingStructures", "deploymentDiagrams"], omit_evidence: true},
       {location: ["modeling", "modelingStructures", "componentDiagrams"], omit_evidence: true},
