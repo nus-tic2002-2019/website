@@ -326,6 +326,7 @@
     {
       "headings": {
         "ip-week-5": "iP: Week 5 ",
+        "0-generate-a-new-jar-file-extra": "0 Generate a new jar file  extra",
         "1-add-increments-as-prs-a-assertions-a-codequality-a-lambdas-a-streams": "1 Add increments as PRs: A-Assertions, A-CodeQuality, A-Lambdas, A-Streams",
         "2-set-up-ci": "2 Set up CI",
         "3-add-an-extension": "3 Add an extension"
@@ -342,8 +343,9 @@
     {
       "headings": {
         "ip-week-6": "iP: Week 6 ",
-        "1-write-a-brief-user-guide": "1 Write a brief user guide",
-        "2-release-the-product": "2 Release the product"
+        "1-finalize-the-features": "1 Finalize the features",
+        "2-set-up-a-product-website": "2 Set up a product website",
+        "3-release-the-product": "3 Release the product"
       },
       "title": "Admin: iP: Week 6",
       "header": "header.md",
@@ -585,7 +587,7 @@
         "tp-inception-week-4": "tP: Inception [week 4] ",
         "1-start-weekly-project-meetings": "1 Start weekly project meetings",
         "2-decide-on-a-overall-project-direction-user-profile-problem-addressed": "2 Decide on a overall project direction (user profile, problem addressed) | project expectations",
-        "3-start-a-collaborative-doc-to-take-project-notes": "3 Start a collaborative doc to take project notes"
+        "3-start-a-collaborative-doc-to-take-project-notes-before-the-tutorial": "3 Start a collaborative doc to take project notes  before the tutorial"
       },
       "title": "Admin: tP: Inception [week 4]",
       "header": "header.md",
@@ -599,8 +601,8 @@
     {
       "headings": {
         "tp-v1-0-week-5": "tP: v1.0 [week 5] ",
-        "1-brainstorm-user-stories": "1 Brainstorm user stories",
-        "2-prioritize-the-user-stories": "2 Prioritize the user stories"
+        "1-brainstorm-user-stories-before-the-tutorial": "1 Brainstorm user stories  before the tutorial",
+        "2-prioritize-the-user-stories-before-or-during-the-tutorial": "2 Prioritize the user stories  before or during the tutorial"
       },
       "title": "Admin: tP: v1.0 [week 5]",
       "header": "header.md",

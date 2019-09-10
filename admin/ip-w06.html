@@ -164,57 +164,124 @@
           <div id="main">
             <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple">
               <ol>
-                <li>Write a brief user guide</li>
+                <li>Finalize the features</li>
+                <li>Set up the product website</li>
                 <li>Release the product</li>
               </ol>
             </div>
             <div id="body">
-              <h4 id="1-write-a-brief-user-guide"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Write a brief user guide<a class="fa fa-anchor" href="#1-write-a-brief-user-guide"></a></h4>
-              <div>
-                <div class="indented">
-                  <div class="indented border">
-                    <panel type="seamless">
-                      <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-UserGuide</code>: User Guide</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                      <div></div>
-                      <div>
+              <h4 id="1-finalize-the-features"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Finalize the features<a class="fa fa-anchor" href="#1-finalize-the-features"></a></h4>
+              <ul>
+                <li>You may give the product any name, but do not rename the repo.</li>
+                <li>Reminder: you can give the chatbot any personality (there is no need to follow the exact command/response formats given)</li>
+              </ul>
+              <h4 id="2-set-up-a-product-website"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Set up a product website<a class="fa fa-anchor" href="#2-set-up-a-product-website"></a></h4>
+              <ul>
+                <li><strong>Add a representative screenshot</strong> of the product to the <code>docs</code> folder.
+                  <ul>
+                    <li><mark>The file name should be <code>docs/Ui.png</code> exactly</mark> (even if the file format is not <code>png</code>, name it <code>png</code>)</li>
+                    <li>Ideally, the product name is visible in the screenshot e.g., in the title bar of the Window</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW6-tipsForScreenshots">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Team Project (tP) → Tips for Product Screenshots</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  </div>
+                </div>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Team Project (tP) → Tips for Product Screenshots  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:ipW6-tipsForScreenshots">
+                    <div>
+                    <box>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Some common sense tips for a good product screenshot</strong></p>
+                      <p><code>Ui.png</code> represents your product in its full glory.</p>
+                      <ul>
+                        <li>Before taking the screenshot, populate the product with data that makes the product look good. For example, if the product is supposed to show photos, use real photos instead of dummy placeholders.</li>
+                        <li>It should show a state in which the product is well-populated <span class="dimmed">i.e., don't leave data panels largely blank</span></li>
+                        <li>Choose a state that showcase the main features of the product <span class="dimmed">i.e., the login screen is not usually a good choice</span></li>
+                        <li>Avoid annotations (arrows, callouts, explanatory text etc.); it should look like the product is in use for real.</li>
+                      </ul>
+                      <panel type="seamless" header="Examples" expanded>
+                        <tabs>
+                            <tab header=":-1: Not Good">
+                            <p>Reason: Distracting annotations.</p>
+                            <img src="/website/admin/images/Ui-notGood1.png" width="600">
+                          </tab>
+                            <tab header=":-1: Not Good">
+                            <p>Reason: Not enough data.</p>
+                            <img src="/website/admin/images/Ui-notGood2.png" width="600">
+                          </tab>
+                          <tab header=":+1: Good">
+                            <img src="/website/admin/images/Ui-good1.png" width="600"></tab>
+                            <tab header=":+1: Good">
+                            <img src="/website/admin/images/Ui-good2.png" width="600"></tab>
+                        </tabs>
+                      </panel>
+                    </box>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/project-deliverables._include_.html#tips-for-product-screenshot" header="Admin <md>:glyphicon-log-in:</md> Team Project (tP) → Tips for Product Screenshots  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="tips-for-product-screenshot"></panel>
+                </p>
+              </div>
+              <ul>
+                <li><strong>Add a brief User Guide (UG)</strong></li>
+              </ul>
+              <div class="indented">
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-UserGuide</code>: User Guide</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
                         <div>
-                          <div></div>
-                          <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
-                          <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
+                          <div>
+                            <div></div>
+                            <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
+                            <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
+                          </div>
+                          <p>Add a User Guide to the project. Here is one simple way to do it.</p>
+                          <ul>
+                            <li>Update the given <code>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
+                            <li>Go to the settings page of your Duke fork and enable GitHub pages to publish from the <code>docs</code> folder (you can select a theme too).</li>
+                            <li>Go to <code>http://{your username}.github.io/duke/</code> to view the user guide of your product.</li>
+                          </ul>
                         </div>
-                        <p>Add a User Guide to the project. Here is one simple way to do it.</p>
-                        <ul>
-                          <li>Update the given <code>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
-                          <li>Go to the settings page of your Duke fork and enable GitHub pages to publish from the <code>docs</code> folder (you can select a theme too).</li>
-                          <li>Go to <code>http://{your username}.github.io/duke/</code> to view the user guide of your product.</li>
-                        </ul>
-                      </div>
-                    </panel>
+                      </panel>
+                    </div>
                   </div>
                 </div>
               </div>
               <p></p>
-              <h4 id="2-release-the-product"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Release the product<a class="fa fa-anchor" href="#2-release-the-product"></a></h4>
-              <div>
-                <div class="indented">
-                  <div class="indented border">
-                    <panel type="seamless">
-                      <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-Release</code>: Release</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                      <div></div>
-                      <div>
+              <h4 id="3-release-the-product"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Release the product<a class="fa fa-anchor" href="#3-release-the-product"></a></h4>
+              <ul>
+                <li>Create a new jar file.</li>
+                <li>Ensure the jar file works as it will be used to grade your iP.</li>
+                <li>Create a new release on GitHub (e.g., <code>v0.2</code>) and upload the jar file.</li>
+              </ul>
+              <div class="indented">
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Release</code>: Release</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
                         <div>
-                          <div></div>
-                          <h3 id="a-release"><span class="badge badge-pill badge-primary">A-Release</span><a class="fa fa-anchor" href="#a-release"></a></h3>
-                          <p>     <big>↳</big> <strong>Release the product</strong></p>
+                          <div>
+                            <div></div>
+                            <h3 id="a-release"><span class="badge badge-pill badge-primary">A-Release</span><a class="fa fa-anchor" href="#a-release"></a></h3>
+                            <p>     <big>↳</big> <strong>Release the product</strong></p>
+                          </div>
+                          <p>Release the product to be used by potential users. <span class="dimmed">e.g., you can make it available on GitHub</span></p>
                         </div>
-                        <p>Release the product to be used by potential users. <span class="dimmed">e.g., you can make it available on GitHub</span></p>
-                      </div>
-                    </panel>
+                      </panel>
+                    </div>
                   </div>
                 </div>
               </div>
+              <p></p>
             </div>
           </div>
           <br>
@@ -231,8 +298,9 @@
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#ip-week-6">iP: Week 6 &#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-              <a class="nav-link py-1" href="#1-write-a-brief-user-guide">1 Write a brief user guide&#x200E;</a>
-              <a class="nav-link py-1" href="#2-release-the-product">2 Release the product&#x200E;</a>
+              <a class="nav-link py-1" href="#1-finalize-the-features">1 Finalize the features&#x200E;</a>
+              <a class="nav-link py-1" href="#2-set-up-a-product-website">2 Set up a product website&#x200E;</a>
+              <a class="nav-link py-1" href="#3-release-the-product">3 Release the product&#x200E;</a>
             </nav>
 
           </nav>
@@ -241,7 +309,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 03 Sep 2019 09:57:19 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 10 Sep 2019 05:30:54 GMT</small></div>
     </footer>
   </div>
 </body>
