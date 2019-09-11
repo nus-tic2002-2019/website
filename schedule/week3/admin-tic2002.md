@@ -40,7 +40,7 @@
 
 1. Fork [{{ module_org }}/duke]({{ module_org }}/duke).
 1. Clone the fork onto your computer.
-1. Set up the project in your IDE as explained in [the README file]({{ module_org }}/duke).
+1. Set up the project in your IDE as explained in [the README file]({{ module_org }}/duke). ==Follow the `Setting up` section only. Do not do the tutorials.==
 
 {{ thumb(3) }} Submit weekly exercises
 

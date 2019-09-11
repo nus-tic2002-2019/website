@@ -21,6 +21,19 @@
   * PR description can be left blank
   * [GitHub's help page about creating PRs](https://help.github.com/en/articles/creating-a-pull-request)
 
+* After creating the Pull Request (PR), go to its description (it contains a list of items similar to the below) and tick the items you have completed already.
+
+<div class="indented-level2">
+<box>
+
+- [x] `Level-1`
+- [x] `Level-2`
+- [ ] `Level-3`
+- [ ] `Level-4`<br>
+...
+</box>
+</div>
+
 {{ thumb(3) }} Implement project increments `Level-3`, `A-TextUiTesting` <span class="badge badge-pill badge-secondary">optional</span>
 
 * As before, implement increments, commit at regular intervals, and push to your fork. Your PR will update automatically to reflect the new commits.
@@ -30,4 +43,19 @@
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-3`: Mark as Done**" var-fragment="text.md#level3" />
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-TextUiTesting`: Text UI Testing**" var-tag="optional" var-fragment="extensions.mbdf#A-TextUiTesting" />
 
+</div>
+
+* After pushing the code to your fork, go to your PR and tick the corresponding items.
+  * You should self-report your progress in this manner in future weeks too.
+  * Optional items are not in the list.
+
+<div class="indented-level2">
+<box>
+
+- [x] `Level-1`
+- [x] `Level-2`
+- [x] `Level-3`
+- [ ] `Level-4`<br>
+...
+</box>
 </div>
