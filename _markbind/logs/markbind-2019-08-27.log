@@ -1,63 +1,28 @@
-2019-08-27T06:23:21.560Z - info: Website generation started at 2:23:16 PM
-2019-08-27T06:23:24.366Z - info: Building assets...
-2019-08-27T06:23:26.978Z - info: Assets built
-2019-08-27T06:23:26.978Z - info: Generating pages...
-2019-08-27T06:24:39.762Z - info: Pages built
-2019-08-27T06:24:54.010Z - info: Website generation complete! Total build time: 97.094s
-2019-08-27T06:24:54.011Z - info: Build success!
-2019-08-27T06:24:54.030Z - info: Site data built
-2019-08-27T06:25:53.258Z - info: Deployed!
-2019-08-27T07:23:05.752Z - info: Website generation started at 3:23:02 PM
-2019-08-27T07:23:07.723Z - info: Building assets...
-2019-08-27T07:23:09.647Z - info: Assets built
-2019-08-27T07:23:09.647Z - info: Generating pages...
-2019-08-27T07:24:11.155Z - info: Pages built
-2019-08-27T07:24:23.519Z - info: Website generation complete! Total build time: 81.296s
-2019-08-27T07:24:23.889Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
-2019-08-27T07:24:23.889Z - info: Press CTRL+C to stop ...
-2019-08-27T07:24:23.918Z - info: Site data built
-2019-08-27T07:25:05.369Z - info: [3:25:05 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\gitAndGithub\push\text.md
-2019-08-27T07:25:06.371Z - info: Rebuilding affected source files
-2019-08-27T07:25:06.374Z - info: Rebuilding 10 pages
-2019-08-27T07:25:13.033Z - info: Pages rebuilt
-2019-08-27T07:25:13.046Z - info: Site data built
-2019-08-27T07:26:57.896Z - info: [3:26:57 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\gitAndGithub\push\sourcetree.md
-2019-08-27T07:26:57.901Z - info: [3:26:57 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\gitAndGithub\push\text.md
-2019-08-27T07:26:58.897Z - info: Rebuilding affected source files
-2019-08-27T07:26:58.901Z - info: Rebuilding 10 pages
-2019-08-27T07:27:06.367Z - info: Pages rebuilt
-2019-08-27T07:27:06.388Z - info: Site data built
-2019-08-27T07:29:11.072Z - info: [3:29:11 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\gitAndGithub\push\sourcetree.md
-2019-08-27T07:29:11.077Z - info: [3:29:11 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\gitAndGithub\push\text.md
-2019-08-27T07:29:12.072Z - info: Rebuilding affected source files
-2019-08-27T07:29:12.077Z - info: Rebuilding 10 pages
-2019-08-27T07:29:18.485Z - info: Pages rebuilt
-2019-08-27T07:29:18.498Z - info: Site data built
-2019-08-27T07:31:19.882Z - info: [3:31:19 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\gitAndGithub\push\cli.md
-2019-08-27T07:31:20.884Z - info: Rebuilding affected source files
-2019-08-27T07:31:20.887Z - info: Rebuilding 6 pages
-2019-08-27T07:31:26.158Z - info: Pages rebuilt
-2019-08-27T07:31:26.176Z - info: Site data built
-2019-08-27T07:32:09.681Z - info: [3:32:09 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\gitAndGithub\push\cli.md
-2019-08-27T07:32:10.682Z - info: Rebuilding affected source files
-2019-08-27T07:32:10.684Z - info: Rebuilding 6 pages
-2019-08-27T07:32:15.627Z - info: Pages rebuilt
-2019-08-27T07:32:15.647Z - info: Site data built
-2019-08-27T07:50:53.153Z - info: Website generation started at 3:50:49 PM
-2019-08-27T07:50:55.182Z - info: Building assets...
-2019-08-27T07:50:57.133Z - info: Assets built
-2019-08-27T07:50:57.133Z - info: Generating pages...
-2019-08-27T07:52:02.967Z - info: Pages built
-2019-08-27T07:52:15.468Z - info: Website generation complete! Total build time: 86.02s
-2019-08-27T07:52:15.469Z - info: Build success!
-2019-08-27T07:52:15.482Z - info: Site data built
-2019-08-27T07:52:59.837Z - info: Deployed!
-2019-08-27T07:59:18.929Z - info: Website generation started at 3:59:15 PM
-2019-08-27T07:59:21.021Z - info: Building assets...
-2019-08-27T07:59:23.143Z - info: Assets built
-2019-08-27T07:59:23.143Z - info: Generating pages...
-2019-08-27T08:00:24.916Z - info: Pages built
-2019-08-27T08:00:37.482Z - info: Website generation complete! Total build time: 82.064s
-2019-08-27T08:00:37.483Z - info: Build success!
-2019-08-27T08:00:37.496Z - info: Site data built
-2019-08-27T08:01:14.514Z - info: Deployed!
+2019-08-27T14:57:57.797Z - info: Website generation started at 22:57:51
+2019-08-27T14:58:01.647Z - info: Building assets...
+2019-08-27T14:58:05.841Z - info: Assets built
+2019-08-27T14:58:05.841Z - info: Generating pages...
+2019-08-27T15:00:14.733Z - info: Pages built
+2019-08-27T15:00:38.154Z - info: Website generation complete! Total build time: 166.764s
+2019-08-27T15:00:38.558Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-27T15:00:38.558Z - info: Press CTRL+C to stop ...
+2019-08-27T15:00:38.589Z - info: Site data built
+2019-08-27T15:04:16.475Z - info: [23:04:16] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\cppToJava\usefulClasses\wrapperClasses\text.md
+2019-08-27T15:04:17.481Z - info: Rebuilding affected source files
+2019-08-27T15:04:17.505Z - info: Rebuilding 10 pages
+2019-08-27T15:04:34.196Z - info: Pages rebuilt
+2019-08-27T15:04:34.345Z - info: Site data built
+2019-08-27T15:07:33.758Z - info: [23:07:33] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\cppToJava\usefulClasses\wrapperClasses\text.md
+2019-08-27T15:07:34.766Z - info: Rebuilding affected source files
+2019-08-27T15:07:34.782Z - info: Rebuilding 10 pages
+2019-08-27T15:07:48.340Z - info: Pages rebuilt
+2019-08-27T15:07:48.388Z - info: Site data built
+2019-08-27T15:26:16.781Z - info: Website generation started at 23:26:11
+2019-08-27T15:26:19.046Z - info: Building assets...
+2019-08-27T15:26:21.476Z - info: Assets built
+2019-08-27T15:26:21.477Z - info: Generating pages...
+2019-08-27T15:27:59.569Z - info: Pages built
+2019-08-27T15:28:19.447Z - info: Website generation complete! Total build time: 127.848s
+2019-08-27T15:28:19.448Z - info: Build success!
+2019-08-27T15:28:19.461Z - info: Site data built
+2019-08-27T15:29:03.304Z - info: Deployed!
