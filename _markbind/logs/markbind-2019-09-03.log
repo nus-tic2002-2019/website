@@ -1,0 +1,68 @@
+2019-09-03T03:08:25.473Z - info: Website generation started at 11:08:24 AM
+2019-09-03T03:08:27.169Z - info: Building assets...
+2019-09-03T03:08:28.713Z - info: Assets built
+2019-09-03T03:08:28.713Z - info: Generating pages...
+2019-09-03T03:09:32.058Z - info: Pages built
+2019-09-03T03:09:44.352Z - info: Website generation complete! Total build time: 80.285s
+2019-09-03T03:09:44.749Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-09-03T03:09:44.750Z - info: Press CTRL+C to stop ...
+2019-09-03T03:09:44.776Z - info: Site data built
+2019-09-03T03:14:33.674Z - info: [11:14:33 AM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\index.md
+2019-09-03T03:14:34.677Z - info: Rebuilding affected source files
+2019-09-03T03:14:34.678Z - info: Rebuilding 2 pages
+2019-09-03T03:14:35.413Z - info: Pages rebuilt
+2019-09-03T03:14:35.421Z - info: Site data built
+2019-09-03T04:49:55.474Z - info: [12:49:55 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\cppToJava\inheritance\basic\text.md
+2019-09-03T04:49:56.476Z - info: Rebuilding affected source files
+2019-09-03T04:49:56.481Z - info: Rebuilding 10 pages
+2019-09-03T04:50:07.124Z - info: Pages rebuilt
+2019-09-03T04:50:07.144Z - info: Site data built
+2019-09-03T05:09:01.622Z - info: Website generation started at 1:09:00 PM
+2019-09-03T05:09:03.032Z - info: Building assets...
+2019-09-03T05:09:04.420Z - info: Assets built
+2019-09-03T05:09:04.420Z - info: Generating pages...
+2019-09-03T05:10:01.131Z - info: Pages built
+2019-09-03T05:10:14.293Z - info: Website generation complete! Total build time: 73.943s
+2019-09-03T05:10:14.293Z - info: Build success!
+2019-09-03T05:10:14.303Z - info: Site data built
+2019-09-03T05:10:59.098Z - info: Deployed!
+2019-09-03T05:27:07.856Z - info: Website generation started at 1:27:06 PM
+2019-09-03T05:27:09.359Z - info: Building assets...
+2019-09-03T05:27:10.718Z - info: Assets built
+2019-09-03T05:27:10.719Z - info: Generating pages...
+2019-09-03T05:28:08.138Z - info: Pages built
+2019-09-03T05:28:19.927Z - info: Website generation complete! Total build time: 73.29s
+2019-09-03T05:28:19.927Z - info: Build success!
+2019-09-03T05:28:19.936Z - info: Site data built
+2019-09-03T05:28:55.872Z - info: Deployed!
+2019-09-03T09:47:55.899Z - info: Website generation started at 5:47:54 PM
+2019-09-03T09:47:57.334Z - info: Building assets...
+2019-09-03T09:47:58.779Z - info: Assets built
+2019-09-03T09:47:58.779Z - info: Generating pages...
+2019-09-03T09:48:57.999Z - info: Pages built
+2019-09-03T09:49:10.054Z - info: Website generation complete! Total build time: 75.411s
+2019-09-03T09:49:10.418Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-09-03T09:49:10.418Z - info: Press CTRL+C to stop ...
+2019-09-03T09:49:10.444Z - info: Site data built
+2019-09-03T09:50:00.663Z - info: [5:50:00 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-09-03T09:50:01.666Z - info: Rebuilding affected source files
+2019-09-03T09:50:01.670Z - info: Rebuilding 5 pages
+2019-09-03T09:50:03.961Z - info: Pages rebuilt
+2019-09-03T09:50:03.971Z - info: Site data built
+2019-09-03T09:51:53.577Z - info: [5:51:53 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-09-03T09:51:54.581Z - info: Rebuilding affected source files
+2019-09-03T09:51:54.583Z - info: Rebuilding 5 pages
+2019-09-03T09:51:56.912Z - info: Pages rebuilt
+2019-09-03T09:51:56.923Z - info: Site data built
+2019-09-03T09:56:28.853Z - info: [5:56:28 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week4\admin-tic2002.md
+2019-09-03T09:56:29.856Z - info: Rebuilding affected source files
+2019-09-03T09:56:29.858Z - info: Rebuilding 5 pages
+2019-09-03T09:57:16.717Z - info: Website generation started at 5:57:15 PM
+2019-09-03T09:57:18.156Z - info: Building assets...
+2019-09-03T09:57:19.500Z - info: Assets built
+2019-09-03T09:57:19.500Z - info: Generating pages...
+2019-09-03T09:58:14.688Z - info: Pages built
+2019-09-03T09:58:26.247Z - info: Website generation complete! Total build time: 70.727s
+2019-09-03T09:58:26.247Z - info: Build success!
+2019-09-03T09:58:26.260Z - info: Site data built
+2019-09-03T09:59:02.061Z - info: Deployed!
