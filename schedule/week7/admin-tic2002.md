@@ -5,14 +5,13 @@
 {{ show_week_pagetop(7, "admin") }}
 
 {% call show_admin_summary() %}
-1. Implement increments `Level-6`, `A-Enums` <span class="badge badge-pill badge-secondary">if-applicable</span>, `A-Gradle` <span class="badge badge-pill badge-secondary">optional</span>
+1. Implement increments `Level-6`, `A-Enums` <span class="badge badge-pill badge-secondary">if-applicable</span>
 {% endcall %}
 
-{{ thumb(1) }} Implement increments `Level-6`, `A-Enums` <span class="badge badge-pill badge-secondary">if-applicable</span>, `A-Gradle` <span class="badge badge-pill badge-secondary">optional</span>
+{{ thumb(1) }} Implement increments `Level-6`, `A-Enums` <span class="badge badge-pill badge-secondary">if-applicable</span>
 
 <div class="indented">
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-6`: Delete**" var-fragment="text.md#level6" />
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Enums`: Enums**" var-tag="if-applicable" var-fragment="extensions.mbdf#A-Enums" />
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Gradle`: Gradle**" var-tag="optional" var-fragment="extensions.mbdf#A-Gradle" />
 </div>
 
