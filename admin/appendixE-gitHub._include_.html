@@ -109,12 +109,8 @@
       </h3>
       <div id="workflow-before-v11">
         <p>
-          <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Before you do any coding for the project</strong>,
+          <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Read <trigger trigger="click" for="modal:appE-reusePolicy">our reuse policy <span class="dimmed">(in Admin: Appendix B)</span></trigger></strong>, in particular, <mark>how to give credit when you reuse code from the Internet or classmates</mark>:
         </p>
-        <ul>
-          <li>Ensure you have <trigger trigger="click" for="modal:appE-gitUsername">set the Git username correctly (as explained in Appendix E)</trigger> in <em>all</em> computers you use for coding.</li>
-          <li>Read <trigger trigger="click" for="modal:appE-reusePolicy">our reuse policy <span class="dimmed">(in Admin: Appendix B)</span></trigger>, in particular, <mark>how to give credit when you reuse code from the Internet or classmates</mark>:</li>
-        </ul>
         <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername">
             <div>
             <div data-included-from="C:\repos\nus-tic2002-2019\tic2002-website\admin\tools.md">
@@ -426,11 +422,24 @@ method 2 ...
         </modal>
         <p><strong>Follow the <trigger trigger="click" for="modal:appErecommendedWorkflow-forkingworkflow">forking workflow</trigger> in your project up to v1.1.</strong> In particular,</p>
         <ul>
-          <li><strong>Get team members to review PRs.</strong> A workflow without PR reviews is a risky workflow.</li>
-          <li><strong>Do not merge PRs failing <tooltip content="Continuous Integration e.g., Travis">CI</tooltip>.</strong> After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingTravis.html#setting-up-travis-ci">setting up Travis</a>, the CI status of a PR is reported at the bottom of the PR page. The screenshot below shows the status of a PR that is passing all CI checks. <br>
-            <img src="/website/admin/images/gitHubPrStatus.png" width="700"><br>
-            <strong>If there is a failure</strong>, you can click on the <code>Details</code> link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push the a fix to the PR.</li>
-          <li>After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingNetlify.html">setting up Netlify</a>, you can use <em>Netlify PR Preview</em> to preview changes to documentation files, if the PR contains updates to documentation. To see the preview, click on the <code>Details</code> link in front of the Netlify status reported (refer screenshot above).</li>
+          <li><strong>Create issues to represent project tasks</strong> so that they can be tracked using the issue tracker features.</li>
+          <li><strong>Create a PR when you implement a project task</strong> that updates the code.<br>
+            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use GitHub's <a href="https://github.blog/2019-02-14-introducing-draft-pull-requests/"><em>draft PRs</em></a> feature to indicate that a PR is not yet ready for merging.<br>
+            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span> PRO TIP</span> <code>LGTM</code> is common abbreviation you can use in the review comments to mean <code>Looks Good To Merge</code>.</li>
+          <li><strong>Get team members to review PRs.</strong> A workflow without PR reviews is a risky workflow.
+            <ul>
+              <li>After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingNetlify.html">setting up Netlify</a>, you can use <em>Netlify PR Preview</em> to preview changes to documentation files, if the PR contains updates to documentation. To see the preview, click on the <code>Details</code> link in front of the Netlify status reported (refer screenshot below).<br>
+                <img src="/website/admin/images/gitHubPrStatus.png" width="700"></li>
+            </ul>
+          </li>
+          <li><strong>Do not merge PRs failing <tooltip content="Continuous Integration e.g., Travis">CI</tooltip>.</strong> After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingTravis.html#setting-up-travis-ci">setting up Travis</a>, the CI status of a PR is reported at the bottom of the PR page. The screenshot below shows the status of a PR that is passing all CI checks.
+            <ul>
+              <li><strong>If there is a failure</strong>, you can click on the <code>Details</code> link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push the a fix to the PR.<br>
+                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span> PRO TIP</span> You can use GitHub's <a href="https://help.github.com/en/articles/about-protected-branches"><em>protected branches</em></a> feature to prevent CI-failing PRs from being merged.</li>
+            </ul>
+          </li>
+          <li>After merging a PR, close the corresponding issue.<br>
+            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span> PRO TIP</span> You can use GitHub's <a href="https://help.github.com/en/articles/closing-issues-using-keywords"><code>Fixes #123</code> trick</a> to get the issue to close automatically when the PR is merged.</li>
         </ul>
         <modal large title="TextBook <md>:glyphicon-log-in:</md>" id="modal:appErecommendedWorkflow-forkingworkflow">
             <div>

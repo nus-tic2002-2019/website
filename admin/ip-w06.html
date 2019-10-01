@@ -35,8 +35,8 @@
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
           <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
           <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
-          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
-          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
           <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
@@ -96,6 +96,7 @@
                   <li class="mt-2"><small><a href="/website/admin/ip-w05.html" class="site-nav__a">iP: Week 5</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w06.html" class="site-nav__a">iP: Week 6</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w07.html" class="site-nav__a">iP: Week 7</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/ip-w08.html" class="site-nav__a">iP: Week 8</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-grading.html" class="site-nav__a">iP: Grading</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
@@ -483,7 +484,7 @@ method 2 ...
               <ul>
                 <li><strong>Add a representative screenshot</strong> of the product to the <code>docs</code> folder.
                   <ul>
-                    <li><mark>The file name should be <code>docs/Ui.png</code> exactly</mark> (even if the file format is not <code>png</code>, name it <code>png</code>)</li>
+                    <li><mark>The file name should be in the <code>docs</code> folder and named <code>Ui.png</code> exactly</mark> (even if the file format is not <code>png</code>, name it <code>png</code>)</li>
                     <li>Ideally, the product name is visible in the screenshot e.g., in the title bar of the Window</li>
                   </ul>
                 </li>
@@ -500,9 +501,15 @@ method 2 ...
                       <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Some common sense tips for a good product screenshot</strong></p>
                       <p><code>Ui.png</code> represents your product in its full glory.</p>
                       <ul>
-                        <li>Before taking the screenshot, populate the product with data that makes the product look good. For example, if the product is supposed to show photos, use real photos instead of dummy placeholders.</li>
+                        <li>Before taking the screenshot, populate the product with data that makes the product look good. For example,
+                          <ul>
+                            <li>if the product is supposed to show photos, use real photos instead of dummy placeholders.</li>
+                            <li>if the product doesn't have nice line wrapping for long inputs/outputs, don't use such inputs/outputs for the screenshot.</li>
+                          </ul>
+                        </li>
                         <li>It should show a state in which the product is well-populated <span class="dimmed">i.e., don't leave data panels largely blank</span></li>
                         <li>Choose a state that showcase the main features of the product <span class="dimmed">i.e., the login screen is not usually a good choice</span></li>
+                        <li>Take a clean screenshot with a decent resolution. Some screenshot tools can capture a specified window only. If your tool cannot do that, make sure you crop away the extraneous parts captured by the screenshot.</li>
                         <li>Avoid annotations (arrows, callouts, explanatory text etc.); it should look like the product is in use for real.</li>
                       </ul>
                       <panel type="seamless" header="Examples" expanded>
@@ -514,6 +521,10 @@ method 2 ...
                             <tab header=":-1: Not Good">
                             <p>Reason: Not enough data.</p>
                             <img src="/website/admin/images/Ui-notGood2.png" width="600">
+                          </tab>
+                            <tab header=":-1: Not Good">
+                            <p>Reason: screenshot not cropped cleanly (contains extra background details)</p>
+                            <img src="/website/admin/images/Ui-notGood3.png" width="600">
                           </tab>
                           <tab header=":+1: Good">
                             <img src="/website/admin/images/Ui-good1.png" width="600"></tab>
@@ -559,14 +570,18 @@ method 2 ...
               </div>
               <p></p>
               <ul>
-                <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you added the <code>Ui.png</code> correctly and set up product website correctly, <mark>you should be able to see your screenshot in the <a href="/website/admin/ip-showcase.html">iP Showcase</a> page</mark>.</li>
+                <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you added the <code>Ui.png</code> correctly and set up the product website correctly, <mark>you should be able to <strong>see your screenshot in the <a href="/website/admin/ip-showcase.html">iP Showcase</a> page</strong></mark> <span class="dimmed">(a link to the iP Showcase page is also available in the top navigation menu → Links)</span>.</li>
               </ul>
               <h4 id="3-release-the-product"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Release the product<a class="fa fa-anchor" href="#3-release-the-product"></a></h4>
               <ul>
-                <li>Create a new jar file.</li>
-                <li>Ensure the jar file works <span class="dimmed">(reason: it will be used to grade your iP)</span>.<br>
-                  <mark>Get a team member to test the Jar file on their computer</mark>, preferrably someone using a different Operating System <span class="dimmed">(reason: it's possible for the jar file to work on your computer but not on others')</span>.</li>
-                <li>Create a new release on GitHub (e.g., <code>v0.2</code>) and upload the jar file.</li>
+                <li><strong>Create a new jar file</strong> using Gradle. Creating jar file using Intellij is not recommended unless the project is very simple.</li>
+                <li><strong>Do the following <a href="https://en.wikipedia.org/wiki/Smoke_testing_(software)"><em>smoke tests</em></a></strong> to ensure the jar file works <span class="dimmed">(reason: it will be used to grade your iP)</span>.<br>
+                  <ol>
+                    <li>Copy the jar file to an empty folder and test it from there. This should surface issues with hard-coded file paths.</li>
+                    <li>Pass the jar file to team members and ask them to do a test drive. Assuming some of your team members' OS differ from yours, this should verify if the app is cross-platform.</li>
+                  </ol>
+                </li>
+                <li><strong>Create a new release on GitHub</strong> (e.g., <code>v0.2</code>) and upload the jar file.</li>
               </ul>
               <div class="indented">
                 <div>
@@ -617,7 +632,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 17 Sep 2019 08:59:42 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 01 Oct 2019 10:04:50 GMT</small></div>
     </footer>
   </div>
 </body>

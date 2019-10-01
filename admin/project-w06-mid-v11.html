@@ -35,8 +35,8 @@
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
           <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
           <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
-          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
-          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
           <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
@@ -96,6 +96,7 @@
                   <li class="mt-2"><small><a href="/website/admin/ip-w05.html" class="site-nav__a">iP: Week 5</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w06.html" class="site-nav__a">iP: Week 6</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w07.html" class="site-nav__a">iP: Week 7</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/ip-w08.html" class="site-nav__a">iP: Week 8</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-grading.html" class="site-nav__a">iP: Grading</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
@@ -302,12 +303,8 @@
                     </h3>
                     <div id="workflow-before-v11">
                       <p>
-                        <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Before you do any coding for the project</strong>,
+                        <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Read <trigger trigger="click" for="modal:appE-reusePolicy">our reuse policy <span class="dimmed">(in Admin: Appendix B)</span></trigger></strong>, in particular, <mark>how to give credit when you reuse code from the Internet or classmates</mark>:
                       </p>
-                      <ul>
-                        <li>Ensure you have <trigger trigger="click" for="modal:appE-gitUsername">set the Git username correctly (as explained in Appendix E)</trigger> in <em>all</em> computers you use for coding.</li>
-                        <li>Read <trigger trigger="click" for="modal:appE-reusePolicy">our reuse policy <span class="dimmed">(in Admin: Appendix B)</span></trigger>, in particular, <mark>how to give credit when you reuse code from the Internet or classmates</mark>:</li>
-                      </ul>
                       <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername">
                           <div>
                           <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identifies you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
@@ -609,11 +606,24 @@ method 2 ...
                       </modal>
                       <p><strong>Follow the <trigger trigger="click" for="modal:appErecommendedWorkflow-forkingworkflow">forking workflow</trigger> in your project up to v1.1.</strong> In particular,</p>
                       <ul>
-                        <li><strong>Get team members to review PRs.</strong> A workflow without PR reviews is a risky workflow.</li>
-                        <li><strong>Do not merge PRs failing <tooltip content="Continuous Integration e.g., Travis">CI</tooltip>.</strong> After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingTravis.html#setting-up-travis-ci">setting up Travis</a>, the CI status of a PR is reported at the bottom of the PR page. The screenshot below shows the status of a PR that is passing all CI checks. <br>
-                          <img src="/website/admin/images/gitHubPrStatus.png" width="700"><br>
-                          <strong>If there is a failure</strong>, you can click on the <code>Details</code> link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push the a fix to the PR.</li>
-                        <li>After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingNetlify.html">setting up Netlify</a>, you can use <em>Netlify PR Preview</em> to preview changes to documentation files, if the PR contains updates to documentation. To see the preview, click on the <code>Details</code> link in front of the Netlify status reported (refer screenshot above).</li>
+                        <li><strong>Create issues to represent project tasks</strong> so that they can be tracked using the issue tracker features.</li>
+                        <li><strong>Create a PR when you implement a project task</strong> that updates the code.<br>
+                          <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use GitHub's <a href="https://github.blog/2019-02-14-introducing-draft-pull-requests/"><em>draft PRs</em></a> feature to indicate that a PR is not yet ready for merging.<br>
+                          <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span> PRO TIP</span> <code>LGTM</code> is common abbreviation you can use in the review comments to mean <code>Looks Good To Merge</code>.</li>
+                        <li><strong>Get team members to review PRs.</strong> A workflow without PR reviews is a risky workflow.
+                          <ul>
+                            <li>After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingNetlify.html">setting up Netlify</a>, you can use <em>Netlify PR Preview</em> to preview changes to documentation files, if the PR contains updates to documentation. To see the preview, click on the <code>Details</code> link in front of the Netlify status reported (refer screenshot below).<br>
+                              <img src="/website/admin/images/gitHubPrStatus.png" width="700"></li>
+                          </ul>
+                        </li>
+                        <li><strong>Do not merge PRs failing <tooltip content="Continuous Integration e.g., Travis">CI</tooltip>.</strong> After <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingTravis.html#setting-up-travis-ci">setting up Travis</a>, the CI status of a PR is reported at the bottom of the PR page. The screenshot below shows the status of a PR that is passing all CI checks.
+                          <ul>
+                            <li><strong>If there is a failure</strong>, you can click on the <code>Details</code> link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push the a fix to the PR.<br>
+                              <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span> PRO TIP</span> You can use GitHub's <a href="https://help.github.com/en/articles/about-protected-branches"><em>protected branches</em></a> feature to prevent CI-failing PRs from being merged.</li>
+                          </ul>
+                        </li>
+                        <li>After merging a PR, close the corresponding issue.<br>
+                          <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span> PRO TIP</span> You can use GitHub's <a href="https://help.github.com/en/articles/closing-issues-using-keywords"><code>Fixes #123</code> trick</a> to get the issue to close automatically when the PR is merged.</li>
                       </ul>
                       <modal large title="TextBook <md>:glyphicon-log-in:</md>" id="modal:appErecommendedWorkflow-forkingworkflow">
                           <div>
@@ -701,8 +711,7 @@ method 2 ...
               </ul>
               <h4 id="4-draft-the-ug"><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <span><span aria-hidden="true" class="fas fa-user"></span></span> Draft the UG<a class="fa fa-anchor" href="#4-draft-the-ug"></a></h4>
               <ul>
-                <li>
-                  <p>Draft a user guide in a convenient medium (e.g., a GoogleDoc) to describe what the product would be like when it is at v2.0.</p>
+                <li>Draft a user guide in a convenient medium (e.g., a GoogleDoc) to describe what the product would be like when it is at v2.0.
                   <ul>
                     <li>We recommend that you follow the existing <a href="https://nus-TIC2002-2019.github.io/addressbook-level3/UserGuide.html">AB3 User Guide</a> in terms of structure and format.</li>
                     <li>As this is a very rough draft and the final version will be in a different format altogether <span class="dimmed">(i.e., in asciidoc format)</span>, don't waste time in formatting, copy editing etc. It is fine as long as the tutor can get a rough idea of the features from this draft. You can also do just the 'Features' section and omit the other parts.</li>
@@ -712,12 +721,14 @@ method 2 ...
                       <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Submission</strong>: Save the draft UG as a PDF file, name it <code>{team-id}.pdf</code> e.g., <code>CS2103T-W09-1.pdf</code>, and upload to LumiNUS.<br><br>
                     </li>
                   </ul>
-                  <box>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is highly recommended that you <strong>divide documentation work (in the User Guide and the Developer Guide) among team members based on enhancements/features each person would be adding</strong> <span class="dimmed">e.g., If you are the person planing to add a feature X, you should be the person to describe the feature X in the User Guide and in the Developer Guide</span>. For features that are not planned to be implemented by v1.4, you can divide them based on who will be implementing them <em>if</em> the project were to continue until v2.0 (hypothetically).</p>
-                    <p><span class="dimmed">Reason: In the final project evaluation your documentation skills will be graded based on sections of the User/Developer Guide you have written.</span></p>
-                  </box>
                 </li>
               </ul>
+              <span id="divideDocs">
+                <box>
+                  <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is highly recommended that you <strong>divide documentation work (in the User Guide and the Developer Guide) among team members based on enhancements/features each person would be adding</strong> <span class="dimmed">e.g., If you are the person planing to add a feature X, you should be the person to describe the feature X in the User Guide and in the Developer Guide</span>. For features that are not planned to be implemented by v1.4, you can divide them based on who will be implementing them <em>if</em> the project were to continue until v2.0 (hypothetically).</p>
+                  <p><span class="dimmed">Reason: In the final project evaluation your documentation skills will be graded based on sections of the User/Developer Guide you have written.</span></p>
+                </box>
+              </span>
               <h4 id="5-refine-the-product-design"><span class="badge badge-pill badge-dark p-2"><big><big>5</big></big></span> <span><span aria-hidden="true" class="fas fa-users"></span></span> Refine the product design<a class="fa fa-anchor" href="#5-refine-the-product-design"></a></h4>
               <ul>
                 <li>Review the UG to ensure the features written by each member fit together to form a cohesive product. Note that cohesiveness of the product is a grading criterion.</li>
@@ -751,7 +762,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 17 Sep 2019 08:59:42 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 01 Oct 2019 10:04:50 GMT</small></div>
     </footer>
   </div>
 </body>
