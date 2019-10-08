@@ -57,3 +57,21 @@
 2019-10-08T06:04:22.286Z - info: Site data built
 2019-10-08T06:33:42.216Z - info: Website generation started at 2:33:40 PM
 2019-10-08T06:33:43.736Z - info: Building assets...
+2019-10-08T06:33:45.234Z - info: Assets built
+2019-10-08T06:33:45.235Z - info: Generating pages...
+2019-10-08T06:34:44.364Z - info: Pages built
+2019-10-08T06:34:56.279Z - info: Website generation complete! Total build time: 75.28s
+2019-10-08T06:34:56.280Z - info: Build success!
+2019-10-08T06:34:56.293Z - info: Site data built
+2019-10-08T06:35:38.141Z - info: Deployed!
+2019-10-08T09:54:55.552Z - info: Website generation started at 5:54:54 PM
+2019-10-08T09:54:57.044Z - info: Building assets...
+2019-10-08T09:54:58.502Z - info: Assets built
+2019-10-08T09:54:58.503Z - info: Generating pages...
+2019-10-08T09:55:56.944Z - info: Pages built
+2019-10-08T09:56:08.625Z - info: Website generation complete! Total build time: 74.307s
+2019-10-08T09:56:08.954Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-10-08T09:56:08.954Z - info: Press CTRL+C to stop ...
+2019-10-08T09:56:08.988Z - info: Site data built
+2019-10-08T09:58:25.540Z - info: Website generation started at 5:58:24 PM
+2019-10-08T09:58:27.123Z - info: Building assets...
