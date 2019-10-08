@@ -231,6 +231,7 @@ head: scheduleHead.md
     {heading: "Git: Branching"},
       {location: ["revisionControl", "branching"]},
       {location: ["gitAndGithub", "branch"]},
+      {location: ["gitAndGithub", "mergeConflicts"]},
     {heading: "Project Management: Basics"},
       {location: ["projectPlanning", "milestones"]},
       {location: ["projectPlanning", "buffers"]},
