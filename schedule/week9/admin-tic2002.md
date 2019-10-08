@@ -5,14 +5,15 @@
 {{ show_week_pagetop(9, "admin") }}
 
 {% call show_admin_summary() %}
-1. Implement increments `Level-8`,  `Level-9`, `A-JUnit`, `A-Libraries` <span class="badge badge-pill badge-secondary">optional</span>
+1. Implement increments `Level-8`,  `A-JavaDoc`, `A-Gradle` <span class="badge badge-pill badge-secondary">optional</span>, `A-JUnit`
 {% endcall %}
 
-{{ thumb(1) }} Implement increments `Level-8`,  `Level-9`, `A-JUnit`, `A-Libraries` <span class="badge badge-pill badge-secondary">optional</span>
+{{ thumb(1) }} Implement increments `Level-8`,  `A-JavaDoc`, `A-Gradle` <span class="badge badge-pill badge-secondary">optional</span>, `A-JUnit`
 
 <div class="indented">
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-8`: Dates and Times**" var-fragment="text.md#level8" />
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-9`: Find**" var-fragment="text.md#level9" />
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Gradle`: Gradle**" var-tag="optional" var-fragment="extensions.mbdf#A-Gradle" />
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-JavaDoc`: JavaDoc**" var-fragment="extensions.mbdf#A-JavaDoc" />
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-JUnit`: JUnit Testing**" var-fragment="extensions.mbdf#A-JUnit" />
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Libraries`: Libraries**" var-tag="optional" var-fragment="extensions.mbdf#A-Libraries" />
+
 </div>
