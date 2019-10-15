@@ -595,10 +595,13 @@
                                 <p>A <code>Piece</code> may or may not be on a <code>Square</code>. Note how that association can be replaced by an <code>isOn</code> attribute of the <code>Piece</code> class. The <code>isOn</code> attribute can either be <code>null</code> or hold a reference to a <code>Square</code> object, matching the <code>0..1</code> multiplicity of the association it replaces. The default value is <code>null</code>.</p>
                                 <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/squareMultiplicity.png" width="600">
                                 <p></p>
-                                <p>The association that a <code>Board</code> has 100 <code>Sqaure</code>s can be shown in either of these two ways:</p>
+                                <p>The association that a <code>Board</code> has 100 <code>Square</code>s can be shown in either of these two ways:</p>
                                 <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/board.png" height="70">
                                 <p></p>
                               </box>
+                              <p>
+                                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Show each association as <strong>either an attribute or a line but not both</strong>. A line is preferred is it is easier to spot.
+                              </p>
                             </div>
                             <div></div>
                           </div>
@@ -885,7 +888,7 @@
                             <p></p>
                             <p></p>
                             <div>
-                              <p><strong>An interface is shown similar to a class with an additional keyword <code>&lt;&lt; interface &gt;&gt;</code>. When a class implements an interface, it is shown similar to class inheritance except a dashed line is used instead of a solid line.</strong></p>
+                              <p><strong>An interface is shown similar to a class with an additional keyword <code>&lt;&lt;interface&gt;&gt;</code>. When a class implements an interface, it is shown similar to class inheritance except a dashed line is used instead of a solid line.</strong></p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>AcademicStaff</code> and the <code>AdminStaff</code> classes <em>implement</em> the <code>SalariedStaff</code> interface.</p>
                                 <img src="/website/book/uml/classDiagrams/interfaces/what/images/staff.png" height="250">

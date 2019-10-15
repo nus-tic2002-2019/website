@@ -1,0 +1,81 @@
+2019-10-15T05:40:41.594Z - info: Website generation started at 1:40:37 PM
+2019-10-15T05:40:44.303Z - info: Building assets...
+2019-10-15T05:40:46.651Z - info: Assets built
+2019-10-15T05:40:46.652Z - info: Generating pages...
+2019-10-15T05:41:55.731Z - info: Pages built
+2019-10-15T05:42:10.231Z - info: Website generation complete! Total build time: 92.621s
+2019-10-15T05:42:10.608Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-10-15T05:42:10.608Z - info: Press CTRL+C to stop ...
+2019-10-15T05:42:10.652Z - info: Site data built
+2019-10-15T05:44:30.165Z - info: [1:44:30 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\text.md
+2019-10-15T05:44:31.169Z - info: Rebuilding affected source files
+2019-10-15T05:44:31.172Z - info: Rebuilding 15 pages
+2019-10-15T05:44:34.506Z - info: Pages rebuilt
+2019-10-15T05:44:34.521Z - info: Site data built
+2019-10-15T05:45:59.850Z - info: [1:45:59 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\text.md
+2019-10-15T05:46:00.852Z - info: Rebuilding affected source files
+2019-10-15T05:46:00.855Z - info: Rebuilding 15 pages
+2019-10-15T05:46:04.247Z - info: Pages rebuilt
+2019-10-15T05:46:04.264Z - info: Site data built
+2019-10-15T05:50:51.844Z - info: [1:50:51 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\text.md
+2019-10-15T05:50:52.845Z - info: Rebuilding affected source files
+2019-10-15T05:50:52.847Z - info: Rebuilding 15 pages
+2019-10-15T05:50:56.251Z - info: Pages rebuilt
+2019-10-15T05:50:56.266Z - info: Site data built
+2019-10-15T05:51:30.637Z - info: [1:51:30 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\text.md
+2019-10-15T05:51:31.640Z - info: Rebuilding affected source files
+2019-10-15T05:51:31.643Z - info: Rebuilding 15 pages
+2019-10-15T05:51:34.965Z - info: Pages rebuilt
+2019-10-15T05:51:34.980Z - info: Site data built
+2019-10-15T05:51:42.303Z - info: [1:51:42 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\text.md
+2019-10-15T05:51:43.304Z - info: Rebuilding affected source files
+2019-10-15T05:51:43.308Z - info: Rebuilding 15 pages
+2019-10-15T05:51:46.360Z - info: Pages rebuilt
+2019-10-15T05:51:46.375Z - info: Site data built
+2019-10-15T05:52:41.830Z - info: [1:52:41 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\text.md
+2019-10-15T05:52:42.831Z - info: Rebuilding affected source files
+2019-10-15T05:52:42.833Z - info: Rebuilding 15 pages
+2019-10-15T05:52:46.259Z - info: Pages rebuilt
+2019-10-15T05:52:46.272Z - info: Site data built
+2019-10-15T05:55:38.379Z - info: [1:55:38 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\text.md
+2019-10-15T05:55:39.383Z - info: Rebuilding affected source files
+2019-10-15T05:55:39.389Z - info: Rebuilding 15 pages
+2019-10-15T05:55:42.983Z - info: Pages rebuilt
+2019-10-15T05:55:43.015Z - info: Site data built
+2019-10-15T06:02:50.825Z - info: [2:02:50 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\week9\admin-tic2002.md
+2019-10-15T06:02:51.826Z - info: Rebuilding affected source files
+2019-10-15T06:02:51.827Z - info: Rebuilding 3 pages
+2019-10-15T06:02:54.173Z - info: Pages rebuilt
+2019-10-15T06:02:54.188Z - info: Site data built
+2019-10-15T06:05:40.614Z - info: [2:05:40 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\extensions.mbdf
+2019-10-15T06:05:41.616Z - info: Rebuilding affected source files
+2019-10-15T06:05:41.619Z - info: Rebuilding 15 pages
+2019-10-15T06:05:45.237Z - info: Pages rebuilt
+2019-10-15T06:05:45.249Z - info: Site data built
+2019-10-15T06:54:38.571Z - info: [2:54:38 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\extensions.mbdf
+2019-10-15T06:54:39.574Z - info: Rebuilding affected source files
+2019-10-15T06:54:39.577Z - info: Rebuilding 15 pages
+2019-10-15T06:54:43.109Z - info: Pages rebuilt
+2019-10-15T06:54:43.122Z - info: Site data built
+2019-10-15T06:55:53.629Z - info: [2:55:53 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\extensions.mbdf
+2019-10-15T06:55:54.630Z - info: Rebuilding affected source files
+2019-10-15T06:55:54.633Z - info: Rebuilding 15 pages
+2019-10-15T06:55:58.024Z - info: Pages rebuilt
+2019-10-15T06:55:58.036Z - info: Site data built
+2019-10-15T06:59:07.111Z - info: [2:59:07 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\extensions.mbdf
+2019-10-15T06:59:08.112Z - info: Rebuilding affected source files
+2019-10-15T06:59:08.116Z - info: Rebuilding 15 pages
+2019-10-15T06:59:11.734Z - info: Pages rebuilt
+2019-10-15T06:59:11.748Z - info: Site data built
+2019-10-15T07:02:04.519Z - info: [3:02:04 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\projectDuke\extensions.mbdf
+2019-10-15T07:02:05.520Z - info: Rebuilding affected source files
+2019-10-15T07:02:05.523Z - info: Rebuilding 15 pages
+2019-10-15T07:02:08.930Z - info: Pages rebuilt
+2019-10-15T07:02:08.945Z - info: Site data built
+2019-10-15T07:04:04.086Z - info: [3:04:04 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\schedule\index.md
+2019-10-15T07:04:05.087Z - info: Rebuilding affected source files
+2019-10-15T07:04:05.089Z - info: Rebuilding 2 pages
+2019-10-15T07:04:05.879Z - info: Pages rebuilt
+2019-10-15T07:04:05.897Z - info: Site data built
+2019-10-15T07:07:34.230Z - info: Website generation started at 3:07:30 PM
+2019-10-15T07:07:36.526Z - info: Building assets...

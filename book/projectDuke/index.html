@@ -433,6 +433,44 @@ T | 1 | join sports club
                     </span></p>
                   <h3 id="level-8-dates-and-times">Level 8. Dates and Times<a class="fa fa-anchor" href="#level-8-dates-and-times"></a></h3>
                   <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
+                  <ul>
+                    <li><strong>Minimal</strong>: Store deadline dates as a <code>java.time.LocalDate</code> in your task objects. Accept dates in a format such as <code>yyyy-mm-dd</code> format (e.g., <code>2019-10-15</code>) and print in a different format such as <code>MMM d yyyy</code> e.g., (<code>Oct 15 2019</code>).</li>
+                    <li><strong>Stretch goal</strong>: Use dates and times in more meaningful ways. e.g., add a command to print deadlines/events occurring on a specific date.</li>
+                  </ul>
+                  <panel header="Using dates/times in Java" minimized>
+                    <p>A code snippet using the <code>LocalDate</code> class:</p>
+                    <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.time.LocalDate;
+<span class="hljs-keyword">import</span> java.time.format.DateTimeFormatter;
+<span class="hljs-keyword">import</span> java.time.temporal.ChronoUnit;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-comment">//create dates from strings</span>
+        LocalDate d1 = LocalDate.parse(<span class="hljs-string">"2019-12-01"</span>);
+        LocalDate d2 = LocalDate.parse(<span class="hljs-string">"2019-12-02"</span>);
+        LocalDate d3 = LocalDate.parse(<span class="hljs-string">"2019-12-02"</span>);
+        
+        <span class="hljs-comment">//compare dates</span>
+        System.out.println(d1.isBefore(d2)); <span class="hljs-comment">// -&gt; true</span>
+        System.out.println(d1.isAfter(d2)); <span class="hljs-comment">// -&gt; false</span>
+        System.out.println(d2.equals(d3)); <span class="hljs-comment">// -&gt; true</span>
+        
+        <span class="hljs-comment">//work with dates</span>
+        System.out.println(d1.getDayOfWeek()); <span class="hljs-comment">// -&gt; SUNDAY</span>
+        System.out.println(d1.getMonth()); <span class="hljs-comment">// -&gt; DECEMBER</span>
+        System.out.println(d1.plus(<span class="hljs-number">1</span>, ChronoUnit.YEARS));  <span class="hljs-comment">// -&gt; 2020-12-01</span>
+        
+        <span class="hljs-comment">// get today's date and print it in a specific format</span>
+        LocalDate d4 = LocalDate.now();
+        System.out.println(d4); <span class="hljs-comment">// -&gt; 2019-10-15</span>
+        System.out.println(d4.format(DateTimeFormatter.ofPattern(<span class="hljs-string">"MMM d yyyy"</span>))); <span class="hljs-comment">// -&gt; Oct 15 2019</span>
+    }
+}
+</code></pre>
+                    <ul>
+                      <li><a href="https://www.baeldung.com/java-8-date-time-intro">A tutorial from https://www.baeldung.com/</a></li>
+                    </ul>
+                  </panel>
                 </div>
                 <hr>
                 <div id="level9">
@@ -674,7 +712,8 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                             </ol>
                           </li>
                           <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code> (that will make the folder turn to green color).</li>
-                          <li>Now, create a class inside the <code>java</code> folder and type <code>@Test</code> inside it. Example:
+                          <li>Now, create a class inside the <code>java</code> folder and type <code>@Test</code> inside it. A code example given below.<br>
+                            <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Note: If you are using packages, create this class in a matching package (to test <code>duke.Duke</code> class, create a <code>duke.DukeTest</code> i.e., in <code>src\test\java\duke\DukeTest.java</code>).
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
     <span class="hljs-meta">@Test</span>
 }
@@ -697,9 +736,15 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
 }
 </code></pre>
                               </li>
-                              <li>Run the test (right-click on the class and choose <code>Run DukeTest</code>.
-                              </li>
+                              <li>Run the test (right-click on the class and choose <code>Run DukeTest</code>.</li>
                             </ol>
+                          </li>
+                          <li>To be able to refer to <code>Duke</code> from <code>DukeTest</code> class, you need to add <code>main</code> module as a dependency of the <code>test</code> module you just created.
+                            <ul>
+                              <li>Option 1: When you add a reference to the <code>Duke</code> inside the <code>DukeTest</code>, Intellij will flag it as an error and will give you an option (i.e., in the bulb icon that pops up) to add the <code>main</code> module as a dependency.</li>
+                              <li>Option 2: Follow the info <a href="https://www.jetbrains.com/help/idea/working-with-module-dependencies.html">here</a> to add the dependency yourself.
+                              </li>
+                            </ul>
                           </li>
                         </ol>
                       </tab>
@@ -743,6 +788,10 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Add JavaDoc comments</strong></p>
                     </div>
                     <p>Add JavaDoc comments to the code.</p>
+                    <ul>
+                      <li><strong>Minimal</strong>: Add header comments to at least half of the non-private classes/methods.</li>
+                      <li><strong>Stretch goal</strong>: Add header comments to all non-private classes/methods, and non-trivial private methods.</li>
+                    </ul>
                   </div>
                   <hr>
                   <div id="A-CodingStandard">

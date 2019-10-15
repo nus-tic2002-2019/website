@@ -1,0 +1,28 @@
+2019-10-14T03:00:51.306Z - info: Website generation started at 11:00:47 AM
+2019-10-14T03:00:53.847Z - info: Building assets...
+2019-10-14T03:00:55.733Z - info: Assets built
+2019-10-14T03:00:55.734Z - info: Generating pages...
+2019-10-14T03:01:58.035Z - info: Pages built
+2019-10-14T03:02:10.472Z - info: Website generation complete! Total build time: 83.131s
+2019-10-14T03:02:10.821Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-10-14T03:02:10.821Z - info: Press CTRL+C to stop ...
+2019-10-14T03:02:10.865Z - info: Site data built
+2019-10-14T04:05:35.135Z - info: [12:05:35 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\se-book-adapted\config.njk
+2019-10-14T04:05:36.144Z - info: Assets built
+2019-10-14T04:05:52.792Z - info: Website generation started at 12:05:48 PM
+2019-10-14T04:05:55.184Z - info: Building assets...
+2019-10-14T04:05:57.489Z - info: Assets built
+2019-10-14T04:05:57.489Z - info: Generating pages...
+2019-10-14T04:07:00.296Z - info: Pages built
+2019-10-14T04:07:12.439Z - info: Website generation complete! Total build time: 83.927s
+2019-10-14T04:07:12.782Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-10-14T04:07:12.782Z - info: Press CTRL+C to stop ...
+2019-10-14T04:07:12.814Z - info: Site data built
+2019-10-14T04:58:58.401Z - info: [12:58:58 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\designPatterns\abstractionOccurrence\what\text.md
+2019-10-14T04:58:58.409Z - info: [12:58:58 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\designPatterns\facade\what\q-tick-correctStatement.md
+2019-10-14T04:58:58.410Z - info: [12:58:58 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\uml\classDiagrams\interfaces\what\text.md
+2019-10-14T04:58:58.412Z - info: [12:58:58 PM] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\designPatterns\abstractionOccurrence\what\q-essay-whichPair.md
+2019-10-14T04:58:59.409Z - info: Rebuilding affected source files
+2019-10-14T04:58:59.430Z - info: Rebuilding 14 pages
+2019-10-14T04:59:07.573Z - info: Pages rebuilt
+2019-10-14T04:59:07.607Z - info: Site data built

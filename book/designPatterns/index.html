@@ -360,7 +360,7 @@
                               <p>The general solution:</p>
                               <img src="/website/book/designPatterns/abstractionOccurrence/what/images/abstractionOccurrence.png" height="40">
                               <p></p>
-                              <p>The <code>&lt;&lt; Abstraction &gt;&gt;</code> class should hold all common information, and the unique information should be kept by the <code>&lt;&lt; Occurrence &gt;&gt;</code> class. Note that ‘Abstraction’ and ‘Occurrence’ are not class names, but roles played by each class. Think of this diagram as a <em>meta-model</em> (i.e. a ‘model of a model’) of the <code>BookTitle-BookCopy</code> class diagram given above.</p>
+                              <p>The <code>&lt;&lt;Abstraction&gt;&gt;</code> class should hold all common information, and the unique information should be kept by the <code>&lt;&lt;Occurrence&gt;&gt;</code> class. Note that ‘Abstraction’ and ‘Occurrence’ are not class names, but roles played by each class. Think of this diagram as a <em>meta-model</em> (i.e. a ‘model of a model’) of the <code>BookTitle-BookCopy</code> class diagram given above.</p>
                             </div>
                             <div>
                               <div>
@@ -368,7 +368,7 @@
                                   <div>
                                     <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which situations match the pattern?">
                                       <question has-input="true">
-                                        <p>Which pairs of classes are likely to be the <code>&lt;&lt; Abstraction &gt;&gt;</code> and the <code>&lt;&lt; Occurrence &gt;&gt;</code> of the abstraction occurrence pattern?</p>
+                                        <p>Which pairs of classes are likely to be the <code>&lt;&lt;Abstraction&gt;&gt;</code> and the <code>&lt;&lt;Occurrence&gt;&gt;</code> of the abstraction occurrence pattern?</p>
                                         <ol>
                                           <li>CarModel, Car. (Here CarModel represents a particular model of a car produced by the car manufacturer. E.g. BMW R4300)</li>
                                           <li>Car, Wheel</li>
@@ -377,7 +377,7 @@
                                           <li>Magazine (E.g. ReadersDigest, PCWorld), MagazineIssue</li>
                                         </ol>
                                         <div slot="answer">
-                                          <p>One of the key things to keep in mind is that the <code>&lt;&lt; Abstraction &gt;&gt;</code> does not represent a real entity. Rather, it represents some information common to a set of objects. A single real entity is represented by an object of <code>&lt;&lt; Abstraction &gt;&gt;</code> type and <code>&lt;&lt; Occurrence &gt;&gt;</code> type.</p>
+                                          <p>One of the key things to keep in mind is that the <code>&lt;&lt;Abstraction&gt;&gt;</code> does not represent a real entity. Rather, it represents some information common to a set of objects. A single real entity is represented by an object of <code>&lt;&lt; Abstraction &gt;&gt;</code> type and <code>&lt;&lt; Occurrence &gt;&gt;</code> type.</p>
                                           <p>Before applying the pattern, some attributes have the same values for multiple objects. For example, w.r.t. the BookTitle-BookCopy example given in this handout, values of attributes such as <code>book_title</code>, <code>ISBN</code> are exactly the same for copies of the same book.</p>
                                           <p>After applying the pattern, the <code>Abstraction</code> and the <code>Occurrence</code> classes together represent one entity. It is like one class has been split into two. For example, a <code>BookTitle</code> object and a <code>BookCopy</code> object combines to represent an actual <code>Book</code>.</p>
                                           <ol>
@@ -472,7 +472,9 @@
                                         </ul>
                                         <div slot="answer">
                                           <p>True.</p>
-                                          <p>Facade is clearly visible (Storage is the &lt;&lt; Facade &gt;&gt; class).</p>
+                                          <p>Facade is clearly visible (Storage is the &lt;<facade>&gt; class).</facade>
+                                          </p>
+                                          <p></p>
                                         </div>
                                       </question>
                                     </panel>

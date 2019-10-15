@@ -2008,6 +2008,10 @@
       "headings": {
         "what": "What",
         "abstraction": "Abstraction",
+        "how": "How",
+        "types-of-coupling": "Types of Coupling",
+        "coupling": "Coupling",
+        "cohesion": "Cohesion",
         "design-fundamentals": "Design Fundamentals"
       },
       "title": "Textbook Chapter : Design Fundamentals",

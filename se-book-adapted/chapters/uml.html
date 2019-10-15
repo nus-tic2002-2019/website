@@ -36,8 +36,8 @@
           <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
           <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
           <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
-          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
-          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
@@ -690,10 +690,13 @@
                       <p>A <code>Piece</code> may or may not be on a <code>Square</code>. Note how that association can be replaced by an <code>isOn</code> attribute of the <code>Piece</code> class. The <code>isOn</code> attribute can either be <code>null</code> or hold a reference to a <code>Square</code> object, matching the <code>0..1</code> multiplicity of the association it replaces. The default value is <code>null</code>.</p>
                       <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/squareMultiplicity.png" width="600">
                       <p></p>
-                      <p>The association that a <code>Board</code> has 100 <code>Sqaure</code>s can be shown in either of these two ways:</p>
+                      <p>The association that a <code>Board</code> has 100 <code>Square</code>s can be shown in either of these two ways:</p>
                       <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/board.png" height="70">
                       <p></p>
                     </box>
+                    <p>
+                      <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Show each association as <strong>either an attribute or a line but not both</strong>. A line is preferred is it is easier to spot.
+                    </p>
                   </div>
                   <div></div>
                 </div>
@@ -917,7 +920,7 @@
                   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can interpret interfaces in class diagrams</span></span></span></span>
                   <p></p>
                   <div>
-                    <p><strong>An interface is shown similar to a class with an additional keyword <code>&lt;&lt; interface &gt;&gt;</code>. When a class implements an interface, it is shown similar to class inheritance except a dashed line is used instead of a solid line.</strong></p>
+                    <p><strong>An interface is shown similar to a class with an additional keyword <code>&lt;&lt;interface&gt;&gt;</code>. When a class implements an interface, it is shown similar to class inheritance except a dashed line is used instead of a solid line.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>AcademicStaff</code> and the <code>AdminStaff</code> classes <em>implement</em> the <code>SalariedStaff</code> interface.</p>
                       <img src="/website/book/uml/classDiagrams/interfaces/what/images/staff.png" height="250">
@@ -1693,7 +1696,7 @@ my_car = Car(<span class="hljs-number">13.5</span>, <span class="hljs-number">20
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 08 Oct 2019 09:58:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 15 Oct 2019 07:07:38 GMT</small></div>
     </footer>
   </div>
 </body>
