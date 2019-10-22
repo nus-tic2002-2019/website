@@ -38,8 +38,8 @@
           <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
           <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
           <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
-          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
-          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
           <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
@@ -195,16 +195,45 @@
                       Expected length: 1+ page per person</li>
                     <li>The description can contain things such as,
                       <ul>
-                        <li>How the feature is implemented.</li>
+                        <li>How the feature is implemented (or is going to be implemented).</li>
                         <li>Why it is implemented that way.</li>
                         <li>Alternatives considered.</li>
                       </ul>
                     </li>
-                    <li>The stated objective is to explain the implementation to a future developer, but a hidden objective is to show evidence that you can document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).</li>
-                    <li>For an example, see <a href="https://nus-tic2002-2019.github.io/addressbook-level3/DeveloperGuide.html#proposed-undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level3 developer guide</a>.</li>
+                    <li><strong>Diagramming tools</strong>: AB3 uses PlantUML (see <a href="https://nus-tic2002-2019.github.io/addressbook-level3/UsingPlantUml.html">instructions</a>) for diagrams. but you may use any other tool (e.g., PowerPoint). If you do, choose a tool that allows incremental updates to diagrams <span class="dimmed">(reason: because diagrams need to be updated multiple times as the product evolves)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams in future.</li>
                   </ul>
                 </li>
               </ul>
+              <div class="indented-level2">
+                <panel type="success" expanded>
+                  <span slot="header" class="card-title">
+                    <h5 id="dg-tips"><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> DG Tips<a class="fa fa-anchor" href="#dg-tips"></a></h5>
+                  </span>
+                  <span id="dgTips">
+                    <ul>
+                      <li><strong>Aim to showcase your documentation skills.</strong> The stated objective of the DG is to explain the implementation to a future developer, but a hidden objective is to show evidence that you can document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).<br>
+                        For an example, see <a href="https://nus-tic2002-2019.github.io/addressbook-level3/DeveloperGuide.html#proposed-undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level3 developer guide</a>.</li>
+                      <li><strong>Use multiple UML diagram types.</strong> Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
+                      <li><strong>Keep diagrams simple.</strong> The aim is to make diagrams <mark><em>comprehensible</em>, not necessarily <em>comprehensive</em></mark>. Ways to simplify diagrams:
+                        <ul>
+                          <li>Omit less important details e.g., a class diagram can omit minor utility classes.</li>
+                          <li>Omit repetitive details e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete <code>*Command</code> classes).</li>
+                          <li>Limit the scope of a diagram. Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it. In particular, avoid showing lower-level details of multiple components in the same diagram unless strictly necessary e.g., note how the <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the model component.</li>
+                          <li>Break diagrams into smaller fragments when possible.</li>
+                          <li>Stay at the highest level of abstraction possible e.g., note how <trigger trigger="click" for="modal:ipWeek10-archiSd">this sequence diagram</trigger> shows only the interactions between architectural components, abstracting away the interactions that happen inside each component.</li>
+                        </ul>
+                      </li>
+                      <li><strong>Integrate diagrams into the description.</strong> Place the diagram close it where it is being described.</li>
+                      <li><strong>Use code snippets sparingly.</strong> The more you use code snippets in the DG, and longer the code snippet, the higher the risk of it getting outdated quickly. Instead, use code snippets only when necessary and cite only the strictly relevant parts only.</li>
+                    </ul>
+                    <modal large title="AB3 - Class Diagram of the Logic Component" id="modal:ipWeek10-logicClassDiagram">
+                      <img src="https://nus-tic2002-2019.github.io/addressbook-level3/images/LogicClassDiagram.png" width="900"></modal>
+                    <modal large title="AB3 - Sequence Diagram for the `delete` command" id="modal:ipWeek10-deleteSd">
+                      <img src="https://nus-tic2002-2019.github.io/addressbook-level3/images/DeleteSequenceDiagram.png" width="900"></modal>
+                    <modal large title="AB3 - Architecture-Level Sequence Diagram" id="modal:ipWeek10-archiSd">
+                      <img src="https://nus-tic2002-2019.github.io/addressbook-level3/images/ArchitectureSequenceDiagram.png"></modal>
+                  </span></panel>
+              </div>
               <h4 id="3-do-a-release"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span><span aria-hidden="true" class="fas fa-users"></span></span> Do a release<a class="fa fa-anchor" href="#3-do-a-release"></a></h4>
               <ul>
                 <li>
@@ -268,13 +297,13 @@
                             <li><strong>Please use the exact partial name from <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuJ9gGqFSvZci_uqivCoBipX5AOjJa7DgxRIDQ60xFnH-KEqPyEINmo4M0BJYENj7sS4dcMgRcnnMN/pubhtml?gid=0&amp;single=true">here</a></strong> as the display name.<br>
                               e.g., <code>&quot;displayName&quot;: &quot;ABDUL ... JAVID&quot;,</code></li>
                             <li>If your commits have multiple author names, specify all of them<br>
-                              e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;theGary&quot;]</code></li>
+                              e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;The Gary&quot;]</code></li>
                             <li>Update the line <code>config.json</code> in the <code>.gitignore</code> file of your repo as <code>/config.json</code> so that it ignores the <code>config.json</code> produced by the app but not the <code>_reposense/config.json</code>.</li>
                           </ul>
                         </li>
                         <li>If you add <code>@@author</code> annotations, please follow the guidelines below:</li>
                       </ul>
-                      <div class="indented-level4">
+                      <div class="indented-level2">
                         <panel header="Adding `@@author` tags to indicate authorship">
                           <div>
                             <h4 id="adding-author-tags-indicate-authorship">Adding <code>@@author</code> tags indicate authorship<a class="fa fa-anchor" href="#adding-author-tags-indicate-authorship"></a></h4>
@@ -428,7 +457,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 15 Oct 2019 07:07:38 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 22 Oct 2019 06:59:17 GMT</small></div>
     </footer>
   </div>
 </body>
