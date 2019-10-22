@@ -5,21 +5,18 @@
 {{ show_week_pagetop(11, "admin") }}
 
 {% call show_admin_summary() %}
-1. Add Individual Feature 2 or `Level-10` (GUI)
-1. Implement increments `A-Assertions`, `A-Jar`
+1. Improve the individual feature (or add another)
+1. Implement increments `Level-10`<span class="badge badge-pill badge-secondary">optional</span>, `A-Assertions`, `A-Jar`
 {% endcall %}
 
-{{ thumb(1) }} Add Individual Feature 2 or `Level-10` (GUI)
+#### {{ thumb(1) }} Improve the individual feature (or add another)
 
-* Add the given individual feature or `Level-10` (GUI)
+* Use this week to improve the individual feature you added in the previous week. Alternatively, you can add another individual feature (i.e., one of the two remaining options from the previous week).
 
+#### {{ thumb(2) }} Implement increments `Level-10`<span class="badge badge-pill badge-secondary">optional</span>, `A-Assertions`, `A-Jar`
 <div class="indented">
-
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-10`: GUI**" var-fragment="text.md#level10" />
-</div>
-
-{{ thumb(2) }} Implement increments `A-Assertions`, `A-Jar`
-<div class="indented">
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-10`: GUI**" var-tag="optional" var-fragment="text.md#level9" />
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Assertions`: Assertions**" var-fragment="extensions.mbdf#A-Assertions" />
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Jar`: JAR File**" var-fragment="extensions.mbdf#A-Jar" />
+
 </div>
