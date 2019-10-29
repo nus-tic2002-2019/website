@@ -15,7 +15,7 @@
 
 #### {{ thumb(2) }} Implement increments `Level-10`<span class="badge badge-pill badge-secondary">optional</span>, `A-Assertions`, `A-Jar`
 <div class="indented">
-<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-10`: GUI**" var-tag="optional" var-fragment="text.md#level9" />
+<include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`Level-10`: GUI**" var-tag="optional" var-fragment="text.md#level10" />
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Assertions`: Assertions**" var-fragment="extensions.mbdf#A-Assertions" />
 <include src="dukeFragment.md" boilerplate var-displacement="../.." var-header="**`A-Jar`: JAR File**" var-fragment="extensions.mbdf#A-Jar" />
 
