@@ -129,25 +129,16 @@ In some weeks, there will be some programming exercises for you to submit (on `R
 **Deadline**: Monday of week 13<br>
 
 **Deliverables**:
-* **Source code** of the working program: push to your GitHub repo
-* **Product**: Submit the JAR file, name: `{YourName}.jar` e.g., `JunHao.jar`
-* **Documentation**: a single pdf or a Word file containing,
-  * A **Cover Page** containing your details and the link to your GitHub repository
-  * The **link to your repo** on GitHub
-  * A **User Guide**: explain how to start and use your product ([example](https://se-edu.github.io/addressbook-level2/UserGuide.html)).
-  * A **Developer Guide** containing
-    * A class diagram to match your code
-    * At least one object diagram illustrating the state of your program at some point
-    * At least one sequence diagram illustrating an object interaction in your product
-    * Some representative user stories, at least enough to cover the functionality of your product
-    * Additional instructions for testing the product (if any) %%i.e., is there any additional steps (such as putting a specific file in a specific location) that one needs to do when testing your product manually?%%
-    * Submission: Upload to LumiNUS. The file name should be your name e.g., `JunHao.pdf`
-* **Demo video**:
-  * Record a demo video showcasing the features of your product.
-  * Use the exact version of the code you submitted (i.e., the demo should match the submitted code exactly).
-  * Recommended length 7 minutes, max length 10 minutes).
-  * Audio narration is optional if the demo can be understood without the audio.
-  * Ensure the video is in a format that can be played by any computer.
+1. **Source code** of the working program: push to your GitHub repo
+1. **Product**: Submit the JAR file, name: `{YourName}.jar` e.g., `JunHao.jar`
+1. **Documentation**: a single .docx (preferred) or a pdf file that follows the template give (template file available in LumiNUS).<br>
+   Submission: Upload to LumiNUS. The file name should be your name e.g., `JunHao.docx`
+1. **Demo video**:
+   * Record a demo video showcasing the features of your product.
+   * Use the exact version of the code you submitted (i.e., the demo should match the submitted code exactly).
+   * Recommended length 7 minutes, max length 10 minutes).
+   * Audio narration is optional if the demo can be understood without the audio.
+   * Ensure the video is in a format that can be played by any computer.
 
 </div>
 </div>
