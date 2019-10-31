@@ -1,0 +1,28 @@
+2019-08-27T14:57:57.797Z - info: Website generation started at 22:57:51
+2019-08-27T14:58:01.647Z - info: Building assets...
+2019-08-27T14:58:05.841Z - info: Assets built
+2019-08-27T14:58:05.841Z - info: Generating pages...
+2019-08-27T15:00:14.733Z - info: Pages built
+2019-08-27T15:00:38.154Z - info: Website generation complete! Total build time: 166.764s
+2019-08-27T15:00:38.558Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-08-27T15:00:38.558Z - info: Press CTRL+C to stop ...
+2019-08-27T15:00:38.589Z - info: Site data built
+2019-08-27T15:04:16.475Z - info: [23:04:16] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\cppToJava\usefulClasses\wrapperClasses\text.md
+2019-08-27T15:04:17.481Z - info: Rebuilding affected source files
+2019-08-27T15:04:17.505Z - info: Rebuilding 10 pages
+2019-08-27T15:04:34.196Z - info: Pages rebuilt
+2019-08-27T15:04:34.345Z - info: Site data built
+2019-08-27T15:07:33.758Z - info: [23:07:33] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\book\cppToJava\usefulClasses\wrapperClasses\text.md
+2019-08-27T15:07:34.766Z - info: Rebuilding affected source files
+2019-08-27T15:07:34.782Z - info: Rebuilding 10 pages
+2019-08-27T15:07:48.340Z - info: Pages rebuilt
+2019-08-27T15:07:48.388Z - info: Site data built
+2019-08-27T15:26:16.781Z - info: Website generation started at 23:26:11
+2019-08-27T15:26:19.046Z - info: Building assets...
+2019-08-27T15:26:21.476Z - info: Assets built
+2019-08-27T15:26:21.477Z - info: Generating pages...
+2019-08-27T15:27:59.569Z - info: Pages built
+2019-08-27T15:28:19.447Z - info: Website generation complete! Total build time: 127.848s
+2019-08-27T15:28:19.448Z - info: Build success!
+2019-08-27T15:28:19.461Z - info: Site data built
+2019-08-27T15:29:03.304Z - info: Deployed!
