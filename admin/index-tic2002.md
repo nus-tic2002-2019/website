@@ -126,7 +126,13 @@ In some weeks, there will be some programming exercises for you to submit (on `R
 
 ### Week 13: Final Submission
 
-**Deadline**: Monday of week 13<br>
+**Deadline**:
+* Soft deadline: ~~Monday~~ Tuesday of week 13<br>
+  Hard deadline: Sunday of week 13
+
+* What's the difference between the soft deadline and the hard deadline? You can get prof's feedback on a draft of the project report up to the soft deadline. Note that feedback on project report draft needs to be in-person (reason: it is hard to give written feedback on diagrams) and can be high-level feedback only (reason: the report is graded).
+
+* Submissions later than the hard deadline are liable to a late submission penalty, to be fair to those who submitted on time.
 
 **Deliverables**:
 1. **Source code** of the working program: push to your GitHub repo
