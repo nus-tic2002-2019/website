@@ -180,20 +180,59 @@
               </box>
               <h4 id="1-tweak-the-product-as-per-peer-testing-results"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span aria-hidden="true" class="fas fa-user"></span></span> Tweak the product as per peer-testing results<a class="fa fa-anchor" href="#1-tweak-the-product-as-per-peer-testing-results"></a></h4>
               <ul>
+                <li>Learn the procedure for dealing with PED bugs you received:</li>
+              </ul>
+              <div class="indented-level2">
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv14_afterPed">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → <strong>After the PED</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  </div>
+                </div>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → **After the PED**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_afterPed">
+                    <div>
+                    <h4 id="pe-d-after-the-session"><span class="badge badge-primary">PE-D</span> <span class="text-primary">After the session</span><a class="fa fa-anchor" href="#pe-d-after-the-session"></a></h4>
+                    <ul>
+                      <li>We'll transfer the relevant bug reports to your repo over the weekend. Once you have received the bug reports for your product, it is up to you to decide whether you will act on reported issues before the final submission v1.4. For some issues, the correct decision could be to reject or postpone to a version beyond v1.4.</li>
+                      <li>If you have received bug reports that don't seem to be about your project, do let us know ASAP (email the prof).</li>
+                      <li>You can navigate to the original bug report (via the back-link provided in the bug report given to you) and post in that issue thread to communicate with the tester who reported the bug <span class="dimmed">e.g. to ask for more info</span>, etc. However, the tester is not obliged to respond.
+                        <ul>
+                          <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Do not argue with the bug reporter to try to convince that person that your way is correct/better. If at all, you can gently explain the rationale for the current behavior but do not waste time getting involved in long arguments. If you think the suggestion/bug is unreasonable, just thank the reporter for their view and discontinue to discussion.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/project-deliverables._include_.html#after-ped" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → **After the PED**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="after-ped"></panel>
+                </p>
+              </div>
+              <ul>
                 <li><strong>Freeze features</strong> around this time. Ensure the current product have all the features you intend to release at v1.4. Adding major changes after this point is risky. The remaining time is better spent fixing problems discovered late or on fine-tuning the product.</li>
                 <li><strong>Update documentation</strong> to match the product.</li>
-                <li><strong>Consider increasing test coverage</strong> by adding more tests if it is lower than the level you would like it to be. Take note of <trigger trigger="click" for="modal:mid-v14-testingExpectations">our expectation on test code</trigger>.</li>
-                <li>After you have sufficient code coverage, <strong>fix remaining code quality problems</strong> and bring up the quality to your target level.</li>
+                <li><strong>Consider increasing test coverage</strong> by adding more tests if it is lower than the level you would like it to be. Take note of our expectation on test code (given in the panel below).</li>
               </ul>
-              <modal title="Admin <md>:glyphicon-log-in:</md> Project Asessement → Expectation on testing" id="modal:mid-v14-testingExpectations">
-                  <div>
-                  <ul>
-                    <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
-                    <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
-                    <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
-                  </ul>
+              <div class="indented-level2">
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv14_testingExpectations">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading → Expectation on testing</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  </div>
                 </div>
-              </modal>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_testingExpectations">
+                    <div>
+                    <ul>
+                      <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
+                      <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
+                      <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
+                    </ul>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/project-scope._include_.html#testing-expectations" header="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="testing-expectations"></panel>
+                </p>
+              </div>
+              <ul>
+                <li><strong>After you have sufficient code coverage, fix remaining code quality problems</strong> and bring up the quality to your target level.</li>
+              </ul>
               <div class="indented-level2">
                 <div class="flat">
                   <div>
@@ -233,7 +272,8 @@
               </div>
               <h4 id="2-draft-the-ppp"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span aria-hidden="true" class="fas fa-user"></span></span> Draft the PPP<a class="fa fa-anchor" href="#2-draft-the-ppp"></a></h4>
               <ul>
-                <li>Create the first version of your <em>Project Portfolio Page (PPP)</em>. Reason: <strong>Each member needs to create a PPP</strong> to describe your contribution to the project. Creating a PPP takes a significant effort; it is <mark>too risky to leave it to the last week of the project</mark>.</li>
+                <li><strong>Create the first version of your <em>Project Portfolio Page (PPP)</em></strong>.<br>
+                  Reason: <mark>Each member needs to create a PPP</mark> to describe your contribution to the project. Creating a PPP takes a significant effort; it is <mark>too risky to leave it to the last week of the project</mark>.</li>
               </ul>
               <div class="indented-level2">
                 <div class="flat">
@@ -244,107 +284,105 @@
                 <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Project Portfolio Page  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_deliverablesPpp">
                     <div>
                     <p>At the end of the project each student is required to submit a <em>Project Portfolio Page</em>.</p>
+                    <h4 id="ppp-objectives"><span class="badge badge-info">PPP</span> <span class="text-info">Objectives</span><a class="fa fa-anchor" href="#ppp-objectives"></a></h4>
+                    <ul>
+                      <li>For you to use <span class="dimmed">(e.g. in your resume)</span> as a well-documented data point of your SE experience</li>
+                      <li>For us to use as a data point to evaluate your,
+                        <ul>
+                          <li>contributions to the project</li>
+                          <li>your documentation skills</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <h4 id="ppp-sections-to-include"><span class="badge badge-info">PPP</span> <span class="text-info">Sections to include</span><a class="fa fa-anchor" href="#ppp-sections-to-include"></a></h4>
+                    <ul>
+                      <li><strong>Overview</strong>: A short overview of your product to provide some context to the reader.</li>
+                      <li><strong>Summary of Contributions</strong>:
+                        <ul>
+                          <li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-tic2002-2019.github.io/tp-dashboard">tP Code Dashboard</a>. The link is available in the <a href="/website/admin/projectList.html">Project List Page</a> -- linked to the <span aria-hidden="true" class="fas fa-code"></span> icon under your photo.</li>
+                          <li><strong>Features implemented:</strong> A summary of the features you implemented. If you implemented multiple features, you are recommended to indicate which one is the biggest feature.</li>
+                          <li><strong>Other contributions:</strong>
+                            <ul>
+                              <li>Contributions to project management <span class="dimmed">e.g., setting up project tools, managing releases, managing issue tracker etc.</span></li>
+                              <li>Evidence of helping others <span class="dimmed">e.g. responses you posted in our forum, bugs you reported in other team's products</span>,</li>
+                              <li>Evidence of technical leadership <span class="dimmed">e.g. sharing useful information in the forum</span></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="indented-level2">
+                      <box border-left-color="darkcyan">
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Keep in mind that your feature(s) will be evaluated for <strong>depth, completeness, and effort</strong>. Use the PPP to convince evaluator how good those aspects of your features are.<br>
+                          It is fine if you want to directly explain each of those aspects of your features in the PPP <span class="dimmed">i.e., how deep the feature is, why it is complete, how hard it was to implement</span>.
+                        </p>
+                      </box>
+                    </div>
                     <ul>
                       <li>
-                        <p><strong>Objective:</strong></p>
-                        <ul>
-                          <li>For you to use <span class="dimmed">(e.g. in your resume)</span> as a well-documented data point of your SE experience</li>
-                          <li>For us to use as a data point to evaluate your,
-                            <ul>
-                              <li>contributions to the project</li>
-                              <li>your documentation skills</li>
-                            </ul>
-                          </li>
-                        </ul>
+                        <p><strong>Contributions to the User Guide</strong>: Reproduce the parts in the User Guide that you wrote. This can include features you implemented as well as features you propose to implement.<br>
+                          <span class="dimmed">The purpose of allowing you to include <em>proposed</em> features is to provide you more flexibility to show your documentation skills. e.g. you can bring in a proposed feature just to give you an opportunity to use a UML diagram type not used by the actual features.</span></p>
                       </li>
                       <li>
-                        <p><strong>Sections to include:</strong></p>
-                        <ul>
-                          <li>
-                            <p><strong>Overview</strong>: A short overview of your product to provide some context to the reader.</p>
-                          </li>
-                          <li>
-                            <p><strong>Summary of Contributions</strong>:</p>
-                            <ul>
-                              <li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-tic2002-2019.github.io/tp-dashboard">tP Code Dashboard</a>. The link is available in the <a href="/website/admin/projectList.html">Project List Page</a> -- linked to the <span aria-hidden="true" class="fas fa-code"></span> icon under your photo.</li>
-                              <li><strong>Features implemented:</strong> A summary of the features you implemented. If you implemented multiple features, you are recommended to indicate which one is the biggest feature.</li>
-                              <li><strong>Other contributions:</strong>
-                                <ul>
-                                  <li>Contributions to project management <span class="dimmed">e.g., setting up project tools, managing releases, managing issue tracker etc.</span></li>
-                                  <li>Evidence of helping others <span class="dimmed">e.g. responses you posted in our forum, bugs you reported in other team's products</span>,</li>
-                                  <li>Evidence of technical leadership <span class="dimmed">e.g. sharing useful information in the forum</span></li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <p><strong>Contributions to the User Guide</strong>: Reproduce the parts in the User Guide that you wrote. This can include features you implemented as well as features you propose to implement.<br>
-                              <span class="dimmed">The purpose of allowing you to include <em>proposed</em> features is to provide you more flexibility to show your documentation skills. e.g. you can bring in a proposed feature just to give you an opportunity to use a UML diagram type not used by the actual features.</span></p>
-                          </li>
-                          <li>
-                            <p><strong>Contributions to the Developer Guide</strong>: Reproduce the parts in the Developer Guide that you wrote. Ensure there is enough content to evaluate your technical documentation skills and UML modelling skills. You can include descriptions of your design/implementations, possible alternatives, pros and cons of alternatives, etc.</p>
-                          </li>
-                          <li>
-                            <p>If you plan to use the PPP in your Resume, you can also include your SE work outside of the module (will not be graded)</p>
-                          </li>
-                        </ul>
+                        <p><strong>Contributions to the Developer Guide</strong>: Reproduce the parts in the Developer Guide that you wrote. Ensure there is enough content to evaluate your technical documentation skills and UML modelling skills. You can include descriptions of your design/implementations, possible alternatives, pros and cons of alternatives, etc.</p>
                       </li>
                       <li>
-                        <p><strong>Format</strong>:</p>
-                        <ul>
-                          <li>
-                            <p>File name: <code>docs/team/githbub_username_in_lower_case.adoc</code> e.g., <code>docs/team/johndoe.adoc</code></p>
-                          </li>
-                          <li>
-                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Follow the <a href="https://nus-tic2002-2019.github.io/addressbook-level3/team/johndoe.html">example in the AddressBook-Level3</a></p>
-                          </li>
-                          <li>
-                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files">Asciidoc's <code>include</code> feature</a> to include sections from the developer guide or the user guide in your PPP. Follow the example in the <a href="https://nus-tic2002-2019.github.io/addressbook-level3/team/johndoe.html">sample</a>.</p>
-                          </li>
-                          <li>
-                            <p><mark>
-                                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> It is assumed that all contents in the PPP were written primarily by you.
-                              </mark> If any section is written by someone else <span class="dimmed">e.g. someone else wrote the description of your feature in the User Guide</span>, clearly state that the section was written by someone else <span class="dimmed">(e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed">Reason: Your writing skills will be evaluated based on the PPP</span></p>
-                          </li>
-                        </ul>
+                        <p>If you plan to use the PPP in your Resume, you can also include your SE work outside of the module (will not be graded)</p>
+                      </li>
+                    </ul>
+                    <h4 id="ppp-format"><span class="badge badge-info">PPP</span> <span class="text-info">Format</span><a class="fa fa-anchor" href="#ppp-format"></a></h4>
+                    <ul>
+                      <li>
+                        <p>File name: <code>docs/team/githbub_username_in_lower_case.adoc</code> e.g., <code>docs/team/johndoe.adoc</code></p>
                       </li>
                       <li>
-                        <p><strong>Page limit</strong>:</p>
-                        <div class="table-responsive">
-                          <table class="markbind-table table table-bordered table-striped">
-                            <thead>
-                              <tr>
-                                <th>Content</th>
-                                <th>Limit</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>Overview + Summary of contributions</td>
-                                <td>0.5-1 (soft limit)</td>
-                              </tr>
-                              <tr>
-                                <td>Contributions to the User Guide</td>
-                                <td>1-3 (soft limit)</td>
-                              </tr>
-                              <tr>
-                                <td>Contributions to the Developer Guide</td>
-                                <td>3-6 (soft limit)</td>
-                              </tr>
-                              <tr>
-                                <td>Total</td>
-                                <td>5-10 <mark>(strict)</mark></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <ul>
-                          <li>The <mark>page limits given above are <em>after</em> converting to PDF format</mark>. The actual amount of content you require is actually less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content.</li>
-                          <li><span class="dimmed">Reason for page limit: These submissions are peer-graded (in the PE) which needs to be done in a limited time span.</span><br>
-                            If you have more content than the limit given above, you can give a representative samples of UG and DG that showcase your documentation skills. Those samples should be understandable on their own. For the parts left-out, you can give an abbreviated version and refer the reader to the full UG/DG for more details.<br>
-                            <span class="dimmed">It's similar to giving extra details as appendices; the reader will look at the UG/DG if the PPP is not enough to make a judgment. For example, when judging documentation quality, if the part in the PPP is not well-written, there is no point reading the rest in the main UG/DG. That's why you need to put the most representative part of your writings in the PPP and still give an abbreviated version of the rest in the PPP itself. Even when judging the quantity of work, the reader should be able to get a good sense of the quantity by combining what is quoted in the PPP and your abbreviated description of the missing part. There is no guarantee that the evaluator will read the full document.</span></li>
-                        </ul>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Follow the <a href="https://nus-tic2002-2019.github.io/addressbook-level3/team/johndoe.html">example in the AddressBook-Level3</a></p>
                       </li>
+                      <li>
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files">Asciidoc's <code>include</code> feature</a> to include sections from the developer guide or the user guide in your PPP. Follow the example in the <a href="https://nus-tic2002-2019.github.io/addressbook-level3/team/johndoe.html">sample</a>.</p>
+                      </li>
+                      <li>
+                        <p><mark>
+                            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> It is assumed that all contents in the PPP were written primarily by you.
+                          </mark> If any section is written by someone else <span class="dimmed">e.g. someone else wrote the description of your feature in the User Guide</span>, clearly state that the section was written by someone else <span class="dimmed">(e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed">Reason: Your writing skills will be evaluated based on the PPP</span></p>
+                      </li>
+                    </ul>
+                    <h4 id="ppp-page-limit"><span class="badge badge-info">PPP</span> <span class="text-info">Page Limit</span><a class="fa fa-anchor" href="#ppp-page-limit"></a></h4>
+                    <div class="indented-level2">
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>Content</th>
+                              <th>Limit</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Overview + Summary of contributions</td>
+                              <td>0.5-1 (soft limit)</td>
+                            </tr>
+                            <tr>
+                              <td>Contributions to the User Guide</td>
+                              <td>1-3 (soft limit)</td>
+                            </tr>
+                            <tr>
+                              <td>Contributions to the Developer Guide</td>
+                              <td>3-6 (soft limit)</td>
+                            </tr>
+                            <tr>
+                              <td>Total</td>
+                              <td>5-10 <mark>(strict)</mark></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <ul>
+                      <li>The <mark>page limits given above are <em>after</em> converting to PDF format</mark>. The actual amount of content you require is actually less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content.</li>
+                      <li><span class="dimmed">Reason for page limit: These submissions are peer-graded (in the PE) which needs to be done in a limited time span.</span><br>
+                        If you have more content than the limit given above, you can give a representative samples of UG and DG that showcase your documentation skills. Those samples should be understandable on their own. For the parts left-out, you can give an abbreviated version and refer the reader to the full UG/DG for more details.<br>
+                        <span class="dimmed">It's similar to giving extra details as appendices; the reader will look at the UG/DG if the PPP is not enough to make a judgment. For example, when judging documentation quality, if the part in the PPP is not well-written, there is no point reading the rest in the main UG/DG. That's why you need to put the most representative part of your writings in the PPP and still give an abbreviated version of the rest in the PPP itself. Even when judging the quantity of work, the reader should be able to get a good sense of the quantity by combining what is quoted in the PPP and your abbreviated description of the missing part. There is no guarantee that the evaluator will read the full document.</span></li>
                     </ul>
                   </div>
                 </modal>
@@ -356,73 +394,85 @@
               <ul>
                 <li>You will do a product demo during the tutorial to serve as a rehearsal for the final project demo at v1.4
                   <ul>
-                    <li><mark>Follow <trigger trigger="click" for="modal:mid-v14-demo-instructions">final demo instructions</trigger></mark> as much as possible.</li>
+                    <li><mark><strong>Follow final demo instructions</strong> (given in the panel below)</mark> as much as possible .</li>
                     <li><strong>Cover all features</strong>, not just the ones added in the recent iteration.</li>
-                    <li>Try to make it <strong>a 'well prepared' demo</strong> i.e., know in advance exactly what you'll do in the demo.</li>
+                    <li><strong>Make it a 'well prepared' demo</strong> i.e., know in advance exactly what you'll do in the demo.</li>
                   </ul>
                 </li>
               </ul>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → v1.4 Demo (extract)" id="modal:mid-v14-demo-instructions">
-                  <div>
-                  <ul>
-                    <li>
-                      <p><strong>Duration:</strong> Strictly 18 minutes for a 5-person team and 15 minutes for a 4-person team. Exceeding this limit will be penalized. Any set up time will be taken out of your allocated time.</p>
-                    </li>
-                    <li>
-                      <p><strong>Target audience</strong>: Assume you are giving a demo to a higher-level manager of your company, to brief him/her on the current capabilities of the product. This is the first time they are seeing the new product you developed but they are familiar with the AddressBook-level3 (AB3) product. The actual audience are the evaluators (the team supervisor and another tutor).</p>
-                    </li>
-                    <li>
-                      <p><strong>Scope</strong>:</p>
-                      <ul>
-                        <li><strong>Each person should demo the enhancements they added</strong>. However, it's OK for one member to do all the typing.</li>
-                        <li>Each person should demo their part in one go <span class="dimmed">i.e., one person should not appear multiple times in the demo. Reasons: it will interfere with grading as some things are graded individually</span>. However, it's OK for one person to give a short intro at the start and appear again later in the demo to demo her features.</li>
-                        <li>Subjected to the previous two points, as far as possible, organize the demo to present a cohesive picture of the product as a whole, presented in a logical order. <span class="dimmed">Remember to explain the profile of the target user profile and value proposition early in the demo.</span></li>
-                        <li>It is recommended you showcase how the feature improves the user’s life rather than simply describe each feature.</li>
-                        <li>No need to cover design/implementation details as the manager is not interested in those details.</li>
-                        <li>Do not demo features you inherited from AB3 unless they are needed to explain your new features. <span class="dimmed">Reason: existing features will not earn you marks, and the audience is already familiar with AB3 features.</span></li>
-                        <li>Plan the demo to be in sync with the impression you want to create. For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <p><strong>Structure:</strong></p>
-                      <ul>
-                        <li>Demo the product using the same executable you submitted, on your own laptop, using the TV.</li>
-                        <li>It can be <strong>a <em>sitting down</em> demo</strong>: You'll be demonstrating the features using the TV while sitting down. But you may stand around the TV if you prefer that way.</li>
-                        <li>It will be an uninterrupted demo: The audience members will not interrupt you during the demo. That means you should finish within the given time.</li>
-                        <li>The demo should use a sufficient amount of <tooltip content="`Mr aaa` is not a realistic person name"><em>realistic</em></tooltip> demo data. <span class="dimmed">e.g at least 20 contacts</span>. Trying to demo a product using just 1-2 sample data creates a bad impression.</li>
-                        <li><strong>Dress code</strong> : The level of formality is up to you, but it is recommended that the whole team dress at the same level.</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <p><strong>Optimizing the time:</strong></p>
-                      <ul>
-                        <li>Spend as much time as possible on demonstrating the actual product. Not recommended to use slides (if you do, use them sparingly) or videos or lengthy narrations.<br>
-                          Avoid skits, re-enactments, dramatizations etc. This is not a sales pitch or an informercial. While you need to show how a user use the product to get value, but you don’t need to act like an imaginary user. For example,<br>
-                          [Instead of this] <code>Jim get’s a call from boss. &quot;Ring ring&quot;, &quot;hello&quot;, &quot;oh hi Jim, can we postpone the meeting?&quot; &quot;Sure&quot;. Jim hang up and curses the boss under his breath. Now he starts typing ..etc.</code><br>
-                          [do this] <code>If Jim needs to postpone the meeting, he can type …</code><br>
-                          It’s not that dramatization is bad or we don’t like it. We simply don’t have enough time for it.<br>
-                          Note that CS2101 demo requirements may differ. Different context → Different requirements.</li>
-                        <li>Rehearse the steps well and ensure you can do a smooth demo. Poor quality demos can affect your grade.</li>
-                        <li>Don’t waste time repeating things the target audience already knows. e.g. no need to say things like &quot;We are students from NUS, SoC&quot;.</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <p><strong>Special circumstances:</strong></p>
-                      <ul>
-                        <li>If a significant feature was not merged on time: inform the tutor and get permission to show the unmerged feature using your own version of the code. Obviously, unmerged features earn much less marks than a merged equivalent but something is better than nothing.</li>
-                        <li>If you have no user visible features to show, you can still contribute to the demo by giving an overview of the product (at the start) and/or giving a wrap of of the product (at the end).</li>
-                        <li>If you are unable to come to the demo due to a valid reason, you can ask a team member to demo your feature. Remember to submit the evidence of your excuse <span class="dimmed">e.g., MC</span> to prof. The demo is part of module grading and <mark>absence without a valid reason</mark> will cause you to lose marks.</li>
-                      </ul>
-                    </li>
-                  </ul>
+              <div class="indented-level2">
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv14_demoExtract">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → v1.4 Demo (extract)</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  </div>
                 </div>
-              </modal>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Project → v1.4 Demo (extract)  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_demoExtract">
+                    <div>
+                    <ul>
+                      <li>
+                        <p><strong>Duration:</strong> Strictly 18 minutes for a 5-person team and 15 minutes for a 4-person team. Exceeding this limit will be penalized. Any set up time will be taken out of your allocated time.</p>
+                      </li>
+                      <li>
+                        <p><strong>Target audience</strong>: Assume you are giving a demo to a higher-level manager of your company, to brief him/her on the current capabilities of the product. This is the first time they are seeing the new product you developed but they are familiar with the AddressBook-level3 (AB3) product. The actual audience are the evaluators (the team supervisor and another tutor).</p>
+                      </li>
+                      <li>
+                        <p><strong>Scope</strong>:</p>
+                        <ul>
+                          <li><strong>Each person should demo the enhancements they added</strong>. However, it's OK for one member to do all the typing.</li>
+                          <li>Each person should demo their part in one go <span class="dimmed">i.e., one person should not appear multiple times in the demo. Reasons: it will interfere with grading as some things are graded individually</span>. However, it's OK for one person to give a short intro at the start and appear again later in the demo to demo her features.</li>
+                          <li>Subjected to the previous two points, as far as possible, organize the demo to present a cohesive picture of the product as a whole, presented in a logical order. <span class="dimmed">Remember to explain the profile of the target user profile and value proposition early in the demo.</span></li>
+                          <li>It is recommended you showcase how the feature improves the user’s life rather than simply describe each feature.</li>
+                          <li>No need to cover design/implementation details as the manager is not interested in those details.</li>
+                          <li>Do not demo features you inherited from AB3 unless they are needed to explain your new features. <span class="dimmed">Reason: existing features will not earn you marks, and the audience is already familiar with AB3 features.</span></li>
+                          <li>Plan the demo to be in sync with the impression you want to create. For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>Structure:</strong></p>
+                        <ul>
+                          <li>Demo the product using the same executable you submitted, on your own laptop, using the TV.</li>
+                          <li>It can be <strong>a <em>sitting down</em> demo</strong>: You'll be demonstrating the features using the TV while sitting down. But you may stand around the TV if you prefer that way.</li>
+                          <li>It will be an uninterrupted demo: The audience members will not interrupt you during the demo. That means you should finish within the given time.</li>
+                          <li>The demo should use a sufficient amount of <tooltip content="`Mr aaa` is not a realistic person name"><em>realistic</em></tooltip> demo data. <span class="dimmed">e.g at least 20 contacts</span>. Trying to demo a product using just 1-2 sample data creates a bad impression.</li>
+                          <li><strong>Dress code</strong> : The level of formality is up to you, but it is recommended that the whole team dress at the same level.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>Optimizing the time:</strong></p>
+                        <ul>
+                          <li>Spend as much time as possible on demonstrating the actual product. Not recommended to use slides (if you do, use them sparingly) or videos or lengthy narrations.<br>
+                            Avoid skits, re-enactments, dramatizations etc. This is not a sales pitch or an informercial. While you need to show how a user use the product to get value, but you don’t need to act like an imaginary user. For example,<br>
+                            [Instead of this] <code>Jim get’s a call from boss. &quot;Ring ring&quot;, &quot;hello&quot;, &quot;oh hi Jim, can we postpone the meeting?&quot; &quot;Sure&quot;. Jim hang up and curses the boss under his breath. Now he starts typing ..etc.</code><br>
+                            [do this] <code>If Jim needs to postpone the meeting, he can type …</code><br>
+                            It’s not that dramatization is bad or we don’t like it. We simply don’t have enough time for it.<br>
+                            Note that CS2101 demo requirements may differ. Different context → Different requirements.</li>
+                          <li>Rehearse the steps well and ensure you can do a smooth demo. Poor quality demos can affect your grade.</li>
+                          <li>Don’t waste time repeating things the target audience already knows. e.g. no need to say things like &quot;We are students from NUS, SoC&quot;.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>Special circumstances:</strong></p>
+                        <ul>
+                          <li>If a significant feature was not merged on time: inform the tutor and get permission to show the unmerged feature using your own version of the code. Obviously, unmerged features earn much less marks than a merged equivalent but something is better than nothing.</li>
+                          <li>If you have no user visible features to show, you can still contribute to the demo by giving an overview of the product (at the start) and/or giving a wrap of of the product (at the end).</li>
+                          <li>If you are unable to come to the demo due to a valid reason, you can ask a team member to demo your feature. Remember to submit the evidence of your excuse <span class="dimmed">e.g., MC</span> to prof. The demo is part of module grading and <mark>absence without a valid reason</mark> will cause you to lose marks.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-demo" header="Admin <md>:glyphicon-log-in:</md> Project → v1.4 Demo (extract)  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-demo"></panel>
+                </p>
+              </div>
               <h4 id="other-things-to-note"><span class="badge badge-pill badge-dark p-2"><big><big>+</big></big></span> <span><span aria-hidden="true" class="fas fa-users"></span></span> Other things to note<a class="fa fa-anchor" href="#other-things-to-note"></a></h4>
               <ul>
                 <li>
-                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Once again, double-check to ensure the code attributed to you by RepoSense is correct, as reported in the <a href="https://nus-tic2002-2019.github.io/tic2002-dashboard">Project Activity Dashboard</a>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Once again, double-check to ensure the code attributed to you by RepoSense is correct, as reported in the <a href="https://nus-tic2002-2019.github.io/tp-dashboard">tp Code Dashboard</a>. Click on the <code>&lt;/&gt;</code> icon against your name and verify that the <mark>lines attributed to you (i.e., lines marked as green)</mark> reflects your code contribution correctly. This is important becaues some aspects of your project grade (e.g., code quality) will be graded based on those lines.<br>
+                      <img src="/website/admin/images/greenLines.png" width="600">
                 </li>
               </ul>
+              <p></p>
               <div class="indented-level2">
                 <div class="flat">
                   <div>
@@ -636,7 +686,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 31 Oct 2019 15:48:45 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 03 Nov 2019 14:28:56 GMT</small></div>
     </footer>
   </div>
 </body>
