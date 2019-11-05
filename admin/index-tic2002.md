@@ -145,6 +145,7 @@ In some weeks, there will be some programming exercises for you to submit (on `R
    * Recommended length 7 minutes, max length 10 minutes).
    * Audio narration is optional if the demo can be understood without the audio.
    * Ensure the video is in a format that can be played by any computer.
+   * Submission: Name the file with your name (to match the jar and the report file) and upload to LumiNUS.
 
 </div>
 </div>
