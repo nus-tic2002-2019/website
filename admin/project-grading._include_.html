@@ -25,37 +25,35 @@
     <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some grading instructions that will be given to peers/tutors grading this aspect:</p>
     <blockquote>
       <div id="projectGrading-featureFit-instructions">
-        <p>Evaluate the product design <strong>based on how the product <mark>V2.0 (not V1.4)</mark> is described in the User Guide</strong>.</p>
+        <p>Evaluate the product design <mark>based on how the product V2.0 (not V1.4) is described in the User Guide</mark>.</p>
         <ul class="task-list">
-          <li class="task-list-item">
-            <p><input class="task-list-item-checkbox" type="checkbox"> <code>unable to judge</code>: You are unable to judge this aspect for some reason e.g., UG is not available or does not have enough information.</p>
-          </li>
-          <li>
-            <p>Target user:</p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>target user specified and appropriate</code>: The target user is clearly specified, <strong>prefers typing over other modes of input</strong>, and not too general (should be narrowed to a specific user group with certain characteristics).</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value specified and matching</code>: The value offered by the product is clearly specified and matches the target user.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>unable to judge</code>: You are unable to judge this aspect for some reason e.g., UG is not available or does not have enough information.</li>
+        </ul>
+        <p><strong>Target user</strong>:</p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>target user specified and appropriate</code>: The target user is clearly specified, <mark>prefers typing over other modes of input</mark>, and not too general (should be narrowed to a specific user group with certain characteristics).</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value specified and matching</code>: The value offered by the product is clearly specified and matches the target user.</li>
+        </ul>
+        <p><strong>Value to the target user</strong>:</p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: low</code>: The value to target user is low. App is not worth using.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: medium</code>: Some small group of target users might find the app worth using.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: high</code>: One of the below:
+            <ul>
+              <li>Most of the target users are likely to find the app worth using.</li>
+              <li>It feels like a fast typist can be more productive with the app, compared to an equivalent GUI app without a CLI.</li>
             </ul>
           </li>
-          <li>
-            <p>Value to the target user:</p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: low</code>: The value to target user is low. App is not worth using.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: medium</code>: Some small group of target users might find the app worth using.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: high</code>: Most of the target users are likely to find the app worth using.</li>
-            </ul>
-          </li>
-          <li>
-            <p>Feature-fit:</p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: low</code>: Features don't seem to fit together.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: medium</code>: Some features fit together but some don't.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: high</code>: All features fit together.</li>
-            </ul>
-          </li>
-          <li class="task-list-item">
-            <p><input class="task-list-item-checkbox" type="checkbox"> <code>polished</code>: The product looks well-designed.</p>
-          </li>
+        </ul>
+        <p><strong>Feature-fit</strong>:</p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: low</code>: Features don't seem to fit together.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: medium</code>: Some features fit together but some don't.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: high</code>: All features fit together.</li>
+        </ul>
+        <p><strong>Other</strong>:</p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>polished</code>: The product looks well-designed, <mark>good enough to be a real product</mark> (i.e., A/A+ effort)</li>
         </ul>
       </div>
     </blockquote>
@@ -102,38 +100,47 @@
     <blockquote>
       <div id="projectGrading-featureQuality-instructions">
         <p>Evaluate <mark>the biggest feature done by the student</mark> for difficulty, completeness, and testability. Note: examples given below assume that AB3 did not have the commands <code>edit</code>, <code>undo</code>, and <code>redo</code>.</p>
-        <ul>
-          <li>Difficulty
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: low</code>: <span class="dimmed">e.g. make the existing <em>find</em> command case insensitive</span>.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: medium</code>: <span class="dimmed">e.g. an <em>edit</em> command that requires the user to type <em>all</em> fields, even the ones that are not being edited</span>.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: high</code>: e.g., <span class="dimmed">undo/redo command</span></li>
+        <p><strong>Difficulty</strong>:</p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: low</code>: Examples:
+            <ul>
+              <li>Make the existing <em>find</em> command case insensitive.</li>
+              <li>CRUD for a simple entity type just like Person that is not connected to any other entity type.</li>
             </ul>
           </li>
-          <li>Completeness
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: low</code>: A partial implementation of the feature. Barely useful.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: medium</code>: The feature has enough functionality to be useful for some of the users.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: high</code>: The feature has all functionality to be useful to almost all users.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: medium</code>: Examples:
+            <ul>
+              <li>A moderately difficult new command that is not similar to existing commands.</li>
+              <li>A new entity type moderately different from Person and lightly connected to other entity types..</li>
             </ul>
           </li>
-          <li>Other
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ not hard to test</code>: The feature was not too hard to test manually.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ polished: high</code>: The feature looks <em>polished</em> (as if done by a professional programmer).</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: high</code>: Examples:
+            <ul>
+              <li>a) A high-level of natural language support b) A deep integration with another product c) An enhancement that makes the product good enough to take to the market d) A new entity type very different from Person and deeply connected to many other entity types</li>
             </ul>
           </li>
         </ul>
+        <p><strong>Completeness</strong>:</p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: low</code>: A partial implementation of the feature. Barely useful.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: medium</code>: The feature has enough functionality to be useful for some of the users.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: high</code>: The feature has all functionality to be useful to almost all users AND Some optimization for keyboard users e.g., easy-to-type syntax.</li>
+        </ul>
+        <p><strong>Other</strong>:</p>
+        <ul class="task-list">
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ not hard to test</code>: The feature was not too hard to test manually.</li>
+          <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ polished</code>: The feature looks <em>polished</em> (as if done by a professional programmer), A/A+ effort.</li>
+        </ul>
       </div>
       <div id="projectGrading-effort-instructions">
-        <p>Evaluate the amount of work, on a scale of 0 to 30.</p>
+        <p>Evaluate the amount of work (i.e., <mark>all work described in the PPP</mark>, not just the biggest feature), on a scale of 0 to 30.</p>
         <ul>
           <li>Consider <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">this PR (<code>history</code> command)</a> as 5 units of effort which means <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">this PR (<code>undo/redo</code> command)</a> is about 15 points of effort. Given that 30 points matches an effort twice as that needed for the <code>undo/redo</code> feature (which was given as an example of an <code>A</code> grade project), we expect most students to be have efforts lower than 20.</li>
           <li>Count all implementation/testing/documentation work as mentioned in that person's PPP. Also look at the actual code written by the person.</li>
           <li>
-            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Do not give a high value just <em>to be nice</em>. You will be asked to provide a brief justification for your effort estimates.
+            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Do not give a high value just <em>to be nice</em>. <mark>Your responses will be used to evaluate your effort estimation skills.</mark>
           </li>
         </ul>
       </div>

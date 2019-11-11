@@ -1,0 +1,21 @@
+2019-11-11T14:52:50.300Z - info: Website generation started at 22:52:42
+2019-11-11T14:52:54.969Z - info: Building assets...
+2019-11-11T14:52:57.996Z - info: Assets built
+2019-11-11T14:52:57.996Z - info: Generating pages...
+2019-11-11T14:55:14.731Z - info: Pages built
+2019-11-11T14:55:40.916Z - info: Website generation complete! Total build time: 178.183s
+2019-11-11T14:55:41.391Z - info: Serving "C:\repos\nus-tic2002-2019\tic2002-website\_site" at http://127.0.0.1:8080
+2019-11-11T14:55:41.391Z - info: Press CTRL+C to stop ...
+2019-11-11T14:55:41.422Z - info: Site data built
+2019-11-11T14:58:04.828Z - info: [22:58:04] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\exams.md
+2019-11-11T14:58:05.838Z - info: Rebuilding affected source files
+2019-11-11T14:58:05.846Z - info: Rebuilding 5 pages
+2019-11-11T14:58:08.926Z - info: Pages rebuilt
+2019-11-11T14:58:08.946Z - info: Site data built
+2019-11-11T14:59:08.229Z - info: [22:59:08] Reload for file change: C:\repos\nus-tic2002-2019\tic2002-website\admin\exams.md
+2019-11-11T14:59:09.247Z - info: Rebuilding affected source files
+2019-11-11T14:59:09.247Z - info: Rebuilding 5 pages
+2019-11-11T14:59:11.891Z - info: Pages rebuilt
+2019-11-11T14:59:11.899Z - info: Site data built
+2019-11-11T14:59:56.357Z - info: Website generation started at 22:59:49
+2019-11-11T14:59:59.029Z - info: Building assets...

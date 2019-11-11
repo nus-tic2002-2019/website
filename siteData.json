@@ -1222,9 +1222,10 @@
         "tp-v1-4-week-13": "tP: v1.4 [week 13] ",
         "1-do-final-tweaks-to-the-feature": "1  Do final tweaks to the feature",
         "2-submit-the-deliverables-by-monday-2359": "2  Submit the deliverables  by Monday 2359",
-        "3-demo-the-product-during-tutorial": "3  Demo the product  during Tutorial",
-        "4-prepare-for-the-practical-exam-before-lecture": "4  Prepare for the practical exam  before Lecture",
-        "5-attend-the-practical-exam-during-lecture": "5  Attend the practical exam  during Lecture"
+        "3-wrap-up-the-milestone-by-wednesday-2359": "3  Wrap up the milestone  by Wednesday 2359",
+        "4-demo-the-product-during-tutorial": "4  Demo the product  during Tutorial",
+        "5-prepare-for-the-practical-exam-before-lecture": "5  Prepare for the practical exam  before Lecture",
+        "6-attend-the-practical-exam-during-lecture": "6  Attend the practical exam  during Lecture"
       },
       "title": "Admin: tP: v1.4 [week 13]",
       "header": "header.md",
